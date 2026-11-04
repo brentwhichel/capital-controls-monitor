@@ -76,7 +76,8 @@
      "stage": "Proposal"
     }
    ],
-   "updated_on": "2026-11-04"
+   "updated_on": "2026-11-04",
+   "plain": "Under a federal plan, firms that issue stablecoins (digital coins tied to the dollar) must be able to freeze or block coins. A freeze would need a lawful order for certain coins or accounts."
   },
   "2026-16365": {
    "id": "2026-16365",
@@ -180,7 +181,8 @@
      "stage": "In effect"
     }
    ],
-   "updated_on": "2026-11-04"
+   "updated_on": "2026-11-04",
+   "plain": "The FDIC, which insures bank deposits, made it easier to spread big deposits across many banks so each part stays under the $250,000 limit. That helps people keep all their money insured."
   },
   "2026-18194": {
    "id": "2026-18194",
@@ -306,7 +308,8 @@
      "stage": "Proposal"
     }
    ],
-   "updated_on": "2026-11-04"
+   "updated_on": "2026-11-04",
+   "plain": "A federal plan would bar Americans from some investments in tech firms tied to six countries and make them report others. It does not limit normal payments or bank accounts."
   },
   "brookings-liang-neiman-stablecoins-after-genius": {
    "id": "brookings-liang-neiman-stablecoins-after-genius",
@@ -437,7 +440,8 @@
      "stage": "Talk"
     }
    ],
-   "updated_on": "2026-11-04"
+   "updated_on": "2026-11-04",
+   "plain": "Glenn Beck, a radio and TV host, said Canada's six biggest banks are building money that could be switched off. Partly true. The bank project is real, but no limits on customers were announced."
   },
   "claim-beck-closer-to-digital-dollars": {
    "id": "claim-beck-closer-to-digital-dollars",
@@ -572,7 +576,8 @@
      "stage": "Adopted"
     }
    ],
-   "updated_on": "2026-11-04"
+   "updated_on": "2026-11-04",
+   "plain": "Glenn Beck said the GENIUS Act lets stablecoins (digital coins tied to the dollar) be frozen and seized. True. Coin firms must be able to freeze coins to follow lawful orders."
   },
   "claim-bis-500-withdrawal-limit-rumor": {
    "id": "claim-bis-500-withdrawal-limit-rumor",
@@ -691,7 +696,8 @@
      "stage": "Talk"
     }
    ],
-   "updated_on": "2026-11-04"
+   "updated_on": "2026-11-04",
+   "plain": "ITM Trading, which sells gold, said emergency powers over key minerals raise the risk of the government taking people's gold. No proof. Gold is not on the key minerals list, and no such step was found."
   },
   "claim-roth-capital-controls-nyc": {
    "id": "claim-roth-capital-controls-nyc",
@@ -817,7 +823,8 @@
      "stage": "Talk"
     }
    ],
-   "updated_on": "2026-11-04"
+   "updated_on": "2026-11-04",
+   "plain": "Austrian commentator Tassilo Wallentin said bankers alone would set how many digital euros each person may hold. Partly true. A cap of 500 to 3,000 euros was studied, but lawmakers would make the final call."
   },
   "eo-14436": {
    "id": "eo-14436",
@@ -934,7 +941,8 @@
      "stage": "Proposal"
     }
    ],
-   "updated_on": "2026-11-04"
+   "updated_on": "2026-11-04",
+   "plain": "The FDIC (which insures bank deposits) proposed that the biggest banks be ready to put holds on accounts if they fail, as other big banks have since 2008. Holds would come only after a bank fails."
   },
   "fdic-failures-2026-tally": {
    "id": "fdic-failures-2026-tally",
@@ -1049,7 +1057,8 @@
      "stage": "In effect"
     }
    ],
-   "updated_on": "2026-11-04"
+   "updated_on": "2026-11-04",
+   "plain": "Nano Banc, a small bank, failed on Sept 25, 2026. Sunwest Bank took over nearly all its deposits, even those above the insurance limit, so checks and cards kept working."
   },
   "fincen-1506-AB60-cdd-revisions": {
    "id": "fincen-1506-AB60-cdd-revisions",
@@ -1165,7 +1174,8 @@
      "stage": "Proposal"
     }
    ],
-   "updated_on": "2026-11-04"
+   "updated_on": "2026-11-04",
+   "plain": "FinCEN (the Treasury office that fights money crimes) plans to go easier on banks over their anti-crime work. That could mean fewer closed accounts, but it is not final."
   },
   "fincen-cvc-withdrawals-2026-10-05": {
    "id": "fincen-cvc-withdrawals-2026-10-05",
@@ -1278,7 +1288,8 @@
      "stage": "In effect"
     }
    ],
-   "updated_on": "2026-11-04"
+   "updated_on": "2026-11-04",
+   "plain": "FinCEN (the Treasury office that fights money crimes) asked banks to watch for payments abroad that use money transfer firms to hide who gets the money. It sets no new limits."
   },
   "genius-implementation-2026": {
    "id": "genius-implementation-2026",
@@ -1398,7 +1409,8 @@
      "stage": "In effect"
     }
    ],
-   "updated_on": "2026-11-04"
+   "updated_on": "2026-11-04",
+   "plain": "A weekly report from the Fed, the nation's central bank, shows its short-term loans to banks averaged about $9.5 billion. That is a bit more than a year ago, with no emergency lending."
   },
   "hr1799-119": {
    "id": "hr1799-119",
@@ -1546,7 +1558,8 @@
      "stage": "Proposal"
     }
    ],
-   "updated_on": "2026-11-04"
+   "updated_on": "2026-11-04",
+   "plain": "A bill stuck in the Senate would let crypto (digital money) sites hold a certain withdrawal for up to 180 days if law enforcement asks in writing. It ends Jan 3, 2027 unless passed."
   },
   "hr8995-119": {
    "id": "hr8995-119",
@@ -1656,7 +1669,8 @@
      "stage": "In effect"
     }
    ],
-   "updated_on": "2026-11-04"
+   "updated_on": "2026-11-04",
+   "plain": "As of July 1, 2026, gold and silver coins count as legal money in Idaho, but no one has to take them. This gives people another way to hold and pay, though it is mostly symbolic."
   },
   "intl-bis-project-agora": {
    "id": "intl-bis-project-agora",
@@ -1794,7 +1808,8 @@
      "stage": "Study or pilot"
     }
    ],
-   "updated_on": "2026-11-04"
+   "updated_on": "2026-11-04",
+   "plain": "The Bank of England, Britain's central bank, says it will decide in 2026 whether to make a digital pound. Nothing is decided, and Parliament would get a say first."
   },
   "intl-canada-big-six-tokenized-deposits": {
    "id": "intl-canada-big-six-tokenized-deposits",
@@ -1936,7 +1951,8 @@
      "stage": "Proposal"
     }
    ],
-   "updated_on": "2026-11-04"
+   "updated_on": "2026-11-04",
+   "plain": "Canada's draft rules would license firms that issue stablecoins (digital coins tied to normal money). The rules do not limit what people may hold or send."
   },
   "intl-ecb-digital-euro-holding-limits": {
    "id": "intl-ecb-digital-euro-holding-limits",
@@ -2074,7 +2090,8 @@
      "stage": "Proposal"
     }
    ],
-   "updated_on": "2026-11-04"
+   "updated_on": "2026-11-04",
+   "plain": "The Financial Action Task Force, a world group that fights money crimes, wants more sender and receiver details sent with payments abroad by end-2030. It adds no caps or approval steps."
   },
   "intl-imf-financial-repression-paper": {
    "id": "intl-imf-financial-repression-paper",
@@ -2210,7 +2227,8 @@
      "stage": "In effect"
     }
    ],
-   "updated_on": "2026-11-04"
+   "updated_on": "2026-11-04",
+   "plain": "In Indonesia, people now need paperwork to buy over $10,000 of foreign money a month or send over $25,000 abroad. It is not a ban, and has no clear tie to American rules."
   },
   "intl-malawi-fx-cash-limits": {
    "id": "intl-malawi-fx-cash-limits",
@@ -2337,7 +2355,8 @@
      "stage": "In effect"
     }
    ],
-   "updated_on": "2026-11-04"
+   "updated_on": "2026-11-04",
+   "plain": "Since Jan 1, 2026, sending money abroad with cash, a money order or similar costs a 1% tax. Paying from a bank account or an American debit or credit card is not taxed."
   },
   "occ-fdic-reputation-risk-debanking": {
    "id": "occ-fdic-reputation-risk-debanking",
@@ -2489,7 +2508,8 @@
      "stage": "In effect"
     }
    ],
-   "updated_on": "2026-11-04"
+   "updated_on": "2026-11-04",
+   "plain": "A new law bars the Fed, the nation's central bank, from issuing a digital dollar to the public until Dec 31, 2030. That blocks government digital cash that could carry rules on how people spend."
   },
   "russia-digital-ruble-mass-launch": {
    "id": "russia-digital-ruble-mass-launch",
@@ -2611,7 +2631,8 @@
      "stage": "In effect"
     }
    ],
-   "updated_on": "2026-11-04"
+   "updated_on": "2026-11-04",
+   "plain": "Money market funds (a kind of investment fund) can no longer pause withdrawals. Only some funds for big investors must charge a fee if over 5% of their money leaves in a day."
   },
   "us-dallas-fed-tokenized-deposit-research": {
    "id": "us-dallas-fed-tokenized-deposit-research",
@@ -2744,7 +2765,8 @@
      "stage": "Talk"
     }
    ],
-   "updated_on": "2026-11-04"
+   "updated_on": "2026-11-04",
+   "plain": "Leaders at the Fed, the nation's central bank, talked about new ways to pay, like AI helpers that shop within limits a person sets. None proposed limits on people's money."
   },
   "us-tch-tokenized-deposit-network": {
    "id": "us-tch-tokenized-deposit-network",
@@ -2881,7 +2903,8 @@
      "stage": "Adopted"
     }
    ],
-   "updated_on": "2026-11-04"
+   "updated_on": "2026-11-04",
+   "plain": "Wells Fargo, a big American bank, is starting to let business clients move bank money as digital tokens at any hour. It is not for personal accounts."
   }
  },
  "levels": [
@@ -2932,7 +2955,18 @@
   ],
   "sources_checked_through": "2026-11-04T09:50:32-06:00",
   "display_window_days": 365,
-  "refreshed_at": "2026-11-04T10:18:17-06:00"
+  "refreshed_at": "2026-11-04T12:41:30-06:00",
+  "plain": {
+   "today": "Nothing stops regular people from taking out, moving or saving their money. But the government is adding more paperwork and checks in a few places.",
+   "worry": "Not right now. The recent changes mostly add paperwork for certain businesses, or only matter in rare cases, like when a bank fails. None of them limits how much money regular people can take out of the bank or send to family.",
+   "watch": [
+    "A cap on how much money people can send to other countries.",
+    "Limits on how much cash people can take out of the bank.",
+    "An order that freezes or blocks money for most people."
+   ],
+   "changes_lede": "This first report covers the last two weeks. Starting tomorrow, this section shows only what's new since the day before."
+  },
+  "layout": "v2-plain-first"
  },
  "upcoming_dates": [
   {

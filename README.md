@@ -1,6 +1,6 @@
 # Capital Controls Early-Warning Monitor
 
-A daily report that checks official U.S. sources, international bodies and the policy community for any movement toward capital controls: limits on Americans' ability to withdraw, move, convert, invest or hold their money. It also tracks ideas still being discussed or developed, and fact-checks popular claims.
+A daily report that checks official U.S. sources, international bodies and the policy community for any movement toward capital controls: limits on Americans' ability to withdraw, move, convert, invest or hold their money. It also tracks ideas still being discussed or developed, and fact-checks popular claims. Each report starts with a plain-language summary; the details and sources sit behind "Learn more" buttons.
 
 **Live report:** https://brentwhichel.github.io/capital-controls-monitor/
 

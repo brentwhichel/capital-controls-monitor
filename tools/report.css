@@ -72,3 +72,26 @@ footer{border-block-start:1px solid var(--border);margin-block-start:28px;paddin
  h1{font-size:1.35rem}
 }
 @media print{nav.toc,.stale{display:none} body{background:#fff}}
+/* v2: plain-language first */
+.howto{font-size:.92rem;color:var(--muted);margin:0 0 10px}
+.short{background:var(--surface);border:1px solid var(--border);border-inline-start:6px solid var(--border);border-radius:14px;padding:16px 18px;margin-block-start:20px;box-shadow:var(--shadow)}
+.short.lvl-green-edge{border-inline-start-color:var(--g)} .short.lvl-yellow-edge{border-inline-start-color:#d9a400} .short.lvl-orange-edge{border-inline-start-color:#e0661a} .short.lvl-red-edge{border-inline-start-color:#c8102e}
+.short h2{margin:0 0 6px;font-size:1.4rem}
+.short h3{font-size:1.08rem;margin:16px 0 4px}
+.short p,.short li{font-size:1.07rem;line-height:1.6}
+.short ul{margin:4px 0;padding-inline-start:22px}
+.card.simple .plain{font-size:1.05rem;line-height:1.55;margin:8px 0 12px}
+.card.simple .card-top time{color:var(--muted)}
+details.more>summary{list-style:none;display:inline-flex;align-items:center;gap:6px;cursor:pointer;background:var(--chip);color:var(--link);border:1px solid var(--border);border-radius:999px;padding:5px 14px;font-size:.9rem;font-weight:600;user-select:none}
+details.more>summary::-webkit-details-marker{display:none}
+details.more>summary::after{content:"▾";font-size:.8rem}
+details.more[open]>summary::after{content:"▴"}
+details.more>summary:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+details.more .sl{display:none} details.more[open]>summary .lm{display:none} details.more[open]>summary .sl{display:inline}
+details.more[open]>summary{margin-block-end:10px}
+details.more>.more-body{border-block-start:1px solid var(--border);padding-block-start:10px}
+details.more>.more-body h3{font-size:1rem;margin:4px 0}
+.srch{margin:10px 0 2px;font-size:.88rem}
+details.big{margin-block:30px 0;background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:14px 16px}
+details.big>summary{font-size:1rem;padding:8px 18px}
+details.big>.more-body section{padding-block:14px 4px}

@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
-"""Capital Controls Early-Warning Monitor: renders the site from state.json.
+"""Capital Controls Early-Warning Monitor: renders the site from state.json (layout v2: plain-language first).
 
-Usage: python3 build_report.py --state state.json --out site_dir
-Reads the tracked items, today's report fields, levels, dates, source checks and triggers
-from state.json and writes:
-  site_dir/docs/index.html, site_dir/docs/archive/<date>.html, site_dir/docs/archive/index.html,
-  site_dir/docs/.nojekyll, site_dir/data/state.json (with refreshed_at set), site_dir/README.md
-Never hand-edit the HTML; change state.json and rebuild.
+Usage: python3 build_report.py --state state.json [--update update.json] --out site_dir
+Writes site_dir/docs/index.html, docs/archive/<date>.html, docs/archive/index.html, docs/.nojekyll,
+data/state.json (with refreshed_at set) and README.md. Never hand-edit the HTML; change state.json and rebuild.
+Plain-language fields: report.plain {today, worry, watch[], changes_lede} and item.plain (1-2 short sentences).
 """
 import argparse, datetime as dt, html, json, os, sys
 from zoneinfo import ZoneInfo
@@ -36,6 +34,7 @@ if a.update:
         if k in U:
             S[k] = U[k]
 R = S["report"]
+P = R.get("plain") or {}
 TODAY = dt.date.fromisoformat(R["date"])
 USER, REPO = S.get("github_user") or "GITHUB-USERNAME", S.get("repo") or "capital-controls-monitor"
 LIVE = f"https://{USER}.github.io/{REPO}/"
@@ -55,10 +54,24 @@ def fdate(s):
 def ftime(t):
     return t.strftime("%A, %B %-d, %Y, %-I:%M %p ") + t.tzname()
 
-LEVELS = {"GREEN": ("🟢", "Quiet", "lvl-green"), "YELLOW": ("🟡", "Subtle movement", "lvl-yellow"),
-          "ORANGE": ("🟠", "Concerning", "lvl-orange"), "RED": ("🔴", "Serious", "lvl-red")}
+# level: (emoji, analyst label, css class, plain label, plain meaning)
+LEVELS = {
+    "GREEN": ("🟢", "Quiet", "lvl-green", "All quiet", "Nothing new is limiting how people use or move their money."),
+    "YELLOW": ("🟡", "Subtle movement", "lvl-yellow", "Small changes, keep an eye out",
+               "Some new rules add paperwork or checks in a few areas. Nothing stops regular people from using, moving or taking out their money."),
+    "ORANGE": ("🟠", "Concerning", "lvl-orange", "Getting serious",
+               "The government has formally proposed limits on how some people can move or use their money."),
+    "RED": ("🔴", "Serious", "lvl-red", "Big warning", "Real limits on regular people's money are happening or about to happen."),
+}
 level = R["level"]
-emoji, level_label, level_cls = LEVELS[level]
+emoji, level_label, level_cls, kid_label, kid_meaning = LEVELS[level]
+MOVE_KID = {"NEW": "New", "ADVANCED": "Moved forward", "EXPANDED": "Got bigger", "EASED": "Eased up", "WITHDRAWN": "Dropped"}
+RATING_KID = {"Supported": "True", "Partly supported": "Partly true", "Unsupported": "No proof", "Can't verify": "Can't tell yet"}
+RATING_CLS = {"Supported": "r-sup", "Partly supported": "r-part", "Unsupported": "r-uns", "Can't verify": "r-cv"}
+DEFAULT_WHAT = ("Capital controls are rules that limit what people can do with their money. For example, a limit on how much cash "
+                "you can take out of the bank, or a ban on sending money to another country. Some countries use them during money "
+                "emergencies. This page watches for any signs of them in the United States.")
+
 W_CT = {"Prohibition": 4, "Permission": 3, "Friction": 2, "Visibility": 1}
 W_AF = {"All Americans": 3, "Sector or group": 2, "Named parties": 1}
 W_ST = {"In effect": 4, "Adopted": 3, "Proposal": 2, "Study or pilot": 1, "Talk": 0}
@@ -84,8 +97,6 @@ def shown(it):
     nm = pdate((it.get("next_milestone") or {}).get("date"))
     return bool(nm and nm >= TODAY)
 items = {k: v for k, v in S["items"].items() if shown(v)}
-SECTION_NAME = {"official_us": "Official U.S.", "pre_legislative": "Pre-legislative", "international": "International",
-                "banking_stress": "Banking stress", "counter_signal": "Counter-signal", "claims_checked": "Claim check"}
 by_sec = {}
 for it in items.values():
     by_sec.setdefault(it.get("section"), []).append(it)
@@ -93,6 +104,10 @@ for k in by_sec:
     by_sec[k].sort(key=sortkey)
 flags = [(items[f["id"]], f.get("movement", "NEW")) for f in R.get("flags", []) if f["id"] in items]
 flags.sort(key=lambda p: sortkey(p[0]))
+flag_ids = {f["id"] for f in R.get("flags", []) if f["id"] in items}
+sec_rest = lambda k: [it for it in by_sec.get(k, []) if it.get("_id") not in flag_ids]
+for k, v in S["items"].items():
+    v["_id"] = k
 
 def short_quote(it):
     q = it.get("quote") or {}
@@ -108,7 +123,7 @@ def sources_html(it):
         d = fdate(s.get("date")) if s.get("date") else ""
         prim = ' <span class="prim">primary</span>' if s.get("primary") else ""
         out.append(f'<li><a href="{E(url)}" rel="noopener" target="_blank">{E(s.get("publisher") or "Source")}: {E(s.get("title") or url)}</a>{" · " + E(d) if d else ""}{prim}</li>')
-    return '<ul class="srcs">' + "".join(out) + "</ul>" if out else ""
+    return '<p class="srch"><strong>Sources</strong></p><ul class="srcs">' + "".join(out) + "</ul>" if out else ""
 
 def chips(it):
     c = []
@@ -126,7 +141,11 @@ def chips(it):
     cls = {"Toward controls": " dir-toward", "Away from controls": " dir-away"}
     return '<ul class="chips">' + "".join(f'<li class="chip{cls.get(v, "") if k == "Direction" else ""}"><span>{E(k)}</span> {E(v)}</li>' for k, v in c) + "</ul>"
 
-def card(it, move=None, show_section=True):
+def learn_more(inner, label="Learn more"):
+    return (f'<details class="more"><summary><span class="lm">{E(label)}</span><span class="sl">Show less</span></summary>'
+            f'<div class="more-body">{inner}</div></details>')
+
+def detail_body(it):
     nm = it.get("next_milestone") or {}
     nxt = f'<p class="next"><strong>Next:</strong> {E(nm["what"])}{" · " + E(fdate(nm.get("date"))) if nm.get("date") else ""}</p>' if nm.get("what") else ""
     extra = ""
@@ -136,20 +155,32 @@ def card(it, move=None, show_section=True):
         extra = '<dl class="facts">' + "".join(f"<dt>{E(k)}</dt><dd>{E(v)}</dd>" for k, v in rows if v) + "</dl>"
     if it.get("section") == "international" and it.get("us_link"):
         extra = f'<p class="uslink"><strong>Link to U.S. policy:</strong> {E(it["us_link"])}</p>'
+    q = short_quote(it)
+    return (f'<h3>{E(it.get("headline"))}</h3>' + (f'<p class="org">{E(it.get("org"))}</p>' if it.get("org") else "")
+            + f'<p class="changed"><strong>What changed:</strong> {E(it.get("what_changed"))}</p><p>{E(it.get("summary"))}</p>'
+            + (f"<blockquote>“{E(q)}”</blockquote>" if q else "") + chips(it) + extra
+            + f'<div class="why"><p><strong>Why it matters:</strong> {E(it.get("why_it_matters"))}</p><p><strong>Why it might not:</strong> {E(it.get("why_it_might_not"))}</p></div>'
+            + nxt + sources_html(it))
+
+def simple_card(it, move=None):
     top = []
     if move:
-        top.append(f'<span class="move move-{E(move.lower())}">{E(move)}</span>')
-    if show_section:
-        top.append(f'<span class="sec">{E(SECTION_NAME.get(it.get("section"), ""))}</span>')
+        top.append(f'<span class="move move-{E(move.lower())}">{E(MOVE_KID.get(move, move.title()))}</span>')
     top.append(f'<time datetime="{E(it.get("date"))}">{E(fdate(it.get("date")))}</time>')
-    q = short_quote(it)
-    return (f'<article class="card"><div class="card-top">{" ".join(top)}</div><h3>{E(it.get("headline"))}</h3>'
-            + (f'<p class="org">{E(it.get("org"))}</p>' if it.get("org") else "")
-            + f'<p class="changed"><strong>What changed:</strong> {E(it.get("what_changed"))}</p><p>{E(it.get("summary"))}</p>'
-            + (f"<blockquote>“{E(q)}”</blockquote>" if q else "")
-            + chips(it) + extra
-            + f'<div class="why"><p><strong>Why it matters:</strong> {E(it.get("why_it_matters"))}</p><p><strong>Why it might not:</strong> {E(it.get("why_it_might_not"))}</p></div>'
-            + nxt + f"<details><summary>Sources</summary>{sources_html(it)}</details></article>")
+    return (f'<article class="card simple"><div class="card-top">{" ".join(top)}</div>'
+            f'<p class="plain">{E(it.get("plain") or it.get("headline"))}</p>{learn_more(detail_body(it))}</article>')
+
+def claim_card(it):
+    r = it.get("claim_rating") or "Can't verify"
+    inner = (f'<h3>{E(it.get("headline"))}</h3><p><strong>The claim:</strong> {E(it.get("claim") or it.get("headline"))}</p>'
+             f'<p><strong>Who said it:</strong> {E(it.get("claimant") or it.get("who") or it.get("org"))}</p>'
+             f'<p><strong>Rating:</strong> {E(r)}</p><p>{E(it.get("summary"))}</p>' + sources_html(it))
+    return (f'<article class="card simple claim"><div class="card-top"><span class="rating {RATING_CLS.get(r, "r-cv")}">{E(RATING_KID.get(r, r))}</span>'
+            f'<time datetime="{E(it.get("date"))}">{E(fdate(it.get("date")))}</time></div>'
+            f'<p class="plain">{E(it.get("plain") or it.get("claim") or it.get("headline"))}</p>{learn_more(inner)}</article>')
+
+def grid(lst, empty, fn=simple_card):
+    return ('<div class="grid">' + "".join(fn(it) for it in lst) + "</div>") if lst else f'<p class="note">{E(empty)}</p>'
 
 def tracker_rows(lst):
     rows = []
@@ -164,13 +195,6 @@ def tracker_rows(lst):
 <td data-label="Affects">{E(it.get("affected"))}</td><td data-label="Tier">{E("Tier " + str(it["tier"]) if it.get("tier") else "None")}</td><td data-label="Next milestone">{nxt}</td>
 <td data-label="First seen">{E(fdate(it.get("first_seen")))}</td><td data-label="Last change">{E(fdate(it.get("last_change") or it.get("date")))}</td><td data-label="Link">{link}</td></tr>''')
     return "".join(rows)
-
-RATING_CLS = {"Supported": "r-sup", "Partly supported": "r-part", "Unsupported": "r-uns", "Can't verify": "r-cv"}
-def claim_rows(lst):
-    return "".join(f'''<tr><td data-label="Claim"><strong>{E(it.get("claim") or it.get("headline"))}</strong><br><span class="muted">{E(fdate(it.get("date")))}</span></td>
-<td data-label="Who said it">{E(it.get("claimant") or it.get("who") or it.get("org"))}</td>
-<td data-label="Rating"><span class="rating {RATING_CLS.get(it.get("claim_rating"), "r-cv")}">{E(it.get("claim_rating") or "Can't verify")}</span></td>
-<td data-label="What the evidence shows">{E(it.get("summary"))}<details><summary>Sources</summary>{sources_html(it)}</details></td></tr>''' for it in lst)
 
 ups = sorted([(pdate(u["date"]), u) for u in S.get("upcoming_dates", []) if pdate(u.get("date")) and pdate(u["date"]) >= TODAY], key=lambda x: x[0])
 horizon = TODAY + dt.timedelta(days=90)
@@ -200,15 +224,41 @@ for i in range(29, -1, -1):
     cls, txt = (LEVELS[lv][2], lv) if lv else ("none", "no report")
     strip.append(f'<li class="day {cls}" title="{E(fdate(d))}: {E(txt)}"><span class="sr">{E(fdate(d))}: {E(txt)}</span></li>')
 
-CSS = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "report.css"), encoding="utf-8").read()
+HERE = os.path.dirname(os.path.abspath(__file__))
+CSS = open(os.path.join(HERE, "report.css"), encoding="utf-8").read()
 
 def page(home_prefix, archive_href):
-    toc = [("flags", "What moved"), ("radar", "Pre-legislative radar"), ("tracker", "Official U.S. tracker"), ("stress", "Banking stress"),
-           ("international", "International"), ("counter", "Counter-signals"), ("claims", "Claims checked"), ("dates", "Upcoming dates"),
-           ("raise", "What would raise the level"), ("sources", "Source log"), ("about", "About")]
-    sec = lambda k: by_sec.get(k, [])
-    grid = lambda lst, empty: ("".join(card(it, None, False) for it in lst) or f'<p class="note">{E(empty)}</p>')
-    flags_html = "".join(card(it, mv) for it, mv in flags) or '<p class="note">Nothing new or changed since the last report.</p>'
+    claims = by_sec.get("claims_checked", [])
+    watch = P.get("watch") or []
+    toc = [("short", "Short version"), ("changes", "What changed"), ("rules", "Government rules"), ("ideas", "Ideas"),
+           ("rumors", "Rumors checked"), ("good", "Good news"), ("world", "Around the world"), ("banks", "Banks"), ("full", "Full report")]
+    flags_html = ('<div class="grid">' + "".join(simple_card(it, mv) for it, mv in flags) + "</div>") if flags else '<p class="note">Nothing new or changed since the last report.</p>'
+    short = (f'<section id="short" class="short {level_cls}-edge"><h2>The short version</h2>'
+             f'<h3>What are capital controls?</h3><p>{E(P.get("what") or DEFAULT_WHAT)}</p>'
+             f'<h3>Today\'s level: {emoji} {E(level.title())} ({E(kid_label.lower())})</h3><p>{E(P.get("today") or kid_meaning)}</p>'
+             + (f'<h3>Should I worry?</h3><p>{E(P["worry"])}</p>' if P.get("worry") else "")
+             + (f'<h3>What would make the level go up?</h3><ul>' + "".join(f"<li>{E(w)}</li>" for w in watch) + "</ul>" if watch else "")
+             + "</section>")
+    full = f'''<details class="more big" id="full"><summary><span class="lm">Learn more: the full research report</span><span class="sl">Hide the full research report</span></summary>
+<div class="more-body">
+<section id="analyst"><h2>Analyst summary</h2><p><strong>{emoji} {level}: {E(level_label)}.</strong> {E(R.get("bottom_line"))}</p>
+<p><strong>Change since the last report:</strong> {E(R.get("change_text"))} {E(R.get("level_reason"))}</p>
+<p class="muted">Sources checked through {E(ftime(checked_through))}.</p></section>
+<section id="tracker"><h2>Official U.S. tracker</h2><p class="lede">Every open official item: rules, bills, orders and programs. Open "Details" for the summary and sources.</p>
+<div class="tablewrap"><table class="stack"><thead><tr><th>Item</th><th>Agency or sponsor</th><th>Stage</th><th>Control</th><th>Affects</th><th>Tier</th><th>Next milestone</th><th>First seen</th><th>Last change</th><th>Link</th></tr></thead><tbody>{tracker_rows(by_sec.get("official_us", []))}</tbody></table></div></section>
+<section id="dates"><h2>Upcoming dates</h2><p class="lede">Next 90 days: comment deadlines, votes, effective dates and expirations.</p>
+<div class="tablewrap"><table class="stack"><thead><tr><th>Date</th><th>What</th><th>Link</th></tr></thead><tbody>{date_rows(near)}</tbody></table></div>
+<h3>Further out</h3><div class="tablewrap"><table class="stack"><thead><tr><th>Date</th><th>What</th><th>Link</th></tr></thead><tbody>{date_rows(far)}</tbody></table></div></section>
+<section id="raise"><h2>What would raise the level</h2><p class="lede">Specific next steps to watch for.</p><ul class="triggers">{"".join(f"<li>{E(t)}</li>" for t in S.get("raise_level_triggers", []))}</ul></section>
+<section id="sources"><h2>Source check log</h2><p class="lede">"Not checked" means the source wasn't read this run. It doesn't mean nothing happened there.</p>
+<div class="tablewrap"><table class="stack"><thead><tr><th>Source</th><th>Status</th><th>Note</th><th>Last successful check</th></tr></thead><tbody>{check_rows()}</tbody></table></div></section>
+<section id="about"><h2>About this report</h2>
+<p><strong>What counts:</strong> limits on Americans' ability to withdraw, move, convert, invest or hold money. A routine anti-fraud, sanctions, anti-money-laundering or tax-reporting rule isn't a capital control by itself, so each item says what the measure actually lets the government or a bank do.</p>
+<p><strong>Control ladder:</strong> Visibility (reporting) → Friction (delays, extra checks, fees, taxes) → Permission (government approval needed) → Prohibition (ban, limit, freeze, forced conversion).</p>
+<p><strong>Signal tiers:</strong> Tier 1 is subtle (new reporting, cash-reporting changes, outbound-investment limits, new official vocabulary, proposed emergency powers, payment systems that enable monitoring or conditions). Tier 2 is concerning (limits on transfers abroad or currency conversion, unexplained withdrawal limits, regulators discussing deposit limits, holding periods or redemption gates, limits on foreign assets, retirement-account limits). Tier 3 is serious (government withdrawal limits, broad bans on moving money overseas, forced conversion, bank holidays, emergency orders).</p>
+<p><strong>Alert levels:</strong> 🟢 GREEN means quiet. 🟡 YELLOW means subtle movement. 🟠 ORANGE means an official proposal for a Tier 2 measure, or one adopted for a defined group. 🔴 RED means a Tier 3 measure is adopted, imminent or in effect for ordinary Americans. Measures limited to failed banks, sanctioned parties or named countries count toward YELLOW, not ORANGE. Commentary and unverified claims can't raise the level.</p>
+<p><strong>How it's made:</strong> researched and compiled each morning with an AI assistant from public sources. It can contain errors, so check the linked sources before relying on anything.</p>
+</section></div></details>'''
     return f'''<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -222,57 +272,53 @@ def page(home_prefix, archive_href):
 <body data-refreshed="{E(R["refreshed_at"])}">
 <header class="top" id="top"><div class="wrap">
 <h1>Capital Controls Early-Warning Monitor</h1>
-<p class="sub">A daily check of official U.S. sources, international bodies and the policy community for any movement toward limits on Americans' ability to withdraw, move, convert, invest or hold their money.</p>
-<div class="meta"><span><strong>Last refreshed:</strong> {E(ftime(now))}</span><span><strong>Sources checked through:</strong> {E(ftime(checked_through))}</span></div>
+<p class="sub">A daily check for any signs that the U.S. might limit how people use, move or keep their money.</p>
+<p class="howto">Start with the short version. Tap <strong>Learn more</strong> on anything for the details and sources.</p>
+<div class="meta"><span><strong>Last refreshed:</strong> {E(ftime(now))}</span></div>
 <div class="level {level_cls}">
-<span class="badge" role="img" aria-label="Alert level {level}: {E(level_label)}">{emoji} {level}</span>
-<div class="bl"><strong>{E(level_label)}.</strong> {E(R.get("bottom_line"))}<p class="change"><strong>Change since the last report:</strong> {E(R.get("change_text"))} {E(R.get("level_reason"))}</p></div>
+<span class="badge" role="img" aria-label="Alert level {level}: {E(kid_label)}">{emoji} {level}</span>
+<div class="bl"><strong>{E(kid_label)}.</strong> {E(P.get("today") or kid_meaning)}</div>
 </div>
 <ol class="strip" aria-label="Alert level for each of the last 30 days">{"".join(strip)}</ol>
 <p class="strip-label">Last 30 days (oldest to newest; gray means no report)</p>
-<div id="stale" class="stale" hidden>⚠ This report hasn't been refreshed in <span id="stale-hours">more than 26</span> hours. The latest daily run may be waiting for approval or may have failed, so check the date above.</div>
+<div id="stale" class="stale" hidden>⚠ This report hasn't been refreshed in <span id="stale-hours">more than 26</span> hours. The latest daily run may be waiting or may have failed, so check the date above.</div>
 </div></header>
 <nav class="toc" aria-label="Sections"><div class="wrap"><ul>{"".join(f'<li><a href="#{k}">{E(v)}</a></li>' for k, v in toc)}</ul></div></nav>
 <main class="wrap">
-<section id="flags"><h2>What moved</h2><p class="lede">{E(R.get("flags_lede"))}</p><div class="grid">{flags_html}</div></section>
-<section id="radar"><h2>Pre-legislative radar</h2><p class="lede">Ideas people are developing or discussing that aren't bills or formal rules yet.</p><div class="grid">{grid(sec("pre_legislative"), "Nothing on the radar.")}</div></section>
-<section id="tracker"><h2>Official U.S. tracker</h2><p class="lede">Every open official item: rules, bills, orders and programs. Open "Details" for the summary and sources.</p>
-<div class="tablewrap"><table class="stack"><thead><tr><th>Item</th><th>Agency or sponsor</th><th>Stage</th><th>Control</th><th>Affects</th><th>Tier</th><th>Next milestone</th><th>First seen</th><th>Last change</th><th>Link</th></tr></thead><tbody>{tracker_rows(sec("official_us"))}</tbody></table></div></section>
-<section id="stress"><h2>Banking stress context</h2><p class="lede">Bank failures, emergency lending and outflows. Stress alone isn't evidence of planned controls.</p><div class="grid">{grid(sec("banking_stress"), "No banking-stress items.")}</div></section>
-<section id="international"><h2>International ideas that could migrate</h2><p class="lede">Foreign measures and proposals. A foreign idea doesn't mean the U.S. will adopt it.</p><div class="grid">{grid(sec("international"), "No international items.")}</div></section>
-<section id="counter"><h2>Counter-signals</h2><p class="lede">Moves that protect access to and movement of money.</p><div class="grid">{grid(sec("counter_signal"), "No counter-signals.")}</div></section>
-<section id="claims"><h2>Claims checked</h2><p class="lede">What commentators are saying, traced to sources. Commentary is a lead, never evidence, and can't raise the alert level.</p>
-<div class="tablewrap"><table class="stack"><thead><tr><th>Claim</th><th>Who said it</th><th>Rating</th><th>What the evidence shows</th></tr></thead><tbody>{claim_rows(sec("claims_checked"))}</tbody></table></div></section>
-<section id="dates"><h2>Upcoming dates</h2><p class="lede">Next 90 days: comment deadlines, votes, effective dates and expirations.</p>
-<div class="tablewrap"><table class="stack"><thead><tr><th>Date</th><th>What</th><th>Link</th></tr></thead><tbody>{date_rows(near)}</tbody></table></div>
-<h3>Further out</h3><div class="tablewrap"><table class="stack"><thead><tr><th>Date</th><th>What</th><th>Link</th></tr></thead><tbody>{date_rows(far)}</tbody></table></div></section>
-<section id="raise"><h2>What would raise the level</h2><p class="lede">Specific next steps to watch for.</p><ul class="triggers">{"".join(f"<li>{E(t)}</li>" for t in S.get("raise_level_triggers", []))}</ul></section>
-<section id="sources"><h2>Source check log</h2><p class="lede">"Not checked" means the source wasn't read this run. It doesn't mean nothing happened there.</p>
-<div class="tablewrap"><table class="stack"><thead><tr><th>Source</th><th>Status</th><th>Note</th><th>Last successful check</th></tr></thead><tbody>{check_rows()}</tbody></table></div></section>
-<section id="about"><h2>About this report</h2>
-<p><strong>What counts:</strong> limits on Americans' ability to withdraw, move, convert, invest or hold money. A routine anti-fraud, sanctions, anti-money-laundering or tax-reporting rule isn't a capital control by itself, so each item says what the measure actually lets the government or a bank do.</p>
-<p><strong>Control ladder:</strong> Visibility (reporting) → Friction (delays, extra checks, fees, taxes) → Permission (government approval needed) → Prohibition (ban, limit, freeze, forced conversion).</p>
-<p><strong>Signal tiers:</strong> Tier 1 is subtle (new reporting, cash-reporting changes, outbound-investment limits, new official vocabulary, proposed emergency powers, payment systems that enable monitoring or conditions). Tier 2 is concerning (limits on transfers abroad or currency conversion, unexplained withdrawal limits, regulators discussing deposit limits, holding periods or redemption gates, limits on foreign assets, retirement-account limits). Tier 3 is serious (government withdrawal limits, broad bans on moving money overseas, forced conversion, bank holidays, emergency orders).</p>
-<p><strong>Alert levels:</strong> 🟢 GREEN means quiet. 🟡 YELLOW means subtle movement. 🟠 ORANGE means an official proposal for a Tier 2 measure, or one adopted for a defined group. 🔴 RED means a Tier 3 measure is adopted, imminent or in effect for ordinary Americans. Measures limited to failed banks, sanctioned parties or named countries count toward YELLOW, not ORANGE. Commentary and unverified claims can't raise the level.</p>
-<p><strong>How it's made:</strong> researched and compiled each morning with an AI assistant from public sources. It can contain errors, so check the linked sources before relying on anything.</p>
-</section>
+{short}
+<section id="changes"><h2>What changed lately</h2><p class="lede">{E(P.get("changes_lede") or "The newest moves since the last report.")}</p>{flags_html}</section>
+<section id="rules"><h2>Other government rules we're tracking</h2><p class="lede">Rules, laws and orders that are already in place or still being worked on.</p>{grid(sec_rest("official_us"), "Nothing else to track right now.")}</section>
+<section id="ideas"><h2>Ideas people are working on</h2><p class="lede">Plans and proposals that aren't laws or rules yet.</p>{grid(sec_rest("pre_legislative"), "Nothing new on the radar.")}</section>
+<section id="rumors"><h2>Rumors and claims we checked</h2><p class="lede">We looked into {len(claims)} claim{"" if len(claims) == 1 else "s"} people are sharing. Here's what the evidence shows.</p>{grid(claims, "No claims checked yet.", claim_card)}</section>
+<section id="good"><h2>Good news for your money</h2><p class="lede">Moves that protect people's right to use and move their money.</p>{grid(sec_rest("counter_signal"), "Nothing new here.")}</section>
+<section id="world"><h2>Around the world</h2><p class="lede">What other countries are doing. This doesn't mean the U.S. will copy them.</p>{grid(sec_rest("international"), "Nothing new here.")}</section>
+<section id="banks"><h2>How banks are doing</h2><p class="lede">Bank troubles alone don't mean limits are coming, but they're worth watching.</p>{grid(sec_rest("banking_stress"), "Nothing new here.")}</section>
+{full}
 </main>
 <footer><div class="wrap">
 <p><a href="{E(archive_href)}">Past reports</a> · <a href="{E(home_prefix)}index.html">Latest report</a> · <a href="#top">Back to top</a></p>
 <p>Personal research project. Informational only, not financial, legal or tax advice. Not affiliated with any employer.</p>
 </div></footer>
 <script>
-(function(){{var b=document.body,el=document.getElementById("stale");if(!b||!el)return;var t=Date.parse(b.getAttribute("data-refreshed"));if(isNaN(t))return;var h=(Date.now()-t)/36e5;if(h>26){{document.getElementById("stale-hours").textContent=String(Math.floor(h));el.hidden=false;}}}})();
+(function(){{var b=document.body,el=document.getElementById("stale");if(b&&el){{var t=Date.parse(b.getAttribute("data-refreshed"));if(!isNaN(t)){{var h=(Date.now()-t)/36e5;if(h>26){{document.getElementById("stale-hours").textContent=String(Math.floor(h));el.hidden=false;}}}}}}
+function openFull(){{var f=document.getElementById("full");if(!f)return;var id=location.hash.slice(1);if(!id)return;var t=document.getElementById(id);if(t&&f.contains(t)){{f.open=true;t.scrollIntoView();}}}}
+openFull();window.addEventListener("hashchange",openFull);}})();
 </script>
 </body>
 </html>
 '''
 
+for v in S["items"].values():
+    v.pop("_id", None)
+for k, v in S["items"].items():
+    v["_id"] = k
 O = a.out
 os.makedirs(os.path.join(O, "docs", "archive"), exist_ok=True)
 os.makedirs(os.path.join(O, "data"), exist_ok=True)
 open(os.path.join(O, "docs", "index.html"), "w", encoding="utf-8").write(page("", "archive/index.html"))
 open(os.path.join(O, "docs", "archive", f"{TODAY.isoformat()}.html"), "w", encoding="utf-8").write(page("../", "index.html"))
+for v in S["items"].values():
+    v.pop("_id", None)
 arch = "".join(f'<li><a href="{E(h["date"])}.html">{E(fdate(h["date"]))}</a>: {LEVELS[h["level"]][0]} {E(h["level"])}</li>' for h in reversed(S["levels"]))
 open(os.path.join(O, "docs", "archive", "index.html"), "w", encoding="utf-8").write(f'''<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow"><meta name="color-scheme" content="light dark">
@@ -286,7 +332,7 @@ S["live_page"] = LIVE
 json.dump(S, open(os.path.join(O, "data", "state.json"), "w", encoding="utf-8"), indent=1, ensure_ascii=False)
 open(os.path.join(O, "README.md"), "w", encoding="utf-8").write(f"""# Capital Controls Early-Warning Monitor
 
-A daily report that checks official U.S. sources, international bodies and the policy community for any movement toward capital controls: limits on Americans' ability to withdraw, move, convert, invest or hold their money. It also tracks ideas still being discussed or developed, and fact-checks popular claims.
+A daily report that checks official U.S. sources, international bodies and the policy community for any movement toward capital controls: limits on Americans' ability to withdraw, move, convert, invest or hold their money. It also tracks ideas still being discussed or developed, and fact-checks popular claims. Each report starts with a plain-language summary; the details and sources sit behind "Learn more" buttons.
 
 **Live report:** {LIVE}
 
@@ -299,5 +345,5 @@ Researched and compiled each morning with an AI assistant from public sources. I
 
 *Personal research project. Informational only, not financial, legal or tax advice. Not affiliated with any employer.*
 """)
-print(json.dumps({"items_open": len(items), "by_section": {k: len(v) for k, v in by_sec.items()}, "flags": [f[0]["id"] for f in flags],
-                  "dates_near": len(near), "dates_far": len(far), "refreshed": ftime(now), "checked_through": ftime(checked_through)}, indent=1))
+print(json.dumps({"items_open": len(items), "by_section": {k: len(v) for k, v in by_sec.items()}, "flags": [f["id"] for f in R.get("flags", []) if f["id"] in items],
+                  "plain_missing": [k for k, v in items.items() if not v.get("plain")][:60], "dates_near": len(near), "dates_far": len(far), "refreshed": ftime(now)}, indent=1))
