@@ -2459,7 +2459,7 @@
    "date": "2026-07-11",
    "org": "Congress (21st Century ROAD to Housing Act, P.L. 119-101)",
    "what_changed": "The 21st Century ROAD to Housing Act (P.L. 119-101), enacted July 11, 2026, added 12 U.S.C. 423. It bars the Federal Reserve from issuing a retail central bank digital currency, directly or through intermediaries, until Dec 31, 2030.",
-   "summary": "This is the strongest U.S. counter-signal: it blocks the government-issued programmable money that most 'digital control' scenarios assume. The standalone Anti-CBDC Surveillance State Act (H.R. 1919) passed the House but isn't separately law.",
+   "summary": "This is the strongest U.S. counter-signal: it blocks the government-issued programmable money that most 'digital control' scenarios assume. The standalone Anti-CBDC Surveillance State Act (H.R. 1919) passed the House but isn't separately law. A House bill to make the bar permanent, H.R. 10017 (Permanent CBDC Ban Act, introduced Aug 3, 2026), is still in committee.",
    "control_type": "None",
    "affected": "All Americans",
    "stage": "In effect",
@@ -2517,6 +2517,13 @@
      "publisher": "Cornell LII (U.S. Code)",
      "date": "2026-10-07",
      "primary": true
+    },
+    {
+     "title": "H.R. 10017 (IH) - Permanent CBDC Ban Act",
+     "url": "https://www.govinfo.gov/app/details/BILLS-119hr10017ih",
+     "publisher": "GovInfo",
+     "date": "2026-08-03",
+     "primary": true
     }
    ],
    "quote": {
@@ -2534,7 +2541,7 @@
      "stage": "In effect"
     }
    ],
-   "updated_on": "2026-11-04",
+   "updated_on": "2026-11-05",
    "plain": "A new law bars the Fed, the nation's central bank, from issuing a digital dollar to the public until Dec 31, 2030. That blocks government digital cash that could carry rules on how people spend."
   },
   "russia-digital-ruble-mass-launch": {
@@ -3053,6 +3060,77 @@
    ],
    "updated_on": "2026-11-05",
    "plain": "The President kept a ban on Americans trading stock in some Chinese firms tied to China's military. Nothing changed, and it only covers firms on a U.S. list."
+  },
+  "claim-beck-capital-controls-special": {
+   "id": "claim-beck-capital-controls-special",
+   "section": "claims_checked",
+   "headline": "Glenn Beck special 'Capital Controls': limits on Americans' money are coming as the economy slides toward collapse",
+   "date": "2026-11-02",
+   "org": "Glenn Beck (YouTube and BlazeTV special)",
+   "who": "Glenn Beck, conservative broadcaster (about 1.9 million YouTube subscribers)",
+   "what_changed": "A new special titled 'Capital Controls' (YouTube title: 'Why You MUST Prepare For Financial Collapse') went up around Nov 1-2, 2026; the exact upload date wasn't shown in the sources we could read. It drew nearly 80,000 YouTube views in about two days.",
+   "summary": "We could read only the special's published description, not a transcript, so this check covers its central claim: that capital controls are coming as the U.S. economy slides toward collapse, and that the government will sell them to a frightened public. We found no official U.S. document or credible report of plans for withdrawal limits, caps on transfers abroad, bank holidays or forced currency conversion for ordinary Americans. The official steps this monitor tracks are narrower: extra reporting in a few places, national-security investment screening, freeze ability for regulated stablecoins under lawful orders, and an FDIC proposal for temporary holds that would apply only after a large bank fails. Capital controls have happened in other countries during crises, so the warning isn't impossible, but current evidence doesn't show them being prepared here. Commentary can't raise this monitor's level.",
+   "control_type": "None",
+   "affected": "All Americans",
+   "stage": "Talk",
+   "tier": null,
+   "signal_numbers": [],
+   "direction": "Neutral",
+   "evidence": "Commentary only",
+   "momentum": "New",
+   "official_acknowledgment": "None found",
+   "linked_bills_or_rules": "None cited in the published description",
+   "verdict": "Unsupported",
+   "claim": "Capital controls are coming to America as the economy slides toward collapse, and the government will sell them to a frightened public.",
+   "claimant": "Glenn Beck",
+   "claim_rating": "Unsupported",
+   "why_it_matters": "The special reaches a large audience and may lead viewers to expect near-term limits on their money, so its central claim is checked against official records.",
+   "why_it_might_not": "It's a general warning about a possible future crisis, not a report of a specific plan, bill or rule, and its full wording couldn't be reviewed.",
+   "us_link": "",
+   "next_milestone": {
+    "what": "Recheck if a transcript, or an official proposal matching its warnings, appears",
+    "date": null
+   },
+   "sources": [
+    {
+     "title": "Why You MUST Prepare For Financial Collapse | Capital Controls",
+     "url": "https://www.youtube.com/watch?v=80gcfegB2A8",
+     "publisher": "Glenn Beck (YouTube)",
+     "date": "2026-11-02",
+     "primary": true
+    },
+    {
+     "title": "Capital Controls (special)",
+     "url": "https://www.glennbeck.com/watch/shows/capital-controls",
+     "publisher": "GlennBeck.com",
+     "date": null,
+     "primary": true
+    },
+    {
+     "title": "Large-Bank Deposit Insurance Determination Modernization (2026-22495)",
+     "url": "https://www.federalregister.gov/documents/2026/11/04/2026-22495/large-bank-deposit-insurance-determination-modernization",
+     "publisher": "Federal Register (FDIC)",
+     "date": "2026-11-04",
+     "primary": true
+    }
+   ],
+   "quote": {
+    "text": "how the government will sell these drastic measures",
+    "source_url": "https://www.youtube.com/watch?v=80gcfegB2A8"
+   },
+   "first_seen": "2026-11-05",
+   "last_change": "2026-11-02",
+   "status": "NEW",
+   "open": true,
+   "status_history": [
+    {
+     "date": "2026-11-05",
+     "status": "NEW",
+     "stage": "Talk"
+    }
+   ],
+   "updated_on": "2026-11-05",
+   "plain": "Glenn Beck's new video special says capital controls (limits on using or moving your money) are coming. No proof: we found no government plan for limits like that on regular people."
   }
  },
  "levels": [
@@ -3082,7 +3160,7 @@
    }
   ],
   "sources_checked_through": "2026-11-05T06:34:05-06:00",
-  "refreshed_at": "2026-11-05T06:35:58-06:00",
+  "refreshed_at": "2026-11-05T06:37:48-06:00",
   "plain": {
    "today": "Nothing stops regular people from taking out, moving or saving their money. Nothing new came from the government in the past day, and the extra paperwork and checks we track are still in place.",
    "worry": "Not right now. The only new item is a video that says limits on money are coming, and we found no government plan like that. The rules we track mostly add paperwork for some businesses or only matter in rare cases, like when a bank fails.",
