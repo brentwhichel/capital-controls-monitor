@@ -8,7 +8,7 @@
    "date": "2026-04-10",
    "org": "FinCEN and OFAC (Treasury)",
    "what_changed": "A joint proposed rule (91 FR 18582; RIN 1506-AB73; docket FINCEN-2026-0100) would treat permitted payment stablecoin issuers (PPSIs) as financial institutions under the Bank Secrecy Act and require AML and sanctions-compliance programs. Comments closed in June 2026, and no final rule was found.",
-   "summary": "Under the GENIUS Act (P.L. 119-27), an issuer may issue payment stablecoins only if it can technically comply with lawful orders to seize, freeze, burn or block its coins. This joint FinCEN/OFAC proposal would make that part of ongoing compliance programs: customer identification, suspicious-activity and currency-transaction reporting, sanctions screening, and the ability to block or freeze. Comments closed June 9, and there's no final rule yet. Some industry write-ups said freezes would reach tokens traded between holders, but the Act exempts direct person-to-person and self-custody transfers, so that claim isn't supported. Coin Center separately objected (Aug 21) to applying customer-ID rules to secondary-market transactions.",
+   "summary": "Under the GENIUS Act (P.L. 119-27), an issuer may issue payment stablecoins only if it can technically comply with lawful orders to seize, freeze, burn or block its coins. This joint FinCEN/OFAC proposal would make that part of ongoing compliance programs: customer identification, suspicious-activity and currency-transaction reporting, sanctions screening, and the ability to block or freeze. Comments closed June 9, and there's no final rule yet. Some industry write-ups said freezes would reach tokens traded between holders, but the Act exempts direct person-to-person and self-custody transfers, so that claim isn't supported. Coin Center separately objected (Aug 21) to applying customer-ID rules to secondary-market transactions. Separately, on Nov 2 Tether, which issues the USDT stablecoin, said it froze more than $1.5 billion in USDT within 30 minutes of an Oct 29 exchange hack that it said the FBI tied to North Korea. That was the company's own anti-theft step, not a government order, but it shows how fast an issuer can freeze coins.",
    "control_type": "Prohibition",
    "affected": "Named parties",
    "stage": "Proposal",
@@ -59,6 +59,13 @@
      "publisher": "Greenberg Traurig",
      "date": "2026-05-21",
      "primary": false
+    },
+    {
+     "title": "Tether Freezes Over $1.5 Billion From Binance Hack, Keeping Funds Out of North Korea's Reach",
+     "url": "https://tether.io/news/tether-freezes-over-1-5-billion-from-binance-hack-keeping-funds-out-of-north-koreas-reach/",
+     "publisher": "Tether",
+     "date": "2026-11-02",
+     "primary": true
     }
    ],
    "quote": {
@@ -76,7 +83,7 @@
      "stage": "Proposal"
     }
    ],
-   "updated_on": "2026-11-04",
+   "updated_on": "2026-11-05",
    "plain": "Under a federal plan, firms that issue stablecoins (digital coins tied to the dollar) must be able to freeze or block coins. A freeze would need a lawful order for certain coins or accounts."
   },
   "2026-16365": {
@@ -2927,11 +2934,134 @@
    ],
    "updated_on": "2026-11-04",
    "plain": "Wells Fargo, a big American bank, is starting to let business clients move bank money as digital tokens at any hour. It is not for personal accounts."
+  },
+  "2026-20371": {
+   "id": "2026-20371",
+   "section": "official_us",
+   "headline": "FinCEN proposes barring U.S. financial institutions from moving funds to or from a Russia-linked network (A7)",
+   "date": "2026-10-05",
+   "org": "FinCEN (Treasury)",
+   "what_changed": "Proposed rule published Oct 5, 2026 (91 FR 63208; RIN 1506-AB77). The comment period closed Nov 4, 2026, and no final rule has been issued. The first report missed it; it was added on Nov 5 for context, not as new movement.",
+   "summary": "Using section 9714(a) of the Combating Russian Money Laundering Act, FinCEN found that transactions involving companies outside the U.S. controlled by the A7 Network are a class of transactions of primary money laundering concern. FinCEN describes A7 as a Russia-linked sanctions-evasion and money-laundering service also used by Iran and its proxies; press reports tie it to the ruble-backed A7A5 stablecoin. The proposal would bar covered U.S. financial institutions from transmitting funds to or from the network's sub-agents, or to or from accounts or crypto addresses run for them. It targets one named network, not stablecoins in general or ordinary transfers abroad.",
+   "control_type": "Prohibition",
+   "affected": "Named parties",
+   "stage": "Proposal",
+   "tier": null,
+   "signal_numbers": [],
+   "direction": "Neutral",
+   "evidence": "Official document",
+   "why_it_matters": "It's a direct ban on a class of money transfers, imposed with an anti-money-laundering power rather than ordinary sanctions. It shows how quickly a specific payment channel can be cut off once it's named.",
+   "why_it_might_not": "It covers only transfers involving one named foreign network tied to sanctions evasion. Ordinary transfers abroad aren't affected, and similar targeted measures have been used before.",
+   "next_milestone": {
+    "what": "Final rule (date unconfirmed)",
+    "date": null
+   },
+   "sources": [
+    {
+     "title": "Proposal of Special Measure Prohibiting the Transmittal of Funds Regarding Transactions Involving the A7 Network's Sub-Agents (2026-20371)",
+     "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20371/proposal-of-special-measure-prohibiting-the-transmittal-of-funds-regarding-transactions-involving",
+     "publisher": "Federal Register (FinCEN)",
+     "date": "2026-10-05",
+     "primary": true
+    },
+    {
+     "title": "FinCEN proposed barring U.S. financial institutions from moving funds involving A7 Network sub-agents",
+     "url": "https://themoneyoverview.com/41-fincen-proposed-barring-u-s-financial-institutions-from-moving-funds-involving-a/",
+     "publisher": "The Money Overview",
+     "date": "2026-10-05",
+     "primary": false
+    }
+   ],
+   "quote": {
+    "text": "",
+    "source_url": ""
+   },
+   "first_seen": "2026-11-05",
+   "last_change": "2026-10-05",
+   "status": "BASELINE",
+   "open": true,
+   "status_history": [
+    {
+     "date": "2026-11-05",
+     "status": "BASELINE",
+     "stage": "Proposal"
+    }
+   ],
+   "updated_on": "2026-11-05",
+   "plain": "FinCEN (a Treasury office that fights money laundering) wants to block U.S. payments to and from one Russia-linked network. It does not limit what regular people can send."
+  },
+  "2026-22688": {
+   "id": "2026-22688",
+   "section": "official_us",
+   "headline": "President renews the emergency behind the ban on trading securities of certain Chinese military-linked companies",
+   "date": "2026-11-03",
+   "org": "The White House (notice); Treasury's OFAC runs the program",
+   "what_changed": "A Nov 3, 2026 notice, published Nov 5 (FR Doc 2026-22688), continues for one more year the national emergency declared in Executive Order 13959 (2020) and expanded by EO 14032 (2021). Nothing in the program changed.",
+   "summary": "Under EO 14032, U.S. persons may not buy or sell publicly traded securities of companies on Treasury's Non-SDN Chinese Military-Industrial Complex Companies (NS-CMIC) list, or publicly traded securities that are derivatives of them or designed to give investment exposure to them. Sales made only to divest were allowed for a limited period after a company was listed. National emergencies lapse unless renewed each year, so this routine notice keeps the program in place. It applies to listed companies only, not to Americans' investments in general.",
+   "control_type": "Prohibition",
+   "affected": "Named parties",
+   "stage": "In effect",
+   "tier": 1,
+   "signal_numbers": [
+    3
+   ],
+   "direction": "Neutral",
+   "evidence": "Official document",
+   "why_it_matters": "It's an existing federal limit on what Americans may invest in, kept alive by yearly renewals under IEEPA, the emergency-powers law behind most U.S. sanctions.",
+   "why_it_might_not": "It targets a list of named companies for national-security reasons, has been in force since 2021, and this renewal changed nothing.",
+   "next_milestone": {
+    "what": "Next yearly renewal due by the Nov 12, 2027 anniversary",
+    "date": "2027-11-12"
+   },
+   "sources": [
+    {
+     "title": "Continuation of the National Emergency With Respect to the Threat From Securities Investments That Finance Certain Companies of the People's Republic of China (2026-22688)",
+     "url": "https://www.federalregister.gov/documents/2026/11/05/2026-22688/continuation-of-the-national-emergency-with-respect-to-the-threat-from-securities-investments-that",
+     "publisher": "Federal Register (Presidential Documents)",
+     "date": "2026-11-05",
+     "primary": true
+    },
+    {
+     "title": "Executive Order 14032 (Appendix B to 31 CFR Part 586)",
+     "url": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-V/part-586/appendix-Appendix%20B%20to%20Part%20586",
+     "publisher": "eCFR",
+     "date": null,
+     "primary": true
+    },
+    {
+     "title": "Chinese Military Companies Sanctions",
+     "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information/chinese-military-companies-sanctions",
+     "publisher": "Treasury OFAC",
+     "date": null,
+     "primary": true
+    }
+   ],
+   "quote": {
+    "text": "",
+    "source_url": ""
+   },
+   "first_seen": "2026-11-05",
+   "last_change": "2026-11-03",
+   "status": "BASELINE",
+   "open": true,
+   "status_history": [
+    {
+     "date": "2026-11-05",
+     "status": "BASELINE",
+     "stage": "In effect"
+    }
+   ],
+   "updated_on": "2026-11-05",
+   "plain": "The President kept a ban on Americans trading stock in some Chinese firms tied to China's military. Nothing changed, and it only covers firms on a U.S. list."
   }
  },
  "levels": [
   {
    "date": "2026-11-04",
+   "level": "YELLOW"
+  },
+  {
+   "date": "2026-11-05",
    "level": "YELLOW"
   }
  ],
@@ -2939,54 +3069,29 @@
  "repo": "capital-controls-monitor",
  "monitor": "Capital Controls Early-Warning Monitor",
  "report": {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "level": "YELLOW",
-  "bottom_line": "No limits on ordinary Americans' withdrawals or transfers are in effect or proposed, but official steps keep adding Tier 1 plumbing: targeted cross-border reporting, a wider outbound-investment screen, freeze capability in regulated stablecoins, and deposit-hold readiness at the largest banks if they fail.",
-  "level_reason": "The level is YELLOW because several official steps touch Tier 1 signals. The one Tier 2 item, the FDIC provisional-hold proposal, applies only after a bank fails.",
-  "change_text": "First report: a baseline covering Aug 6 to Nov 4, 2026. A recheck at 9:50 AM CST found nothing new.",
-  "flags_lede": "This is the first report, so this section covers the past two weeks (since Oct 21, 2026). From tomorrow, it shows only what's new or changed since the previous report.",
+  "bottom_line": "No limits on ordinary Americans' withdrawals or transfers are in effect or proposed, and the past day brought no new official step toward controls; the only new item is a widely viewed Glenn Beck special warning that capital controls are coming, which the evidence doesn't support.",
+  "level_reason": "The level stays YELLOW because official Tier 1 steps from the past 30 days (targeted cross-border reporting, a wider outbound-investment proposal, stablecoin freeze rules) remain pending or in effect, and the one Tier 2 item, the FDIC provisional-hold proposal, applies only after a bank fails. Nothing new rises above that, and commentary can't raise the level.",
+  "change_text": "Yesterday: YELLOW. Today: YELLOW, unchanged. New since the previous report: one fact-checked commentary claim. Two older official items were added for context, not as new movement: FinCEN's Oct 5 proposal to bar transfers involving a Russia-linked network (comments closed Nov 4) and the Nov 3 yearly renewal of the ban on trading securities of certain Chinese military-linked companies.",
+  "flags_lede": "What's new or changed since the previous report on Nov 4, 2026.",
   "flags": [
    {
-    "id": "fdic-2026-22495",
-    "movement": "NEW"
-   },
-   {
-    "id": "2026-21786",
-    "movement": "EXPANDED"
-   },
-   {
-    "id": "fincen-mn-alert-2026-10-30",
-    "movement": "NEW"
-   },
-   {
-    "id": "genius-implementation-2026",
-    "movement": "ADVANCED"
-   },
-   {
-    "id": "occ-fdic-reputation-risk-debanking",
-    "movement": "EASED"
-   },
-   {
-    "id": "intl-canada-stablecoin-regulations",
-    "movement": "NEW"
-   },
-   {
-    "id": "eo-14436",
+    "id": "claim-beck-capital-controls-special",
     "movement": "NEW"
    }
   ],
-  "sources_checked_through": "2026-11-04T09:50:32-06:00",
-  "display_window_days": 365,
-  "refreshed_at": "2026-11-04T12:52:18-06:00",
+  "sources_checked_through": "2026-11-05T06:34:05-06:00",
+  "refreshed_at": "2026-11-05T06:35:58-06:00",
   "plain": {
-   "today": "Nothing stops regular people from taking out, moving or saving their money. But the government is adding more paperwork and checks in a few places.",
-   "worry": "Not right now. The recent changes mostly add paperwork for certain businesses, or only matter in rare cases, like when a bank fails. None of them limits how much money regular people can take out of the bank or send to family.",
+   "today": "Nothing stops regular people from taking out, moving or saving their money. Nothing new came from the government in the past day, and the extra paperwork and checks we track are still in place.",
+   "worry": "Not right now. The only new item is a video that says limits on money are coming, and we found no government plan like that. The rules we track mostly add paperwork for some businesses or only matter in rare cases, like when a bank fails.",
    "watch": [
     "A cap on how much money people can send to other countries.",
     "Limits on how much cash people can take out of the bank.",
     "An order that freezes or blocks money for most people."
    ],
-   "changes_lede": "This first report covers the last two weeks. Starting tomorrow, this section shows only what's new since the day before."
+   "changes_lede": "Since yesterday, we found no new government rules. We checked one popular warning."
   },
   "layout": "v2-plain-first"
  },
@@ -3070,6 +3175,12 @@
    "url": "https://cbr.ru/eng/press/event/?id=25774"
   },
   {
+   "date": "2027-11-12",
+   "what": "Yearly renewal due for the China securities-investment emergency (EO 13959 as expanded by EO 14032)",
+   "item_id": "2026-22688",
+   "url": "https://www.federalregister.gov/documents/2026/11/05/2026-22688/continuation-of-the-national-emergency-with-respect-to-the-threat-from-securities-investments-that"
+  },
+  {
    "date": "2028-07-18",
    "what": "Digital-asset service providers barred from offering U.S. persons stablecoins from non-permitted issuers",
    "item_id": "genius-implementation-2026",
@@ -3090,354 +3201,354 @@
  ],
  "source_checks": [
   {
-   "source": "AEI",
-   "url": "https://www.aei.org/",
+   "source": "Federal Register public inspection (current)",
+   "url": "https://www.federalregister.gov/public-inspection/current",
    "status": "Checked",
-   "note": "Time constraints. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "Atlantic Council CBDC Tracker",
-   "url": "https://www.atlanticcouncil.org/cbdctracker/",
-   "status": "Checked",
-   "note": "Last updated May 2026: 146 jurisdictions exploring, 77 advanced, 41 pilots, 3 launched; U.S. is the only G20 member not exploring (Project Agora wholesale research continues). Tracker predates Russia's Sept 1 digital-ruble rollout. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "Bank of Canada",
-   "url": "https://www.bankofcanada.ca/",
-   "status": "Checked",
-   "note": "Stablecoin supervision page; Canada Gazette draft regulations. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "Bank of England digital pound",
-   "url": "https://www.bankofengland.co.uk/the-digital-pound",
-   "status": "Checked",
-   "note": "Progress update, news page, Lab Phase 2 update via search results. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "Bank Policy Institute",
-   "url": "https://bpi.com/",
-   "status": "Checked",
-   "note": "BPInsights Oct 24, 2026: OCC GENIUS final rule (yield presumption dropped; GENIUS implementation, already tracked); BPI note on counting discount-window capacity in LCR. Nothing on capital controls. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "BIS",
-   "url": "https://www.bis.org/",
-   "status": "Checked",
-   "note": "Project Agora report, release and RVT results. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "Brookings Hutchins Center",
-   "url": "https://www.brookings.edu/centers/the-hutchins-center-on-fiscal-and-monetary-policy/",
-   "status": "Checked",
-   "note": "Liang/Neiman 'Stablecoins after GENIUS' (Aug 19, 2026) added as item; Liang April 2026 stablecoin vs tokenized deposit explainer is older. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "Cato",
-   "url": "https://www.cato.org/blog",
-   "status": "Checked",
-   "note": "BSA testimony May/June 2026. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "CFPB newsroom",
-   "url": "https://www.consumerfinance.gov/about-us/newsroom/",
-   "status": "Checked",
-   "note": "Time limit. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "CFTC press releases",
-   "url": "https://www.cftc.gov/PressRoom/PressReleases",
-   "status": "Checked",
-   "note": "Time limit. Secondary reporting says a CFTC crypto rulemaking was sent to OIRA. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "Coin Center",
-   "url": "https://www.coincenter.org/",
-   "status": "Checked",
-   "note": "Comments on FinCEN/OFAC PPSI (Jun 9) and CIP (Aug 21). Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "Congress.gov",
-   "url": "https://www.congress.gov/",
-   "status": "Partial",
-   "note": "Bill texts reached through congress.gov and govinfo PDFs. Latest-action status was not confirmed on congress.gov pages. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "CRS reports",
-   "url": "https://crsreports.congress.gov/",
-   "status": "Not checked",
-   "note": "Time limit.",
-   "last_success": null
-  },
-  {
-   "source": "ECB digital euro",
-   "url": "https://www.ecb.europa.eu/euro/digital_euro/html/index.en.html",
-   "status": "Checked",
-   "note": "Used news coverage of Cipollone's Oct 6 speech; ECB page not fetched directly. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "FATF",
-   "url": "https://www.fatf-gafi.org/",
-   "status": "Checked",
-   "note": "R.16 guidance consultation (June-Aug 2026). Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "FDIC failed bank list",
-   "url": "https://www.fdic.gov/bank-failures/failed-bank-list",
-   "status": "Checked",
-   "note": "Last updated Sept 25, 2026. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "FDIC Financial Institution Letters",
-   "url": "https://www.fdic.gov/news/financial-institution-letters",
-   "status": "Checked",
-   "note": "Only FIL-52-2026 and FIL-63-2026 were seen, through search. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "FDIC press releases",
-   "url": "https://www.fdic.gov/news/press-releases",
-   "status": "Checked",
-   "note": "Aug 25 to Oct 30 reviewed. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "Fed Financial Stability Report",
-   "url": "https://www.federalreserve.gov/publications/financial-stability-report.htm",
-   "status": "Checked",
-   "note": "Latest is May 2026; the November 2026 edition has not been posted. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "Fed H.4.1",
-   "url": "https://www.federalreserve.gov/releases/h41/",
-   "status": "Checked",
-   "note": "Oct 29, 2026 release: primary credit $9.5B avg; no emergency facility usage. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "Fed press releases",
-   "url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
-   "status": "Checked",
-   "note": "Sept 11 to Oct 16 reviewed; nothing on emergency facilities. Regulation O comment period was extended to Nov 4. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "Fed speeches and testimony",
-   "url": "https://www.federalreserve.gov/newsevents/speech/2026-speeches.htm",
-   "status": "Checked",
-   "note": "Waller Sep 29, Warsh Aug 28; Dallas Fed research notes. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
+   "note": "Nov 4 regular filing (107 documents for Nov 5) and special filing (8 documents) scanned. The special filing held four Nov 3 notices continuing national emergencies (China securities investments, Iran, Nicaragua, weapons proliferation); the China notice is now tracked as context. Nov 2 and Nov 3 filings rechecked: only the FDIC proposal already tracked. Today's regular filing posts at 8:45 AM ET, after this run.",
+   "last_success": "2026-11-05"
   },
   {
    "source": "Federal Register documents (via web search)",
    "url": "https://www.federalregister.gov/",
    "status": "Partial",
-   "note": "Search pages and API do not load; found documents through targeted web searches only, so other relevant notices may have been missed.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "Federal Register public inspection (current)",
-   "url": "https://www.federalregister.gov/public-inspection/current",
-   "status": "Checked",
-   "note": "Nov 4 filing: 107 documents for Nov 5 publication; scanned the titles and none were relevant. Treasury, FinCEN and OFAC had no filings.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "FinCEN news",
-   "url": "https://www.fincen.gov/news",
-   "status": "Checked",
-   "note": "Page 1 (Oct 5 to Oct 30) reviewed. Also noted a $1.2B BSA penalty against Bank of America (Oct 13), which is enforcement, not a control. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "FSB",
-   "url": "https://www.fsb.org/",
-   "status": "Checked",
-   "note": "Found G20 Implementation Monitoring Review (Oct 14) and cross-border targets page; nothing on payment controls. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "FSOC",
-   "url": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/fsoc",
-   "status": "Partial",
-   "note": "Landing page only; meeting readouts and annual report not checked. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "GAO",
-   "url": "https://www.gao.gov/",
-   "status": "Partial",
-   "note": "Found 2026 priority-recommendation letters to FDIC, Fed, OCC (blockchain risk) and Aug 2026 cannabis banking access report (GAO-26-107498); none on capital controls. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "Glenn Beck YouTube",
-   "url": "https://www.youtube.com/@glennbeck",
-   "status": "Checked",
-   "note": "The channel page loaded in a setup check, but the research fetch was blocked by a web safety filter. Segments were verified through podcast transcript indexes and news write-ups. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "glennbeck.com",
-   "url": null,
-   "status": "Not checked",
-   "note": "Blocked by a web safety filter. Use the YouTube channel, podcast transcript indexes and news write-ups instead.",
-   "last_success": null
-  },
-  {
-   "source": "Heritage",
-   "url": "https://www.heritage.org/",
-   "status": "Checked",
-   "note": "Time constraints. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "House Financial Services calendar",
-   "url": "https://financialservices.house.gov/calendar/",
-   "status": "Checked",
-   "note": "No hearings or markups after Sept 18, 2026 (the House is out until after the midterms). No discussion drafts were reviewed. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "IMF publications and eLibrary",
-   "url": "https://www.elibrary.imf.org/",
-   "status": "Checked",
-   "note": "Found WP 2026/160 (financial repression, Jul 31), WP 2026/021 (FinOpen CFM index, Feb) and Policy Paper 2026/014 (IPF for low-income countries, May). No 2026 Institutional View review found. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "IRS remittance tax guidance",
-   "url": "https://www.irs.gov/newsroom/treasury-irs-issue-proposed-regulations-on-the-new-remittance-transfer-tax-established-under-the-one-big-beautiful-bill",
-   "status": "Checked",
-   "note": "Whether the regulations have been finalized is unconfirmed.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "JD Supra",
-   "url": "https://www.jdsupra.com/",
-   "status": "Checked",
-   "note": "Law-firm alerts on OCC/FDIC and ROAD Act found via search; no alerts about circulating capital-control drafts found. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "NBER",
-   "url": "https://www.nber.org/papers",
-   "status": "Checked",
-   "note": "Time constraints. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "OCC",
-   "url": "https://www.occ.gov/",
-   "status": "Partial",
-   "note": "Seen through site searches only (Bulletin 2026-12, GENIUS final rule reporting). Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "OFAC recent actions",
-   "url": "https://ofac.treasury.gov/recent-actions",
-   "status": "Checked",
-   "note": "Routine designations and general licenses through Oct 29. Amended FAQs on blocking and rejecting transactions (Oct 26) were not reviewed in detail. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
+   "note": "Site searches found the Nov 4 and Nov 5 issues: the FDIC proposal (tracked), NCUA deregulation rules and the emergency-continuation notices. Also found FinCEN's Oct 5 A7 proposal, which the first report missed; now tracked. Search pages and the API don't load, so other notices may have been missed.",
+   "last_success": "2026-11-05"
   },
   {
    "source": "OIRA rules under review",
    "url": "https://www.reginfo.gov/public/do/eoReviewSearch",
    "status": "Partial",
-   "note": "Page loaded but was cut off after USDA through Interior; Treasury, SEC, CFPB and banking-agency entries were not seen. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "PIIE",
-   "url": "https://www.piie.com/",
-   "status": "Checked",
-   "note": "Time constraints. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "Regulations.gov",
-   "url": "https://www.regulations.gov/",
-   "status": "Partial",
-   "note": "Checked dockets FINCEN_FRDOC_0001-0249 (GTO, closed), TREAS-DO-2026-0496 (closed Oct 19), IRS-2026-0430 (closed). FDIC and Fed comment on own sites. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "SEC press releases",
-   "url": "https://www.sec.gov/newsroom/press-releases",
-   "status": "Checked",
-   "note": "Sept 11 to Oct 30 reviewed. No money market fund or redemption-limit actions. Crypto custody proposal (Oct 1) and private-markets access proposal (Sept 30) were noted but not itemized. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "Senate Banking Committee",
-   "url": "https://www.banking.senate.gov/",
-   "status": "Checked",
-   "note": "In window: Aug 6 capital-access hearing, Sept 17 exec session (TRIA, CFPB director nomination), Oct 1 nominations. No hearings on payments, BSA, deposit insurance or emergency powers. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "State bills (LegiScan)",
-   "url": "https://legiscan.com/",
-   "status": "Partial",
-   "note": "Arizona SB1432 CBDC ban died (June 14, 2026); Kentucky SB32 gold/silver legal tender + CBDC ban withdrawn (Feb 18, 2026). Both outside the 90-day window. No systematic 50-state sweep completed. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "Treasury officials' speeches",
-   "url": "https://home.treasury.gov/news/press-releases",
-   "status": "Not checked",
-   "note": "No Treasury speech on programmable/cross-border payments found via search in window.",
-   "last_success": null
-  },
-  {
-   "source": "Treasury Outbound Investment Security Program",
-   "url": "https://home.treasury.gov/policy-issues/international/outbound-investment-program",
-   "status": "Checked",
-   "note": "Seen through search snippet and fact sheet; the full page was not fetched. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
-  },
-  {
-   "source": "Treasury press releases",
-   "url": "https://home.treasury.gov/news/press-releases",
-   "status": "Checked",
-   "note": "Page 1 covered through Oct 21; earlier releases reached through searches. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
+   "note": "Page (as of Nov 2) loaded but was cut off after the Interior Department; Treasury, banking-agency, SEC and CFPB entries weren't visible. A site search found no new Treasury or FinCEN entries.",
+   "last_success": "2026-11-05"
   },
   {
    "source": "Unified Agenda",
    "url": "https://www.reginfo.gov/public/do/eAgendaMain",
    "status": "Partial",
-   "note": "2026 agenda (published Aug 14, 2026) checked via Federal Register Treasury agenda and RIN pages; found FinCEN 1506-AB60 (CDD revisions NPRM 03/2027) and 1506-AB72. Fed, FDIC, SEC, CFPB agenda entries not individually reviewed. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
+   "note": "Main page only. No change from the last check (FinCEN 1506-AB60 and 1506-AB72); other agencies' entries not reviewed one by one.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "Regulations.gov",
+   "url": "https://www.regulations.gov/",
+   "status": "Partial",
+   "note": "Home page and trending dockets only; nothing relevant. The comment period on FinCEN's A7 proposal closed Nov 4.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "Treasury press releases",
+   "url": "https://home.treasury.gov/news/press-releases",
+   "status": "Checked",
+   "note": "Nov 2-4: borrowing estimates, the quarterly refunding statement and advisory committee minutes, an Iran-related sanctions action and a meeting readout. Nothing on capital controls.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "Treasury Outbound Investment Security Program",
+   "url": "https://home.treasury.gov/policy-issues/international/outbound-investment-program",
+   "status": "Checked",
+   "note": "Page confirms the COINS Act proposal (Oct 22; comments due Dec 7). Law-firm alerts on Nov 2-3 describe it and Treasury's first program penalty (July 2026). No new action.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "OFAC recent actions",
+   "url": "https://ofac.treasury.gov/recent-actions",
+   "status": "Checked",
+   "note": "Through Nov 4: Iran-related designations and amended Venezuela- and Iran-related general licenses. Routine sanctions; nothing on U.S. persons' general transactions.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "FinCEN news",
+   "url": "https://www.fincen.gov/news",
+   "status": "Checked",
+   "note": "Latest items are from Oct 30 (the Minnesota alert, already tracked, and a FATF list notice). Nothing new Nov 2-5.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "FSOC",
+   "url": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/fsoc",
+   "status": "Partial",
+   "note": "Landing page only; no new meeting readout or annual report seen.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "Treasury officials' speeches",
+   "url": "https://home.treasury.gov/news/press-releases",
+   "status": "Partial",
+   "note": "No speech on payments or capital flows found Nov 2-5. Found Secretary Bessent's Oct 27 remarks calling dollar stablecoins an important source of Treasury funding (outside the window and consistent with existing stablecoin reserve rules; not itemized).",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "Fed press releases",
+   "url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+   "status": "Checked",
+   "note": "Nothing after Oct 29; no emergency lending or deposit actions.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "Fed speeches and testimony",
+   "url": "https://www.federalreserve.gov/newsevents/speech/2026-speeches.htm",
+   "status": "Checked",
+   "note": "No new speeches listed after Oct 14; searches found none on payments or deposits Nov 2-5.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "Fed Financial Stability Report",
+   "url": "https://www.federalreserve.gov/publications/financial-stability-report.htm",
+   "status": "Checked",
+   "note": "Latest is May 2026; the November edition hasn't been posted.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "Fed H.4.1",
+   "url": "https://www.federalreserve.gov/releases/h41/",
+   "status": "Checked",
+   "note": "Latest release is Oct 29 (already reviewed). The next release is due Nov 5 at 4:30 PM ET, after this run.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "FDIC press releases",
+   "url": "https://www.fdic.gov/news/press-releases",
+   "status": "Checked",
+   "note": "Nothing after Oct 30 (the provisional-hold proposal, tracked).",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "FDIC failed bank list",
+   "url": "https://www.fdic.gov/bank-failures/failed-bank-list",
+   "status": "Checked",
+   "note": "No failures since Nano Banc (Sept 25).",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "FDIC Financial Institution Letters",
+   "url": "https://www.fdic.gov/news/financial-institution-letters",
+   "status": "Checked",
+   "note": "FIL-64 and FIL-65 (disaster relief, Nov 2) and FIL-66 (Call Report changes, Nov 3). Nothing on capital controls.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "OCC",
+   "url": "https://www.occ.gov/",
+   "status": "Partial",
+   "note": "Site search only: Nov 4 supervisory framework on banks' use of AI and Nov 2 CRA evaluations. Nothing on capital controls.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "SEC press releases",
+   "url": "https://www.sec.gov/newsroom/press-releases",
+   "status": "Checked",
+   "note": "Nov 4 small-entity definitions and Oct 30 Treasury-clearing relief. No money market fund or redemption-limit actions.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "CFPB newsroom",
+   "url": "https://www.consumerfinance.gov/about-us/newsroom/",
+   "status": "Checked",
+   "note": "Nothing new since Oct 14 (debanking initiative).",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "CFTC press releases",
+   "url": "https://www.cftc.gov/PressRoom/PressReleases",
+   "status": "Checked",
+   "note": "Nov 3-4: equity perpetual futures statement, a USDA agreement and a fraud case. Nothing on capital controls.",
+   "last_success": "2026-11-05"
   },
   {
    "source": "White House presidential actions",
    "url": "https://www.whitehouse.gov/presidential-actions/",
    "status": "Checked",
-   "note": "Oct 16 to Nov 3 reviewed. Only EO 14436 was relevant; the rest were tariffs, proclamations and housing. Rechecked Nov 4 at 9:50 AM CST: nothing new.",
-   "last_success": "2026-11-04"
+   "note": "Nov 3 proclamations only. The Nov 3 emergency-continuation notices appeared in the Federal Register; the China securities notice is now tracked.",
+   "last_success": "2026-11-05"
   },
   {
-   "source": "Federal Register public inspection",
+   "source": "Congress.gov",
+   "url": "https://www.congress.gov/",
+   "status": "Partial",
+   "note": "No floor or committee action on tracked bills during the election break; Congress returns for a post-election session, and bills not enacted by Jan 3, 2027 expire. Found H.R. 10017 (Permanent CBDC Ban Act, Aug 3) and S. 4601 (Chinese CBDC Prohibition Act, May 20), both in committee.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "House Financial Services calendar",
+   "url": "https://financialservices.house.gov/calendar/",
+   "status": "Checked",
+   "note": "No hearings or markups since Sept 18; Congress was out for the Nov 3 election. No discussion drafts reviewed.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "Senate Banking Committee",
+   "url": "https://www.banking.senate.gov/",
+   "status": "Partial",
+   "note": "Site search found no hearings Nov 2-5.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "GAO",
+   "url": "https://www.gao.gov/",
+   "status": "Partial",
+   "note": "Site search found no new reports on payments, deposits or capital flows.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "CRS reports",
+   "url": "https://crsreports.congress.gov/",
+   "status": "Not checked",
+   "note": "Site search returned no results.",
+   "last_success": null
+  },
+  {
+   "source": "State bills (LegiScan)",
+   "url": "https://legiscan.com/",
+   "status": "Partial",
+   "note": "Most legislatures are out of session; no new bills on CBDCs, cash, gold, debanking or payment limits found. Nov 3 ballot measures searched; none on cash, gold or digital currency found, but the review wasn't complete.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "IMF publications and eLibrary",
+   "url": "https://www.elibrary.imf.org/",
+   "status": "Checked",
+   "note": "Nov 3-5: country program news only. No new papers on capital flow measures.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "BIS",
+   "url": "https://www.bis.org/",
+   "status": "Checked",
+   "note": "Nov 3 speeches on AI and Iceland's payment system; Nov 4 paper on future banking. An Oct 29 speech on deposit insurance discussed faster digital bank runs and stablecoin backstops, not withdrawal limits.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "FSB",
+   "url": "https://www.fsb.org/",
+   "status": "Checked",
+   "note": "Nothing new since mid-October.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "FATF",
+   "url": "https://www.fatf-gafi.org/",
+   "status": "Checked",
+   "note": "Oct 28-30 plenary outcomes: faster follow-up on virtual-asset standards and a report on scam compounds. No change to the payment-transparency (R.16) item.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "ECB digital euro",
+   "url": "https://www.ecb.europa.eu/euro/digital_euro/html/index.en.html",
+   "status": "Checked",
+   "note": "No change to holding limits. The ECB picked network-service providers for its pilot (Oct 30), and a Banque de France official said Nov 3 the ECB could commit to issuing in 2027, with launch in 2028.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "Bank of England digital pound",
+   "url": "https://www.bankofengland.co.uk/the-digital-pound",
+   "status": "Checked",
+   "note": "No decision yet. A Nov 3 news repost of the Bank's 2025 update had no new information.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "Bank of Canada",
+   "url": "https://www.bankofcanada.ca/",
+   "status": "Checked",
+   "note": "Nothing new on stablecoins or payments since the Oct 24 draft regulations.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "Atlantic Council CBDC Tracker",
+   "url": "https://www.atlanticcouncil.org/cbdctracker/",
+   "status": "Checked",
+   "note": "Still last updated May 2026.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "NBER",
+   "url": "https://www.nber.org/papers",
+   "status": "Checked",
+   "note": "November papers checked; none on capital controls or payment limits.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "Cato",
+   "url": "https://www.cato.org/blog",
+   "status": "Checked",
+   "note": "Nov 4 post on a survey showing Americans value financial privacy (commentary; not itemized).",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "Brookings Hutchins Center",
+   "url": "https://www.brookings.edu/centers/the-hutchins-center-on-fiscal-and-monetary-policy/",
+   "status": "Checked",
+   "note": "Oct 30 paper on the Fed's balance sheet; nothing on capital controls.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "PIIE",
+   "url": "https://www.piie.com/",
+   "status": "Checked",
+   "note": "Nothing relevant.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "AEI",
+   "url": "https://www.aei.org/",
+   "status": "Checked",
+   "note": "Nothing relevant since Oct 27.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "Heritage",
+   "url": "https://www.heritage.org/",
+   "status": "Checked",
+   "note": "Nothing relevant.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "Bank Policy Institute",
+   "url": "https://bpi.com/",
+   "status": "Checked",
+   "note": "Notes on payments and AI agents; nothing on capital controls.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "Coin Center",
+   "url": "https://www.coincenter.org/",
+   "status": "Checked",
+   "note": "Latest is its Oct 20 comment on Treasury's GENIUS Act issuance rule; nothing new.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "JD Supra",
+   "url": "https://www.jdsupra.com/",
+   "status": "Checked",
+   "note": "Alerts only on items already tracked (OCC stablecoin rule, outbound investment, Canada stablecoins).",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "Glenn Beck YouTube",
+   "url": "https://www.youtube.com/@glennbeck",
+   "status": "Checked",
+   "note": "The new 'Capital Controls' special's page loaded and was added as a fact-check. Channel listings and podcast indexes show the Nov 2-4 shows focused on the election, with no other money claims found.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "glennbeck.com",
+   "url": null,
+   "status": "Not checked",
+   "note": "Blocked or behind a sign-in. Used YouTube, channel listings and podcast indexes instead.",
+   "last_success": null
+  },
+  {
+   "source": "IRS remittance tax guidance",
+   "url": "https://www.irs.gov/newsroom/treasury-irs-issue-proposed-regulations-on-the-new-remittance-transfer-tax-established-under-the-one-big-beautiful-bill",
+   "status": "Checked",
+   "note": "No final regulations found; the April proposal and a June 12 notice are the latest Federal Register entries. The 1% tax on cash-funded transfers still applies.",
+   "last_success": "2026-11-05"
+  },
+  {
+   "source": "Other financial commentators (search)",
    "url": null,
    "status": "Checked",
-   "note": "Nov 4: 107 regular filings for Nov 5 publication and no special filings; nothing relevant. Nov 4 issue: the FDIC provisional-hold proposal (tracked); an IRS hearing notice on eligible investments for the new Trump Accounts (a voluntary new account type, not tracked). Rechecked at 9:50 AM CST.",
-   "last_success": "2026-11-04"
+   "note": "Searches found older 'capital controls are coming' pieces (a Grant Williams interview from April 2026 and a Nick Giambruno essay from Aug 2026), outside the window; not itemized.",
+   "last_success": "2026-11-05"
   }
  ],
  "raise_level_triggers": [
