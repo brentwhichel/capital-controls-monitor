@@ -3185,12 +3185,12 @@
   "crypto-exchange-withdrawal-pauses-2026-11": {
    "id": "crypto-exchange-withdrawal-pauses-2026-11",
    "section": "banking_stress",
-   "headline": "Hacks lead crypto exchanges outside the U.S. to pause withdrawals; Binance reopened after a record $6.3 billion theft",
-   "date": "2026-11-06",
+   "headline": "Hacks and hacking threats lead crypto exchanges outside the U.S. to halt withdrawals; South Korea's Gopax froze all trading, and Binance is still reopening in phases",
+   "date": "2026-11-07",
    "org": "Binance; Mercado Bitcoin (Brazil); Gopax (South Korea)",
    "who": "Private cryptocurrency exchanges",
-   "what_changed": "Binance, the world's largest crypto exchange, paused withdrawals for more than two days after hackers stole about $6.3 billion on Oct 29 (the FBI blamed North Korea), then reopened them by Nov 1; customers then pulled a net $4.72 billion, about 3% of its assets. Brazil's Mercado Bitcoin halted withdrawals Nov 2 after about $40 million was drained, and on Nov 6 South Korea's Gopax paused withdrawals as a precaution, in line with regulators' security advice.",
-   "summary": "These were company decisions to protect customer funds after thefts, not government limits on customers' money. Binance said it would cover losses. Stablecoin issuers Tether and Circle froze wallets holding stolen coins, about $3 billion in total, which shows the freeze ability that U.S. rules will require issuers to have for lawful orders. Binance.US, a separate U.S. platform, said it was not affected.",
+   "what_changed": "Binance, the world's largest crypto exchange, paused withdrawals after hackers stole about $6.3 billion on Oct 29 (the FBI blamed North Korea) and began reopening them in phases on Nov 1; customers then pulled a net $4.72 billion, about 3% of its assets. By Nov 6 it had reopened withdrawals for more than 62 more tokens and said it aimed to reopen the rest, including Litecoin and Aptos, by the end of the following week. Brazil's Mercado Bitcoin halted withdrawals Nov 2 after about $40 million was drained. On Nov 6 South Korea's Gopax halted withdrawals, then trading and deposits, after an email from a group claiming to have hacked it, cancelling all open orders; it said it acted on regulators' advice and that no assets had been lost. As of the morning of Nov 7 (Seoul time) Gopax had set no date to resume, though users could request withdrawals through customer support for manual review.",
+   "summary": "These were company decisions to protect customer funds after thefts or threats, not government limits on customers' money. Binance said it would cover losses, and Binance is Gopax's majority shareholder. Stablecoin issuers Tether and Circle froze wallets holding stolen coins, about $3 billion in total, which shows the freeze ability that U.S. rules will require issuers to have for lawful orders. Binance.US, a separate U.S. platform, said it was not affected by the hack.",
    "control_type": "None",
    "affected": "Sector or group",
    "stage": "In effect",
@@ -3201,12 +3201,40 @@
    "momentum": "",
    "verdict": "Confirmed",
    "why_it_matters": "Withdrawal pauses at big platforms can spread fear and claims that capital controls are starting, and the stablecoin freezes show how quickly issuers can block coins, an ability U.S. rules will soon require.",
-   "why_it_might_not": "The pauses were company security steps after thefts, at platforms outside the U.S., not orders from any government to limit customers' money, and Binance reopened withdrawals within days.",
+   "why_it_might_not": "The pauses were company security steps at platforms outside the U.S., not orders from any government to limit customers' money, and Binance has been reopening withdrawals within days.",
    "next_milestone": {
-    "what": "Recheck if platforms keep withdrawals paused or if any regulator orders limits",
+    "what": "Gopax restart (no date set) and Binance's target to reopen remaining tokens by mid-November; recheck if any regulator orders limits",
     "date": null
    },
    "sources": [
+    {
+     "title": "South Korean Gopax Suspends Withdrawals, Trading Following Hacking Threats",
+     "url": "https://www.bernama.com/en/world/news.php?id=2631282",
+     "publisher": "Bernama (Yonhap)",
+     "date": "2026-11-07",
+     "primary": false
+    },
+    {
+     "title": "Gopax trading freeze drags into second day",
+     "url": "https://www.ajupress.com/view/20261107092000779",
+     "publisher": "Aju Press",
+     "date": "2026-11-07",
+     "primary": false
+    },
+    {
+     "title": "Security Incident | Recovery Update No. 8: Withdrawals for Other Assets to Resume (05.11.2026)",
+     "url": "https://www.binance.com/en/square/post/384992929220990",
+     "publisher": "Binance",
+     "date": "2026-11-05",
+     "primary": true
+    },
+    {
+     "title": "Binance targets full withdrawal restoration for remaining tokens by next week",
+     "url": "https://cryptobriefing.com/binance-withdrawal-restoration-next-week/",
+     "publisher": "Crypto Briefing",
+     "date": "2026-11-06",
+     "primary": false
+    },
     {
      "title": "Binance clients pull $4.7 billion after hack as crypto world studies fallout",
      "url": "https://www.reuters.com/business/finance/binance-sees-outflows-stabilising-exchange-returns-online-after-63-billion-heist-2026-11-02/",
@@ -3234,13 +3262,6 @@
      "publisher": "CoinDesk",
      "date": "2026-11-02",
      "primary": false
-    },
-    {
-     "title": "Binance estimates security breach impact at $6.3 billion",
-     "url": "https://abcnews.com/Business/binance-estimates-security-breach-impact-63-billion/story?id=137698510",
-     "publisher": "ABC News",
-     "date": "2026-10-31",
-     "primary": false
     }
    ],
    "quote": {
@@ -3248,18 +3269,23 @@
     "source_url": "https://www.reuters.com/legal/litigation/south-korean-cryptoexchange-gopax-suspends-withdrawals-amid-hacking-concerns-2026-11-06/"
    },
    "first_seen": "2026-11-06",
-   "last_change": "2026-11-06",
-   "status": "NEW",
+   "last_change": "2026-11-07",
+   "status": "EXPANDED",
    "open": true,
    "status_history": [
     {
      "date": "2026-11-06",
      "status": "NEW",
      "stage": "In effect"
+    },
+    {
+     "date": "2026-11-07",
+     "status": "EXPANDED",
+     "stage": "In effect"
     }
    ],
-   "updated_on": "2026-11-06",
-   "plain": "Hackers stole about $6.3 billion in crypto (digital coins) from a big firm outside the U.S. It paused withdrawals for over two days for safety, and no government ordered it."
+   "updated_on": "2026-11-07",
+   "plain": "Some crypto (digital coin) firms outside the U.S. paused withdrawals after hacks or hack threats. One in South Korea also froze trading on Nov 6, as a safety step, not a government limit."
   },
   "h41-2026-11-05-discount-window": {
    "id": "h41-2026-11-05-discount-window",
@@ -3311,6 +3337,257 @@
    ],
    "updated_on": "2026-11-06",
    "plain": "A weekly report from the Fed, the nation's central bank, shows its short-term loans to banks averaged about $10 billion. That is a bit more than a year ago, with no emergency lending."
+  },
+  "2026-22809": {
+   "id": "2026-22809",
+   "section": "counter_signal",
+   "headline": "FinCEN and the Fed drop a 2020 plan to cut the record-keeping threshold for transfers abroad from $3,000 to $250",
+   "date": "2026-11-06",
+   "org": "FinCEN (Treasury) and the Federal Reserve Board",
+   "what_changed": "On Nov 6, 2026, FinCEN and the Fed announced they are withdrawing their October 2020 joint proposal (85 FR 68005; RIN 1506-AB41). The withdrawal notice (FR Doc 2026-22809) was filed for public inspection on Nov 6 and is scheduled for publication on Nov 9, when the withdrawal takes effect.",
+   "summary": "The 2020 proposal would have lowered, from $3,000 to $250, the amount at which banks and money transmitters must collect and keep sender and recipient details on funds transfers that begin or end outside the U.S., and the amount at which FinCEN's travel rule requires passing those details along the payment chain. It also would have stated that these rules cover crypto and digital assets with legal-tender status. The agencies said they received nearly 3,000 comments, mostly opposed; that more than five years had passed; and that crypto markets and laws, including the GENIUS Act, have changed. They said no similar final rule will be issued without a new chance for public comment. The $3,000 threshold stays in place.",
+   "control_type": "Visibility",
+   "affected": "All Americans",
+   "stage": "Adopted",
+   "tier": null,
+   "signal_numbers": [
+    1
+   ],
+   "direction": "Away from controls",
+   "evidence": "Official document",
+   "why_it_matters": "It retires a long-pending plan that would have brought far more everyday transfers abroad, such as family remittances, under record-keeping and pass-along requirements, and the agencies committed to new public comment before trying anything similar.",
+   "why_it_might_not": "The existing $3,000 rules stay in place, and the agencies left room for future changes aimed at crypto. Tighter reporting can still come through other tools, such as geographic targeting orders like the Minnesota and Southwest border orders, or rules to carry out FATF's new payment-transparency standard.",
+   "next_milestone": {
+    "what": "Withdrawal notice publishes in the Federal Register and takes effect",
+    "date": "2026-11-09"
+   },
+   "sources": [
+    {
+     "title": "Threshold for the Requirement to Collect, Retain, and Transmit Information on Funds Transfers ...; Withdrawal (FR Doc 2026-22809, public inspection copy)",
+     "url": "https://public-inspection.federalregister.gov/2026-22809.pdf",
+     "publisher": "Federal Register (FinCEN and Federal Reserve Board)",
+     "date": "2026-11-06",
+     "primary": true
+    },
+    {
+     "title": "FinCEN Announces Withdrawal of Proposed Rule Related to Recordkeeping and Travel Rule Obligations",
+     "url": "https://www.fincen.gov/news/news-releases/fincen-announces-withdrawal-proposed-rule-related-recordkeeping-and-travel-rule",
+     "publisher": "FinCEN",
+     "date": "2026-11-06",
+     "primary": true
+    },
+    {
+     "title": "US Treasury walks back crypto surveillance 'travel rule' proposal",
+     "url": "https://www.theblock.co/news/regulation/2026-11-06-us-treasury-walks-back-crypto-surveillance-travel-rule-proposal-435951",
+     "publisher": "The Block",
+     "date": "2026-11-06",
+     "primary": false
+    },
+    {
+     "title": "Treasury and the Federal Reserve withdraw another 2020 financial surveillance proposal (blog listing)",
+     "url": "https://coincenter.org/blog/",
+     "publisher": "Coin Center",
+     "date": "2026-11-06",
+     "primary": false
+    }
+   ],
+   "quote": {
+    "text": "no final rule will be issued without an additional opportunity for public comment",
+    "source_url": "https://public-inspection.federalregister.gov/2026-22809.pdf"
+   },
+   "first_seen": "2026-11-07",
+   "last_change": "2026-11-06",
+   "status": "NEW",
+   "open": true,
+   "status_history": [
+    {
+     "date": "2026-11-07",
+     "status": "NEW",
+     "stage": "Adopted"
+    }
+   ],
+   "updated_on": "2026-11-07",
+   "plain": "FinCEN (a Treasury office) and the Fed (the U.S. central bank) dropped a 2020 plan to track more small transfers to and from other countries. The cutoff for keeping records stays at $3,000, not $250."
+  },
+  "fincen-9714-mexc-global": {
+   "id": "fincen-9714-mexc-global",
+   "section": "official_us",
+   "headline": "FinCEN orders U.S. financial institutions to stop moving money to or from MEXC Global, a large offshore crypto exchange",
+   "date": "2026-11-06",
+   "org": "FinCEN (Treasury)",
+   "what_changed": "On Nov 6, 2026, FinCEN issued an order under section 9714(a) of the Combating Russian Money Laundering Act finding MEXC Global, a Seychelles-incorporated crypto exchange, to be of primary money laundering concern in connection with Russian illicit finance. The order bars covered U.S. financial institutions from any transmittal of funds to or from MEXC Global. It takes effect 30 days after it is published in the Federal Register; publication was still pending on Nov 7.",
+   "summary": "Treasury says MEXC Global, one of the 20 largest crypto exchanges in the world, facilitated at least $16 billion in transactions tied to Iranian, North Korean and Russian sanctions evasion and to cybercrime between May 2021 and May 2026. The order covers MEXC's subsidiaries, branches, offices and successors outside the U.S., and it explains how covered institutions should handle crypto that arrives from MEXC when it can't be rejected. It doesn't change existing reporting or sanctions duties and has no end date. MEXC said its operations were normal and that it had started an independent review of its anti-money-laundering and sanctions controls. The order names one foreign company; it doesn't limit transfers to other platforms or ordinary transfers abroad.",
+   "control_type": "Prohibition",
+   "affected": "Named parties",
+   "stage": "Adopted",
+   "tier": null,
+   "signal_numbers": [],
+   "direction": "Neutral",
+   "evidence": "Official document",
+   "why_it_matters": "It's a direct ban on a channel for moving money, imposed with an anti-money-laundering power rather than ordinary sanctions, against one of the world's larger crypto exchanges. It shows how quickly U.S. institutions can be cut off from a named platform.",
+   "why_it_might_not": "It covers one offshore exchange that Treasury ties to sanctions evasion and cybercrime. Ordinary transfers abroad and other platforms aren't affected, and FinCEN has used similar orders against other named foreign institutions.",
+   "next_milestone": {
+    "what": "Federal Register publication; the order takes effect 30 days later (dates not yet set)",
+    "date": null
+   },
+   "sources": [
+    {
+     "title": "Operation Economic Outcast Severs MEXC Global's Access to the U.S. Financial System",
+     "url": "https://home.treasury.gov/news/press-releases/sb0685/",
+     "publisher": "U.S. Department of the Treasury",
+     "date": "2026-11-06",
+     "primary": true
+    },
+    {
+     "title": "FinCEN Order 9714(a): Imposition of Special Measure Prohibiting the Transmittal of Funds Involving MEXC Global (pre-publication copy)",
+     "url": "https://www.fincen.gov/system/files/2026-11/MEXC-Section-9714.pdf",
+     "publisher": "FinCEN",
+     "date": "2026-11-06",
+     "primary": true
+    },
+    {
+     "title": "Operation Economic Outcast Severs MEXC Global's Access to the U.S. Financial System",
+     "url": "https://www.fincen.gov/news/news-releases/operation-economic-outcast-severs-mexc-globals-access-us-financial-system",
+     "publisher": "FinCEN",
+     "date": "2026-11-06",
+     "primary": true
+    },
+    {
+     "title": "MEXC Responds to FinCEN Order: Operations Normal, Independent Review Initiated",
+     "url": "https://www.chaincatcher.com/en/article/2302553",
+     "publisher": "ChainCatcher",
+     "date": "2026-11-06",
+     "primary": false
+    }
+   ],
+   "quote": {
+    "text": "prevents U.S. financial institutions from processing funds transfers involving MEXC Global",
+    "source_url": "https://www.fincen.gov/news/news-releases/operation-economic-outcast-severs-mexc-globals-access-us-financial-system"
+   },
+   "first_seen": "2026-11-07",
+   "last_change": "2026-11-06",
+   "status": "NEW",
+   "open": true,
+   "status_history": [
+    {
+     "date": "2026-11-07",
+     "status": "NEW",
+     "stage": "Adopted"
+    }
+   ],
+   "updated_on": "2026-11-07",
+   "plain": "FinCEN (a Treasury office that fights money crimes) told U.S. banks and payment firms to stop sending money to or from MEXC. That is a big crypto (digital coin) site based abroad, and the order covers only it."
+  },
+  "intl-imf-stablecoin-flows-capital-controls": {
+   "id": "intl-imf-stablecoin-flows-capital-controls",
+   "section": "international",
+   "headline": "IMF research: stablecoin use rises about 30% after countries restrict money leaving; IMF staff weigh policies on dollar stablecoins",
+   "date": "2026-10-08",
+   "org": "International Monetary Fund (staff papers)",
+   "who": "IMF staff authors; views not those of the IMF Board or management",
+   "what_changed": "An Oct 1, 2026 IMF working paper (No. 2026/211) estimated stablecoin flows for 188 countries, and an Oct 8 departmental paper (No. 2026/021) set out initial policy considerations for foreign-currency stablecoins. Both came out before the first report; added Nov 7 for context, not as new movement.",
+   "summary": "The working paper estimates $21.4 trillion in gross international stablecoin flows from 2018 to 2025, with emerging and developing economies holding three quarters of stablecoins. It finds stablecoin activity rises about 30% in the six months after a country restricts capital outflows and doesn't fall back when the restrictions end, and that holdings rise about 75% within a year of a currency crisis. The departmental paper says stablecoins issued mostly in U.S. dollars by a few jurisdictions could reshape capital flows and currency substitution in other countries, and it outlines possible responses on macro-financial policy, regulation, data collection and international cooperation. These are staff views, not official IMF policy.",
+   "control_type": "None",
+   "affected": "Sector or group",
+   "stage": "Study or pilot",
+   "tier": null,
+   "signal_numbers": [],
+   "direction": "Neutral",
+   "evidence": "Official document",
+   "momentum": "New",
+   "official_acknowledgment": "IMF staff research with standard disclaimers",
+   "linked_bills_or_rules": "None",
+   "verdict": "Confirmed",
+   "us_link": "Most stablecoins are U.S.-dollar coins issued by a few firms, so other countries' responses could affect how dollar stablecoins move across borders. The papers concern other countries' policies, not limits on Americans.",
+   "why_it_matters": "It documents people turning to stablecoins when their countries restrict money leaving, which could push governments to aim future capital controls at stablecoin flows.",
+   "why_it_might_not": "It's research and early policy thinking about other countries, not a recommendation to limit Americans, and the U.S. already regulates its own dollar stablecoins under the GENIUS Act.",
+   "next_milestone": {
+    "what": "Any IMF guidance or country measures aimed at stablecoin flows (none scheduled)",
+    "date": null
+   },
+   "sources": [
+    {
+     "title": "International Stablecoin Flows, Capital Controls and Currency Crises (IMF WP 2026/211)",
+     "url": "https://www.imf.org/en/publications/wp/issues/2026/10/02/international-stablecoin-flows-capital-controls-and-currency-crises-579853",
+     "publisher": "International Monetary Fund",
+     "date": "2026-10-01",
+     "primary": true
+    },
+    {
+     "title": "Foreign Currency Stablecoins: Initial Considerations on Policies to Manage and Enhance Macro-Financial Stability (Departmental Paper 2026/021)",
+     "url": "https://www.imf.org/en/publications/departmental-papers-policy-papers/issues/2026/10/09/foreign-currency-stablecoins-initial-considerations-on-policies-to-manage-and-enhance-579417",
+     "publisher": "International Monetary Fund",
+     "date": "2026-10-08",
+     "primary": true
+    }
+   ],
+   "quote": {
+    "text": "dollarization may now also operate through stablecoins",
+    "source_url": "https://www.imf.org/en/publications/wp/issues/2026/10/02/international-stablecoin-flows-capital-controls-and-currency-crises-579853"
+   },
+   "first_seen": "2026-11-07",
+   "last_change": "2026-10-08",
+   "status": "BASELINE",
+   "open": true,
+   "status_history": [
+    {
+     "date": "2026-11-07",
+     "status": "BASELINE",
+     "stage": "Study or pilot"
+    }
+   ],
+   "updated_on": "2026-11-07",
+   "plain": "IMF staff (part of a world group that lends to countries) found people use more stablecoins, or digital dollars made by companies, when their country limits money leaving. The study looks at other countries."
+  },
+  "us-stocks-selloff-2026-11-05": {
+   "id": "us-stocks-selloff-2026-11-05",
+   "section": "banking_stress",
+   "headline": "U.S. stocks have their worst day since April 2025; no bank or fund withdrawal limits reported",
+   "date": "2026-11-05",
+   "org": "U.S. stock markets",
+   "who": "Markets (no government action)",
+   "what_changed": "On Thursday, Nov 5, the Nasdaq fell 5.5%, the S&P 500 4.4% and the Dow 3.4% (more than 1,800 points), the three averages' worst one-day losses since April 2025, as worries grew about a slowdown in data center construction after the Nov 3 election. On Friday, Nov 6, the Nasdaq rose 1.09% and the S&P 500 0.31%, while the Dow slipped 0.46%.",
+   "summary": "Trading continued normally the next day, and we found no reports of U.S. banks limiting withdrawals or of funds limiting redemptions. A falling stock market isn't a capital control: it changes what investments are worth, not whether people can withdraw or move their money.",
+   "control_type": "None",
+   "affected": "Sector or group",
+   "stage": "In effect",
+   "tier": null,
+   "signal_numbers": [],
+   "direction": "Neutral",
+   "evidence": "Credible reporting",
+   "verdict": "Confirmed",
+   "why_it_matters": "Sharp market drops can strain funds and lenders and often fuel claims that limits on withdrawals are coming, so this monitor watches for redemption gates, liquidity fees or bank limits during selloffs.",
+   "why_it_might_not": "Prices rise and fall, and a one-day drop doesn't limit anyone's access to their money. Markets stayed open, and the Nasdaq and S&P 500 partly recovered the next day.",
+   "next_milestone": {
+    "what": "Next weekly Fed balance sheet (H.4.1) and money market fund data",
+    "date": "2026-11-12"
+   },
+   "sources": [
+    {
+     "title": "Nasdaq rebounds 1% following worst session in 18 months as traders snap up tech shares: Live updates",
+     "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html",
+     "publisher": "CNBC",
+     "date": "2026-11-06",
+     "primary": false
+    }
+   ],
+   "quote": {
+    "text": "",
+    "source_url": ""
+   },
+   "first_seen": "2026-11-07",
+   "last_change": "2026-11-05",
+   "status": "NEW",
+   "open": true,
+   "status_history": [
+    {
+     "date": "2026-11-07",
+     "status": "NEW",
+     "stage": "In effect"
+    }
+   ],
+   "updated_on": "2026-11-07",
+   "plain": "Stock prices fell sharply on Nov 5, the worst day since April 2025. Markets stayed open, and we found no U.S. bank or fund that limited withdrawals."
   }
  },
  "levels": [
@@ -3325,39 +3602,51 @@
   {
    "date": "2026-11-06",
    "level": "YELLOW"
+  },
+  {
+   "date": "2026-11-07",
+   "level": "YELLOW"
   }
  ],
  "github_user": "brentwhichel",
  "repo": "capital-controls-monitor",
  "monitor": "Capital Controls Early-Warning Monitor",
  "report": {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "level": "YELLOW",
-  "bottom_line": "No limits on ordinary Americans' withdrawals or transfers are in effect or proposed, and the past day brought no new official step toward controls; the new items are a Fed official's speech noting that money moves freely in and out of the U.S., and withdrawal pauses at crypto exchanges abroad after hacks, which were company security steps rather than government limits.",
-  "level_reason": "The level stays YELLOW because official Tier 1 steps from the past 30 days (targeted cross-border reporting, a wider outbound-investment proposal, stablecoin freeze rules) remain pending or in effect, and the one Tier 2 item, the FDIC provisional-hold proposal, applies only after a bank fails. Nothing new rises above that: today's additions are a speech and private companies' security steps outside the U.S., and neither is a government measure that could raise the level.",
-  "change_text": "Yesterday: YELLOW. Today: YELLOW, unchanged. New since the previous report: a Nov 5 speech by the Cleveland Fed's president describing the open U.S. capital account as a strength of the dollar, and withdrawal pauses at crypto exchanges outside the U.S. after hacks (Binance reopened withdrawals by Nov 1 after a record theft; South Korea's Gopax paused them Nov 6 as a precaution). The Fed's weekly balance sheet showed routine discount-window use and no emergency lending. Unofficial Nov 3 election results give Democrats control of both chambers of Congress from Jan 3, 2027; the current Congress returns Nov 9, and no tracked bill moved.",
-  "flags_lede": "What's new or changed since the previous report on Nov 5, 2026.",
+  "bottom_line": "No limits on ordinary Americans' withdrawals or transfers are in effect or proposed, and the past day's two official steps pointed in different directions: FinCEN and the Fed dropped a 2020 plan to cut the record-keeping threshold for transfers abroad from $3,000 to $250, while FinCEN ordered U.S. financial institutions to stop moving money to or from MEXC Global, an offshore crypto exchange it ties to sanctions evasion.",
+  "level_reason": "The level stays YELLOW because official Tier 1 steps from the past 30 days (targeted cross-border reporting, the wider outbound-investment proposal, stablecoin freeze rules) remain pending or in effect, and the one Tier 2 item, the FDIC provisional-hold proposal, applies only after a bank fails. Today's new prohibition, the MEXC order, names a single foreign company, so it counts toward YELLOW rather than ORANGE; the withdrawn $250 plan eases reporting, and the stock-market drop and the crypto-exchange pauses abroad involved no government limits on ordinary Americans.",
+  "change_text": "Yesterday: YELLOW. Today: YELLOW, unchanged. New since the previous report: on Nov 6 FinCEN and the Fed withdrew their October 2020 proposal to lower the record-keeping and travel-rule threshold for transfers that begin or end outside the U.S. from $3,000 to $250 (the withdrawal publishes Nov 9); FinCEN issued a section 9714 order barring U.S. financial institutions from transmitting funds to or from MEXC Global, effective 30 days after Federal Register publication; South Korea's Gopax froze trading, deposits and withdrawals after a hacking threat and was still frozen on Nov 7, while Binance kept reopening withdrawals in phases; and U.S. stocks had their worst day since April 2025 on Nov 5, with no bank or fund withdrawal limits reported. The full list of rules under White House review was readable for the first time: Treasury's only pending item is an IRS proposal on U.S. crypto brokers reporting on foreign customers, and a CFTC proposal titled 'Regulation Customer Protection and Identification' arrived for review Nov 2 (its text isn't public). Congress returns Nov 9; no tracked bill moved. Two October IMF papers on stablecoins and capital controls were added for context.",
+  "flags_lede": "What's new or changed since the previous report on Nov 6, 2026.",
   "flags": [
    {
-    "id": "crypto-exchange-withdrawal-pauses-2026-11",
+    "id": "fincen-9714-mexc-global",
     "movement": "NEW"
    },
    {
-    "id": "cleveland-fed-hammack-2026-11-05",
+    "id": "2026-22809",
     "movement": "NEW"
+   },
+   {
+    "id": "us-stocks-selloff-2026-11-05",
+    "movement": "NEW"
+   },
+   {
+    "id": "crypto-exchange-withdrawal-pauses-2026-11",
+    "movement": "EXPANDED"
    }
   ],
-  "sources_checked_through": "2026-11-06T07:29:38-05:00",
-  "refreshed_at": "2026-11-06T06:31:41-06:00",
+  "sources_checked_through": "2026-11-07T07:32:08-05:00",
+  "refreshed_at": "2026-11-07T06:34:09-06:00",
   "plain": {
-   "today": "Nothing stops regular people from taking out, moving or saving their money. The extra checks we track are still in place, and the government took no new step toward limits since yesterday.",
-   "worry": "Not right now. On Nov 5, a leader at the Federal Reserve (the U.S. central bank) said money can move freely in and out of the country. Some crypto companies in other countries paused withdrawals after hackers stole coins. Those were company safety steps, not government limits.",
+   "today": "Nothing stops regular people from taking out, moving or saving their money. The extra checks we track are still in place, and on Nov 6 the government dropped one plan for more tracking.",
+   "worry": "Not right now. On Nov 6, the government dropped a plan to track more small money transfers to other countries. It also told U.S. banks to stop moving money to or from one foreign crypto company it says helped criminals. Stocks fell hard on Nov 5, but we found no limits on taking money out.",
    "watch": [
     "A cap on how much money people can send to other countries.",
     "Limits on how much cash people can take out of the bank.",
-    "An order that freezes or blocks money for most people."
+    "An order that freezes or blocks money for most people, not just a few named companies."
    ],
-   "changes_lede": "We found no new government rules since yesterday, but we added a Fed speech and some crypto news."
+   "changes_lede": "We found two government steps, one that eases tracking and one aimed at one foreign company, plus stock and crypto news."
   },
   "layout": "v2-plain-first"
  },
@@ -3367,6 +3656,18 @@
    "what": "Current Congress returns for its post-election session; tracked bills can still move until Jan 3",
    "item_id": "hr8995-119",
    "url": "https://www.hngn.com/articles/273714/20261105/lame-duck-congress-returns-funding-deadline-democrats-waiting.htm"
+  },
+  {
+   "date": "2026-11-09",
+   "what": "FinCEN/Fed withdrawal of the 2020 $250 transfer-threshold proposal publishes in the Federal Register and takes effect",
+   "item_id": "2026-22809",
+   "url": "https://public-inspection.federalregister.gov/2026-22809.pdf"
+  },
+  {
+   "date": "2026-11-12",
+   "what": "Next weekly Fed balance sheet (H.4.1): discount-window and emergency lending",
+   "item_id": "h41-2026-11-05-discount-window",
+   "url": "https://www.federalreserve.gov/releases/h41/"
   },
   {
    "date": "2026-11-30",
@@ -3482,364 +3783,364 @@
    "source": "Federal Register public inspection (current)",
    "url": "https://www.federalregister.gov/public-inspection/current",
    "status": "Checked",
-   "note": "Nov 5 regular filing (76 documents for Nov 6) and special filing (11 documents) scanned: Medicare payment rules, an export-control extension and two proclamations. Nothing on capital controls. Today's regular filing posts at 8:45 AM ET, after this run.",
-   "last_success": "2026-11-06"
+   "note": "Nov 6 regular filing (91 documents for Nov 9) and special filing (12 documents) scanned. Relevant: the FinCEN/Fed withdrawal of the 2020 $250 transfer-threshold proposal (2026-22809, publishes Nov 9; added). Otherwise Medicare rules, an export-control extension, OFAC and SEC notices; one OFAC notice was withdrawn by the agency. FinCEN's MEXC order isn't on file yet.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "Federal Register documents (via web search)",
    "url": "https://www.federalregister.gov/",
    "status": "Partial",
-   "note": "Nov 6 issue table of contents (80 documents) reviewed; Treasury items were customs and IRS paperwork notices. FinCEN's 2026 index (as of Nov 4) shows nothing after its Oct 5 actions. Search pages and the API don't load, so some notices may have been missed.",
-   "last_success": "2026-11-06"
+   "note": "FinCEN's 2026 index (as of Nov 6) lists 21 documents and nothing new since the October withdrawals; the MEXC order and the threshold withdrawal are pending publication. Search pages and the API don't load, so some notices may have been missed.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "OIRA rules under review",
    "url": "https://www.reginfo.gov/public/do/eoReviewSearch",
-   "status": "Partial",
-   "note": "List dated Nov 5 loaded but was cut off after Homeland Security entries; Treasury, banking-agency, SEC and CFPB entries weren't visible. A site search found no new Treasury or FinCEN entries.",
-   "last_success": "2026-11-06"
+   "status": "Checked",
+   "note": "The full Nov 5 list was readable this time, plus the CFTC list dated Nov 6. Treasury's only pending item is an IRS proposal for U.S. crypto brokers to report on foreign customers under the OECD framework (RIN 1545-BQ82), under review since Nov 14, 2025. Also pending: a CFTC proposal titled 'Regulation Customer Protection and Identification' (received Nov 2), an SEC crypto broker-dealer custody proposal (Nov 3) and a CFPB open-banking reconsideration. Texts aren't public; none itemized.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "Unified Agenda",
    "url": "https://www.reginfo.gov/public/do/eAgendaMain",
    "status": "Partial",
-   "note": "Main page only. No change from the last check (FinCEN 1506-AB60 and 1506-AB72); other agencies' entries not reviewed one by one.",
-   "last_success": "2026-11-06"
+   "note": "Main page only. No change from the last check; the IRS crypto-broker reporting entry (1545-BQ82) targeted a July 2026 proposal that is now under review.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "Regulations.gov",
    "url": "https://www.regulations.gov/",
    "status": "Partial",
    "note": "Home page and trending dockets only; nothing relevant.",
-   "last_success": "2026-11-06"
+   "last_success": "2026-11-07"
   },
   {
    "source": "Treasury press releases",
    "url": "https://home.treasury.gov/news/press-releases",
-   "status": "Checked",
-   "note": "Nov 4-5: quarterly refunding documents, sanctions on scam networks and Opportunity Zone designations. Nothing on capital controls.",
-   "last_success": "2026-11-06"
+   "status": "Partial",
+   "note": "The list page served an older copy (to Oct 30), but searches found the Nov 6 MEXC order release (added), Nov 6 sanctions on eight Canadian money services businesses tied to Iran, Nov 4 sanctions on a maritime fraud network and Nov 3 borrowing-committee minutes.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "Treasury Outbound Investment Security Program",
    "url": "https://home.treasury.gov/policy-issues/international/outbound-investment-program",
    "status": "Checked",
-   "note": "Page unchanged: COINS Act proposal (Oct 22; comments due Dec 7). Law-firm alerts on Nov 3-6 describe it; no new Treasury action.",
-   "last_success": "2026-11-06"
+   "note": "Page unchanged: COINS Act proposal (Oct 22; comments due Dec 7). Law-firm alerts Nov 2-4 describe it; no new Treasury action.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "OFAC recent actions",
    "url": "https://ofac.treasury.gov/recent-actions",
    "status": "Checked",
-   "note": "Nov 5: a Cuba sector determination under EO 14404 plus Cuba-related, cyber and transnational-crime designations. Sanctions on named parties and a named country; nothing on Americans' general transactions.",
-   "last_success": "2026-11-06"
+   "note": "Nov 6: Iran-related designations, including eight Canadian money services businesses. Nov 5: cyber, transnational-crime and Cuba actions. Sanctions on named parties; nothing on Americans' general transactions.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "FinCEN news",
    "url": "https://www.fincen.gov/news",
    "status": "Checked",
-   "note": "Latest items are still from Oct 30 (the Minnesota alert, tracked, and a FATF list notice). Nothing new Nov 3-6.",
-   "last_success": "2026-11-06"
+   "note": "Nov 6: the MEXC Global order and the withdrawal of the 2020 transfer-threshold proposal (both added). Nothing else since Oct 30.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "FSOC",
    "url": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/fsoc",
    "status": "Partial",
    "note": "Landing page only; no new meeting readout or annual report seen.",
-   "last_success": "2026-11-06"
+   "last_success": "2026-11-07"
   },
   {
    "source": "Treasury officials' speeches",
    "url": "https://home.treasury.gov/news/press-releases",
    "status": "Partial",
-   "note": "No Treasury speech on payments or capital flows found Nov 3-6. Nov 3 coverage revisited Secretary Bessent's Oct 27 view of stablecoins as a Treasury funding source (already noted; not itemized).",
-   "last_success": "2026-11-06"
+   "note": "No Treasury speech on payments or capital flows found Nov 4-7; Secretary Bessent's comments came in the Nov 6 sanctions and MEXC releases.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "Fed press releases",
    "url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
-   "status": "Checked",
-   "note": "Nothing after Oct 29; no emergency lending or deposit actions.",
-   "last_success": "2026-11-06"
+   "status": "Partial",
+   "note": "The list page served an older copy (to Oct 29). The Board co-signed FinCEN's Nov 6 withdrawal notice. No emergency lending or deposit actions found.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "Fed speeches and testimony",
    "url": "https://www.federalreserve.gov/newsevents/speech/2026-speeches.htm",
-   "status": "Checked",
-   "note": "Board list shows no new speeches after Oct 14; Vice Chair for Supervision Bowman speaks today at 12:15 PM ET, after this run. Cleveland Fed President Hammack's Nov 5 speech on reserve currencies and stablecoins was added as a counter-signal.",
-   "last_success": "2026-11-06"
+   "status": "Partial",
+   "note": "The Board's list served an older copy (to Oct 14). Vice Chair for Supervision Bowman's Nov 6 fireside chat covered AI, cyber exams and fraud, with nothing on capital controls; she speaks again Nov 9 on community banking.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "Fed Financial Stability Report",
    "url": "https://www.federalreserve.gov/publications/financial-stability-report.htm",
    "status": "Checked",
-   "note": "Latest is May 2026; the November edition hasn't been posted and isn't on the Fed's November calendar.",
-   "last_success": "2026-11-06"
+   "note": "Latest is May 2026; the November edition hasn't been posted.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "Fed H.4.1",
    "url": "https://www.federalreserve.gov/releases/h41/",
-   "status": "Checked",
-   "note": "Nov 5 release (week ended Nov 4): primary credit averaged $9,983 million, up $482 million on the week; secondary credit and other credit extensions $0. Next release Nov 12.",
-   "last_success": "2026-11-06"
+   "status": "Partial",
+   "note": "The page served an older copy (Oct 22). The Nov 5 release recorded yesterday is still the latest; next release Nov 12.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "FDIC press releases",
    "url": "https://www.fdic.gov/news/press-releases",
    "status": "Checked",
-   "note": "Nov 5: CRA exam list and small-business lending data. Nothing after the Oct 30 provisional-hold proposal (tracked).",
-   "last_success": "2026-11-06"
+   "note": "Nothing after Nov 5 (CRA exam list, small-business lending data).",
+   "last_success": "2026-11-07"
   },
   {
    "source": "FDIC failed bank list",
    "url": "https://www.fdic.gov/bank-failures/failed-bank-list",
    "status": "Checked",
    "note": "No failures since Nano Banc (Sept 25).",
-   "last_success": "2026-11-06"
+   "last_success": "2026-11-07"
   },
   {
    "source": "FDIC Financial Institution Letters",
    "url": "https://www.fdic.gov/news/financial-institution-letters",
    "status": "Checked",
    "note": "Nothing after FIL-66 (Call Report changes, Nov 3).",
-   "last_success": "2026-11-06"
+   "last_success": "2026-11-07"
   },
   {
    "source": "OCC",
    "url": "https://www.occ.gov/",
    "status": "Partial",
-   "note": "Site search only: Nov 4 supervisory framework on banks' use of advanced AI and Nov 5 small-business lending data. Nothing on capital controls.",
-   "last_success": "2026-11-06"
+   "note": "Newsroom via search: latest items Nov 5 (lending data) and Nov 4 (AI supervisory framework). Nothing on capital controls.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "SEC press releases",
    "url": "https://www.sec.gov/newsroom/press-releases",
    "status": "Checked",
-   "note": "Nothing after Nov 4 (small-entity definitions). No money market fund or redemption-limit actions.",
-   "last_success": "2026-11-06"
+   "note": "Nothing after Nov 4. The Nov 9 Federal Register will carry an SEC exemptive order on Treasury clearing; no money fund or redemption actions.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "CFPB newsroom",
    "url": "https://www.consumerfinance.gov/about-us/newsroom/",
    "status": "Checked",
-   "note": "Nothing new since Oct 14 (debanking initiative). A Fair Lending Report notice appears in the Nov 6 Federal Register.",
-   "last_success": "2026-11-06"
+   "note": "Nothing new since Oct 14 (debanking initiative).",
+   "last_success": "2026-11-07"
   },
   {
    "source": "CFTC press releases",
    "url": "https://www.cftc.gov/PressRoom/PressReleases",
    "status": "Checked",
-   "note": "Nov 5: an impartial-access interpretation and staff guidance on using trust companies for daily settlements. Nothing on capital controls.",
-   "last_success": "2026-11-06"
+   "note": "Nothing after Nov 5. A CFTC customer protection and identification proposal is under White House review (received Nov 2).",
+   "last_success": "2026-11-07"
   },
   {
    "source": "White House presidential actions",
    "url": "https://www.whitehouse.gov/presidential-actions/",
    "status": "Checked",
-   "note": "Nothing new since the Nov 3 proclamations.",
-   "last_success": "2026-11-06"
+   "note": "Only a Nov 5 proclamation on an Oval Office national monument since the Nov 3 items; nothing financial.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "Congress.gov",
    "url": "https://www.congress.gov/",
    "status": "Partial",
-   "note": "No floor or committee action on tracked bills. Unofficial Nov 3 results give Democrats control of both chambers from Jan 3, 2027; the current Congress returns Nov 9, with a Dec 11 funding deadline. Searches also surfaced the July 22 Wyden-Neal retirement bill (S. 5040/H.R. 9813), which bars new IRA contributions and requires withdrawals only for high earners with more than $10 million saved; it's a tax measure that doesn't limit withdrawals, rollovers or investment choices, so it's not itemized.",
-   "last_success": "2026-11-06"
+   "note": "The home page served an old copy. The House floor list for the week of Nov 9 has nuclear-energy and small-business bills, none tracked. No action on tracked bills; Congress returns Nov 9.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "House Financial Services calendar",
    "url": "https://financialservices.house.gov/calendar/",
    "status": "Checked",
-   "note": "No hearings or markups since Sept 18. Rep. Bill Foster, the top Democrat on the Financial Institutions Subcommittee, released a Nov 5 discussion draft (Real-Time Regulatory Study Act) on giving regulators real-time data on banks' condition; it doesn't touch customers' money, so it's not itemized.",
-   "last_success": "2026-11-06"
+   "note": "No hearings or markups since Sept 18, and none posted yet for the post-election session.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "Senate Banking Committee",
    "url": "https://www.banking.senate.gov/",
    "status": "Partial",
-   "note": "Site search found no hearings Nov 3-6.",
-   "last_success": "2026-11-06"
+   "note": "Home page only: no hearings since Oct 1; latest statements Nov 6 on the jobs report. Hearing pages don't load.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "GAO",
    "url": "https://www.gao.gov/",
    "status": "Partial",
-   "note": "Site search found no new reports on payments, deposits or capital flows.",
-   "last_success": "2026-11-06"
+   "note": "Home page and site search found no new reports on payments, deposits or capital flows.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "CRS reports",
    "url": "https://crsreports.congress.gov/",
-   "status": "Not checked",
-   "note": "Site search returned no results.",
-   "last_success": null
+   "status": "Partial",
+   "note": "The site didn't load; a site search found only older reports (a GENIUS Act overview dated Sept 17).",
+   "last_success": "2026-11-07"
   },
   {
    "source": "State bills (LegiScan)",
    "url": "https://legiscan.com/",
    "status": "Partial",
-   "note": "Most legislatures are out of session; no new bills on CBDCs, cash, gold, debanking or payment limits found. Nov 3 ballot results showed no measures on cash, gold or digital currency; California's one-time wealth tax (Prop 40) was trailing in early returns, and it is a tax, not a limit on moving money.",
-   "last_success": "2026-11-06"
+   "note": "Most legislatures are out of session and 2027 pre-filing is starting; no new bills on CBDCs, cash, gold, debanking or payment limits found.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "IMF publications and eLibrary",
    "url": "https://www.elibrary.imf.org/",
    "status": "Checked",
-   "note": "Nov 3-5: country program news only. No new papers on capital flow measures.",
-   "last_success": "2026-11-06"
+   "note": "No new papers on capital flow measures Nov 4-7. Two October staff papers on stablecoins and capital controls were found and added for context.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "BIS",
    "url": "https://www.bis.org/",
    "status": "Checked",
-   "note": "Nov 2-4: speeches on AI and public-private collaboration and a paper on the future of banking. Nothing on capital controls.",
-   "last_success": "2026-11-06"
+   "note": "Nov 3-4: speeches on AI and payments (including Iceland's new domestic payment system) and a paper on the future of banking. Nothing on capital controls.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "FSB",
    "url": "https://www.fsb.org/",
    "status": "Checked",
-   "note": "Recent items: AI sound practices, a consultation on supervisory modernisation and its mid-October stablecoin note to the G20. Nothing new on capital controls.",
-   "last_success": "2026-11-06"
+   "note": "Nothing new since mid-October (AI sound practices, supervisory modernisation consultation, stablecoin note to the G20).",
+   "last_success": "2026-11-07"
   },
   {
    "source": "FATF",
    "url": "https://www.fatf-gafi.org/",
    "status": "Checked",
-   "note": "Nothing new since the Oct 28-30 plenary; law-firm notes on grey-list removals only.",
-   "last_success": "2026-11-06"
+   "note": "Nothing new since the Oct 30 plenary outcomes; its hawala report dates from September.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "ECB digital euro",
    "url": "https://www.ecb.europa.eu/euro/digital_euro/html/index.en.html",
    "status": "Checked",
-   "note": "No change to holding limits. In a Nov 5 speech Cipollone repeated the plan: a 12-month pilot from the second half of 2027 with 36 providers, and first issuance targeted for 2029 if the law is agreed by the end of 2026.",
-   "last_success": "2026-11-06"
+   "note": "No change to holding limits; a call for merchants to join the 2027 pilot is open.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "Bank of England digital pound",
    "url": "https://www.bankofengland.co.uk/the-digital-pound",
    "status": "Checked",
-   "note": "No decision yet; the news list shows nothing new on the digital pound (latest items Oct 29-30).",
-   "last_success": "2026-11-06"
+   "note": "No decision yet; no digital pound news since late October.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/",
    "status": "Checked",
-   "note": "Nothing new on stablecoins or payments since the Oct 24 draft regulations; latest item Oct 29 on market operations.",
-   "last_success": "2026-11-06"
+   "note": "Nothing new on stablecoins since the Oct 24 draft regulations; OSFI's next industry day is Dec 3.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "Atlantic Council CBDC Tracker",
    "url": "https://www.atlanticcouncil.org/cbdctracker/",
    "status": "Checked",
    "note": "Still last updated May 2026.",
-   "last_success": "2026-11-06"
+   "last_success": "2026-11-07"
   },
   {
    "source": "NBER",
    "url": "https://www.nber.org/papers",
    "status": "Checked",
-   "note": "Latest papers checked; none on capital controls or payment limits.",
-   "last_success": "2026-11-06"
+   "note": "The new November batch has no papers on capital controls or payment limits.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "Cato",
    "url": "https://www.cato.org/blog",
    "status": "Checked",
-   "note": "Nov 4-5 posts on a financial privacy survey, juries and the election. Nothing new to itemize.",
-   "last_success": "2026-11-06"
+   "note": "Nov 4 post on a financial privacy survey (already noted); Nov 5-6 posts on immigration, juries, school choice and tariffs.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "Brookings Hutchins Center",
    "url": "https://www.brookings.edu/centers/the-hutchins-center-on-fiscal-and-monetary-policy/",
    "status": "Checked",
-   "note": "Oct 30 fiscal impact update and a Nov 17 event on Treasury market resilience. Nothing on capital controls.",
-   "last_success": "2026-11-06"
+   "note": "Nov 2 post on Fed leadership; Nov 17 event on Treasury market resilience. Nothing on capital controls.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "PIIE",
    "url": "https://www.piie.com/",
    "status": "Checked",
-   "note": "Commentary on tariffs and Fed swap lines; nothing on capital controls.",
-   "last_success": "2026-11-06"
+   "note": "Tariff commentary and a Nov 12 midterm debrief event; nothing on capital controls.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "AEI",
    "url": "https://www.aei.org/",
    "status": "Checked",
    "note": "Nothing relevant since Oct 27.",
-   "last_success": "2026-11-06"
+   "last_success": "2026-11-07"
   },
   {
    "source": "Heritage",
    "url": "https://www.heritage.org/",
    "status": "Checked",
-   "note": "A post on California's proposed billionaire tax; nothing on capital controls.",
-   "last_success": "2026-11-06"
+   "note": "Nothing on capital controls.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "Bank Policy Institute",
    "url": "https://bpi.com/",
    "status": "Checked",
-   "note": "Notes on payments, bank ratings and scams; nothing on capital controls.",
-   "last_success": "2026-11-06"
+   "note": "Nov 4 research roundup and a cybersecurity note; nothing on capital controls.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "Coin Center",
    "url": "https://www.coincenter.org/",
    "status": "Checked",
-   "note": "Latest is its Oct 20 comment on Treasury's GENIUS Act rule; nothing new.",
-   "last_success": "2026-11-06"
+   "note": "Nov 6 post welcoming the withdrawal of the 2020 transfer-threshold proposal (cited).",
+   "last_success": "2026-11-07"
   },
   {
    "source": "JD Supra",
    "url": "https://www.jdsupra.com/",
    "status": "Checked",
-   "note": "Alerts only on items already tracked (OCC stablecoin rule, outbound investment) and on what a new Congress could mean. Nothing new to itemize.",
-   "last_success": "2026-11-06"
+   "note": "Alerts on items already tracked (outbound investment) and on FinCEN's August beneficial-ownership rule; nothing new to itemize.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "Glenn Beck YouTube",
    "url": "https://www.youtube.com/@glennbeck",
-   "status": "Partial",
-   "note": "The channel page was blocked by a web safety filter this run. Listings and podcast indexes show the Nov 5 show focused on the election results, with no money claims found. The tracked 'Capital Controls' special had nearly 80,000 views.",
-   "last_success": "2026-11-06"
+   "status": "Checked",
+   "note": "The channel page loaded. The 'Capital Controls' special has about 125,000 views. Other recent videos focused on the election and on events in Poland and Ukraine; no new money claims found.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "glennbeck.com",
    "url": null,
    "status": "Partial",
-   "note": "Pages need a sign-in, but search results showed a members' article promoting the 'Capital Controls' special. It repeats the special's description, which is already fact-checked.",
-   "last_success": "2026-11-06"
+   "note": "Pages need a sign-in; search listings show featured clips on the election and preparedness, nothing new on capital controls.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "IRS remittance tax guidance",
    "url": "https://www.irs.gov/newsroom/treasury-irs-issue-proposed-regulations-on-the-new-remittance-transfer-tax-established-under-the-one-big-beautiful-bill",
    "status": "Checked",
-   "note": "No final regulations found; the April proposal and a June 12 notice are still the latest. The 1% tax on cash-funded transfers still applies.",
-   "last_success": "2026-11-06"
+   "note": "No final regulations; the April proposal and June notice are still the latest. The 1% tax on cash-funded transfers still applies.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "Other financial commentators (search)",
    "url": null,
    "status": "Checked",
-   "note": "Searches found only older pieces (an Oct 27 ITM Trading video on bank bail-ins, a January interview on gold confiscation risk); not itemized.",
-   "last_success": "2026-11-06"
+   "note": "A Nov 5 Peter Schiff post warned about debt-ceiling repeal and Fed bond buying, with no capital-control claim; not itemized.",
+   "last_success": "2026-11-07"
   },
   {
    "source": "News search: bank and platform withdrawal limits",
    "url": null,
    "status": "Checked",
-   "note": "No U.S. bank withdrawal limits found. Outside the U.S., crypto exchanges paused withdrawals after hacks (Binance, Mercado Bitcoin, Gopax); added as a banking-stress context item.",
-   "last_success": "2026-11-06"
+   "note": "No U.S. bank withdrawal limits found. Gopax (South Korea) froze trading, deposits and withdrawals Nov 6 and was still frozen Nov 7; Binance kept reopening withdrawals in phases (item updated). U.S. stocks had their worst day since April 2025 on Nov 5 with no bank or fund limits reported (added).",
+   "last_success": "2026-11-07"
   }
  ],
  "raise_level_triggers": [
   "A cap on, or a government approval requirement for, individual transfers abroad, beyond sanctions and national-security investment screening.",
   "H.R. 8995, or any similar bill raising the remittance tax or extending it to bank- and card-funded transfers, getting a hearing, a markup or a ride on a must-pass bill.",
-  "FinCEN extending cross-border reporting orders to more regions, lowering thresholds, renewing them repeatedly or making them permanent, or a rule implementing FATF's payment-transparency standard that adds source-of-funds or approval steps for ordinary transfers abroad.",
+  "FinCEN extending cross-border reporting orders to more regions, lowering thresholds, renewing them repeatedly or making them permanent; a new proposal to lower the $3,000 record-keeping and travel-rule threshold for transfers abroad; or a rule implementing FATF's payment-transparency standard that adds source-of-funds or approval steps for ordinary transfers abroad.",
   "Any regulator discussing temporary limits on deposit withdrawals or bank holidays, bringing back money-fund redemption gates, or extending liquidity fees to government or retail funds, or officials applying terms like 'temporary liquidity restrictions' or 'capital flow management' to U.S. deposits, stablecoins or money funds.",
   "FDIC provisional holds being used at a large bank failure, a cluster of failures in a short period, or several large banks adding unexplained withdrawal or wire limits (confirmed by banks or regulators, not social media).",
   "Final stablecoin rules allowing freezes without a specific lawful order, extending freeze duties to all secondary-market holders, restricting self-hosted wallets, or a mandatory (not voluntary) hold regime for crypto withdrawals.",
@@ -3847,7 +4148,8 @@
   "Emergency powers (IEEPA, the new Russia/Iran sanctions law or the Defense Production Act) used against U.S. persons' general transactions, gold or foreign currency, or lifting the EO 14436 waivers with restrictions on U.S. persons.",
   "Requirements for retirement accounts, money funds or banks to hold set shares of Treasury debt, or new limits on retirement withdrawals, rollovers, or foreign accounts and assets.",
   "Repeal or narrowing of the statutory CBDC bar, a retail CBDC pilot, or a digital euro holding cap cited by U.S. officials as a model.",
-  "The final outbound-investment rule widening to publicly traded securities, index funds, or more countries or technologies."
+  "The final outbound-investment rule widening to publicly traded securities, index funds, or more countries or technologies.",
+  "FinCEN section 9714 or 311 orders reaching widely used U.S. payment apps, stablecoins or exchanges that serve ordinary Americans, rather than offshore firms tied to sanctions evasion."
  ],
  "live_page": "https://brentwhichel.github.io/capital-controls-monitor/"
 }
