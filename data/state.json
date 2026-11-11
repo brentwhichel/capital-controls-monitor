@@ -4251,6 +4251,231 @@
     }
    ],
    "plain": "SoFi, a U.S. bank, now offers some customers a tokenized deposit. That is bank money kept as a digital token. It is insured like other deposits, and using it is a choice."
+  },
+  "intl-bolivia-dollar-deposit-refunds-2026-11": {
+   "id": "intl-bolivia-dollar-deposit-refunds-2026-11",
+   "section": "international",
+   "headline": "Bolivia speeds up the return of dollar savings that have been hard to withdraw since 2023 and lets banks keep new dollar deposits on hand",
+   "date": "2026-11-09",
+   "org": "Banco Central de Bolivia (Bolivia's central bank)",
+   "what_changed": "Under board Resolution 157/2026, announced Oct 30, 2026, Bolivia's central bank moved up to Nov 5 the repayment of $333 million to households with dollar deposits of $10,001 to $50,000, payments that had been scheduled between Nov 16, 2026 and Mar 16, 2027. From Nov 9, banks and other lenders manage the required reserves on new dollar deposits themselves, so those dollars stay available to pay depositors' withdrawals. The central bank also cut the share of local-currency funds that non-bank lenders must keep in its custody from 80% to 60%.",
+   "summary": "A shortage of U.S. dollars has made it hard for Bolivians to withdraw their dollar deposits since February 2023, a freeze on access to savings that the central bank itself calls a 'corralito.' In May 2026 the authorities set a schedule to return dollar deposits in stages by balance size, and withdrawals are voluntary; after this change, the remaining stages for individuals, covering balances above $50,000, run from April to July 2027, and companies follow a separate schedule through December 2028. The central bank says it and the banks mobilized more than $300 million to pay early, and that the reserve change aims to avoid repeating the freeze for new dollar savings. A Bolivian newspaper reported that some customers still had trouble depositing cash dollars, and a former economy minister said dollar transfers and payments remain restricted, with fees of 7% to 10% on some operations.",
+   "control_type": "Prohibition",
+   "affected": "Sector or group",
+   "stage": "In effect",
+   "tier": 3,
+   "signal_numbers": [
+    13
+   ],
+   "direction": "Away from controls",
+   "evidence": "Official document",
+   "why_it_matters": "Bolivia is a current example of how a dollar shortage can turn into years of limits on getting money out of the bank, and of how slowly such limits unwind: savers are being repaid in stages over more than a year.",
+   "why_it_might_not": "This loosens existing limits rather than adding new ones, and it stems from Bolivia's own shortage of U.S. dollars. The U.S. issues dollars and faces no such shortage, and no U.S. withdrawal limits are in place or proposed.",
+   "us_link": "No direct link. U.S. deposits are insured up to $250,000 per depositor at each insured bank, and no U.S. withdrawal limits are in place or proposed.",
+   "next_milestone": {
+    "what": "Refunds for balances above $50,000 are scheduled in monthly installments from April to July 2027 under the May 2026 timetable",
+    "date": "2027-04-15"
+   },
+   "sources": [
+    {
+     "title": "Nota de Prensa NP 26/2026: early return of dollars to savers and new rules for dollar deposits (in Spanish)",
+     "url": "https://www.bcb.gob.bo/webdocs/files_noticias/NP%2026-30%20OCTUBRE.pdf",
+     "publisher": "Banco Central de Bolivia",
+     "date": "2026-10-30",
+     "primary": true
+    },
+    {
+     "title": "Resolución de Directorio N° 157/2026: changes to the reserve requirement rules (in Spanish)",
+     "url": "https://www.bcb.gob.bo/webdocs/01_resoluciones/RD%20N%C2%B0%20157-2026%20%2828-10-2026%29.pdf",
+     "publisher": "Banco Central de Bolivia",
+     "date": null,
+     "primary": true
+    },
+    {
+     "title": "El BCB adelanta la devolución de $us 333 millones a ahorristas (Central bank moves up $333 million in refunds; in Spanish)",
+     "url": "https://eldeber.com.bo/economia/bcb-adelanta-devolucion-us-333-millones-ahorristas_1793386495",
+     "publisher": "El Deber",
+     "date": "2026-10-30",
+     "primary": false
+    },
+    {
+     "title": "BCB restituye depósitos de hasta $us 50.000 y apunta a reactivar ahorros en dólares (Deposits up to $50,000 returned; in Spanish)",
+     "url": "https://eldeber.com.bo/economia/bcb-restituye-depositos-us-50-000-apunta-reactivar-ahorros-dolares_1793875977",
+     "publisher": "El Deber",
+     "date": "2026-11-05",
+     "primary": false
+    },
+    {
+     "title": "Bolivia Brings Forward US$333 Million Refund",
+     "url": "https://www.riotimesonline.com/bolivia-central-bank-advances-dollar-refunds-us333-million/",
+     "publisher": "The Rio Times",
+     "date": "2026-10-31",
+     "primary": false
+    },
+    {
+     "title": "BCB amplía desde octubre la devolución de depósitos hasta $us 10.000 (The refund schedule; in Spanish)",
+     "url": "https://larazon.bo/economia-y-empresa/2026/10/01/bcb-amplia-desde-octubre-la-devolucion-de-depositos-hasta-us-10-000/",
+     "publisher": "La Razón",
+     "date": "2026-10-01",
+     "primary": false
+    }
+   ],
+   "plain": "In Bolivia, a country in South America, it has been hard to take dollars out of banks since 2023. The central bank is paying many savers back early. Banks can now keep new dollar deposits ready to pay out.",
+   "first_seen": "2026-11-11",
+   "updated_on": "2026-11-11",
+   "last_change": "2026-11-09",
+   "status": "NEW",
+   "status_history": [
+    {
+     "date": "2026-11-11",
+     "status": "NEW",
+     "stage": "In effect"
+    }
+   ],
+   "open": true
+  },
+  "intl-canada-bill-s8-cash-limits": {
+   "id": "intl-canada-bill-s8-cash-limits",
+   "section": "international",
+   "headline": "Canada's government proposes barring most businesses from accepting $10,000 or more in cash and capping crypto ATM use at $1,000 a day",
+   "date": "2026-11-03",
+   "org": "Government of Canada (Department of Finance), Senate Bill S-8",
+   "what_changed": "On Nov 3, 2026, Canada's government introduced Bill S-8, the Combatting Financial Crimes and Drug Trafficking Act, in the Senate, where it awaits second reading. It would bar certain businesses and other entities from accepting cash payments, donations or deposits of $10,000 or more, and bar many financial firms from accepting cash deposits into an account from someone who isn't the account holder or authorized on it. It would also make it a crime to run a crypto ATM without a provincial or territorial license and require licensed machines to keep each user's transactions to no more than $1,000 in any 24 hours.",
+   "summary": "Canada's Finance Department says cash remains a preferred payment method for criminals and that Canada and Japan are the only G7 countries without a framework to restrict or regulate large cash transactions across the economy. Under the bill, the cash limit would cover one payment or a series of related payments; banks and credit unions are exempt so cash can still be deposited, and cheques, cards and electronic transfers aren't limited. The bill would also let the Finance Minister temporarily suspend registrations of money services businesses (such as money transfer and currency exchange firms), direct Canada's financial intelligence agency to refuse or revoke them, and make regulations to temporarily limit or prohibit certain domestic transactions in prescribed circumstances; the government says these tools can already be used for transactions to or from foreign countries. Crypto ATM rules would start 90 to 180 days after the bill becomes law and the ban on unlicensed machines after 18 months. Similar cash limits were first proposed in a 2025 bill. The bill still has to pass the Senate and the House of Commons.",
+   "quote": {
+    "text": "restricting large cash transactions of $10,000 or more",
+    "source_url": "https://www.canada.ca/en/department-finance/news/2026/11/canada-minister-champagne-table-legislation-cracking-down-on-financial-crime-and-the-illicit-use-of-mail.html"
+   },
+   "control_type": "Prohibition",
+   "affected": "Sector or group",
+   "stage": "Proposal",
+   "tier": 1,
+   "signal_numbers": [
+    2,
+    5
+   ],
+   "direction": "Toward controls",
+   "evidence": "Official document",
+   "why_it_matters": "It goes beyond reporting: a close U.S. neighbor and G7 member would ban many large cash payments outright and give its finance minister power to limit some domestic transactions. Canada's government says most G7 countries already restrict large cash transactions, so the idea is common among U.S. allies.",
+   "why_it_might_not": "It's a bill at the first stage in Canada, aimed at fraud, drug money and money laundering. Bank and credit union deposits are exempt, and cards, cheques and electronic transfers aren't limited. In the U.S., businesses must report cash payments over $10,000 but may accept them, and we found no U.S. proposal to cap them.",
+   "us_link": "No direct link. U.S. businesses must report cash payments over $10,000 to the IRS and FinCEN but may accept them; we found no U.S. bill or rule to cap cash payments.",
+   "next_milestone": {
+    "what": "Second reading debate in Canada's Senate (no date set); the bill then goes to committee and to the House of Commons",
+    "date": null
+   },
+   "sources": [
+    {
+     "title": "Canada, Minister Champagne table legislation cracking down on financial crime and the illicit use of mail",
+     "url": "https://www.canada.ca/en/department-finance/news/2026/11/canada-minister-champagne-table-legislation-cracking-down-on-financial-crime-and-the-illicit-use-of-mail.html",
+     "publisher": "Department of Finance Canada",
+     "date": "2026-11-03",
+     "primary": true
+    },
+    {
+     "title": "Protecting Canadians from financial crimes and safeguarding the integrity of the financial and postal systems (backgrounder)",
+     "url": "https://www.canada.ca/en/department-finance/news/2026/11/protecting-canadians-from-financial-crimes-and-safeguarding-the-integrity-of-the-financial-and-postal-systems.html",
+     "publisher": "Department of Finance Canada",
+     "date": "2026-11-03",
+     "primary": true
+    },
+    {
+     "title": "Bill S-8, Combatting Financial Crimes and Drug Trafficking Act (first reading text)",
+     "url": "https://www.parl.ca/DocumentViewer/en/45-1/bill/S-8/first-reading",
+     "publisher": "Parliament of Canada",
+     "date": "2026-11-03",
+     "primary": true
+    },
+    {
+     "title": "S-8 (45-1): bill status",
+     "url": "https://www.parl.ca/legisinfo/en/bill/45-1/s-8",
+     "publisher": "Parliament of Canada (LEGISinfo)",
+     "date": "2026-11-03",
+     "primary": true
+    },
+    {
+     "title": "Bill S-8: Proposed Changes to Canada's Financial Crime Framework",
+     "url": "https://www.blg.com/en/insights/2026/11/bill-s8-proposed-changes-to-canadas-financial-crime-framework",
+     "publisher": "Borden Ladner Gervais",
+     "date": "2026-11-05",
+     "primary": false
+    },
+    {
+     "title": "Bill S-8 Explained: Crypto ATM Ban, $10,000 Cash Limit and New MSB Rules",
+     "url": "https://amlincubator.com/blog/bill-s-8-explained-crypto-atm-ban-dollar10000-cash-limit-and-new-msb-rules-2026",
+     "publisher": "AML Incubator",
+     "date": "2026-11-10",
+     "primary": false
+    }
+   ],
+   "plain": "Canada's government wants to stop most businesses from taking $10,000 or more in cash. It would also limit crypto ATMs (machines that swap cash for digital coins) to $1,000 a day per person. It isn't law yet.",
+   "first_seen": "2026-11-11",
+   "updated_on": "2026-11-11",
+   "last_change": "2026-11-03",
+   "status": "NEW",
+   "status_history": [
+    {
+     "date": "2026-11-11",
+     "status": "NEW",
+     "stage": "Proposal"
+    }
+   ],
+   "open": true
+  },
+  "intl-fsb-turkiye-stablecoin-review-2026-11": {
+   "id": "intl-fsb-turkiye-stablecoin-review-2026-11",
+   "section": "international",
+   "headline": "Global regulators' review urges Türkiye to set up a stablecoin regime, citing risks of digital dollarization and sudden capital outflows",
+   "date": "2026-11-11",
+   "org": "Financial Stability Board (FSB), the group of financial regulators that reports to the G20",
+   "what_changed": "On Nov 11, 2026, the FSB published its second peer review of Türkiye, which examined the country's rules for crypto-assets and stablecoins. It recommends that Türkiye set up a financial stability monitoring framework with specific indicators for risk channels such as cross-border capital flows, establish a dedicated regime for stablecoins, strengthen supervision and enforcement, including against offshore platforms that reach Turkish users, and improve cross-border cooperation and information sharing.",
+   "summary": "The review says Türkiye has brought much of its crypto market under registration and licensing and already prohibits using crypto-assets for domestic payments, but has no framework for regulating stablecoin issuers. It reports that Türkiye's central bank and banking regulator see foreign-issued stablecoins and offshore platforms as able to amplify swings in capital flows, deepen digital dollarization (people swapping their own currency for digital dollars) and raise the risk of sudden capital outflows, though the authorities called these channels limited for now. The FSB adds that in emerging economies, crypto risks can interact with how well capital flow measures work. Türkiye volunteered for the review, and FSB recommendations aren't binding.",
+   "quote": {
+    "text": "increase the risk of sudden capital outflows",
+    "source_url": "https://www.fsb.org/uploads/Peer-Review-of-Turkiye.pdf"
+   },
+   "control_type": "Visibility",
+   "affected": "Sector or group",
+   "stage": "Study or pilot",
+   "tier": null,
+   "signal_numbers": [],
+   "direction": "Neutral",
+   "evidence": "Official document",
+   "why_it_matters": "It's another sign that international bodies see dollar stablecoins as a way around countries' limits on moving money, and that their answer is more monitoring and rules for stablecoins and the platforms that offer them, the same theme as the IMF research this monitor tracks.",
+   "why_it_might_not": "It's a non-binding review of one country's crypto rules, and it doesn't recommend capital controls. Nothing in it applies to the U.S. or limits Americans' transfers.",
+   "us_link": "Indirect. The U.S. is an FSB member and the recommendations rest on the FSB's global stablecoin standards; U.S. stablecoin rules under the GENIUS Act are tracked separately. Nothing here limits Americans' transfers.",
+   "next_milestone": {
+    "what": "Türkiye's response, including any stablecoin law or rules (no date set)",
+    "date": null
+   },
+   "sources": [
+    {
+     "title": "FSB recommends Türkiye further strengthens its regulatory framework for crypto-assets and stablecoins",
+     "url": "https://www.fsb.org/2026/11/fsb-recommends-turkiye-further-strengthens-its-regulatory-framework-for-crypto-assets-and-stablecoins/",
+     "publisher": "Financial Stability Board",
+     "date": "2026-11-11",
+     "primary": true
+    },
+    {
+     "title": "Peer Review of Türkiye: Review report",
+     "url": "https://www.fsb.org/uploads/Peer-Review-of-Turkiye.pdf",
+     "publisher": "Financial Stability Board",
+     "date": "2026-11-11",
+     "primary": true
+    }
+   ],
+   "plain": "The FSB, a group of the world's money regulators, told Türkiye to make rules for stablecoins (digital dollars made by companies). It said they could help money leave the country fast.",
+   "first_seen": "2026-11-11",
+   "updated_on": "2026-11-11",
+   "last_change": "2026-11-11",
+   "status": "NEW",
+   "status_history": [
+    {
+     "date": "2026-11-11",
+     "status": "NEW",
+     "stage": "Study or pilot"
+    }
+   ],
+   "open": true
   }
  },
  "levels": [
@@ -4281,51 +4506,47 @@
   {
    "date": "2026-11-10",
    "level": "YELLOW"
+  },
+  {
+   "date": "2026-11-11",
+   "level": "YELLOW"
   }
  ],
  "github_user": "brentwhichel",
  "repo": "capital-controls-monitor",
  "monitor": "Capital Controls Early-Warning Monitor",
  "report": {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "level": "YELLOW",
-  "bottom_line": "No limits on ordinary Americans' withdrawals or transfers are in effect or proposed; the one U.S. change since the last report is that FinCEN's order cutting off a single offshore crypto exchange, MEXC Global, was published Nov 10 and takes effect Dec 10, while abroad Paraguay has repaid 93% of covered savers at failed Ueno Bank, and this report adds China's informal pause on listings and big shareholders' share sales, Lebanon's higher limits on frozen deposits from Dec 1 and a U.S. bank's tokenized deposit for consumers.",
-  "level_reason": "The level stays YELLOW because official Tier 1 steps remain in play: Treasury's wider outbound-investment proposal (comments due Dec 7), stablecoin rules requiring issuers to be able to freeze coins on lawful orders (the GENIUS Act takes effect Jan 18), FinCEN's Oct 30 cross-border payments alert and the Minnesota transfer-reporting order (ends Feb 6 unless renewed), while the MEXC transfer ban, now published and effective Dec 10, names one foreign company, and the only U.S. Tier 2 item, the FDIC provisional-hold proposal, applies only after a bank fails. Nothing new raises it: China's limits on share sales and Lebanon's withdrawal limits are abroad, Lebanon's change loosens its limits, Paraguay's frozen accounts are being repaid, and SoFi's tokenized deposit is an optional private product.",
-  "change_text": "Yesterday: YELLOW. Today: YELLOW, unchanged. New since the previous report: FinCEN's order barring U.S. financial institutions from moving money to or from MEXC Global was published in the Federal Register on Nov 10 and takes effect Dec 10; and Paraguay's guarantee fund had paid advances on 93.1% of covered Ueno Bank accounts by Nov 9, up from 64% a day earlier, with the advance-payment deadline on Nov 11. This report also adds three items not covered earlier: China's informal pause on stock listings and on large share sales by existing shareholders (reported Nov 3), followed by its State Council's Nov 6 call to strengthen market stability; Lebanon's Nov 3 decision to raise monthly withdrawal limits on frozen dollar deposits to $1,200 and $600 from Dec 1; and SoFi Bank's Oct 22 launch of a tokenized deposit for consumers, rolling out through November. No tracked bill moved as Congress's post-election session began, and South Korea's Gopax remains halted.",
-  "flags_lede": "What's new or changed since the previous report on Nov 9, 2026.",
+  "bottom_line": "No limits on ordinary Americans' withdrawals or transfers are in effect or proposed, and we found no new U.S. government action since the last report, which spanned the Veterans Day holiday; abroad, this report adds Canada's proposed ban on most cash payments of $10,000 or more, Bolivia's faster return of dollar savings that have been hard to withdraw since 2023, and a global regulators' review urging Türkiye to regulate stablecoins partly because of the risk of sudden capital outflows.",
+  "level_reason": "The level stays YELLOW because official Tier 1 steps remain in play: Treasury's wider outbound-investment proposal (comments due Dec 7), stablecoin rules requiring issuers to be able to freeze coins on lawful orders (the GENIUS Act takes effect Jan 18), FinCEN's Oct 30 cross-border payments alert and the Minnesota transfer-reporting order (ends Feb 6 unless renewed), while the MEXC transfer ban, effective Dec 10, names one foreign company, and the only U.S. Tier 2 item, the FDIC provisional-hold proposal, applies only after a bank fails. Nothing new raises it: all three additions are abroad, Canada's cash limit is a bill that has only been introduced, Bolivia's step loosens its limits, and the FSB's advice to Türkiye isn't binding.",
+  "change_text": "Yesterday: YELLOW. Today: YELLOW, unchanged. No tracked U.S. item moved: the Federal Register filings for Nov 12 include no FinCEN or banking-agency rules (there is no Federal Register on the Nov 11 holiday), and Treasury, the Fed, the FDIC, the OCC and the White House posted nothing new on deposits, withdrawals or transfers. New since the previous report: the Financial Stability Board's Nov 11 peer review urged Türkiye to set up a stablecoin regime and monitor cross-border flows, citing risks of digital dollarization and sudden capital outflows. This report also adds two items not covered earlier: Canada's Bill S-8, introduced Nov 3, which would bar most businesses from accepting $10,000 or more in cash and cap crypto ATM use at $1,000 a day; and Bolivia's central bank decision to repay $333 million in dollar deposits early, from Nov 5, and, from Nov 9, let banks keep reserves on new dollar deposits available for withdrawals. Paraguay's president said Nov 10 that nearly 95% of covered Ueno Bank savers had been paid, with the rest due by Nov 11, and South Korea's Gopax was still halted on Nov 11.",
+  "flags_lede": "What's new or changed since the previous report on Nov 10, 2026.",
   "flags": [
    {
-    "id": "fincen-9714-mexc-global",
-    "movement": "ADVANCED"
-   },
-   {
-    "id": "paraguay-ueno-bank-resolution-2026-11",
-    "movement": "EASED"
-   },
-   {
-    "id": "intl-china-market-support-2026-11",
+    "id": "intl-bolivia-dollar-deposit-refunds-2026-11",
     "movement": "NEW"
    },
    {
-    "id": "intl-lebanon-withdrawal-limits-2026-11",
+    "id": "intl-canada-bill-s8-cash-limits",
     "movement": "NEW"
    },
    {
-    "id": "us-sofi-consumer-tokenized-deposit",
+    "id": "intl-fsb-turkiye-stablecoin-review-2026-11",
     "movement": "NEW"
    }
   ],
-  "sources_checked_through": "2026-11-10T07:30:33-05:00",
-  "refreshed_at": "2026-11-10T06:33:23-06:00",
+  "sources_checked_through": "2026-11-11T07:31:24-05:00",
+  "refreshed_at": "2026-11-11T06:33:11-06:00",
   "plain": {
-   "today": "Nothing stops regular people in the U.S. from taking out, moving or saving their money. This time, the changes are about one crypto site based abroad and events in other countries.",
-   "worry": "Not right now. A U.S. order against one crypto site based abroad is now official, and it doesn't touch regular bank accounts. Paraguay has paid back most savers at its failed bank. We found no limits on taking out or moving money in the U.S.",
+   "today": "Nothing stops regular people in the U.S. from taking out, moving or saving their money. The new items this time are all in other countries.",
+   "worry": "Not right now. We found no new U.S. rules. Canada's government proposed a limit on big cash payments, but it isn't law. Bolivia is giving savers back more of their dollars.",
    "watch": [
     "A cap on how much money people can send to other countries.",
     "Limits on how much cash people can take out of the bank.",
     "An order that stops most people from selling stocks or moving money, not just a few named companies."
    ],
-   "changes_lede": "A U.S. order against one crypto site is now official. Paraguay has paid most savers back. We also added steps in China and Lebanon and a new digital deposit from a U.S. bank."
+   "changes_lede": "There were no new U.S. rules this time. We added a cash plan in Canada, good news for savers in Bolivia, and advice to Türkiye about stablecoins."
   },
   "layout": "v2-plain-first"
  },
@@ -4445,6 +4666,12 @@
    "url": "https://www.fincen.gov/news/news-releases/fincen-reissues-order-requiring-transparency-msbs-along-southwest-border"
   },
   {
+   "date": "2027-04-15",
+   "what": "Bolivia's refunds of dollar deposits above $50,000 begin, in monthly installments through July 2027 (May 2026 schedule)",
+   "item_id": "intl-bolivia-dollar-deposit-refunds-2026-11",
+   "url": "https://larazon.bo/economia-y-empresa/2026/10/01/bcb-amplia-desde-octubre-la-devolucion-de-depositos-hasta-us-10-000/"
+  },
+  {
    "date": "2027-06-30",
    "what": "Clearing House tokenized-deposit network targeted launch (first half 2027, per reporting)",
    "item_id": "us-tch-tokenized-deposit-network",
@@ -4492,105 +4719,105 @@
    "source": "Federal Register public inspection (current)",
    "url": "https://www.federalregister.gov/public-inspection/current",
    "status": "Checked",
-   "note": "Monday's list (for Nov 10) includes FinCEN's MEXC order (published Nov 10; item updated), three OFAC sanctions notices, IRS notices on Opportunity Zone reporting and a withholding system, and routine CFTC and SEC items; one OFAC notice was withdrawn before publication. Filings for Nov 12 post at 8:45 AM ET today, after this check; there's no Federal Register on the Nov 11 holiday.",
-   "last_success": "2026-11-10"
+   "note": "The filings made Nov 10 for publication Nov 12 include no FinCEN or banking-agency rules. Financial items: two OFAC sanctions notices on named parties, a Fed rule making its routine yearly update to the asset threshold in its Reserve Bank stock rules, an IRS hearing notice on a scholarship tax credit, a Treasury grant notice and routine SEC filings. There's no Federal Register on the Nov 11 holiday.",
+   "last_success": "2026-11-11"
   },
   {
    "source": "Federal Register documents (via web search)",
    "url": "https://www.federalregister.gov/",
    "status": "Partial",
-   "note": "Today's Federal Register includes FinCEN's MEXC order (FR Doc 2026-22962, effective Dec 10; item updated), OFAC sanctions notices on named parties and an IRS correction on Opportunity Zone reporting. No other new FinCEN or Treasury rules found. Search pages and the API don't load, so some notices may have been missed.",
-   "last_success": "2026-11-10"
+   "note": "Nov 10's Federal Register carried FinCEN's MEXC order (tracked) and OFAC sanctions notices; nothing new found beyond the Nov 12 public-inspection list. FinCEN's 2026 index lists 23 documents so far. Search pages and the API don't load, so some notices may have been missed.",
+   "last_success": "2026-11-11"
   },
   {
    "source": "OIRA rules under review",
    "url": "https://www.reginfo.gov/public/do/eoReviewSearch",
-   "status": "Checked",
-   "note": "The posted list is now dated Nov 9. Financial items: IRS crypto-broker reporting (CARF), CFTC customer protection and identification, SEC broker-dealer crypto rules and an SEC proposal on evaluating the Consolidated Audit Trail, CFPB data-rights and mortgage-servicing rules, and Labor Department plan-investment items, now including the final 401(k) investment-choice rule (RIN 1210-AC38, received Nov 5; already tracked). No FinCEN or banking-agency rules are under review.",
-   "last_success": "2026-11-10"
+   "status": "Partial",
+   "note": "The posted list is dated Nov 9, but the copy we could read was cut off after the first agencies. Site searches found no new Treasury, FinCEN or banking-agency rules under review; the Labor Department's final 401(k) investment rule (received Nov 5) is still under review (tracked).",
+   "last_success": "2026-11-11"
   },
   {
    "source": "Unified Agenda",
    "url": "https://www.reginfo.gov/public/do/eAgendaMain",
    "status": "Partial",
-   "note": "Main page only (2026 Regulatory Plan edition). No new Treasury or FinCEN entries seen.",
-   "last_success": "2026-11-10"
+   "note": "Main page only (2026 Regulatory Plan edition). Site searches show FinCEN entries already tracked (AML program rule, customer due diligence); nothing new.",
+   "last_success": "2026-11-11"
   },
   {
    "source": "Regulations.gov",
    "url": "https://www.regulations.gov/",
    "status": "Partial",
    "note": "Home page and trending dockets only; nothing relevant.",
-   "last_success": "2026-11-10"
+   "last_success": "2026-11-11"
   },
   {
    "source": "Treasury press releases",
    "url": "https://home.treasury.gov/news/press-releases",
    "status": "Checked",
-   "note": "No releases after Nov 6 on the list. Nothing on capital controls.",
-   "last_success": "2026-11-10"
+   "note": "The newest releases are dated Nov 6 (MEXC order, sanctions on Canadian money services businesses, FATF statement). Nothing new Nov 9-10.",
+   "last_success": "2026-11-11"
   },
   {
    "source": "Treasury Outbound Investment Security Program",
    "url": "https://home.treasury.gov/policy-issues/international/outbound-investment-program",
    "status": "Checked",
-   "note": "Page unchanged: COINS Act proposal (Oct 22; comments due Dec 7).",
-   "last_success": "2026-11-10"
+   "note": "Page unchanged: COINS Act proposal (Oct 22; comments due Dec 7). Law-firm summaries posted Nov 10 add nothing new.",
+   "last_success": "2026-11-11"
   },
   {
    "source": "OFAC recent actions",
    "url": "https://ofac.treasury.gov/recent-actions",
    "status": "Checked",
-   "note": "Nov 9: an Iran-related designation update. Nov 10 Federal Register notices publish earlier sanctions actions. Sanctions on named parties only.",
-   "last_success": "2026-11-10"
+   "note": "Latest is the Nov 9 Iran-related designation update. The Nov 12 notices publish earlier sanctions on named parties.",
+   "last_success": "2026-11-11"
   },
   {
    "source": "FinCEN news",
    "url": "https://www.fincen.gov/news",
    "status": "Checked",
-   "note": "Nov 9: a voluntary FinCEN Exchange information-sharing event on overseas scam centers, which adds no new rule (not itemized). The MEXC order was published in the Federal Register on Nov 10 (item updated).",
-   "last_success": "2026-11-10"
+   "note": "Nothing after the Nov 9 readout on overseas scam centers. The MEXC order takes effect Dec 10 (tracked).",
+   "last_success": "2026-11-11"
   },
   {
    "source": "FSOC",
    "url": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/fsoc",
    "status": "Partial",
    "note": "Landing page only; no new meeting readout or annual report found.",
-   "last_success": "2026-11-10"
+   "last_success": "2026-11-11"
   },
   {
    "source": "Treasury officials' speeches",
    "url": "https://home.treasury.gov/news/press-releases",
    "status": "Partial",
-   "note": "No new Treasury speech on stablecoins, payments or capital flows found Nov 7-10.",
-   "last_success": "2026-11-10"
+   "note": "No new Treasury remarks on stablecoins, tokenization, payments or capital flows found Nov 8-11; the latest found are the Secretary's late-October stablecoin remarks.",
+   "last_success": "2026-11-11"
   },
   {
    "source": "Fed press releases",
    "url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
    "status": "Partial",
-   "note": "The list page still serves an older copy (to Oct 29). The Board's recent-postings page shows Nov 9 items: a bank holding company approval and research notes, including one reviewing past moves of European central banks' gold reserves out of the U.S.; nothing on deposits, withdrawals or emergency lending.",
-   "last_success": "2026-11-10"
+   "note": "The list page still serves an older copy (to Oct 29). The Board's recent-postings page shows Nov 9-10 items: a bank holding company approval, research notes and two speeches; nothing on deposits, withdrawals or emergency lending.",
+   "last_success": "2026-11-11"
   },
   {
    "source": "Fed speeches and testimony",
    "url": "https://www.federalreserve.gov/newsevents/speech/2026-speeches.htm",
    "status": "Checked",
-   "note": "The 2026 list now loads through Nov 10. Governor Waller's Nov 10 London speech covered the economic outlook and interest rates; nothing on payments, stablecoins or capital flows.",
-   "last_success": "2026-11-10"
+   "note": "Nov 10: Vice Chair for Supervision Bowman and Governor Waller spoke on the economy and interest rates. Nothing on payments, stablecoins or capital flows.",
+   "last_success": "2026-11-11"
   },
   {
    "source": "Fed Financial Stability Report",
    "url": "https://www.federalreserve.gov/publications/financial-stability-report.htm",
    "status": "Checked",
    "note": "Latest is May 2026; the November edition hasn't been posted.",
-   "last_success": "2026-11-10"
+   "last_success": "2026-11-11"
   },
   {
    "source": "Fed H.4.1",
    "url": "https://www.federalreserve.gov/releases/h41/",
    "status": "Partial",
-   "note": "The page served an older copy. The Nov 5 release is still the latest; next release Thursday, Nov 12.",
+   "note": "The page served an older copy. The Nov 5 release is the latest known; the next release is Thursday, Nov 12.",
    "last_success": "2026-11-10"
   },
   {
@@ -4598,90 +4825,90 @@
    "url": "https://www.fdic.gov/news/press-releases",
    "status": "Checked",
    "note": "Nothing after Nov 5.",
-   "last_success": "2026-11-10"
+   "last_success": "2026-11-11"
   },
   {
    "source": "FDIC failed bank list",
    "url": "https://www.fdic.gov/bank-failures/failed-bank-list",
    "status": "Checked",
    "note": "No failures since Nano Banc (Sept 25).",
-   "last_success": "2026-11-10"
+   "last_success": "2026-11-11"
   },
   {
    "source": "FDIC Financial Institution Letters",
    "url": "https://www.fdic.gov/news/financial-institution-letters",
    "status": "Checked",
    "note": "Nothing after FIL-66 (Call Report changes, Nov 3).",
-   "last_success": "2026-11-10"
+   "last_success": "2026-11-11"
   },
   {
    "source": "OCC",
    "url": "https://www.occ.gov/",
-   "status": "Partial",
-   "note": "Via the home page: latest items are the Nov 6 homeownership-counseling bulletin and the Nov 4 AI supervisory framework. Nothing on capital controls.",
-   "last_success": "2026-11-10"
+   "status": "Checked",
+   "note": "Newsroom: a Nov 10 bulletin on how guarantees affect commercial credit ratings and a Nov 6 homeownership-counseling bulletin. Nothing on capital controls.",
+   "last_success": "2026-11-11"
   },
   {
    "source": "SEC press releases",
    "url": "https://www.sec.gov/newsroom/press-releases",
    "status": "Checked",
-   "note": "Nothing after Nov 4. No money market fund or redemption actions.",
-   "last_success": "2026-11-10"
+   "note": "Nov 10: fiscal 2026 enforcement results. No money market fund or redemption actions.",
+   "last_success": "2026-11-11"
   },
   {
    "source": "CFPB newsroom",
    "url": "https://www.consumerfinance.gov/about-us/newsroom/",
    "status": "Checked",
    "note": "Nothing new since Oct 14 (debanking initiative).",
-   "last_success": "2026-11-10"
+   "last_success": "2026-11-11"
   },
   {
    "source": "CFTC press releases",
    "url": "https://www.cftc.gov/PressRoom/PressReleases",
    "status": "Checked",
-   "note": "Nov 9: sanctions on eight people acting as unregistered associated persons of foreign brokers. Nothing on capital controls.",
-   "last_success": "2026-11-10"
+   "note": "Nothing after the Nov 9 sanctions on unregistered associated persons. Nothing on capital controls.",
+   "last_success": "2026-11-11"
   },
   {
    "source": "White House presidential actions",
    "url": "https://www.whitehouse.gov/presidential-actions/",
    "status": "Checked",
-   "note": "Nothing new since the Nov 5 proclamation; nothing financial.",
-   "last_success": "2026-11-10"
+   "note": "Nov 9-10: an Oval Office national monument proclamation, a Veterans Day proclamation, a wildfire-suppression determination and nominations. Nothing financial.",
+   "last_success": "2026-11-11"
   },
   {
    "source": "Congress.gov",
    "url": "https://www.congress.gov/",
    "status": "Partial",
-   "note": "The home page served an old copy and bill pages didn't load; searches found no action on tracked bills. Congress's post-election session began Nov 9.",
-   "last_success": "2026-11-10"
+   "note": "The home page loaded without bill status; searches found no action on tracked bills. This week's House schedule has no financial-services suspension bills; H.R. 1013, a retirement-plan investment bill, is set for floor action and isn't a limit on withdrawals or transfers.",
+   "last_success": "2026-11-11"
   },
   {
    "source": "House Financial Services calendar",
    "url": "https://financialservices.house.gov/calendar/",
    "status": "Checked",
    "note": "No hearings or markups posted since Sept 18.",
-   "last_success": "2026-11-10"
+   "last_success": "2026-11-11"
   },
   {
    "source": "Senate Banking Committee",
    "url": "https://www.banking.senate.gov/",
    "status": "Partial",
-   "note": "The home page served an old copy; searches found no hearings or markups listed for November.",
-   "last_success": "2026-11-10"
+   "note": "The home page lists ranking-member statements from Nov 9-10 on SEC enforcement, inflation and chip exports; no hearings or markups listed for November.",
+   "last_success": "2026-11-11"
   },
   {
    "source": "GAO",
    "url": "https://www.gao.gov/",
-   "status": "Partial",
-   "note": "Home page: Nov 5-6 reports and a Nov 9 report on Small Business Administration improper payments; nothing on payments, deposits or capital flows.",
-   "last_success": "2026-11-10"
+   "status": "Checked",
+   "note": "Nov 10 releases include a report on 401(k) plans and private equity and one on Treasury's votes at multilateral banks; nothing on deposits, payments or capital flows.",
+   "last_success": "2026-11-11"
   },
   {
    "source": "CRS reports",
    "url": "https://crsreports.congress.gov/",
    "status": "Not checked",
-   "note": "The site didn't load and a site search returned nothing.",
+   "note": "The site returned no page and a site search returned nothing.",
    "last_success": "2026-11-08"
   },
   {
@@ -4689,168 +4916,168 @@
    "url": "https://legiscan.com/",
    "status": "Partial",
    "note": "Most legislatures are out of session; no new bills on CBDCs, cash, gold, debanking or payment limits found.",
-   "last_success": "2026-11-10"
+   "last_success": "2026-11-11"
   },
   {
    "source": "IMF publications and eLibrary",
    "url": "https://www.elibrary.imf.org/",
    "status": "Checked",
-   "note": "No new papers on capital flow measures Nov 7-10; search hits were earlier 2026 working papers.",
-   "last_success": "2026-11-10"
+   "note": "Nov 9-10 items are country reviews (Denmark, Oman, Tonga) and an Ecuador staff-level agreement; no new papers on capital flow measures.",
+   "last_success": "2026-11-11"
   },
   {
    "source": "BIS",
    "url": "https://www.bis.org/",
    "status": "Checked",
-   "note": "Nov 9: central bankers' speeches and a Basel Committee consultation on interest rate risk; nothing on capital controls.",
-   "last_success": "2026-11-10"
+   "note": "Nov 10 working paper on U.S. monetary policy and global interest rates; Nov 6 paper on a global database of currencies. Nothing on capital controls.",
+   "last_success": "2026-11-11"
   },
   {
    "source": "FSB",
    "url": "https://www.fsb.org/",
    "status": "Checked",
-   "note": "Only a regional meeting notice; nothing on capital controls.",
-   "last_success": "2026-11-10"
+   "note": "Nov 11: peer review of Türkiye on crypto-assets and stablecoins, citing risks of digital dollarization and sudden capital outflows (item added).",
+   "last_success": "2026-11-11"
   },
   {
    "source": "FATF",
    "url": "https://www.fatf-gafi.org/",
    "status": "Checked",
    "note": "Nothing new since the Oct 30 plenary outcomes.",
-   "last_success": "2026-11-10"
+   "last_success": "2026-11-11"
   },
   {
    "source": "ECB digital euro",
    "url": "https://www.ecb.europa.eu/euro/digital_euro/html/index.en.html",
    "status": "Checked",
-   "note": "The page lists a Nov 7 interview with Yomiuri Shimbun that we couldn't open; coverage of Executive Board member Cipollone's remarks this week repeats the 2027 pilot and possible 2029 issuance timeline, with nothing new on holding limits, which are still under negotiation.",
-   "last_success": "2026-11-10"
+   "note": "The page shows the call for merchants to join the pilot and the July rulebook draft; nothing new on holding limits, which are still under negotiation.",
+   "last_success": "2026-11-11"
   },
   {
    "source": "Bank of England digital pound",
    "url": "https://www.bankofengland.co.uk/the-digital-pound",
    "status": "Checked",
    "note": "No decision yet; no digital pound news since late October.",
-   "last_success": "2026-11-10"
+   "last_success": "2026-11-11"
   },
   {
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/",
    "status": "Checked",
-   "note": "Nov 9: designated the RTR real-time payment system as a prominent payment system (an oversight step) and published a market survey; nothing new on stablecoins since the Oct 24 draft regulations. OSFI's next industry day is Dec 3.",
-   "last_success": "2026-11-10"
+   "note": "Nothing after the Nov 9 payment-system designation. Canada's Finance Department introduced Bill S-8 on Nov 3, with a cap on large cash payments and crypto ATM limits (item added). OSFI's next industry day is Dec 3.",
+   "last_success": "2026-11-11"
   },
   {
    "source": "Atlantic Council CBDC Tracker",
    "url": "https://www.atlanticcouncil.org/cbdctracker/",
    "status": "Checked",
    "note": "Still last updated May 2026.",
-   "last_success": "2026-11-10"
+   "last_success": "2026-11-11"
   },
   {
    "source": "NBER",
    "url": "https://www.nber.org/papers",
    "status": "Checked",
-   "note": "The latest batch has no papers on capital controls or payment limits.",
-   "last_success": "2026-11-10"
+   "note": "This week's papers include none on capital controls or payment limits.",
+   "last_success": "2026-11-11"
   },
   {
    "source": "Cato",
    "url": "https://www.cato.org/blog",
    "status": "Checked",
-   "note": "Nov 9 posts on the lame-duck budget and on a Senate defense-bill provision restricting stock buybacks by defense contractors, a limit on companies rather than individuals' money (not itemized). Nothing new on financial privacy since the Nov 4 survey post.",
-   "last_success": "2026-11-10"
+   "note": "Latest posts are from Nov 9 (lame-duck budget, the defense-bill stock buyback ban, ballot measures). Nothing new on financial privacy.",
+   "last_success": "2026-11-11"
   },
   {
    "source": "Brookings Hutchins Center",
    "url": "https://www.brookings.edu/centers/the-hutchins-center-on-fiscal-and-monetary-policy/",
    "status": "Checked",
-   "note": "No new posts on payments, deposits or capital flows found.",
-   "last_success": "2026-11-10"
+   "note": "No new posts on payments, deposits or capital flows; a Nov 17 event on Treasury market resilience is scheduled.",
+   "last_success": "2026-11-11"
   },
   {
    "source": "PIIE",
    "url": "https://www.piie.com/",
    "status": "Checked",
-   "note": "Nov 9 posts on the AI boom and China's currency; nothing on capital controls.",
-   "last_success": "2026-11-10"
+   "note": "Recent items cover tariffs and Latin America; nothing on capital controls.",
+   "last_success": "2026-11-11"
   },
   {
    "source": "AEI",
    "url": "https://www.aei.org/",
    "status": "Checked",
    "note": "Nothing relevant since Oct 27.",
-   "last_success": "2026-11-10"
+   "last_success": "2026-11-11"
   },
   {
    "source": "Heritage",
    "url": "https://www.heritage.org/",
    "status": "Checked",
    "note": "Nothing on capital controls.",
-   "last_success": "2026-11-10"
+   "last_success": "2026-11-11"
   },
   {
    "source": "Bank Policy Institute",
    "url": "https://bpi.com/",
    "status": "Checked",
-   "note": "Nov 9 comment letter on an FCC robocall proposal; the Nov 7 newsletter covers stablecoin reserve quality. Nothing on capital controls.",
-   "last_success": "2026-11-10"
+   "note": "Nothing after its early-November comment letters and stablecoin reserve note.",
+   "last_success": "2026-11-11"
   },
   {
    "source": "Coin Center",
    "url": "https://www.coincenter.org/",
    "status": "Checked",
-   "note": "No posts after Nov 6.",
-   "last_success": "2026-11-10"
+   "note": "No posts after Nov 6 (on the withdrawn travel-rule threshold plan).",
+   "last_success": "2026-11-11"
   },
   {
    "source": "JD Supra",
    "url": "https://www.jdsupra.com/",
    "status": "Checked",
-   "note": "Alerts on items already tracked (stablecoin rules, the MEXC order, outbound investment); nothing new to itemize.",
-   "last_success": "2026-11-10"
+   "note": "Alerts on items already tracked (MEXC order, COINS Act, stablecoin rules) and on Canada's Bill S-8 (item added).",
+   "last_success": "2026-11-11"
   },
   {
    "source": "Glenn Beck YouTube",
    "url": "https://www.youtube.com/@glennbeck",
    "status": "Checked",
-   "note": "The channel page loaded this time. The 'Capital Controls' special shows about 145,000 views; uploads since Nov 6 cover the election, the Nov 5 stock drop and politics, with no new claims about withdrawal limits or capital controls.",
-   "last_success": "2026-11-10"
+   "note": "The channel page loaded. The 'Capital Controls' special shows about 145,000 views; uploads since Nov 9 cover the midterms and politics, with no new claims about withdrawal limits or capital controls.",
+   "last_success": "2026-11-11"
   },
   {
    "source": "glennbeck.com",
    "url": null,
    "status": "Partial",
-   "note": "Pages need a sign-in; podcast listings for Nov 6-9 cover the election, the stock drop and politics. Nothing new on capital controls.",
-   "last_success": "2026-11-10"
+   "note": "Pages need a sign-in; Nov 10 show listings cover politics and immigration. Nothing new on capital controls.",
+   "last_success": "2026-11-11"
   },
   {
    "source": "IRS remittance tax guidance",
    "url": "https://www.irs.gov/newsroom/treasury-irs-issue-proposed-regulations-on-the-new-remittance-transfer-tax-established-under-the-one-big-beautiful-bill",
    "status": "Checked",
    "note": "No final regulations; the April proposal is still the latest. The 1% tax on cash-funded transfers still applies.",
-   "last_success": "2026-11-10"
+   "last_success": "2026-11-11"
   },
   {
    "source": "Other financial commentators (search)",
    "url": null,
    "status": "Checked",
-   "note": "Precious-metals commentators discussed Paraguay's bank failure, bank 'bail-ins' and credit stress; one (Nov 7) noted that U.S. deposits are insured. No specific new claim about U.S. capital controls, so none itemized.",
-   "last_success": "2026-11-10"
+   "note": "A precious-metals dealer's Nov 11 video on the dollar 'breaking' makes no specific claim about U.S. capital controls. A Nov 10 compliance blog described Tether's $344 million stablecoin freeze as new, but credible reports date it to Apr 23. Nothing itemized.",
+   "last_success": "2026-11-11"
   },
   {
    "source": "News search: bank and platform withdrawal limits",
    "url": null,
    "status": "Checked",
-   "note": "No U.S. bank withdrawal limits found; U.S. money market funds took in about $118 billion in the week to Nov 4 as investors moved into cash-like funds. Abroad: Paraguay has repaid 93% of covered Ueno accounts (item updated); Serbia's small Alta Bank lost its license Oct 30, and insured deposits up to 50,000 euros are to be paid from Nov 13 (not itemized: one small failed bank abroad); South Korea's Gopax is still halted.",
-   "last_success": "2026-11-10"
+   "note": "No U.S. bank withdrawal limits found. Paraguay: the president said Nov 10 that nearly 95% of covered Ueno Bank savers had been paid, with the rest due by Nov 11, and that getting back public pension money held at the bank will be a priority (the central bank's latest count was 93.1% by Nov 9; item to be updated after the deadline). South Korea's Gopax was still halted on Nov 11 with no restart date. Added Bolivia's faster return of dollar savings.",
+   "last_success": "2026-11-11"
   },
   {
    "source": "News search: currency and market measures abroad",
    "url": null,
    "status": "Checked",
-   "note": "Added China's informal pause on listings and big shareholders' share sales and Lebanon's higher withdrawal limits from Dec 1. Taiwan's and South Korea's market steps remain in effect; Paraguay's currency fell after the bank failure, with no capital controls announced.",
-   "last_success": "2026-11-10"
+   "note": "Added Canada's Bill S-8 and Bolivia's dollar-deposit changes. China's central bank will raise the share of foreign-currency deposits banks must hold in reserve to 6% from Nov 15 to slow the yuan's rise; it limits banks' dollar funds, not people's access to deposits, so it isn't itemized. Myanmar's central bank gave exporters 45 days instead of 30 to use their foreign earnings (an easing). Taiwan's and South Korea's market steps remain in effect.",
+   "last_success": "2026-11-11"
   }
  ],
  "raise_level_triggers": [
@@ -4866,7 +5093,8 @@
   "Repeal or narrowing of the statutory CBDC bar, a retail CBDC pilot, or a digital euro holding cap cited by U.S. officials as a model.",
   "The final outbound-investment rule widening to publicly traded securities, index funds, or more countries or technologies.",
   "FinCEN section 9714 or 311 orders reaching widely used U.S. payment apps, stablecoins or exchanges that serve ordinary Americans, rather than offshore firms tied to sanctions evasion.",
-  "Any U.S. order limiting ordinary investors' ability to sell stocks or fund shares during a market slide, beyond exchanges' automatic circuit breakers and short-sale curbs."
+  "Any U.S. order limiting ordinary investors' ability to sell stocks or fund shares during a market slide, beyond exchanges' automatic circuit breakers and short-sale curbs.",
+  "A U.S. bill or rule that would ban or cap large cash payments, as Canada's Bill S-8 proposes, instead of only requiring businesses to report them."
  ],
  "live_page": "https://brentwhichel.github.io/capital-controls-monitor/"
 }
