@@ -3924,11 +3924,11 @@
   "paraguay-ueno-bank-resolution-2026-11": {
    "id": "paraguay-ueno-bank-resolution-2026-11",
    "section": "banking_stress",
-   "headline": "Paraguay's guarantee fund has repaid 93% of covered savers at failed Ueno Bank, up to about $20,000 each so far; the deadline for these advance payments is Nov 11",
-   "date": "2026-11-09",
+   "headline": "Paraguay's guarantee fund has paid every covered saver at failed Ueno Bank an advance of up to about $19,000; larger balances wait for the bank's assets to move to other banks",
+   "date": "2026-11-11",
    "org": "Banco Central del Paraguay (Paraguay's central bank) and its banking and securities supervisors",
-   "what_changed": "By the end of Monday, Nov 9, Paraguay's state Deposit Guarantee Fund had paid advances to 1,738,804 Ueno Bank accounts, 93.1% of those it covers, totaling Gs 2.126 trillion (about $340 million), up from 64% on Nov 8. On Nov 9 alone, 540,609 people were paid about Gs 1.13 trillion, including savers with larger balances, who received the maximum advance of 40 monthly minimum wages (Gs 121.76 million, about $20,000), and customers who owe Ueno money, after their overdue debts were subtracted. About 128,000 accounts still need extra checks, including blocked accounts, savings certificates and customers with operations at the state development lender AFD. The legal deadline for the advance payments is Wednesday, Nov 11.",
-   "summary": "Paraguay's central bank put Ueno, a digital lender with about 2.9 million customers, into resolution (a state-run wind-down) on Nov 2-3 after its solvency ratio fell below half the legal minimum, freezing accounts except for guarantee-fund payouts. The fund covers up to 75 monthly minimum wages per depositor (Gs 228.3 million, about $38,000); amounts between the advance and that limit are to be paid after account reconciliation, with no date set, and nothing has been announced yet for balances above the limit, including about $800 million that state companies, much of it pension money, had placed at Ueno. Savers don't need to apply: each is assigned a bank that pays the advance, and people without another account get a new one. Paraguay's tax agency plans to waive fines and interest for about 45,000 taxpayers affected by Ueno's closure. Ueno's own two money funds still weren't paying redemptions on Nov 6 while Ueno's brokerage worked to hand their management to another firm; the central bank's brief pauses on other funds holding Ueno investments were lifted Nov 4-5. Paraguay's Senate removed President Santiago Peña on Nov 6 over his links to the bank, and prosecutors are investigating.",
+   "what_changed": "On Nov 11, 2026, the deadline set by Paraguay's emergency law, the central bank said the state Deposit Guarantee Fund had paid advances to 100% of the Ueno Bank savers it covers: 1,812,348 people, for a total that AFP put at about $643 million, up from 93.1% of covered savers paid by Nov 9. Each covered saver received up to 40 monthly minimum wages (Gs 121.76 million, about $19,000), paid into an account in their name at another bank. Amounts above the advance, up to the fund's limit of 75 monthly minimum wages (about $37,000), will be paid after Ueno's assets and liabilities are transferred to other banks, a process a central bank director said would begin the following week, with news expected by the end of November.",
+   "summary": "Paraguay's central bank put Ueno, a digital lender that said it had about 3 million customers, into resolution (a state-run wind-down) on Nov 3 after its solvency ratio fell below half the legal minimum, freezing accounts except for guarantee-fund payouts. AFP reported that Ueno held about $2.8 billion when it was taken over, so the advances cover only part of the money at the bank. Public bodies had more than $800 million there, including more than $500 million of pension money, and Paraguay's new president said recovering pension funds will have priority. The guarantee excludes the bank's directors and shareholders, and investors in Ueno's money funds, which aren't bank deposits, are still waiting for a decision on their money. Paraguay's Senate removed President Santiago Peña on Nov 6 over his links to the bank, and prosecutors are investigating.",
    "control_type": "Prohibition",
    "affected": "Sector or group",
    "stage": "In effect",
@@ -3938,11 +3938,11 @@
    ],
    "direction": "Neutral",
    "evidence": "Official document",
-   "why_it_matters": "It shows in real time what a large bank failure means for savers: accounts frozen, insured money returned in stages over about a week, and investment funds tied to the bank pausing withdrawals. That is the kind of situation U.S. failed-bank rules, such as the FDIC's pending 'provisional hold' proposal for the largest banks, are designed to handle.",
-   "why_it_might_not": "It is one failed bank in another country, handled under Paraguay's own deposit-guarantee law, and the fund pauses lasted only days. In the U.S., deposits are insured to at least $250,000 at each FDIC-insured bank, and the FDIC's list shows no U.S. bank failures since Sept 25.",
+   "why_it_matters": "It shows in real time what a large bank failure can mean for savers: accounts frozen, covered money returned in stages over about a week, and larger balances and investment funds tied to the bank left waiting. That is the kind of situation U.S. failed-bank rules, such as the FDIC's pending 'provisional hold' proposal for the largest banks, are designed to handle.",
+   "why_it_might_not": "It is one failed bank in another country, handled under Paraguay's own deposit-guarantee law, and every covered saver has now received an advance. In the U.S., deposits are insured up to at least $250,000 per depositor at each FDIC-insured bank, and the FDIC's list shows no U.S. bank failures since Sept 25.",
    "next_milestone": {
-    "what": "Legal deadline for the advance payments; remaining balances up to the fund's limit after reconciliation (no date set); Paraguay's state pension fund pays the 32,000 pensioners who banked at Ueno through other banks on Nov 17",
-    "date": "2026-11-11"
+    "what": "Transfer of Ueno's assets and liabilities to other banks, the step before covered balances above the advance are paid, was due to begin the week of Nov 16 (no exact date); Paraguay's state pension fund pays the 32,000 pensioners who banked at Ueno through other banks on Nov 17",
+    "date": "2026-11-17"
    },
    "sources": [
     {
@@ -3960,6 +3960,20 @@
      "primary": true
     },
     {
+     "title": "Paraguay devuelve parte de sus ahorros a todos los depositantes de Ueno (Paraguay returns part of their savings to all Ueno depositors; in Spanish)",
+     "url": "https://es-us.noticias.yahoo.com/paraguay-devuelve-ahorros-depositantes-ueno-020310417.html",
+     "publisher": "AFP (via Yahoo Noticias)",
+     "date": "2026-11-11",
+     "primary": false
+    },
+    {
+     "title": "Clientes afectados de Ueno Bank en Paraguay reciben parte de sus ahorros, pero el pago total deberá esperar (Ueno clients get part of their savings, but full payment must wait; in Spanish)",
+     "url": "https://www.primicias.ec/internacional/ueno-bank-paraguay-clientes-pago-ahorros-fondo-garantia-banco-central-136945/",
+     "publisher": "Primicias (AFP)",
+     "date": "2026-11-11",
+     "primary": false
+    },
+    {
      "title": "Un 93,1 % de los clientes de Ueno bank han recibido devoluciones de ahorros (93.1% of Ueno clients have been repaid; in Spanish)",
      "url": "https://efe.com/economia/2026-11-10/clientes-ueno-bank-reciben-devoluciones-ahorros/",
      "publisher": "EFE",
@@ -3971,6 +3985,20 @@
      "url": "https://asunciontimes.com/paraguay-news/national-news/paraguays-central-bank-93-of-ueno-bank-savers-paid-final-payments-due-wednesday/",
      "publisher": "Asunción Times",
      "date": "2026-11-10",
+     "primary": false
+    },
+    {
+     "title": "Ueno bank: el BCP abre la segunda ronda de pagos para saldos de hasta G. 121 millones (Second payment round opens; in Spanish)",
+     "url": "https://perspectivas.com.py/noticias/ueno-bank-el-bcp-abre-la-segunda-ronda-de-pagos-para-saldos-de-hasta-g-121-millones",
+     "publisher": "Perspectivas",
+     "date": "2026-11-07",
+     "primary": false
+    },
+    {
+     "title": "Paraguay's ousted President Peña questioned over bank collapse",
+     "url": "https://apnews.com/article/paraguay-president-pena-ueno-bank-0a3cddd03f9fb36c870fa3117aeeb4ac",
+     "publisher": "Associated Press",
+     "date": "2026-11-07",
      "primary": false
     },
     {
@@ -3986,20 +4014,6 @@
      "publisher": "La Nación (Paraguay)",
      "date": "2026-11-09",
      "primary": false
-    },
-    {
-     "title": "Paraguay's ousted President Peña questioned over bank collapse",
-     "url": "https://apnews.com/article/paraguay-president-pena-ueno-bank-0a3cddd03f9fb36c870fa3117aeeb4ac",
-     "publisher": "Associated Press",
-     "date": "2026-11-07",
-     "primary": false
-    },
-    {
-     "title": "Ueno bank: el BCP abre la segunda ronda de pagos para saldos de hasta G. 121 millones (Second payment round opens; in Spanish)",
-     "url": "https://perspectivas.com.py/noticias/ueno-bank-el-bcp-abre-la-segunda-ronda-de-pagos-para-saldos-de-hasta-g-121-millones",
-     "publisher": "Perspectivas",
-     "date": "2026-11-07",
-     "primary": false
     }
    ],
    "quote": {
@@ -4007,7 +4021,7 @@
     "source_url": ""
    },
    "first_seen": "2026-11-09",
-   "last_change": "2026-11-09",
+   "last_change": "2026-11-11",
    "status": "EASED",
    "open": true,
    "status_history": [
@@ -4020,10 +4034,15 @@
      "date": "2026-11-10",
      "status": "EASED",
      "stage": "In effect"
+    },
+    {
+     "date": "2026-11-12",
+     "status": "EASED",
+     "stage": "In effect"
     }
    ],
-   "updated_on": "2026-11-10",
-   "plain": "Paraguay, a country in South America, has paid back 93% of savers at a failed bank, up to about $20,000 each so far. Their accounts were frozen on Nov 3."
+   "updated_on": "2026-11-12",
+   "plain": "By Nov 11, a fund in Paraguay that protects bank savings had paid each saver it covers at Ueno, a failed bank, up to about $19,000. People with more money there must wait."
   },
   "intl-china-market-support-2026-11": {
    "id": "intl-china-market-support-2026-11",
@@ -4510,58 +4529,54 @@
   {
    "date": "2026-11-11",
    "level": "YELLOW"
+  },
+  {
+   "date": "2026-11-12",
+   "level": "YELLOW"
   }
  ],
  "github_user": "brentwhichel",
  "repo": "capital-controls-monitor",
  "monitor": "Capital Controls Early-Warning Monitor",
  "report": {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "level": "YELLOW",
-  "bottom_line": "No limits on ordinary Americans' withdrawals or transfers are in effect or proposed, and we found no new U.S. government action since the last report, which spanned the Veterans Day holiday; abroad, this report adds Canada's proposed ban on most cash payments of $10,000 or more, Bolivia's faster return of dollar savings that have been hard to withdraw since 2023, and a global regulators' review urging Türkiye to regulate stablecoins partly because of the risk of sudden capital outflows.",
-  "level_reason": "The level stays YELLOW because official Tier 1 steps remain in play: Treasury's wider outbound-investment proposal (comments due Dec 7), stablecoin rules requiring issuers to be able to freeze coins on lawful orders (the GENIUS Act takes effect Jan 18), FinCEN's Oct 30 cross-border payments alert and the Minnesota transfer-reporting order (ends Feb 6 unless renewed), while the MEXC transfer ban, effective Dec 10, names one foreign company, and the only U.S. Tier 2 item, the FDIC provisional-hold proposal, applies only after a bank fails. Nothing new raises it: all three additions are abroad, Canada's cash limit is a bill that has only been introduced, Bolivia's step loosens its limits, and the FSB's advice to Türkiye isn't binding.",
-  "change_text": "Yesterday: YELLOW. Today: YELLOW, unchanged. No tracked U.S. item moved: the Federal Register filings for Nov 12 include no FinCEN or banking-agency rules (there is no Federal Register on the Nov 11 holiday), and Treasury, the Fed, the FDIC, the OCC and the White House posted nothing new on deposits, withdrawals or transfers. New since the previous report: the Financial Stability Board's Nov 11 peer review urged Türkiye to set up a stablecoin regime and monitor cross-border flows, citing risks of digital dollarization and sudden capital outflows. This report also adds two items not covered earlier: Canada's Bill S-8, introduced Nov 3, which would bar most businesses from accepting $10,000 or more in cash and cap crypto ATM use at $1,000 a day; and Bolivia's central bank decision to repay $333 million in dollar deposits early, from Nov 5, and, from Nov 9, let banks keep reserves on new dollar deposits available for withdrawals. Paraguay's president said Nov 10 that nearly 95% of covered Ueno Bank savers had been paid, with the rest due by Nov 11, and South Korea's Gopax was still halted on Nov 11.",
-  "flags_lede": "What's new or changed since the previous report on Nov 10, 2026.",
+  "bottom_line": "No limits on ordinary Americans' withdrawals or transfers are in effect or proposed, and we found no new U.S. government action since the last report; abroad, Paraguay's central bank finished paying every covered saver at failed Ueno Bank an advance of up to about $19,000 on Nov 11, though amounts above that are still waiting to be paid.",
+  "level_reason": "The level stays YELLOW because official Tier 1 steps remain in play: Treasury's wider outbound-investment proposal (comments due Dec 7), stablecoin rules requiring issuers to be able to freeze coins on lawful orders (the GENIUS Act takes effect Jan 18), FinCEN's Oct 30 cross-border payments alert and the Minnesota transfer-reporting order (ends Feb 6 unless renewed), while the MEXC transfer ban, effective Dec 10, names one foreign company, and the only U.S. Tier 2 item, the FDIC provisional-hold proposal, applies only after a bank fails. Nothing new raises it: the only movement this time is in Paraguay, and it loosens limits on savers' money.",
+  "change_text": "Yesterday: YELLOW. Today: YELLOW, unchanged. No tracked U.S. item moved: the Nov 12 Federal Register has no FinCEN or banking-agency rules, the White House's list of rules under review shows no new Treasury or banking-agency entries, and Treasury, the Fed, the FDIC, the OCC and the White House posted nothing new on deposits, withdrawals or transfers. The Treasury Secretary's Nov 11 speech on China said the U.S. wants to reduce risks in its economic ties with China rather than cut them off. One tracked item eased: on Nov 11, Paraguay's central bank said all 1,812,348 savers covered by its deposit guarantee fund at failed Ueno Bank had received an advance of up to about $19,000; larger balances wait for the bank's assets and debts to move to other banks, a process due to start the week of Nov 16. Also checked: an ECB board member told EU lawmakers on Nov 10 that the ECB backs laws protecting the use of cash alongside a digital euro, with nothing new on digital euro holding limits, and South Korea's Gopax exchange had set no restart date in the latest reports we found.",
+  "flags_lede": "What's new or changed since the previous report on Nov 11, 2026.",
   "flags": [
    {
-    "id": "intl-bolivia-dollar-deposit-refunds-2026-11",
-    "movement": "NEW"
-   },
-   {
-    "id": "intl-canada-bill-s8-cash-limits",
-    "movement": "NEW"
-   },
-   {
-    "id": "intl-fsb-turkiye-stablecoin-review-2026-11",
-    "movement": "NEW"
+    "id": "paraguay-ueno-bank-resolution-2026-11",
+    "movement": "EASED"
    }
   ],
-  "sources_checked_through": "2026-11-11T07:31:24-05:00",
-  "refreshed_at": "2026-11-11T06:33:11-06:00",
+  "sources_checked_through": "2026-11-12T07:28:16-05:00",
+  "refreshed_at": "2026-11-12T06:30:17-06:00",
   "plain": {
-   "today": "Nothing stops regular people in the U.S. from taking out, moving or saving their money. The new items this time are all in other countries.",
-   "worry": "Not right now. We found no new U.S. rules. Canada's government proposed a limit on big cash payments, but it isn't law. Bolivia is giving savers back more of their dollars.",
+   "today": "Nothing stops regular people in the U.S. from taking out, moving or saving their money. The only change this time is good news for savers in Paraguay.",
+   "worry": "Not right now. We found no new U.S. rules or plans that limit your money. In Paraguay, savers at a failed bank have started getting their money back.",
    "watch": [
     "A cap on how much money people can send to other countries.",
     "Limits on how much cash people can take out of the bank.",
     "An order that stops most people from selling stocks or moving money, not just a few named companies."
    ],
-   "changes_lede": "There were no new U.S. rules this time. We added a cash plan in Canada, good news for savers in Bolivia, and advice to Türkiye about stablecoins."
+   "changes_lede": "There were no new U.S. rules this time. In Paraguay, savers at a failed bank got back up to about $19,000 each."
   },
   "layout": "v2-plain-first"
  },
  "upcoming_dates": [
   {
-   "date": "2026-11-11",
-   "what": "Legal deadline for Paraguay's advance payments to Ueno Bank savers",
-   "item_id": "paraguay-ueno-bank-resolution-2026-11",
-   "url": "https://asunciontimes.com/paraguay-news/national-news/paraguays-central-bank-93-of-ueno-bank-savers-paid-final-payments-due-wednesday/"
-  },
-  {
    "date": "2026-11-12",
-   "what": "Next weekly Fed balance sheet (H.4.1): discount-window and emergency lending",
+   "what": "Next weekly Fed balance sheet (H.4.1), due 4:30 p.m. ET today: discount-window and emergency lending",
    "item_id": "h41-2026-11-05-discount-window",
    "url": "https://www.federalreserve.gov/releases/h41/"
+  },
+  {
+   "date": "2026-11-16",
+   "what": "Week of Nov 16: transfer of failed Ueno Bank's assets and debts to other banks is due to begin in Paraguay (no exact date), the step before covered balances above the advance are paid",
+   "item_id": "paraguay-ueno-bank-resolution-2026-11",
+   "url": "https://es-us.noticias.yahoo.com/paraguay-devuelve-ahorros-depositantes-ueno-020310417.html"
   },
   {
    "date": "2026-11-17",
@@ -4718,366 +4733,373 @@
   {
    "source": "Federal Register public inspection (current)",
    "url": "https://www.federalregister.gov/public-inspection/current",
-   "status": "Checked",
-   "note": "The filings made Nov 10 for publication Nov 12 include no FinCEN or banking-agency rules. Financial items: two OFAC sanctions notices on named parties, a Fed rule making its routine yearly update to the asset threshold in its Reserve Bank stock rules, an IRS hearing notice on a scholarship tax credit, a Treasury grant notice and routine SEC filings. There's no Federal Register on the Nov 11 holiday.",
+   "status": "Partial",
+   "note": "The public inspection list is offline overnight and returns at 8:45 a.m. ET on Nov 12, so filings for Nov 13 weren't visible yet. We checked the Nov 12 issue instead (next row).",
    "last_success": "2026-11-11"
   },
   {
    "source": "Federal Register documents (via web search)",
    "url": "https://www.federalregister.gov/",
-   "status": "Partial",
-   "note": "Nov 10's Federal Register carried FinCEN's MEXC order (tracked) and OFAC sanctions notices; nothing new found beyond the Nov 12 public-inspection list. FinCEN's 2026 index lists 23 documents so far. Search pages and the API don't load, so some notices may have been missed.",
-   "last_success": "2026-11-11"
+   "status": "Checked",
+   "note": "The Nov 12 issue (124 documents) has no FinCEN or banking-agency rules. Financial items: OFAC sanctions notices on named parties, the Fed's yearly inflation adjustment to a Reserve Bank stock rule and a Treasury grant notice. Nov 10 carried FinCEN's MEXC order (tracked).",
+   "last_success": "2026-11-12"
   },
   {
    "source": "OIRA rules under review",
    "url": "https://www.reginfo.gov/public/do/eoReviewSearch",
-   "status": "Partial",
-   "note": "The posted list is dated Nov 9, but the copy we could read was cut off after the first agencies. Site searches found no new Treasury, FinCEN or banking-agency rules under review; the Labor Department's final 401(k) investment rule (received Nov 5) is still under review (tracked).",
-   "last_success": "2026-11-11"
+   "status": "Checked",
+   "note": "We read the full Nov 11 list. No FinCEN or banking-agency rules. Treasury's only entry is an IRS proposal on crypto broker reporting under the OECD's crypto reporting framework, under review since Nov 14, 2025. The Labor Department's 401(k) investment rule (tracked) is still pending.",
+   "last_success": "2026-11-12"
   },
   {
    "source": "Unified Agenda",
    "url": "https://www.reginfo.gov/public/do/eAgendaMain",
    "status": "Partial",
-   "note": "Main page only (2026 Regulatory Plan edition). Site searches show FinCEN entries already tracked (AML program rule, customer due diligence); nothing new.",
-   "last_success": "2026-11-11"
+   "note": "Main page only (2026 Regulatory Plan edition). Site searches show FinCEN entries already tracked (AML program rule, stablecoin issuer AML and sanctions rule, customer due diligence); nothing new.",
+   "last_success": "2026-11-12"
   },
   {
    "source": "Regulations.gov",
    "url": "https://www.regulations.gov/",
    "status": "Partial",
    "note": "Home page and trending dockets only; nothing relevant.",
-   "last_success": "2026-11-11"
+   "last_success": "2026-11-12"
   },
   {
    "source": "Treasury press releases",
    "url": "https://home.treasury.gov/news/press-releases",
    "status": "Checked",
-   "note": "The newest releases are dated Nov 6 (MEXC order, sanctions on Canadian money services businesses, FATF statement). Nothing new Nov 9-10.",
-   "last_success": "2026-11-11"
+   "note": "Nov 11: the Secretary's speech on U.S.-China relations said the aim is to reduce risks, not cut economic ties. Nothing on limits on Americans' money. The releases before that are dated Nov 6 (MEXC order, sanctions, FATF statement).",
+   "last_success": "2026-11-12"
   },
   {
    "source": "Treasury Outbound Investment Security Program",
    "url": "https://home.treasury.gov/policy-issues/international/outbound-investment-program",
    "status": "Checked",
-   "note": "Page unchanged: COINS Act proposal (Oct 22; comments due Dec 7). Law-firm summaries posted Nov 10 add nothing new.",
-   "last_success": "2026-11-11"
+   "note": "Page unchanged: COINS Act proposal (Oct 22; comments due Dec 7). A Nov 10 law-firm summary adds nothing new.",
+   "last_success": "2026-11-12"
   },
   {
    "source": "OFAC recent actions",
    "url": "https://ofac.treasury.gov/recent-actions",
    "status": "Checked",
-   "note": "Latest is the Nov 9 Iran-related designation update. The Nov 12 notices publish earlier sanctions on named parties.",
-   "last_success": "2026-11-11"
+   "note": "Latest is the Nov 9 Iran-related designation update. The Nov 12 Federal Register publishes sanctions on named parties.",
+   "last_success": "2026-11-12"
   },
   {
    "source": "FinCEN news",
    "url": "https://www.fincen.gov/news",
    "status": "Checked",
    "note": "Nothing after the Nov 9 readout on overseas scam centers. The MEXC order takes effect Dec 10 (tracked).",
-   "last_success": "2026-11-11"
+   "last_success": "2026-11-12"
   },
   {
    "source": "FSOC",
    "url": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/fsoc",
    "status": "Partial",
    "note": "Landing page only; no new meeting readout or annual report found.",
-   "last_success": "2026-11-11"
+   "last_success": "2026-11-12"
   },
   {
    "source": "Treasury officials' speeches",
    "url": "https://home.treasury.gov/news/press-releases",
-   "status": "Partial",
-   "note": "No new Treasury remarks on stablecoins, tokenization, payments or capital flows found Nov 8-11; the latest found are the Secretary's late-October stablecoin remarks.",
-   "last_success": "2026-11-11"
+   "status": "Checked",
+   "note": "Nov 11: the Secretary's U.S.-China speech covered trade and investment ties, not stablecoins, payments or limits on money. No other new Treasury remarks on those topics found Nov 9-12.",
+   "last_success": "2026-11-12"
   },
   {
    "source": "Fed press releases",
    "url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
    "status": "Partial",
-   "note": "The list page still serves an older copy (to Oct 29). The Board's recent-postings page shows Nov 9-10 items: a bank holding company approval, research notes and two speeches; nothing on deposits, withdrawals or emergency lending.",
-   "last_success": "2026-11-11"
+   "note": "The list page still serves an older copy (to Oct 29). The Board's recent-postings page shows Nov 9-10 items: an application approval, research notes (one on central banks moving gold reserves) and two speeches. The Fed was closed Nov 11.",
+   "last_success": "2026-11-12"
   },
   {
    "source": "Fed speeches and testimony",
    "url": "https://www.federalreserve.gov/newsevents/speech/2026-speeches.htm",
    "status": "Checked",
-   "note": "Nov 10: Vice Chair for Supervision Bowman and Governor Waller spoke on the economy and interest rates. Nothing on payments, stablecoins or capital flows.",
-   "last_success": "2026-11-11"
+   "note": "Nov 10: Vice Chair for Supervision Bowman and Governor Waller spoke on the economy and interest rates. Nothing newer, and nothing on payments, stablecoins or capital flows.",
+   "last_success": "2026-11-12"
   },
   {
    "source": "Fed Financial Stability Report",
    "url": "https://www.federalreserve.gov/publications/financial-stability-report.htm",
    "status": "Checked",
    "note": "Latest is May 2026; the November edition hasn't been posted.",
-   "last_success": "2026-11-11"
+   "last_success": "2026-11-12"
   },
   {
    "source": "Fed H.4.1",
    "url": "https://www.federalreserve.gov/releases/h41/",
-   "status": "Partial",
-   "note": "The page served an older copy. The Nov 5 release is the latest known; the next release is Thursday, Nov 12.",
-   "last_success": "2026-11-10"
+   "status": "Checked",
+   "note": "The Nov 5 release is still the latest; the next one comes out at 4:30 p.m. ET today (Nov 12), after this report.",
+   "last_success": "2026-11-12"
   },
   {
    "source": "FDIC press releases",
    "url": "https://www.fdic.gov/news/press-releases",
    "status": "Checked",
    "note": "Nothing after Nov 5.",
-   "last_success": "2026-11-11"
+   "last_success": "2026-11-12"
   },
   {
    "source": "FDIC failed bank list",
    "url": "https://www.fdic.gov/bank-failures/failed-bank-list",
    "status": "Checked",
    "note": "No failures since Nano Banc (Sept 25).",
-   "last_success": "2026-11-11"
+   "last_success": "2026-11-12"
   },
   {
    "source": "FDIC Financial Institution Letters",
    "url": "https://www.fdic.gov/news/financial-institution-letters",
    "status": "Checked",
-   "note": "Nothing after FIL-66 (Call Report changes, Nov 3).",
-   "last_success": "2026-11-11"
+   "note": "Nov 10: FIL-67-2026 gives supervisory relief in areas of Hawaii hit by an earthquake. Nothing on deposits or withdrawals.",
+   "last_success": "2026-11-12"
   },
   {
    "source": "OCC",
    "url": "https://www.occ.gov/",
    "status": "Checked",
-   "note": "Newsroom: a Nov 10 bulletin on how guarantees affect commercial credit ratings and a Nov 6 homeownership-counseling bulletin. Nothing on capital controls.",
-   "last_success": "2026-11-11"
+   "note": "Newsroom: a Nov 10 bulletin on how guarantees affect commercial credit ratings; no news releases since Nov 5. Nothing on capital controls.",
+   "last_success": "2026-11-12"
   },
   {
    "source": "SEC press releases",
    "url": "https://www.sec.gov/newsroom/press-releases",
    "status": "Checked",
-   "note": "Nov 10: fiscal 2026 enforcement results. No money market fund or redemption actions.",
-   "last_success": "2026-11-11"
+   "note": "Nothing after the Nov 10 enforcement results. No money market fund or redemption actions.",
+   "last_success": "2026-11-12"
   },
   {
    "source": "CFPB newsroom",
    "url": "https://www.consumerfinance.gov/about-us/newsroom/",
    "status": "Checked",
    "note": "Nothing new since Oct 14 (debanking initiative).",
-   "last_success": "2026-11-11"
+   "last_success": "2026-11-12"
   },
   {
    "source": "CFTC press releases",
    "url": "https://www.cftc.gov/PressRoom/PressReleases",
    "status": "Checked",
-   "note": "Nothing after the Nov 9 sanctions on unregistered associated persons. Nothing on capital controls.",
-   "last_success": "2026-11-11"
+   "note": "Nothing after the Nov 9 sanctions on unregistered associated persons.",
+   "last_success": "2026-11-12"
   },
   {
    "source": "White House presidential actions",
    "url": "https://www.whitehouse.gov/presidential-actions/",
    "status": "Checked",
-   "note": "Nov 9-10: an Oval Office national monument proclamation, a Veterans Day proclamation, a wildfire-suppression determination and nominations. Nothing financial.",
-   "last_success": "2026-11-11"
+   "note": "Latest items are from Nov 9-10: a national monument proclamation, a Veterans Day proclamation, a wildfire-suppression determination and nominations. Nothing financial.",
+   "last_success": "2026-11-12"
   },
   {
    "source": "Congress.gov",
    "url": "https://www.congress.gov/",
    "status": "Partial",
-   "note": "The home page loaded without bill status; searches found no action on tracked bills. This week's House schedule has no financial-services suspension bills; H.R. 1013, a retirement-plan investment bill, is set for floor action and isn't a limit on withdrawals or transfers.",
-   "last_success": "2026-11-11"
+   "note": "The home page loaded without bill status; searches found no action on tracked bills (H.R. 8995, H.R. 1799, CLARITY Act). The federal funding deadline is Dec 11.",
+   "last_success": "2026-11-12"
   },
   {
    "source": "House Financial Services calendar",
    "url": "https://financialservices.house.gov/calendar/",
    "status": "Checked",
    "note": "No hearings or markups posted since Sept 18.",
-   "last_success": "2026-11-11"
+   "last_success": "2026-11-12"
   },
   {
    "source": "Senate Banking Committee",
    "url": "https://www.banking.senate.gov/",
    "status": "Partial",
    "note": "The home page lists ranking-member statements from Nov 9-10 on SEC enforcement, inflation and chip exports; no hearings or markups listed for November.",
-   "last_success": "2026-11-11"
+   "last_success": "2026-11-12"
   },
   {
    "source": "GAO",
    "url": "https://www.gao.gov/",
-   "status": "Checked",
-   "note": "Nov 10 releases include a report on 401(k) plans and private equity and one on Treasury's votes at multilateral banks; nothing on deposits, payments or capital flows.",
-   "last_success": "2026-11-11"
+   "status": "Partial",
+   "note": "The site blocked our reader. A site search found a Nov 5 report on banking agencies' work with international standard setters; nothing on deposits, payments or capital controls.",
+   "last_success": "2026-11-12"
   },
   {
    "source": "CRS reports",
    "url": "https://crsreports.congress.gov/",
-   "status": "Not checked",
-   "note": "The site returned no page and a site search returned nothing.",
-   "last_success": "2026-11-08"
+   "status": "Partial",
+   "note": "The site returned no page. A search found only earlier reports on the GENIUS Act (Aug-Sept 2026).",
+   "last_success": "2026-11-12"
   },
   {
    "source": "State bills (LegiScan)",
    "url": "https://legiscan.com/",
    "status": "Partial",
-   "note": "Most legislatures are out of session; no new bills on CBDCs, cash, gold, debanking or payment limits found.",
-   "last_success": "2026-11-11"
+   "note": "Most legislatures are out of session; searches found no new bills on CBDCs, cash, gold, debanking or payment limits.",
+   "last_success": "2026-11-12"
   },
   {
    "source": "IMF publications and eLibrary",
    "url": "https://www.elibrary.imf.org/",
    "status": "Checked",
-   "note": "Nov 9-10 items are country reviews (Denmark, Oman, Tonga) and an Ecuador staff-level agreement; no new papers on capital flow measures.",
-   "last_success": "2026-11-11"
+   "note": "Nov 9-12 items are country reviews and agreements (Armenia, Denmark, Ecuador, Jamaica, Oman, Tonga, Zimbabwe) and a Nov 11 note on sovereign wealth funds; no new papers on capital flow measures.",
+   "last_success": "2026-11-12"
   },
   {
    "source": "BIS",
    "url": "https://www.bis.org/",
    "status": "Checked",
-   "note": "Nov 10 working paper on U.S. monetary policy and global interest rates; Nov 6 paper on a global database of currencies. Nothing on capital controls.",
-   "last_success": "2026-11-11"
+   "note": "Nov 11 working paper on liquidity stress tests for banks; Nov 10 paper on U.S. monetary policy and global interest rates. Nothing on capital controls.",
+   "last_success": "2026-11-12"
   },
   {
    "source": "FSB",
    "url": "https://www.fsb.org/",
    "status": "Checked",
-   "note": "Nov 11: peer review of Türkiye on crypto-assets and stablecoins, citing risks of digital dollarization and sudden capital outflows (item added).",
-   "last_success": "2026-11-11"
+   "note": "The Nov 11 peer review of Türkiye (tracked) is still the latest; nothing newer.",
+   "last_success": "2026-11-12"
   },
   {
    "source": "FATF",
    "url": "https://www.fatf-gafi.org/",
    "status": "Checked",
    "note": "Nothing new since the Oct 30 plenary outcomes.",
-   "last_success": "2026-11-11"
+   "last_success": "2026-11-12"
   },
   {
    "source": "ECB digital euro",
    "url": "https://www.ecb.europa.eu/euro/digital_euro/html/index.en.html",
    "status": "Checked",
-   "note": "The page shows the call for merchants to join the pilot and the July rulebook draft; nothing new on holding limits, which are still under negotiation.",
-   "last_success": "2026-11-11"
+   "note": "Nov 10: Executive Board member Cipollone told EU lawmakers the ECB backs laws on accepting and accessing cash alongside a digital euro, with a pilot from the second half of 2027. We found nothing new on holding limits, which are still being negotiated.",
+   "last_success": "2026-11-12"
   },
   {
    "source": "Bank of England digital pound",
    "url": "https://www.bankofengland.co.uk/the-digital-pound",
    "status": "Checked",
-   "note": "No decision yet; no digital pound news since late October.",
-   "last_success": "2026-11-11"
+   "note": "No decision yet; no new digital pound news found.",
+   "last_success": "2026-11-12"
   },
   {
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/",
    "status": "Checked",
-   "note": "Nothing after the Nov 9 payment-system designation. Canada's Finance Department introduced Bill S-8 on Nov 3, with a cap on large cash payments and crypto ATM limits (item added). OSFI's next industry day is Dec 3.",
-   "last_success": "2026-11-11"
+   "note": "Nov 10: summary of rate deliberations; Nov 9: market participants survey. Nothing on payments limits. Canada's Bill S-8 is still at first reading in the Senate (introduced Nov 3).",
+   "last_success": "2026-11-12"
+  },
+  {
+   "source": "OSFI (Canada's bank regulator)",
+   "url": "https://www.osfi-bsif.gc.ca/",
+   "status": "Checked",
+   "note": "Next domestic stability buffer decision is Dec 17; nothing on deposit or withdrawal limits.",
+   "last_success": "2026-11-12"
   },
   {
    "source": "Atlantic Council CBDC Tracker",
    "url": "https://www.atlanticcouncil.org/cbdctracker/",
    "status": "Checked",
    "note": "Still last updated May 2026.",
-   "last_success": "2026-11-11"
+   "last_success": "2026-11-12"
   },
   {
    "source": "NBER",
    "url": "https://www.nber.org/papers",
    "status": "Checked",
    "note": "This week's papers include none on capital controls or payment limits.",
-   "last_success": "2026-11-11"
+   "last_success": "2026-11-12"
   },
   {
    "source": "Cato",
    "url": "https://www.cato.org/blog",
    "status": "Checked",
    "note": "Latest posts are from Nov 9 (lame-duck budget, the defense-bill stock buyback ban, ballot measures). Nothing new on financial privacy.",
-   "last_success": "2026-11-11"
+   "last_success": "2026-11-12"
   },
   {
    "source": "Brookings Hutchins Center",
    "url": "https://www.brookings.edu/centers/the-hutchins-center-on-fiscal-and-monetary-policy/",
    "status": "Checked",
    "note": "No new posts on payments, deposits or capital flows; a Nov 17 event on Treasury market resilience is scheduled.",
-   "last_success": "2026-11-11"
+   "last_success": "2026-11-12"
   },
   {
    "source": "PIIE",
    "url": "https://www.piie.com/",
    "status": "Checked",
-   "note": "Recent items cover tariffs and Latin America; nothing on capital controls.",
-   "last_success": "2026-11-11"
+   "note": "Recent items cover tariffs; nothing on capital controls.",
+   "last_success": "2026-11-12"
   },
   {
    "source": "AEI",
    "url": "https://www.aei.org/",
    "status": "Checked",
    "note": "Nothing relevant since Oct 27.",
-   "last_success": "2026-11-11"
+   "last_success": "2026-11-12"
   },
   {
    "source": "Heritage",
    "url": "https://www.heritage.org/",
    "status": "Checked",
    "note": "Nothing on capital controls.",
-   "last_success": "2026-11-11"
+   "last_success": "2026-11-12"
   },
   {
    "source": "Bank Policy Institute",
    "url": "https://bpi.com/",
    "status": "Checked",
-   "note": "Nothing after its early-November comment letters and stablecoin reserve note.",
-   "last_success": "2026-11-11"
+   "note": "Nov 9: comments on a robocall database proposal. Nothing on deposits or payment limits.",
+   "last_success": "2026-11-12"
   },
   {
    "source": "Coin Center",
    "url": "https://www.coincenter.org/",
    "status": "Checked",
    "note": "No posts after Nov 6 (on the withdrawn travel-rule threshold plan).",
-   "last_success": "2026-11-11"
+   "last_success": "2026-11-12"
   },
   {
    "source": "JD Supra",
    "url": "https://www.jdsupra.com/",
-   "status": "Checked",
-   "note": "Alerts on items already tracked (MEXC order, COINS Act, stablecoin rules) and on Canada's Bill S-8 (item added).",
-   "last_success": "2026-11-11"
+   "status": "Partial",
+   "note": "The finance page returned no text. Searches found alerts only on items already tracked (COINS Act proposal, MEXC order, stablecoin AML rules) and on Canada's Bill S-8.",
+   "last_success": "2026-11-12"
   },
   {
    "source": "Glenn Beck YouTube",
    "url": "https://www.youtube.com/@glennbeck",
    "status": "Checked",
-   "note": "The channel page loaded. The 'Capital Controls' special shows about 145,000 views; uploads since Nov 9 cover the midterms and politics, with no new claims about withdrawal limits or capital controls.",
-   "last_success": "2026-11-11"
+   "note": "Uploads since Nov 9 cover the midterms and politics. The 'Capital Controls' special, now retitled, shows about 147,000 views. No new claims about limits on money.",
+   "last_success": "2026-11-12"
   },
   {
    "source": "glennbeck.com",
    "url": null,
    "status": "Partial",
-   "note": "Pages need a sign-in; Nov 10 show listings cover politics and immigration. Nothing new on capital controls.",
-   "last_success": "2026-11-11"
+   "note": "The site needs a sign-in. Podcast transcript indexes for the Nov 10 show cover an impeachment push and politics; nothing on capital controls.",
+   "last_success": "2026-11-12"
   },
   {
    "source": "IRS remittance tax guidance",
    "url": "https://www.irs.gov/newsroom/treasury-irs-issue-proposed-regulations-on-the-new-remittance-transfer-tax-established-under-the-one-big-beautiful-bill",
    "status": "Checked",
    "note": "No final regulations; the April proposal is still the latest. The 1% tax on cash-funded transfers still applies.",
-   "last_success": "2026-11-11"
+   "last_success": "2026-11-12"
   },
   {
    "source": "Other financial commentators (search)",
    "url": null,
    "status": "Checked",
-   "note": "A precious-metals dealer's Nov 11 video on the dollar 'breaking' makes no specific claim about U.S. capital controls. A Nov 10 compliance blog described Tether's $344 million stablecoin freeze as new, but credible reports date it to Apr 23. Nothing itemized.",
-   "last_success": "2026-11-11"
+   "note": "No new widely shared claims about U.S. capital controls found since Nov 9. One Nov 10 business blog misdated Tether's April 2026 freeze of Iran-linked stablecoins as happening Nov 7.",
+   "last_success": "2026-11-12"
   },
   {
    "source": "News search: bank and platform withdrawal limits",
    "url": null,
    "status": "Checked",
-   "note": "No U.S. bank withdrawal limits found. Paraguay: the president said Nov 10 that nearly 95% of covered Ueno Bank savers had been paid, with the rest due by Nov 11, and that getting back public pension money held at the bank will be a priority (the central bank's latest count was 93.1% by Nov 9; item to be updated after the deadline). South Korea's Gopax was still halted on Nov 11 with no restart date. Added Bolivia's faster return of dollar savings.",
-   "last_success": "2026-11-11"
+   "note": "No U.S. bank withdrawal limits found. Paraguay's central bank said Nov 11 that every covered Ueno Bank saver had received an advance (item updated). South Korea's Gopax had set no restart date in the latest reports (Nov 9).",
+   "last_success": "2026-11-12"
   },
   {
    "source": "News search: currency and market measures abroad",
    "url": null,
    "status": "Checked",
-   "note": "Added Canada's Bill S-8 and Bolivia's dollar-deposit changes. China's central bank will raise the share of foreign-currency deposits banks must hold in reserve to 6% from Nov 15 to slow the yuan's rise; it limits banks' dollar funds, not people's access to deposits, so it isn't itemized. Myanmar's central bank gave exporters 45 days instead of 30 to use their foreign earnings (an easing). Taiwan's and South Korea's market steps remain in effect.",
-   "last_success": "2026-11-11"
+   "note": "Nothing new that limits people's money. China's higher foreign-currency reserve requirement for banks, announced Nov 3, starts Nov 15; it aims to slow the yuan's rise and doesn't limit individuals. The EU's 10,000-euro cap on cash payments, adopted in 2024, starts July 10, 2027.",
+   "last_success": "2026-11-12"
   }
  ],
  "raise_level_triggers": [
