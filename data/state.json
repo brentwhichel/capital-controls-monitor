@@ -3332,7 +3332,7 @@
    "first_seen": "2026-11-06",
    "last_change": "2026-11-05",
    "status": "BASELINE",
-   "open": true,
+   "open": false,
    "status_history": [
     {
      "date": "2026-11-06",
@@ -3340,7 +3340,7 @@
      "stage": "In effect"
     }
    ],
-   "updated_on": "2026-11-06",
+   "updated_on": "2026-11-13",
    "plain": "A weekly report from the Fed, the nation's central bank, shows its short-term loans to banks averaged about $10 billion. That is a bit more than a year ago, with no emergency lending."
   },
   "2026-22809": {
@@ -3761,7 +3761,7 @@
    "date": "2026-11-09",
    "org": "Taiwan's Financial Supervisory Commission and National Financial Stabilization Fund; South Korea's Financial Supervisory Service",
    "what_changed": "On Nov 9, the steps announced Nov 6 took effect: Taiwan's Financial Supervisory Commission cut intraday short sales of borrowed shares to 3% of a stock's average daily volume over the prior 30 trading days (from 30%) and raised the minimum short-sale margin from 90% to 130%, and South Korea exempted brokerages from the 140% minimum collateral ratio on margin loans through Jan 31. Asian markets were mixed that day: MSCI's broadest index of Asia-Pacific shares outside Japan was up 0.8% by midday after falling 4.6% the week before, while South Korea's KOSPI closed 0.8% lower. On Nov 6, Japan's Nikkei had fallen 5.96%, South Korea's KOSPI 6.02% and Taiwan's index 4.5%, Korea's exchange paused trading for 20 minutes under its automatic circuit breaker, and Taiwan's National Financial Stabilization Fund authorized buying stocks, its 10th activation.",
-   "summary": "The selloff followed the Nov 3 U.S. midterm elections and worries that the results would slow AI and data center spending. The steps aim to support prices: buying stocks, curbing bets on falling prices, and easing margin calls so fewer investors are forced to sell. Several people told Reuters that Taiwan's Finance Ministry asked state-owned banks to support the market. Taiwan's fund cited record foreign selling of NT$994 billion in October and NT$524 billion more in November through Nov 6. None of these steps limits bank withdrawals, currency exchange or moving money abroad.",
+   "summary": "The selloff followed the Nov 3 U.S. midterm elections and worries that the results would slow AI and data center spending. The steps aim to support prices: buying stocks, curbing bets on falling prices, and easing margin calls so fewer investors are forced to sell. Several people told Reuters that Taiwan's Finance Ministry asked state-owned banks to support the market. Taiwan's fund cited record foreign selling of NT$994 billion in October and NT$524 billion more in November through Nov 6. None of these steps limits bank withdrawals, currency exchange or moving money abroad. On Nov 12, Taiwan's Financial Supervisory Commission said it has set no end date for the short-selling limits and reviews them daily; short sales of borrowed shares fell to 1.7% to 2% of main-board turnover on Nov 9-11, from 2.97% on Nov 6. Taiwan's main index fell 2.63% on Nov 12.",
    "control_type": "Friction",
    "affected": "Sector or group",
    "stage": "In effect",
@@ -3773,7 +3773,7 @@
    "why_it_might_not": "State stock-buying funds and short-sale curbs are familiar, temporary tools in Asian markets. They don't stop investors from selling shares they own or from moving their money, and the U.S. has no similar state stock fund.",
    "us_link": "No direct link. U.S. exchanges use automatic, marketwide circuit breakers, and the SEC last temporarily banned short selling, of financial stocks, in September 2008. We found no U.S. market-support steps after the Nov 5 drop.",
    "next_milestone": {
-    "what": "South Korea's margin-loan relief ends Jan 31 unless changed; watch for any step that limits selling shares or moving money",
+    "what": "South Korea's margin-loan relief ends Jan 31 unless changed; Taiwan's short-selling limits have no end date and are reviewed daily; watch for any step that limits selling shares or moving money",
     "date": "2027-01-31"
    },
    "sources": [
@@ -3789,6 +3789,13 @@
      "url": "https://www.cna.com.tw/news/afe/202611060293.aspx",
      "publisher": "Central News Agency (Taiwan)",
      "date": "2026-11-06",
+     "primary": false
+    },
+    {
+     "title": "台股限空令成效、終止期限 金管會都說了 (Regulator explains short-sale curbs' effect and end date)",
+     "url": "https://www.ctee.com.tw/news/20261112701870-430301",
+     "publisher": "Commercial Times (Taiwan)",
+     "date": "2026-11-12",
      "primary": false
     },
     {
@@ -3854,8 +3861,8 @@
      "stage": "In effect"
     }
    ],
-   "updated_on": "2026-11-09",
-   "plain": "Taiwan's limits on short selling (bets that prices will fall) and South Korea's looser rules on loans to buy stocks began Nov 9. They don't limit taking out or moving money."
+   "updated_on": "2026-11-13",
+   "plain": "Taiwan's limits on short selling (bets that prices will fall) began Nov 9 and have no end date. South Korea eased rules on loans to buy stocks. Neither limits taking out or moving money."
   },
   "japan-shinkin-outage-2026-11-06": {
    "id": "japan-shinkin-outage-2026-11-06",
@@ -3924,11 +3931,11 @@
   "paraguay-ueno-bank-resolution-2026-11": {
    "id": "paraguay-ueno-bank-resolution-2026-11",
    "section": "banking_stress",
-   "headline": "Paraguay's guarantee fund has paid every covered saver at failed Ueno Bank an advance of up to about $19,000; larger balances wait for the bank's assets to move to other banks",
-   "date": "2026-11-11",
+   "headline": "Paraguay's central bank plans to move failed Ueno Bank's accounts to several banks in lots after finding about $600 million in sound assets; covered savers have received advances of up to about $19,000",
+   "date": "2026-11-12",
    "org": "Banco Central del Paraguay (Paraguay's central bank) and its banking and securities supervisors",
-   "what_changed": "On Nov 11, 2026, the deadline set by Paraguay's emergency law, the central bank said the state Deposit Guarantee Fund had paid advances to 100% of the Ueno Bank savers it covers: 1,812,348 people, for a total that AFP put at about $643 million, up from 93.1% of covered savers paid by Nov 9. Each covered saver received up to 40 monthly minimum wages (Gs 121.76 million, about $19,000), paid into an account in their name at another bank. Amounts above the advance, up to the fund's limit of 75 monthly minimum wages (about $37,000), will be paid after Ueno's assets and liabilities are transferred to other banks, a process a central bank director said would begin the following week, with news expected by the end of November.",
-   "summary": "Paraguay's central bank put Ueno, a digital lender that said it had about 3 million customers, into resolution (a state-run wind-down) on Nov 3 after its solvency ratio fell below half the legal minimum, freezing accounts except for guarantee-fund payouts. AFP reported that Ueno held about $2.8 billion when it was taken over, so the advances cover only part of the money at the bank. Public bodies had more than $800 million there, including more than $500 million of pension money, and Paraguay's new president said recovering pension funds will have priority. The guarantee excludes the bank's directors and shareholders, and investors in Ueno's money funds, which aren't bank deposits, are still waiting for a decision on their money. Paraguay's Senate removed President Santiago Peña on Nov 6 over his links to the bank, and prosecutors are investigating.",
+   "what_changed": "On Nov 12, 2026, central bank president Jorge Schreiner said auditors had preliminarily found about $600 million in sound assets at Ueno, more than the bank owes to pension funds such as the Social Security Institute (IPS), whose deposits and investments there total about $516 million. After a review of 8 to 10 days to draw up an 'exclusion balance' of sound assets against liabilities, the central bank plans to tender Ueno's assets and deposits in lots to several local banks, so no single bank takes on more than it can handle, with the Deposit Guarantee Fund able to cover any gap. If accounts move before pending payouts are made, their holders would become customers of the receiving bank instead of being paid out. Pension funds have legal priority. This follows the Nov 11 completion of advances of up to 40 monthly minimum wages (about $19,000) to all 1,812,348 savers the fund covers.",
+   "summary": "Paraguay's central bank put Ueno, a digital lender that said it had about 3 million customers, into resolution (a state-run wind-down) on Nov 3 after its solvency ratio fell below half the legal minimum, freezing accounts except for guarantee-fund payouts. AFP reported that Ueno held about $2.8 billion when it was taken over, so the advances cover only part of the money at the bank. The fund's limit is 75 monthly minimum wages (about $37,000) per depositor; EFE reported that payments up to that limit are to be extended from the week of Nov 16, and officials haven't said what happens to balances above it. The guarantee excludes the bank's directors and shareholders, and investors in Ueno's money funds, which aren't bank deposits, are still waiting for a decision on their money. Paraguay's Senate removed President Santiago Peña on Nov 6 over his links to the bank, and prosecutors are investigating.",
    "control_type": "Prohibition",
    "affected": "Sector or group",
    "stage": "In effect",
@@ -3939,9 +3946,9 @@
    "direction": "Neutral",
    "evidence": "Official document",
    "why_it_matters": "It shows in real time what a large bank failure can mean for savers: accounts frozen, covered money returned in stages over about a week, and larger balances and investment funds tied to the bank left waiting. That is the kind of situation U.S. failed-bank rules, such as the FDIC's pending 'provisional hold' proposal for the largest banks, are designed to handle.",
-   "why_it_might_not": "It is one failed bank in another country, handled under Paraguay's own deposit-guarantee law, and every covered saver has now received an advance. In the U.S., deposits are insured up to at least $250,000 per depositor at each FDIC-insured bank, and the FDIC's list shows no U.S. bank failures since Sept 25.",
+   "why_it_might_not": "It is one failed bank in another country, handled under Paraguay's own deposit-guarantee law, and every covered saver has received an advance. In the U.S., deposits are insured up to at least $250,000 per depositor at each FDIC-insured bank, and the FDIC's list shows no U.S. bank failures since Sept 25.",
    "next_milestone": {
-    "what": "Transfer of Ueno's assets and liabilities to other banks, the step before covered balances above the advance are paid, was due to begin the week of Nov 16 (no exact date); Paraguay's state pension fund pays the 32,000 pensioners who banked at Ueno through other banks on Nov 17",
+    "what": "Central bank review of Ueno's sound assets and debts, expected to take 8 to 10 days from Nov 12, then a tender moving its assets and deposits to several banks in lots; Paraguay's state pension fund pays the 32,000 pensioners who banked at Ueno through other banks on Nov 17",
     "date": "2026-11-17"
    },
    "sources": [
@@ -3958,6 +3965,34 @@
      "publisher": "Banco Central del Paraguay",
      "date": "2026-11-03",
      "primary": true
+    },
+    {
+     "title": "Banco Central del Paraguay halla activos de Ueno Bank por 600 millones de dólares y priorizará fondos previsionales",
+     "url": "https://spanish.xinhuanet.com/20261113/0bebe0a9aa234022932745526472418d/c.html",
+     "publisher": "Xinhua (Spanish)",
+     "date": "2026-11-12",
+     "primary": false
+    },
+    {
+     "title": "Ueno Bank: BCP anuncia que activos sanos superan deudas previsionales",
+     "url": "https://www.abc.com.py/economia/2026/11/12/ueno-bank-bcp-anuncia-que-activos-sanos-superan-deudas-previsionales/",
+     "publisher": "ABC Color",
+     "date": "2026-11-12",
+     "primary": false
+    },
+    {
+     "title": "Transferencia por lotes y prioridad para fondos previsionales: así será la liquidación de Ueno Bank",
+     "url": "https://perspectivas.com.py/noticias/transferencia-por-lotes-y-prioridad-para-fondos-previsionales-asi-sera-la-liquidacion-de-ueno-bank",
+     "publisher": "Perspectivas",
+     "date": "2026-11-12",
+     "primary": false
+    },
+    {
+     "title": "Ueno bank paga un anticipo a clientes cubiertos por la garantía estatal",
+     "url": "https://efe.com/economia/2026-11-12/ueno-bank-pago-anticipo-a-clientes/",
+     "publisher": "EFE",
+     "date": "2026-11-12",
+     "primary": false
     },
     {
      "title": "Paraguay devuelve parte de sus ahorros a todos los depositantes de Ueno (Paraguay returns part of their savings to all Ueno depositors; in Spanish)",
@@ -4021,8 +4056,8 @@
     "source_url": ""
    },
    "first_seen": "2026-11-09",
-   "last_change": "2026-11-11",
-   "status": "EASED",
+   "last_change": "2026-11-12",
+   "status": "ADVANCED",
    "open": true,
    "status_history": [
     {
@@ -4039,10 +4074,15 @@
      "date": "2026-11-12",
      "status": "EASED",
      "stage": "In effect"
+    },
+    {
+     "date": "2026-11-13",
+     "status": "ADVANCED",
+     "stage": "In effect"
     }
    ],
-   "updated_on": "2026-11-12",
-   "plain": "By Nov 11, a fund in Paraguay that protects bank savings had paid each saver it covers at Ueno, a failed bank, up to about $19,000. People with more money there must wait."
+   "updated_on": "2026-11-13",
+   "plain": "Paraguay's central bank found about $600 million in good assets at Ueno, a failed bank. It plans to move the bank's accounts to other banks after a review of about 10 days."
   },
   "intl-china-market-support-2026-11": {
    "id": "intl-china-market-support-2026-11",
@@ -4495,6 +4535,415 @@
     }
    ],
    "open": true
+  },
+  "h41-2026-11-12-discount-window": {
+   "section": "banking_stress",
+   "headline": "Fed H.4.1 (Nov 12, 2026): primary credit averaged about $8.9 billion; no emergency facility usage",
+   "date": "2026-11-12",
+   "org": "Federal Reserve Board",
+   "who": "Federal Reserve",
+   "what_changed": "Week ended Nov 11, 2026: primary credit averaged $8,898 million (-$1,085 million on the week, +$2,165 million year over year); secondary credit $0; other credit extensions $0; Treasury contributions to credit facilities $0.",
+   "summary": "Discount-window borrowing fell on the week but is still modestly higher than a year earlier. It remains small relative to the banking system, and no emergency lending facility is active.",
+   "plain": "A weekly report from the Fed, the nation's central bank, shows its short-term loans to banks averaged about $8.9 billion. That is less than the week before, with no emergency lending.",
+   "control_type": "None",
+   "affected": "Sector or group",
+   "stage": "In effect",
+   "tier": null,
+   "signal_numbers": [],
+   "direction": "Neutral",
+   "evidence": "Official document",
+   "momentum": "",
+   "verdict": "Confirmed",
+   "why_it_matters": "A sudden jump in primary or secondary credit, or a new emergency facility line, is an early sign of deposit-flight stress that historically precedes talk of withdrawal limits.",
+   "why_it_might_not": "Current levels are low and stable; the year-over-year rise may reflect Fed efforts to destigmatize the window rather than stress.",
+   "next_milestone": {
+    "what": "Next weekly H.4.1 release",
+    "date": "2026-11-19"
+   },
+   "sources": [
+    {
+     "title": "H.4.1 Factors Affecting Reserve Balances, Nov 12, 2026 (current release)",
+     "url": "https://www.federalreserve.gov/releases/h41/current/h41.pdf",
+     "publisher": "Federal Reserve Board",
+     "date": "2026-11-12",
+     "primary": true
+    }
+   ],
+   "quote": {
+    "text": "",
+    "source_url": ""
+   },
+   "id": "h41-2026-11-12-discount-window",
+   "first_seen": "2026-11-13",
+   "updated_on": "2026-11-13",
+   "last_change": "2026-11-12",
+   "status": "BASELINE",
+   "status_history": [
+    {
+     "date": "2026-11-13",
+     "status": "BASELINE",
+     "stage": "In effect"
+    }
+   ],
+   "open": true
+  },
+  "intl-korea-crypto-withdrawal-blocks-2026-11": {
+   "section": "international",
+   "headline": "South Korea's financial regulator will let crypto exchanges block deposits and withdrawals when a hack is suspected",
+   "date": "2026-11-12",
+   "org": "Financial Services Commission (South Korea)",
+   "what_changed": "On Nov 12, 2026, the FSC said it will issue a no-action letter, a written promise not to penalize, so crypto exchanges can block deposits and withdrawals under certain conditions when a hack or breach is suspected. Current law lets them block only when a hack has clearly happened. Emergency guidelines that apply right away require round-the-clock monitoring; exchanges that can't monitor at all hours must process deposits and withdrawals only during hours when their systems run normally, and tell users in advance.",
+   "summary": "The FSC pointed to the $6.3 billion Binance hack as showing that fast blocking limits harm to users; its release doesn't mention Gopax, which halted withdrawals on Nov 6 after hacking threats (tracked under How banks are doing). The FSC also told exchanges to keep as little of users' crypto online as possible and to carry more insurance and reserves, and said a government Digital Asset Act bill due soon would give crypto firms security standards and liability like financial firms'. FSC Vice Chairman Shin Jin-chang said domestic exchanges hold about 66 trillion won of crypto for more than 10 million users. The letter hadn't been issued as of Nov 12, and the FSC didn't spell out the conditions.",
+   "plain": "South Korea will let crypto (digital coin) exchanges stop withdrawals if they suspect a hack. Some exchanges may only handle withdrawals during staffed hours. This is in South Korea, not the U.S.",
+   "control_type": "Friction",
+   "affected": "Sector or group",
+   "stage": "Adopted",
+   "tier": 2,
+   "signal_numbers": [
+    10
+   ],
+   "direction": "Toward controls",
+   "evidence": "Credible reporting",
+   "why_it_matters": "A government is widening when people can be stopped from taking money out of a platform, even before a hack is confirmed, and limiting some exchanges' withdrawals to staffed hours. It shows how security rules can add new pauses on access to money.",
+   "why_it_might_not": "It's aimed at stopping theft, not at keeping money in the country, and covers crypto exchanges in South Korea, not bank accounts. Blocks would be allowed only under conditions the FSC hasn't published, and the letter hasn't been issued yet.",
+   "us_link": "No direct link. We found no U.S. proposal like this one; the Senate's CLARITY Act text would let crypto platforms hold withdrawals for up to 180 days at law enforcement's written request (tracked).",
+   "next_milestone": {
+    "what": "FSC issues the no-action letter (no date given); the government's Digital Asset Act bill is due to be unveiled soon",
+    "date": null
+   },
+   "sources": [
+    {
+     "title": "당국, 해킹의심 때 가상자산거래소 입출금 선제 차단 허용 (Authorities allow exchanges to block deposits and withdrawals on suspected hacks)",
+     "url": "https://www.yna.co.kr/view/AKR20261112141700002",
+     "publisher": "Yonhap",
+     "date": "2026-11-12",
+     "primary": false
+    },
+    {
+     "title": "Crypto exchanges to be allowed to block deposits and withdrawals even when hacking is suspected",
+     "url": "https://en.fnnews.com/news/202611121348036302",
+     "publisher": "Financial News (Korea)",
+     "date": "2026-11-12",
+     "primary": false
+    },
+    {
+     "title": "FSC to let crypto exchanges preemptively block transactions on suspected hacks",
+     "url": "https://biz.chosun.com/en/en-finance/2026/11/12/NHXNNEHOKRACBF3Y2TEDZX6MDU/",
+     "publisher": "Chosun Biz",
+     "date": "2026-11-12",
+     "primary": false
+    },
+    {
+     "title": "South Korean Regulator Will Shield Exchanges That Freeze Funds at the First Sign of a Hack",
+     "url": "https://unchainedcrypto.com/south-korean-regulator-will-shield-exchanges-that-freeze-funds-at-the-first-sign-of-a-hack/",
+     "publisher": "Unchained",
+     "date": "2026-11-12",
+     "primary": false
+    }
+   ],
+   "id": "intl-korea-crypto-withdrawal-blocks-2026-11",
+   "quote": {
+    "text": "",
+    "source_url": ""
+   },
+   "first_seen": "2026-11-13",
+   "updated_on": "2026-11-13",
+   "last_change": "2026-11-12",
+   "status": "NEW",
+   "status_history": [
+    {
+     "date": "2026-11-13",
+     "status": "NEW",
+     "stage": "Adopted"
+    }
+   ],
+   "open": true
+  },
+  "intl-russia-retail-crypto-caps-2026-11": {
+   "section": "international",
+   "headline": "Russia lets ordinary investors buy bitcoin, ether and USDT from Nov 17, capped at 300,000 rubles a year per firm",
+   "date": "2026-11-06",
+   "org": "Bank of Russia",
+   "what_changed": "A Bank of Russia ordinance published Nov 6, 2026 and taking effect Nov 17 lists bitcoin, ether and the dollar stablecoin USDT as the crypto assets that non-qualified (ordinary) investors may buy, through brokers, trust managers or crypto exchange offices, on exchanges or over the counter. Purchases through any one intermediary may not exceed 300,000 rubles (about $3,700) a year. Qualified investors face no limit, and every investor must first pass a test and read about the risks.",
+   "summary": "The rules build on a law signed Aug 4, 2026 that set up a regulated crypto market under central bank oversight. Reports say separate exchange trading rules take effect Nov 22, and Moscow Exchange plans to start crypto trading Dec 1. Cointelegraph, citing the Bank of Russia, reported that transfers from regulated accounts to personal (self-custody) wallets are already banned, that peer-to-peer crypto trading will be banned from July 1, 2027, and that paying for goods with crypto remains banned. Russia also runs a digital ruble with a monthly top-up cap (tracked).",
+   "plain": "From Nov 17, people in Russia can buy bitcoin and two other digital coins from licensed firms. Buyers who are not pros can spend up to 300,000 rubles (about $3,700) a year at each firm.",
+   "control_type": "Prohibition",
+   "affected": "Sector or group",
+   "stage": "Adopted",
+   "tier": 2,
+   "signal_numbers": [
+    12
+   ],
+   "direction": "Toward controls",
+   "evidence": "Official document",
+   "why_it_matters": "It's a live example of a government capping how much ordinary people can put into crypto, including a dollar-linked coin, and keeping those coins inside licensed, monitored accounts.",
+   "why_it_might_not": "It mainly opens a legal route for Russians to buy crypto, and qualified investors face no cap. It doesn't affect Americans.",
+   "us_link": "No direct link. U.S. rules set no cap on how much crypto Americans may buy, and FinCEN withdrew its proposed reporting rule for transfers to personal crypto wallets on Oct 5, 2026 (tracked).",
+   "next_milestone": {
+    "what": "Ordinance takes effect; exchange trading rules reportedly follow on Nov 22, and Moscow Exchange plans crypto trading from Dec 1",
+    "date": "2026-11-17"
+   },
+   "sources": [
+    {
+     "title": "Cryptocurrencies for non-qualified investors: Bank of Russia ordinance",
+     "url": "https://cbr.ru/eng/press/event/?id=32966",
+     "publisher": "Bank of Russia",
+     "date": "2026-11-06",
+     "primary": true
+    },
+    {
+     "title": "Russia approves Bitcoin, Ether, USDT for exchange trading",
+     "url": "https://www.aa.com.tr/en/economy/russia-approves-bitcoin-ether-usdt-for-exchange-trading/4114385",
+     "publisher": "Anadolu Agency",
+     "date": "2026-11-06",
+     "primary": false
+    },
+    {
+     "title": "Russia Approves Bitcoin, Ether and USDT for Retail Trading",
+     "url": "https://cointelegraph.com/news/russia-finalizes-crypto-trading-rules-november-rollout",
+     "publisher": "Cointelegraph",
+     "date": "2026-11-06",
+     "primary": false
+    },
+    {
+     "title": "Russia to allow crypto trading on exchanges from Nov. 22, retail investors to buy coins",
+     "url": "https://www.digitaltoday.co.kr/en/view/124636/russia-to-open-crypto-exchange-trading-from-nov-22-retail-investors-to-buy-coins",
+     "publisher": "Digital Today",
+     "date": "2026-11-12",
+     "primary": false
+    }
+   ],
+   "id": "intl-russia-retail-crypto-caps-2026-11",
+   "quote": {
+    "text": "",
+    "source_url": ""
+   },
+   "first_seen": "2026-11-13",
+   "updated_on": "2026-11-13",
+   "last_change": "2026-11-06",
+   "status": "NEW",
+   "status_history": [
+    {
+     "date": "2026-11-13",
+     "status": "NEW",
+     "stage": "Adopted"
+    }
+   ],
+   "open": true
+  },
+  "tether-tron-chainalysis-dctf-2026-11": {
+   "section": "pre_legislative",
+   "headline": "Tether, TRON and Chainalysis launch a private task force to find illicit USDT and get it frozen before it moves",
+   "date": "2026-11-12",
+   "org": "Tether, TRON DAO and Chainalysis",
+   "who": "Tether, which issues the USDT stablecoin; TRON, the blockchain network founded by Justin Sun; and Chainalysis, a blockchain-intelligence firm",
+   "what_changed": "On Nov 12, 2026, the three companies announced the Digital Crime Task Force. It will search for suspected scams, hacks, laundering and other crime involving Tether's USDT on the TRON blockchain, turn what it finds into leads for police, and coordinate with law enforcement on investigations and asset freezes before criminals can move the money. It will also take tips and freeze requests from police.",
+   "summary": "Tether says it has frozen more than $7 billion linked to illicit activity, working with more than 360 law enforcement agencies in 73 countries. Chainalysis supplies investigators, blockchain data and AI tools. The group follows the T3 Financial Crime Unit that Tether and TRON set up with TRM Labs in 2024, which Bloomberg reported disbanded in late August. The announcement gives no deadlines or results yet. It is a private effort, not a government rule, and it covers only USDT on TRON.",
+   "plain": "Tether, a company that makes a digital coin tied to the dollar, started a task force with two tech firms. It will look for stolen or criminal coins and work with police to freeze them quickly.",
+   "quote": {
+    "text": "waiting for a victim to report a crime is no longer good enough",
+    "source_url": "https://trondao.org/announcements/tron-tether-and-chainalysis-launch-digital-crime-task-force-to-proactively-identify-and-disrupt-financial-crime/"
+   },
+   "control_type": "Prohibition",
+   "affected": "Named parties",
+   "stage": "Adopted",
+   "tier": 1,
+   "signal_numbers": [
+    6
+   ],
+   "direction": "Toward controls",
+   "evidence": "Official document",
+   "momentum": "Spreading",
+   "verdict": "Confirmed",
+   "official_acknowledgment": "Company announcement; it says the group will coordinate with law enforcement and take freeze requests from police. We found no government statement on the task force.",
+   "linked_bills_or_rules": "GENIUS Act rules that will require payment stablecoin issuers to be able to freeze coins on lawful orders (tracked: the FinCEN/OFAC proposal and the GENIUS Act effective date, Jan 18, 2027).",
+   "why_it_matters": "It shifts stablecoin freezes from reacting to reported crimes toward actively hunting for suspect funds, which widens how often and how fast a company can stop dollar-linked coins from moving. U.S. rules will soon require payment stablecoin issuers to be able to freeze coins on lawful orders.",
+   "why_it_might_not": "It's a private effort aimed at scams, hacks and other crime, and freezes are coordinated with police. It covers only USDT on one blockchain, and it doesn't touch bank accounts, cash or other ways to pay.",
+   "next_milestone": {
+    "what": "First reported results or freezes credited to the task force (none announced)",
+    "date": null
+   },
+   "sources": [
+    {
+     "title": "TRON, Tether and Chainalysis Launch Digital Crime Task Force to Proactively Identify and Disrupt Financial Crime",
+     "url": "https://trondao.org/announcements/tron-tether-and-chainalysis-launch-digital-crime-task-force-to-proactively-identify-and-disrupt-financial-crime/",
+     "publisher": "TRON DAO",
+     "date": "2026-11-12",
+     "primary": true
+    },
+    {
+     "title": "Tether, TRON and Chainalysis Launch a Task Force to Freeze Illicit USDT Before It Moves",
+     "url": "https://unchainedcrypto.com/tether-tron-and-chainalysis-launch-a-task-force-to-freeze-illicit-usdt-before-it-moves/",
+     "publisher": "Unchained",
+     "date": "2026-11-12",
+     "primary": false
+    },
+    {
+     "title": "Tron and Tether Bring In Chainalysis After T3 Crime Unit Folds",
+     "url": "https://cointelegraph.com/news/tron-tether-chainalysis-cybercrime-task-force-laundering",
+     "publisher": "Cointelegraph",
+     "date": "2026-11-12",
+     "primary": false
+    },
+    {
+     "title": "Tether, Tron and Chainalysis Unite to Freeze Stolen Crypto Before It Moves",
+     "url": "https://news.bitcoin.com/security/tether-tron-and-chainalysis-unite-to-freeze-stolen-crypto-before-it-moves/",
+     "publisher": "Bitcoin.com News",
+     "date": "2026-11-12",
+     "primary": false
+    }
+   ],
+   "id": "tether-tron-chainalysis-dctf-2026-11",
+   "first_seen": "2026-11-13",
+   "updated_on": "2026-11-13",
+   "last_change": "2026-11-12",
+   "status": "NEW",
+   "status_history": [
+    {
+     "date": "2026-11-13",
+     "status": "NEW",
+     "stage": "Adopted"
+    }
+   ],
+   "open": true
+  },
+  "tx-crypto-atm-ban-bills-90r": {
+   "section": "official_us",
+   "headline": "Texas bills would ban crypto ATMs in the state",
+   "date": "2026-11-12",
+   "org": "Texas Legislature (Sen. Hagenbuch; Reps. Shofner and Little)",
+   "what_changed": "Three bills prefiled for Texas's 2027 session would ban operating virtual currency kiosks, machines that exchange crypto for money or bank credit: SB 181 (filed Nov 9) with a civil penalty equal to the kiosk's revenue, HB 271 (filed Nov 9) as a criminal offense, and HB 1082 (filed Nov 12) as a state jail felony. Each would take effect Sept 1, 2027 if passed.",
+   "summary": "The bills define a kiosk as an electronic terminal that exchanges virtual currency for money, bank credit or other virtual currency; SB 181 and HB 1082 would also cover people who let a kiosk operate on property they own or control. The bill texts don't state a reason. They don't limit bank accounts, cash withdrawals or buying crypto through other platforms. Canada's Bill S-8 (tracked) would instead license the machines and cap use at $1,000 a day.",
+   "plain": "Three Texas bills would ban crypto ATMs, machines that swap cash for digital coins. They would not limit bank accounts or cash. They are early bills that have had no votes.",
+   "control_type": "Prohibition",
+   "affected": "Sector or group",
+   "stage": "Proposal",
+   "tier": null,
+   "signal_numbers": [],
+   "direction": "Toward controls",
+   "evidence": "Official document",
+   "why_it_matters": "It would close one way for Texans to turn cash into crypto, going further than Canada's proposed daily cap. Lawmakers in both chambers filed versions, so the idea has more than one backer.",
+   "why_it_might_not": "These are prefiled state bills that haven't had hearings. They target one kind of machine and leave bank accounts, cash and other ways to buy crypto untouched.",
+   "next_milestone": {
+    "what": "Texas Legislature convenes; the bills can then be referred to committees",
+    "date": "2027-01-12"
+   },
+   "sources": [
+    {
+     "title": "Texas SB181, introduced text",
+     "url": "https://legiscan.com/TX/text/SB181/id/3464963",
+     "publisher": "LegiScan (Texas Legislature text)",
+     "date": "2026-11-09",
+     "primary": true
+    },
+    {
+     "title": "History for 90(R) HB 271",
+     "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB271",
+     "publisher": "Texas Legislature Online",
+     "date": "2026-11-09",
+     "primary": true
+    },
+    {
+     "title": "TX HB271, 2027-2028, 90th Legislature",
+     "url": "https://legiscan.com/TX/bill/HB271/2027",
+     "publisher": "LegiScan",
+     "date": "2026-11-09",
+     "primary": false
+    },
+    {
+     "title": "Texas HB1082, introduced text",
+     "url": "https://legiscan.com/TX/text/HB1082/id/3465795",
+     "publisher": "LegiScan (Texas Legislature text)",
+     "date": "2026-11-12",
+     "primary": true
+    }
+   ],
+   "id": "tx-crypto-atm-ban-bills-90r",
+   "quote": {
+    "text": "",
+    "source_url": ""
+   },
+   "first_seen": "2026-11-13",
+   "updated_on": "2026-11-13",
+   "last_change": "2026-11-12",
+   "status": "NEW",
+   "status_history": [
+    {
+     "date": "2026-11-13",
+     "status": "NEW",
+     "stage": "Proposal"
+    }
+   ],
+   "open": true
+  },
+  "tx-hb165-90r": {
+   "section": "counter_signal",
+   "headline": "Texas bill would require, not just allow, a state payment system that uses gold- and silver-backed currency",
+   "date": "2026-11-09",
+   "org": "Texas House (Rep. Carrie Isaac)",
+   "what_changed": "Filed Nov 9, 2026 for the 2027 session, HB 165 would amend the 2025 law that lets the state comptroller set up or authorize electronic systems for paying with a currency backed by gold and silver bullion held in the Texas Bullion Depository, starting May 1, 2027. The bill changes 'may' to 'shall,' so the comptroller would have to set up or authorize such a system. If passed, it would take effect Sept 1, 2027.",
+   "summary": "The 2025 law (HB 1056) also recognized gold and silver coin as legal tender in Texas from Sept 1, 2026, without requiring anyone to offer or accept it. HB 165 was filed on Nov 9, the first day of bill filing for the 2027 session; the Legislature convenes Jan 12, 2027, and the bill would need committee and floor votes in both chambers.",
+   "plain": "A Texas lawmaker filed a bill that would make the state set up a way to pay with gold- and silver-backed money. Current law allows this but does not require it.",
+   "control_type": "None",
+   "affected": "Sector or group",
+   "stage": "Proposal",
+   "tier": null,
+   "signal_numbers": [],
+   "direction": "Away from controls",
+   "evidence": "Official document",
+   "why_it_matters": "It would guarantee Texans a state-run way to pay with gold- and silver-backed money, an alternative to bank deposits that works against any future limit on holding or using gold.",
+   "why_it_might_not": "It's a prefiled bill that hasn't had a hearing, and current law already allows the system. Payments would run through the state depository, and federal tax rules on gold don't change.",
+   "next_milestone": {
+    "what": "Texas Legislature convenes; the bill can then be referred to a committee",
+    "date": "2027-01-12"
+   },
+   "sources": [
+    {
+     "title": "History for 90(R) HB 165",
+     "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB165",
+     "publisher": "Texas Legislature Online",
+     "date": "2026-11-09",
+     "primary": true
+    },
+    {
+     "title": "HB 165, introduced text",
+     "url": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00165I.htm",
+     "publisher": "Texas Legislature Online",
+     "date": "2026-11-09",
+     "primary": true
+    },
+    {
+     "title": "Enrolled bill summary, 89(R) HB 1056",
+     "url": "https://capitol.texas.gov/billlookup/BillSummary.aspx?LegSess=89R&Bill=HB1056",
+     "publisher": "Texas Legislature Online",
+     "date": null,
+     "primary": true
+    },
+    {
+     "title": "TX HB165, 2027-2028, 90th Legislature",
+     "url": "https://legiscan.com/TX/bill/HB165/2027",
+     "publisher": "LegiScan",
+     "date": "2026-11-09",
+     "primary": false
+    }
+   ],
+   "id": "tx-hb165-90r",
+   "quote": {
+    "text": "",
+    "source_url": ""
+   },
+   "first_seen": "2026-11-13",
+   "updated_on": "2026-11-13",
+   "last_change": "2026-11-09",
+   "status": "NEW",
+   "status_history": [
+    {
+     "date": "2026-11-13",
+     "status": "NEW",
+     "stage": "Proposal"
+    }
+   ],
+   "open": true
   }
  },
  "levels": [
@@ -4533,51 +4982,63 @@
   {
    "date": "2026-11-12",
    "level": "YELLOW"
+  },
+  {
+   "date": "2026-11-13",
+   "level": "YELLOW"
   }
  ],
  "github_user": "brentwhichel",
  "repo": "capital-controls-monitor",
  "monitor": "Capital Controls Early-Warning Monitor",
  "report": {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "level": "YELLOW",
-  "bottom_line": "No limits on ordinary Americans' withdrawals or transfers are in effect or proposed, and we found no new U.S. government action since the last report; abroad, Paraguay's central bank finished paying every covered saver at failed Ueno Bank an advance of up to about $19,000 on Nov 11, though amounts above that are still waiting to be paid.",
-  "level_reason": "The level stays YELLOW because official Tier 1 steps remain in play: Treasury's wider outbound-investment proposal (comments due Dec 7), stablecoin rules requiring issuers to be able to freeze coins on lawful orders (the GENIUS Act takes effect Jan 18), FinCEN's Oct 30 cross-border payments alert and the Minnesota transfer-reporting order (ends Feb 6 unless renewed), while the MEXC transfer ban, effective Dec 10, names one foreign company, and the only U.S. Tier 2 item, the FDIC provisional-hold proposal, applies only after a bank fails. Nothing new raises it: the only movement this time is in Paraguay, and it loosens limits on savers' money.",
-  "change_text": "Yesterday: YELLOW. Today: YELLOW, unchanged. No tracked U.S. item moved: the Nov 12 Federal Register has no FinCEN or banking-agency rules, the White House's list of rules under review shows no new Treasury or banking-agency entries, and Treasury, the Fed, the FDIC, the OCC and the White House posted nothing new on deposits, withdrawals or transfers. The Treasury Secretary's Nov 11 speech on China said the U.S. wants to reduce risks in its economic ties with China rather than cut them off. One tracked item eased: on Nov 11, Paraguay's central bank said all 1,812,348 savers covered by its deposit guarantee fund at failed Ueno Bank had received an advance of up to about $19,000; larger balances wait for the bank's assets and debts to move to other banks, a process due to start the week of Nov 16. Also checked: an ECB board member told EU lawmakers on Nov 10 that the ECB backs laws protecting the use of cash alongside a digital euro, with nothing new on digital euro holding limits, and South Korea's Gopax exchange had set no restart date in the latest reports we found.",
-  "flags_lede": "What's new or changed since the previous report on Nov 11, 2026.",
+  "bottom_line": "No limits on ordinary Americans' withdrawals or transfers are in effect or proposed, and we found no new federal action since the last report; the new items are prefiled Texas bills to ban crypto ATMs and to require a gold- and silver-backed payment system, a private task force to freeze illicit stablecoins faster, South Korea's move to let crypto exchanges block withdrawals when a hack is suspected, Russia's yearly cap on ordinary investors' crypto purchases, and Paraguay's plan to move failed Ueno Bank's accounts to other banks.",
+  "level_reason": "The level stays YELLOW because official Tier 1 steps remain in play: Treasury's wider outbound-investment proposal (comments due Dec 7), stablecoin rules requiring issuers to be able to freeze coins on lawful orders (the GENIUS Act takes effect Jan 18), FinCEN's Oct 30 cross-border payments alert and the Minnesota transfer-reporting order (ends Feb 6 unless renewed), while the MEXC transfer ban, effective Dec 10, names one foreign company, and the only U.S. Tier 2 item, the FDIC provisional-hold proposal, applies only after a bank fails. Nothing new raises it: the Texas crypto-ATM bills are prefiled state bills aimed at one kind of machine, the stablecoin task force is a private effort, and the other changes are abroad.",
+  "change_text": "Yesterday: YELLOW. Today: YELLOW, unchanged. No tracked federal item moved: the Nov 13 Federal Register has no FinCEN or banking-agency rules (Treasury's entries are sanctions licenses and routine notices), the White House's list of rules under review shows no new Treasury or banking-agency entries, and Treasury, FinCEN, the Fed, the FDIC and the White House posted nothing new on deposits, withdrawals or transfers. The Fed's Nov 12 balance sheet shows discount-window loans averaged about $8.9 billion, down $1.1 billion on the week, with no emergency lending. New: Texas lawmakers prefiled three bills to ban crypto ATMs and one to require the state's gold- and silver-backed payment system; Tether, TRON and Chainalysis launched a private task force on Nov 12 to get illicit USDT frozen faster; South Korea's financial regulator said Nov 12 it will let crypto exchanges block deposits and withdrawals when a hack is suspected; and Russia will cap ordinary investors' crypto purchases at 300,000 rubles a year per firm from Nov 17. Paraguay's central bank said Nov 12 it found about $600 million in sound assets at failed Ueno Bank and will move its accounts to several banks in lots after an 8- to 10-day review. Also checked: Taiwan's regulator set no end date for its short-selling limits, and China's securities regulator said Nov 12 it would steer more long-term money into stocks, with no new limits on selling.",
+  "flags_lede": "What's new or changed since the previous report on Nov 12, 2026.",
   "flags": [
    {
+    "id": "tx-crypto-atm-ban-bills-90r",
+    "movement": "NEW"
+   },
+   {
+    "id": "tether-tron-chainalysis-dctf-2026-11",
+    "movement": "NEW"
+   },
+   {
+    "id": "intl-korea-crypto-withdrawal-blocks-2026-11",
+    "movement": "NEW"
+   },
+   {
+    "id": "intl-russia-retail-crypto-caps-2026-11",
+    "movement": "NEW"
+   },
+   {
     "id": "paraguay-ueno-bank-resolution-2026-11",
-    "movement": "EASED"
+    "movement": "ADVANCED"
+   },
+   {
+    "id": "tx-hb165-90r",
+    "movement": "NEW"
    }
   ],
-  "sources_checked_through": "2026-11-12T07:28:16-05:00",
-  "refreshed_at": "2026-11-12T06:30:17-06:00",
+  "sources_checked_through": "2026-11-13T07:36:47-05:00",
+  "refreshed_at": "2026-11-13T06:39:26-06:00",
   "plain": {
-   "today": "Nothing stops regular people in the U.S. from taking out, moving or saving their money. The only change this time is good news for savers in Paraguay.",
-   "worry": "Not right now. We found no new U.S. rules or plans that limit your money. In Paraguay, savers at a failed bank have started getting their money back.",
+   "today": "Nothing stops regular people in the U.S. from taking out, moving or saving their money. The new items this time are early state bills, a private crime task force and changes in other countries.",
+   "worry": "Not right now. We found no new U.S. rules that limit your money. The new items are early bills in Texas, a company crime task force, and steps in other countries.",
    "watch": [
     "A cap on how much money people can send to other countries.",
     "Limits on how much cash people can take out of the bank.",
     "An order that stops most people from selling stocks or moving money, not just a few named companies."
    ],
-   "changes_lede": "There were no new U.S. rules this time. In Paraguay, savers at a failed bank got back up to about $19,000 each."
+   "changes_lede": "There were no new federal rules, but there is news from Texas, one company and some other countries."
   },
   "layout": "v2-plain-first"
  },
  "upcoming_dates": [
-  {
-   "date": "2026-11-12",
-   "what": "Next weekly Fed balance sheet (H.4.1), due 4:30 p.m. ET today: discount-window and emergency lending",
-   "item_id": "h41-2026-11-05-discount-window",
-   "url": "https://www.federalreserve.gov/releases/h41/"
-  },
-  {
-   "date": "2026-11-16",
-   "what": "Week of Nov 16: transfer of failed Ueno Bank's assets and debts to other banks is due to begin in Paraguay (no exact date), the step before covered balances above the advance are paid",
-   "item_id": "paraguay-ueno-bank-resolution-2026-11",
-   "url": "https://es-us.noticias.yahoo.com/paraguay-devuelve-ahorros-depositantes-ueno-020310417.html"
-  },
   {
    "date": "2026-11-17",
    "what": "Paraguay's state pension fund pays the 32,000 pensioners who banked at Ueno through other banks; the remaining Ueno depositor payouts have no dates",
@@ -4585,10 +5046,28 @@
    "url": "https://perspectivas.com.py/noticias/ueno-bank-el-bcp-abre-la-segunda-ronda-de-pagos-para-saldos-de-hasta-g-121-millones"
   },
   {
+   "date": "2026-11-17",
+   "what": "Russia's cap of 300,000 rubles a year per firm on ordinary investors' purchases of bitcoin, ether and USDT takes effect",
+   "item_id": "intl-russia-retail-crypto-caps-2026-11",
+   "url": "https://cbr.ru/eng/press/event/?id=32966"
+  },
+  {
+   "date": "2026-11-19",
+   "what": "Next weekly Fed balance sheet (H.4.1), 4:30 p.m. ET: discount-window and emergency lending",
+   "item_id": "h41-2026-11-12-discount-window",
+   "url": "https://www.federalreserve.gov/releases/h41/"
+  },
+  {
    "date": "2026-11-19",
    "what": "South Korea's Financial Supervisory Service meets crypto exchange and custody firms' security chiefs on hacking responses",
    "item_id": "crypto-exchange-withdrawal-pauses-2026-11",
    "url": "https://en.sedaily.com/finance/2026/11/08/binance-backed-gopax-halts-withdrawals-after-hacking-threat"
+  },
+  {
+   "date": "2026-11-20",
+   "what": "About Nov 20-22: Paraguay's central bank expects to finish its 8- to 10-day review of failed Ueno Bank's sound assets and debts, then tender its assets and deposits to several banks in lots",
+   "item_id": "paraguay-ueno-bank-resolution-2026-11",
+   "url": "https://spanish.xinhuanet.com/20261113/0bebe0a9aa234022932745526472418d/c.html"
   },
   {
    "date": "2026-11-30",
@@ -4649,6 +5128,12 @@
    "what": "Comments due on FDIC large-bank deposit insurance and provisional-hold proposal",
    "item_id": "fdic-2026-22495",
    "url": "https://www.federalregister.gov/documents/2026/11/04/2026-22495/large-bank-deposit-insurance-determination-modernization"
+  },
+  {
+   "date": "2027-01-12",
+   "what": "Texas Legislature's 2027 session begins; prefiled bills to ban crypto ATMs (SB 181, HB 271, HB 1082) and to require a gold- and silver-backed payment system (HB 165) can then go to committees",
+   "item_id": "tx-crypto-atm-ban-bills-90r",
+   "url": "https://www.tjjd.texas.gov/preparing-for-the-90th-legislative-session/"
   },
   {
    "date": "2027-01-18",
@@ -4733,373 +5218,373 @@
   {
    "source": "Federal Register public inspection (current)",
    "url": "https://www.federalregister.gov/public-inspection/current",
-   "status": "Partial",
-   "note": "The public inspection list is offline overnight and returns at 8:45 a.m. ET on Nov 12, so filings for Nov 13 weren't visible yet. We checked the Nov 12 issue instead (next row).",
-   "last_success": "2026-11-11"
+   "status": "Checked",
+   "note": "Read the Nov 12 list (regular filings for Nov 13 and special filings for Nov 16): no FinCEN or banking-agency rules; Treasury items are OFAC general licenses, a TTB form notice and a U.S. Mint meeting. A routine Iran oil-sanctions determination is scheduled for Nov 16. Today's 8:45 a.m. filings come after this report.",
+   "last_success": "2026-11-13"
   },
   {
    "source": "Federal Register documents (via web search)",
    "url": "https://www.federalregister.gov/",
    "status": "Checked",
-   "note": "The Nov 12 issue (124 documents) has no FinCEN or banking-agency rules. Financial items: OFAC sanctions notices on named parties, the Fed's yearly inflation adjustment to a Reserve Bank stock rule and a Treasury grant notice. Nov 10 carried FinCEN's MEXC order (tracked).",
-   "last_success": "2026-11-12"
+   "note": "The Nov 13 issue (118 documents) has no FinCEN or banking-agency rules. Financial items: OFAC general licenses for the Cuba, Iran and Russia programs, a Fed bank-control notice correction, CFPB information-collection notices and routine exchange fee filings. FinCEN's 2026 index shows nothing after the Nov 10 MEXC order.",
+   "last_success": "2026-11-13"
   },
   {
    "source": "OIRA rules under review",
    "url": "https://www.reginfo.gov/public/do/eoReviewSearch",
    "status": "Checked",
-   "note": "We read the full Nov 11 list. No FinCEN or banking-agency rules. Treasury's only entry is an IRS proposal on crypto broker reporting under the OECD's crypto reporting framework, under review since Nov 14, 2025. The Labor Department's 401(k) investment rule (tracked) is still pending.",
-   "last_success": "2026-11-12"
+   "note": "The list we loaded is dated Nov 11. No FinCEN or banking-agency rules; Treasury's only entry is the IRS crypto broker reporting proposal. Also pending: an SEC proposal on broker-dealer rules for crypto assets, a CFTC customer identification proposal and the Labor Department's 401(k) investment rule (tracked).",
+   "last_success": "2026-11-13"
   },
   {
    "source": "Unified Agenda",
    "url": "https://www.reginfo.gov/public/do/eAgendaMain",
    "status": "Partial",
-   "note": "Main page only (2026 Regulatory Plan edition). Site searches show FinCEN entries already tracked (AML program rule, stablecoin issuer AML and sanctions rule, customer due diligence); nothing new.",
-   "last_success": "2026-11-12"
+   "note": "Main page only (2026 Regulatory Plan edition). Site searches found only FinCEN entries already tracked; nothing new.",
+   "last_success": "2026-11-13"
   },
   {
    "source": "Regulations.gov",
    "url": "https://www.regulations.gov/",
    "status": "Partial",
-   "note": "Home page and trending dockets only; nothing relevant.",
-   "last_success": "2026-11-12"
+   "note": "Home page only; nothing relevant.",
+   "last_success": "2026-11-13"
   },
   {
    "source": "Treasury press releases",
    "url": "https://home.treasury.gov/news/press-releases",
    "status": "Checked",
-   "note": "Nov 11: the Secretary's speech on U.S.-China relations said the aim is to reduce risks, not cut economic ties. Nothing on limits on Americans' money. The releases before that are dated Nov 6 (MEXC order, sanctions, FATF statement).",
-   "last_success": "2026-11-12"
+   "note": "Nothing after the Secretary's Nov 11 speech on U.S.-China relations.",
+   "last_success": "2026-11-13"
   },
   {
    "source": "Treasury Outbound Investment Security Program",
    "url": "https://home.treasury.gov/policy-issues/international/outbound-investment-program",
    "status": "Checked",
-   "note": "Page unchanged: COINS Act proposal (Oct 22; comments due Dec 7). A Nov 10 law-firm summary adds nothing new.",
-   "last_success": "2026-11-12"
+   "note": "Page unchanged: COINS Act proposal (Oct 22); comments due Dec 7. Law-firm summaries add nothing new.",
+   "last_success": "2026-11-13"
   },
   {
    "source": "OFAC recent actions",
    "url": "https://ofac.treasury.gov/recent-actions",
-   "status": "Checked",
-   "note": "Latest is the Nov 9 Iran-related designation update. The Nov 12 Federal Register publishes sanctions on named parties.",
-   "last_success": "2026-11-12"
+   "status": "Partial",
+   "note": "The page served an older copy. The Federal Register shows Nov 12 sanctions notices on named parties and Nov 13 general licenses for the Cuba, Iran and Russia programs.",
+   "last_success": "2026-11-13"
   },
   {
    "source": "FinCEN news",
    "url": "https://www.fincen.gov/news",
    "status": "Checked",
    "note": "Nothing after the Nov 9 readout on overseas scam centers. The MEXC order takes effect Dec 10 (tracked).",
-   "last_success": "2026-11-12"
+   "last_success": "2026-11-13"
   },
   {
    "source": "FSOC",
    "url": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/fsoc",
    "status": "Partial",
    "note": "Landing page only; no new meeting readout or annual report found.",
-   "last_success": "2026-11-12"
+   "last_success": "2026-11-13"
   },
   {
    "source": "Treasury officials' speeches",
    "url": "https://home.treasury.gov/news/press-releases",
    "status": "Checked",
-   "note": "Nov 11: the Secretary's U.S.-China speech covered trade and investment ties, not stablecoins, payments or limits on money. No other new Treasury remarks on those topics found Nov 9-12.",
-   "last_success": "2026-11-12"
+   "note": "No new Treasury remarks on stablecoins, payments or capital flows since the Secretary's Nov 11 China speech.",
+   "last_success": "2026-11-13"
   },
   {
    "source": "Fed press releases",
    "url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
-   "status": "Partial",
-   "note": "The list page still serves an older copy (to Oct 29). The Board's recent-postings page shows Nov 9-10 items: an application approval, research notes (one on central banks moving gold reserves) and two speeches. The Fed was closed Nov 11.",
-   "last_success": "2026-11-12"
+   "status": "Checked",
+   "note": "The 2026 list shows a Nov 12 notice revising the 2027 FOMC meeting schedule and nothing else after the Nov 9 application approval.",
+   "last_success": "2026-11-13"
   },
   {
    "source": "Fed speeches and testimony",
    "url": "https://www.federalreserve.gov/newsevents/speech/2026-speeches.htm",
    "status": "Checked",
-   "note": "Nov 10: Vice Chair for Supervision Bowman and Governor Waller spoke on the economy and interest rates. Nothing newer, and nothing on payments, stablecoins or capital flows.",
-   "last_success": "2026-11-12"
+   "note": "Nov 12: Governor Barr spoke on inequality and AI. Nothing on payments, stablecoins or capital flows.",
+   "last_success": "2026-11-13"
   },
   {
    "source": "Fed Financial Stability Report",
    "url": "https://www.federalreserve.gov/publications/financial-stability-report.htm",
    "status": "Checked",
    "note": "Latest is May 2026; the November edition hasn't been posted.",
-   "last_success": "2026-11-12"
+   "last_success": "2026-11-13"
   },
   {
    "source": "Fed H.4.1",
    "url": "https://www.federalreserve.gov/releases/h41/",
    "status": "Checked",
-   "note": "The Nov 5 release is still the latest; the next one comes out at 4:30 p.m. ET today (Nov 12), after this report.",
-   "last_success": "2026-11-12"
+   "note": "Nov 12 release (week ended Nov 11): primary credit averaged $8.9 billion, down $1.1 billion on the week; no secondary credit or emergency lending (new weekly item).",
+   "last_success": "2026-11-13"
   },
   {
    "source": "FDIC press releases",
    "url": "https://www.fdic.gov/news/press-releases",
    "status": "Checked",
    "note": "Nothing after Nov 5.",
-   "last_success": "2026-11-12"
+   "last_success": "2026-11-13"
   },
   {
    "source": "FDIC failed bank list",
    "url": "https://www.fdic.gov/bank-failures/failed-bank-list",
    "status": "Checked",
    "note": "No failures since Nano Banc (Sept 25).",
-   "last_success": "2026-11-12"
+   "last_success": "2026-11-13"
   },
   {
    "source": "FDIC Financial Institution Letters",
    "url": "https://www.fdic.gov/news/financial-institution-letters",
    "status": "Checked",
-   "note": "Nov 10: FIL-67-2026 gives supervisory relief in areas of Hawaii hit by an earthquake. Nothing on deposits or withdrawals.",
-   "last_success": "2026-11-12"
+   "note": "Nothing after FIL-67-2026 (Nov 10, Hawaii earthquake relief).",
+   "last_success": "2026-11-13"
   },
   {
    "source": "OCC",
    "url": "https://www.occ.gov/",
    "status": "Checked",
-   "note": "Newsroom: a Nov 10 bulletin on how guarantees affect commercial credit ratings; no news releases since Nov 5. Nothing on capital controls.",
-   "last_success": "2026-11-12"
+   "note": "Nov 12: the fall 2026 Semiannual Risk Perspective flags interest-rate, credit, compliance and cyber risks and reports record profitability. Nothing on deposit or withdrawal limits.",
+   "last_success": "2026-11-13"
   },
   {
    "source": "SEC press releases",
    "url": "https://www.sec.gov/newsroom/press-releases",
    "status": "Checked",
-   "note": "Nothing after the Nov 10 enforcement results. No money market fund or redemption actions.",
-   "last_success": "2026-11-12"
+   "note": "Nothing after the Nov 10 enforcement results. The Nov 13 Federal Register carries routine exchange fee and data-feed filings.",
+   "last_success": "2026-11-13"
   },
   {
    "source": "CFPB newsroom",
    "url": "https://www.consumerfinance.gov/about-us/newsroom/",
    "status": "Checked",
    "note": "Nothing new since Oct 14 (debanking initiative).",
-   "last_success": "2026-11-12"
+   "last_success": "2026-11-13"
   },
   {
    "source": "CFTC press releases",
    "url": "https://www.cftc.gov/PressRoom/PressReleases",
    "status": "Checked",
    "note": "Nothing after the Nov 9 sanctions on unregistered associated persons.",
-   "last_success": "2026-11-12"
+   "last_success": "2026-11-13"
   },
   {
    "source": "White House presidential actions",
    "url": "https://www.whitehouse.gov/presidential-actions/",
    "status": "Checked",
-   "note": "Latest items are from Nov 9-10: a national monument proclamation, a Veterans Day proclamation, a wildfire-suppression determination and nominations. Nothing financial.",
-   "last_success": "2026-11-12"
+   "note": "Nothing after Nov 10 (Veterans Day proclamation, wildfire determination, nominations). A routine Iran oil-sanctions determination is on public inspection for Nov 16.",
+   "last_success": "2026-11-13"
   },
   {
    "source": "Congress.gov",
    "url": "https://www.congress.gov/",
    "status": "Partial",
-   "note": "The home page loaded without bill status; searches found no action on tracked bills (H.R. 8995, H.R. 1799, CLARITY Act). The federal funding deadline is Dec 11.",
-   "last_success": "2026-11-12"
+   "note": "No action found on tracked bills (H.R. 8995, H.R. 1799, CLARITY Act). The federal funding deadline is still Dec 11.",
+   "last_success": "2026-11-13"
   },
   {
    "source": "House Financial Services calendar",
    "url": "https://financialservices.house.gov/calendar/",
    "status": "Checked",
    "note": "No hearings or markups posted since Sept 18.",
-   "last_success": "2026-11-12"
+   "last_success": "2026-11-13"
   },
   {
    "source": "Senate Banking Committee",
    "url": "https://www.banking.senate.gov/",
    "status": "Partial",
-   "note": "The home page lists ranking-member statements from Nov 9-10 on SEC enforcement, inflation and chip exports; no hearings or markups listed for November.",
-   "last_success": "2026-11-12"
+   "note": "Nov 12: the chair asked Nvidia's CEO and the Commerce Secretary to testify. No hearings or markups on deposits, payments or stablecoins listed.",
+   "last_success": "2026-11-13"
   },
   {
    "source": "GAO",
    "url": "https://www.gao.gov/",
-   "status": "Partial",
-   "note": "The site blocked our reader. A site search found a Nov 5 report on banking agencies' work with international standard setters; nothing on deposits, payments or capital controls.",
-   "last_success": "2026-11-12"
+   "status": "Checked",
+   "note": "Nov 10 reports cover multilateral banks, VA lending, IRS services, housing and grants, plus a 401(k) private-equity report released that day. Nothing on deposits, payments or capital controls.",
+   "last_success": "2026-11-13"
   },
   {
    "source": "CRS reports",
    "url": "https://crsreports.congress.gov/",
    "status": "Partial",
-   "note": "The site returned no page. A search found only earlier reports on the GENIUS Act (Aug-Sept 2026).",
-   "last_success": "2026-11-12"
+   "note": "The site returned no page; searches found nothing new.",
+   "last_success": "2026-11-13"
   },
   {
    "source": "State bills (LegiScan)",
    "url": "https://legiscan.com/",
-   "status": "Partial",
-   "note": "Most legislatures are out of session; searches found no new bills on CBDCs, cash, gold, debanking or payment limits.",
-   "last_success": "2026-11-12"
+   "status": "Checked",
+   "note": "Texas opened bill filing for its 2027 session on Nov 9. New: SB 181, HB 271 and HB 1082 would ban crypto ATMs, and HB 165 would require the state's gold- and silver-backed payment system (items added). No other new state bills on CBDCs, cash or debanking found.",
+   "last_success": "2026-11-13"
   },
   {
    "source": "IMF publications and eLibrary",
    "url": "https://www.elibrary.imf.org/",
    "status": "Checked",
-   "note": "Nov 9-12 items are country reviews and agreements (Armenia, Denmark, Ecuador, Jamaica, Oman, Tonga, Zimbabwe) and a Nov 11 note on sovereign wealth funds; no new papers on capital flow measures.",
-   "last_success": "2026-11-12"
+   "note": "Nov 10-13 items are country reviews (Armenia, Finland, Jamaica, Mexico, Tonga) and a Nov 12 press briefing; nothing new on capital flow measures.",
+   "last_success": "2026-11-13"
   },
   {
    "source": "BIS",
    "url": "https://www.bis.org/",
    "status": "Checked",
-   "note": "Nov 11 working paper on liquidity stress tests for banks; Nov 10 paper on U.S. monetary policy and global interest rates. Nothing on capital controls.",
-   "last_success": "2026-11-12"
+   "note": "Nov 12: a paper on the gig economy and digital payments; Nov 10: appointments to the BIS payments committee. Nothing on capital controls.",
+   "last_success": "2026-11-13"
   },
   {
    "source": "FSB",
    "url": "https://www.fsb.org/",
    "status": "Checked",
-   "note": "The Nov 11 peer review of Türkiye (tracked) is still the latest; nothing newer.",
-   "last_success": "2026-11-12"
+   "note": "Nothing after the Nov 11 peer review of Türkiye (tracked).",
+   "last_success": "2026-11-13"
   },
   {
    "source": "FATF",
    "url": "https://www.fatf-gafi.org/",
    "status": "Checked",
    "note": "Nothing new since the Oct 30 plenary outcomes.",
-   "last_success": "2026-11-12"
+   "last_success": "2026-11-13"
   },
   {
    "source": "ECB digital euro",
    "url": "https://www.ecb.europa.eu/euro/digital_euro/html/index.en.html",
    "status": "Checked",
-   "note": "Nov 10: Executive Board member Cipollone told EU lawmakers the ECB backs laws on accepting and accessing cash alongside a digital euro, with a pilot from the second half of 2027. We found nothing new on holding limits, which are still being negotiated.",
-   "last_success": "2026-11-12"
+   "note": "No digital euro publications after the Nov 10 speech on cash. A Nov 11 ECB Economic Bulletin box studies who holds stablecoins in the euro area; nothing new on holding limits.",
+   "last_success": "2026-11-13"
   },
   {
    "source": "Bank of England digital pound",
    "url": "https://www.bankofengland.co.uk/the-digital-pound",
    "status": "Checked",
    "note": "No decision yet; no new digital pound news found.",
-   "last_success": "2026-11-12"
+   "last_success": "2026-11-13"
   },
   {
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/",
    "status": "Checked",
-   "note": "Nov 10: summary of rate deliberations; Nov 9: market participants survey. Nothing on payments limits. Canada's Bill S-8 is still at first reading in the Senate (introduced Nov 3).",
-   "last_success": "2026-11-12"
+   "note": "Nov 9: designated the Real-Time Rail as a prominent payment system; Nov 10: rate deliberations summary. Nothing on payment limits. Bill S-8 is still at first reading.",
+   "last_success": "2026-11-13"
   },
   {
    "source": "OSFI (Canada's bank regulator)",
    "url": "https://www.osfi-bsif.gc.ca/",
    "status": "Checked",
    "note": "Next domestic stability buffer decision is Dec 17; nothing on deposit or withdrawal limits.",
-   "last_success": "2026-11-12"
+   "last_success": "2026-11-13"
   },
   {
    "source": "Atlantic Council CBDC Tracker",
    "url": "https://www.atlanticcouncil.org/cbdctracker/",
    "status": "Checked",
    "note": "Still last updated May 2026.",
-   "last_success": "2026-11-12"
+   "last_success": "2026-11-13"
   },
   {
    "source": "NBER",
    "url": "https://www.nber.org/papers",
    "status": "Checked",
    "note": "This week's papers include none on capital controls or payment limits.",
-   "last_success": "2026-11-12"
+   "last_success": "2026-11-13"
   },
   {
    "source": "Cato",
    "url": "https://www.cato.org/blog",
    "status": "Checked",
-   "note": "Latest posts are from Nov 9 (lame-duck budget, the defense-bill stock buyback ban, ballot measures). Nothing new on financial privacy.",
-   "last_success": "2026-11-12"
+   "note": "Nov 10-12 posts cover the CHIPS Act tax credit, Amtrak, the defense bill's equity stakes and Iran. Nothing on financial privacy or capital controls.",
+   "last_success": "2026-11-13"
   },
   {
    "source": "Brookings Hutchins Center",
    "url": "https://www.brookings.edu/centers/the-hutchins-center-on-fiscal-and-monetary-policy/",
    "status": "Checked",
-   "note": "No new posts on payments, deposits or capital flows; a Nov 17 event on Treasury market resilience is scheduled.",
-   "last_success": "2026-11-12"
+   "note": "Nov 10: an update to the external wealth of nations database. Nothing on payments, deposits or capital flows; a Nov 17 event on Treasury market resilience is scheduled.",
+   "last_success": "2026-11-13"
   },
   {
    "source": "PIIE",
    "url": "https://www.piie.com/",
    "status": "Checked",
-   "note": "Recent items cover tariffs; nothing on capital controls.",
-   "last_success": "2026-11-12"
+   "note": "Nov 9-12 items cover China's currency, AI investment and the midterms; nothing on capital controls.",
+   "last_success": "2026-11-13"
   },
   {
    "source": "AEI",
    "url": "https://www.aei.org/",
    "status": "Checked",
    "note": "Nothing relevant since Oct 27.",
-   "last_success": "2026-11-12"
+   "last_success": "2026-11-13"
   },
   {
    "source": "Heritage",
    "url": "https://www.heritage.org/",
    "status": "Checked",
    "note": "Nothing on capital controls.",
-   "last_success": "2026-11-12"
+   "last_success": "2026-11-13"
   },
   {
    "source": "Bank Policy Institute",
    "url": "https://bpi.com/",
    "status": "Checked",
-   "note": "Nov 9: comments on a robocall database proposal. Nothing on deposits or payment limits.",
-   "last_success": "2026-11-12"
+   "note": "Nothing after Nov 9.",
+   "last_success": "2026-11-13"
   },
   {
    "source": "Coin Center",
    "url": "https://www.coincenter.org/",
    "status": "Checked",
    "note": "No posts after Nov 6 (on the withdrawn travel-rule threshold plan).",
-   "last_success": "2026-11-12"
+   "last_success": "2026-11-13"
   },
   {
    "source": "JD Supra",
    "url": "https://www.jdsupra.com/",
    "status": "Partial",
-   "note": "The finance page returned no text. Searches found alerts only on items already tracked (COINS Act proposal, MEXC order, stablecoin AML rules) and on Canada's Bill S-8.",
-   "last_success": "2026-11-12"
+   "note": "Searches found alerts only on tracked items (MEXC order, Minnesota alert) and the Corporate Transparency Act.",
+   "last_success": "2026-11-13"
   },
   {
    "source": "Glenn Beck YouTube",
    "url": "https://www.youtube.com/@glennbeck",
    "status": "Checked",
-   "note": "Uploads since Nov 9 cover the midterms and politics. The 'Capital Controls' special, now retitled, shows about 147,000 views. No new claims about limits on money.",
-   "last_success": "2026-11-12"
+   "note": "Uploads Nov 11-13 cover the midterms, Nvidia's CEO and politics. The 'Capital Controls' special still shows about 147,000 views. No new claims about limits on money.",
+   "last_success": "2026-11-13"
   },
   {
    "source": "glennbeck.com",
    "url": null,
    "status": "Partial",
-   "note": "The site needs a sign-in. Podcast transcript indexes for the Nov 10 show cover an impeachment push and politics; nothing on capital controls.",
-   "last_success": "2026-11-12"
+   "note": "The site needs a sign-in. Episode summaries for Nov 11-12 (guests Jack Carr and Carol Roth) cover Nvidia's CEO, AI, housing and the Fed; nothing on capital controls.",
+   "last_success": "2026-11-13"
   },
   {
    "source": "IRS remittance tax guidance",
    "url": "https://www.irs.gov/newsroom/treasury-irs-issue-proposed-regulations-on-the-new-remittance-transfer-tax-established-under-the-one-big-beautiful-bill",
    "status": "Checked",
    "note": "No final regulations; the April proposal is still the latest. The 1% tax on cash-funded transfers still applies.",
-   "last_success": "2026-11-12"
+   "last_success": "2026-11-13"
   },
   {
    "source": "Other financial commentators (search)",
    "url": null,
    "status": "Checked",
-   "note": "No new widely shared claims about U.S. capital controls found since Nov 9. One Nov 10 business blog misdated Tether's April 2026 freeze of Iran-linked stablecoins as happening Nov 7.",
-   "last_success": "2026-11-12"
+   "note": "No new widely shared claims about U.S. capital controls found since Nov 10.",
+   "last_success": "2026-11-13"
   },
   {
    "source": "News search: bank and platform withdrawal limits",
    "url": null,
    "status": "Checked",
-   "note": "No U.S. bank withdrawal limits found. Paraguay's central bank said Nov 11 that every covered Ueno Bank saver had received an advance (item updated). South Korea's Gopax had set no restart date in the latest reports (Nov 9).",
-   "last_success": "2026-11-12"
+   "note": "No U.S. bank withdrawal limits found. South Korea's regulator said Nov 12 it will let crypto exchanges block withdrawals when a hack is suspected, and Tether, TRON and Chainalysis launched a task force to freeze illicit USDT faster (items added). Paraguay laid out its plan for Ueno Bank's accounts (item updated).",
+   "last_success": "2026-11-13"
   },
   {
    "source": "News search: currency and market measures abroad",
    "url": null,
    "status": "Checked",
-   "note": "Nothing new that limits people's money. China's higher foreign-currency reserve requirement for banks, announced Nov 3, starts Nov 15; it aims to slow the yuan's rise and doesn't limit individuals. The EU's 10,000-euro cap on cash payments, adopted in 2024, starts July 10, 2027.",
-   "last_success": "2026-11-12"
+   "note": "Russia's yearly cap on ordinary investors' crypto purchases starts Nov 17 (item added). Taiwan set no end date for its short-selling limits (item updated). China's securities regulator said Nov 12 it will steer more long-term money into stocks, with no new limits on selling. China's higher foreign-currency reserve requirement for banks starts Nov 15 and doesn't limit individuals.",
+   "last_success": "2026-11-13"
   }
  ],
  "raise_level_triggers": [
@@ -5116,7 +5601,8 @@
   "The final outbound-investment rule widening to publicly traded securities, index funds, or more countries or technologies.",
   "FinCEN section 9714 or 311 orders reaching widely used U.S. payment apps, stablecoins or exchanges that serve ordinary Americans, rather than offshore firms tied to sanctions evasion.",
   "Any U.S. order limiting ordinary investors' ability to sell stocks or fund shares during a market slide, beyond exchanges' automatic circuit breakers and short-sale curbs.",
-  "A U.S. bill or rule that would ban or cap large cash payments, as Canada's Bill S-8 proposes, instead of only requiring businesses to report them."
+  "A U.S. bill or rule that would ban or cap large cash payments, as Canada's Bill S-8 proposes, instead of only requiring businesses to report them.",
+  "A state law that caps or bans ordinary cash withdrawals, bank transfers or cash payments, going beyond limits on crypto ATMs."
  ],
  "live_page": "https://brentwhichel.github.io/capital-controls-monitor/"
 }
