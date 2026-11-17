@@ -965,7 +965,7 @@
    "date": "2026-09-25",
    "org": "FDIC",
    "what_changed": "In the 90-day window, Tioga-Franklin Savings Bank (Philadelphia, Aug 21) and Nano Banc (Sept 25) failed. Earlier 2026 failures were Metropolitan Capital Bank & Trust (Jan 30), Community Bank and Trust - West Georgia (May 1), Kentland Federal S&L (Jul 10) and Small Business Bank (Jul 17).",
-   "summary": "Each failure was resolved by purchase-and-assumption with another bank. Six failures in 10 months is more than in 2024 (2) or 2025 (2) on the same list, but none was large. Other banking-stress checks in this scan found no Fed emergency facility announcements, and the Fed's latest Financial Stability Report is still May 2026.",
+   "summary": "Each failure was resolved by purchase-and-assumption with another bank. Six failures in 10 months is more than in 2024 (2) or 2025 (2) on the same list, but none was large. Other banking-stress checks found no Fed emergency facility announcements, and the Fed's November 2026 Financial Stability Report (Nov 13) found the banking system sound (tracked separately).",
    "control_type": "None",
    "affected": "Named parties",
    "stage": "In effect",
@@ -976,7 +976,7 @@
    "why_it_matters": "This is the baseline count for spotting a pickup in failures. A cluster of failures, or any resolution with delayed access, would matter.",
    "why_it_might_not": "The failures are small and handled routinely, with no systemic-risk exception invoked.",
    "next_milestone": {
-    "what": "Fed November 2026 Financial Stability Report (date unconfirmed)",
+    "what": "Next FDIC failed-bank posting (if any)",
     "date": null
    },
    "sources": [
@@ -988,10 +988,10 @@
      "primary": true
     },
     {
-     "title": "Financial Stability Report index",
-     "url": "https://www.federalreserve.gov/publications/financial-stability-report.htm",
+     "title": "Financial Stability Report, November 2026 (PDF)",
+     "url": "https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf",
      "publisher": "Federal Reserve Board",
-     "date": "2026-05-08",
+     "date": "2026-11-13",
      "primary": true
     }
    ],
@@ -1010,7 +1010,7 @@
      "stage": "In effect"
     }
    ],
-   "updated_on": "2026-11-04",
+   "updated_on": "2026-11-14",
    "plain": "Six small banks have failed so far in 2026, more than in 2024 or 2025. In each case another bank took over, and the failures were handled routinely."
   },
   "fdic-nano-banc-2026-09-25": {
@@ -1083,7 +1083,7 @@
    "org": "Treasury / FinCEN (Unified Agenda)",
    "who": "FinCEN",
    "what_changed": "The 2026 Unified Agenda (published Aug 14, 2026) lists a proposed-rule-stage item, RIN 1506-AB60, 'Revisions to Customer Due Diligence Requirements for Financial Institutions', with an NPRM timetable of 03/2027 and comment period ending 05/2027.",
-   "summary": "FinCEN plans to rewrite the bank customer due diligence (beneficial-ownership) rule to reflect the Corporate Transparency Act's changes. The agenda entry gives no detail on scope; it may narrow or expand what banks must collect about who owns or controls an account. Lets the government see (via bank records) account ownership; no limit on moving money.",
+   "summary": "FinCEN plans to rewrite the bank customer due diligence (beneficial-ownership) rule to reflect the Corporate Transparency Act's changes. The agenda entry gives no detail on scope; it may narrow or expand what banks must collect about who owns or controls an account. Lets the government see (via bank records) account ownership; no limit on moving money. On Nov 16, 2026, FinCEN listed a separate customer due diligence proposal (RIN 1506-AB78) tied to Executive Order 14406; FinCEN hasn't said how the two relate.",
    "control_type": "Visibility",
    "affected": "Sector or group",
    "stage": "Study or pilot",
@@ -1132,7 +1132,7 @@
      "stage": "Study or pilot"
     }
    ],
-   "updated_on": "2026-11-04",
+   "updated_on": "2026-11-16",
    "plain": "FinCEN (the Treasury office that fights money crimes) plans to change its rules on what banks must know about who owns an account. A draft is aimed for March 2027, and it would not limit moving money."
   },
   "fincen-1506-AB72-amlcft-program-nprm": {
@@ -4392,11 +4392,11 @@
   "intl-bolivia-dollar-deposit-refunds-2026-11": {
    "id": "intl-bolivia-dollar-deposit-refunds-2026-11",
    "section": "international",
-   "headline": "Bolivia speeds up the return of dollar savings that have been hard to withdraw since 2023 and lets banks keep new dollar deposits on hand",
-   "date": "2026-11-09",
+   "headline": "Bolivia lets new dollar transfers abroad and cash moves through banks run without limits and starts returning $438 million in dollars to lenders",
+   "date": "2026-11-13",
    "org": "Banco Central de Bolivia (Bolivia's central bank)",
-   "what_changed": "Under board Resolution 157/2026, announced Oct 30, 2026, Bolivia's central bank moved up to Nov 5 the repayment of $333 million to households with dollar deposits of $10,001 to $50,000, payments that had been scheduled between Nov 16, 2026 and Mar 16, 2027. From Nov 9, banks and other lenders manage the required reserves on new dollar deposits themselves, so those dollars stay available to pay depositors' withdrawals. The central bank also cut the share of local-currency funds that non-bank lenders must keep in its custody from 80% to 60%.",
-   "summary": "A shortage of U.S. dollars has made it hard for Bolivians to withdraw their dollar deposits since February 2023, a freeze on access to savings that the central bank itself calls a 'corralito.' In May 2026 the authorities set a schedule to return dollar deposits in stages by balance size, and withdrawals are voluntary; after this change, the remaining stages for individuals, covering balances above $50,000, run from April to July 2027, and companies follow a separate schedule through December 2028. The central bank says it and the banks mobilized more than $300 million to pay early, and that the reserve change aims to avoid repeating the freeze for new dollar savings. A Bolivian newspaper reported that some customers still had trouble depositing cash dollars, and a former economy minister said dollar transfers and payments remain restricted, with fees of 7% to 10% on some operations.",
+   "what_changed": "On Nov 13, 2026, under board Resolution 162/2026, Bolivia's central bank created 'auxiliary liquidity accounts' for all banks and other lenders so that all new U.S. dollar operations through them, covering transfers abroad, cash movements and transfers between lenders, can run without restriction, something it said had been restricted in recent years. It will also return the $438 million in dollar cash that lenders held in their current and reserve accounts at the central bank on Nov 10: $11 million credited Nov 13 to 35 small lenders that mainly serve rural and outlying areas, $43 million on Dec 18 to 18 more, and $384 million on Apr 30 and Sept 30, 2027 to the remaining 8. It now publishes the new accounts' combined balances on its website.",
+   "summary": "A shortage of U.S. dollars has made it hard for Bolivians to withdraw their dollar deposits since February 2023, a freeze on access to savings that the central bank itself calls a 'corralito.' In May 2026 the authorities set a schedule to return dollar deposits in stages by balance size; on Oct 30 the central bank moved up to Nov 5 the repayment of $333 million to households with $10,001 to $50,000, and from Nov 9 lenders manage the reserves on new dollar deposits themselves so those dollars stay available for withdrawals. The remaining stages for individuals, covering balances above $50,000, run from April to July 2027, and companies follow a separate schedule through December 2028. The central bank calls the Nov 13 step a move toward fully normal foreign-currency operations; about 88% of the $438 million goes back to lenders only in 2027. Earlier this month a Bolivian newspaper reported that some customers still had trouble depositing cash dollars, and a former economy minister said dollar transfers and payments remained restricted, with fees of 7% to 10% on some operations.",
    "control_type": "Prohibition",
    "affected": "Sector or group",
    "stage": "In effect",
@@ -4406,14 +4406,35 @@
    ],
    "direction": "Away from controls",
    "evidence": "Official document",
-   "why_it_matters": "Bolivia is a current example of how a dollar shortage can turn into years of limits on getting money out of the bank, and of how slowly such limits unwind: savers are being repaid in stages over more than a year.",
+   "why_it_matters": "Bolivia shows how a dollar shortage can turn into years of limits on getting money out of the bank, and how slowly such limits unwind: limits on new dollar transfers are only now being lifted, and older savings are being repaid in stages into 2027.",
    "why_it_might_not": "This loosens existing limits rather than adding new ones, and it stems from Bolivia's own shortage of U.S. dollars. The U.S. issues dollars and faces no such shortage, and no U.S. withdrawal limits are in place or proposed.",
    "us_link": "No direct link. U.S. deposits are insured up to $250,000 per depositor at each insured bank, and no U.S. withdrawal limits are in place or proposed.",
    "next_milestone": {
-    "what": "Refunds for balances above $50,000 are scheduled in monthly installments from April to July 2027 under the May 2026 timetable",
-    "date": "2027-04-15"
+    "what": "Central bank returns $43 million in dollars to 18 more lenders; household refunds for balances above $50,000 follow from April to July 2027",
+    "date": "2026-12-18"
    },
    "sources": [
+    {
+     "title": "Nota de Prensa NP 27/2026: new dollar operations fully operational in the financial system (in Spanish)",
+     "url": "https://www.bcb.gob.bo/webdocs/files_noticias/NP%2027-13%20NOVIEMBRE.pdf",
+     "publisher": "Banco Central de Bolivia",
+     "date": "2026-11-13",
+     "primary": true
+    },
+    {
+     "title": "BCB elimina restricciones a nuevas transacciones en dólares e inicia devolución de USD 438 millones a 61 entidades financieras (Central bank lifts limits on new dollar transactions; in Spanish)",
+     "url": "https://www.vision360.bo/noticias/2026/11/13/77168-bcb-elimina-restricciones-a-nuevas-transacciones-en-dolares-e-inicia-devolucion-de-usd-438-millones-a-61-entidades-financieras",
+     "publisher": "Visión 360",
+     "date": "2026-11-13",
+     "primary": false
+    },
+    {
+     "title": "Bolivia to Repay Banks US$438M in Dollars",
+     "url": "https://www.riotimesonline.com/bolivia-central-bank-repay-banks-us438-million-dollars/",
+     "publisher": "The Rio Times",
+     "date": "2026-11-14",
+     "primary": false
+    },
     {
      "title": "Nota de Prensa NP 26/2026: early return of dollars to savers and new rules for dollar deposits (in Spanish)",
      "url": "https://www.bcb.gob.bo/webdocs/files_noticias/NP%2026-30%20OCTUBRE.pdf",
@@ -4457,15 +4478,20 @@
      "primary": false
     }
    ],
-   "plain": "In Bolivia, a country in South America, it has been hard to take dollars out of banks since 2023. The central bank is paying many savers back early. Banks can now keep new dollar deposits ready to pay out.",
+   "plain": "Since 2023, it has been hard to get dollars out of banks in Bolivia, a country in South America. Now its central bank says new dollar transfers and cash moves can go ahead with no limits.",
    "first_seen": "2026-11-11",
-   "updated_on": "2026-11-11",
-   "last_change": "2026-11-09",
-   "status": "NEW",
+   "updated_on": "2026-11-14",
+   "last_change": "2026-11-13",
+   "status": "EASED",
    "status_history": [
     {
      "date": "2026-11-11",
      "status": "NEW",
+     "stage": "In effect"
+    },
+    {
+     "date": "2026-11-14",
+     "status": "EASED",
      "stage": "In effect"
     }
    ],
@@ -5436,6 +5462,423 @@
     }
    ],
    "open": true
+  },
+  "cari-network-tokenized-deposits": {
+   "id": "cari-network-tokenized-deposits",
+   "section": "pre_legislative",
+   "headline": "Cari, a tokenized-deposit network for regional and community banks led by a former Comptroller of the Currency, says about 30 banks have joined",
+   "date": "2026-11-06",
+   "org": "Cari Network",
+   "who": "Cari Network, founded and led by Eugene Ludwig, a former U.S. Comptroller of the Currency (the national bank regulator) who also founded Promontory Financial Group and the IntraFi deposit network; its design-partner banks include First Horizon, Huntington, KeyBank, M&T, Old National and SouthState",
+   "what_changed": "In a Nov 6, 2026 article by the Global Association of Risk Professionals, Ludwig said 30 banks have joined Cari and another 50 are in active talks, and that he expects the six design-partner banks to be operating on the platform by year-end, able to offer insured deposits in tokenized form. According to the article, Cari launched a basic version of its platform on March 31 and its full product suite on July 31, and the design-partner banks provided its first outside funding, $32.5 million, in September.",
+   "summary": "Tokenized deposits are ordinary insured bank deposits recorded as digital tokens on a blockchain, so they can move between banks at any hour. Cari aims to give regional, mid-size and community banks a shared network like the one the largest banks are building through The Clearing House (tracked). Announcements so far describe no feature that lets a bank or the government set conditions on customers' money. It's a private, voluntary project, not a government rule.",
+   "plain": "Cari, run by a former top bank regulator, helps smaller banks move deposits as digital tokens. About 30 banks have joined, and some plan to start by the end of 2026.",
+   "quote": {
+    "text": "tokenizing deposits keeps them in the bank to use, supporting our communities",
+    "source_url": "https://www.garp.org/risk-intelligence/technology/ormer-regulator-rallies-261106"
+   },
+   "control_type": "Visibility",
+   "affected": "Sector or group",
+   "stage": "Study or pilot",
+   "tier": 1,
+   "signal_numbers": [
+    6
+   ],
+   "direction": "Neutral",
+   "evidence": "Credible reporting",
+   "momentum": "Spreading",
+   "verdict": "Confirmed",
+   "official_acknowledgment": "None found; it's an industry project (the American Bankers Association, a trade group, added it to its partner network in July 2026).",
+   "linked_bills_or_rules": "Operates under existing bank rules; the GENIUS Act covers stablecoins, not tokenized deposits. Related: The Clearing House tokenized-deposit network (tracked).",
+   "why_it_matters": "If dozens of regional and community banks put deposits on token rails, programmable bank money could reach ordinary customers' accounts, not just big companies.",
+   "why_it_might_not": "It's a voluntary private network, nothing announced lets anyone set conditions on customers' money, and bank technology projects often launch slowly.",
+   "next_milestone": {
+    "what": "Design-partner banks begin offering tokenized deposits (stated aim: by year-end)",
+    "date": "2026-12-31"
+   },
+   "sources": [
+    {
+     "title": "A Former Regulator Rallies Banks to Tokenized Deposits",
+     "url": "https://www.garp.org/risk-intelligence/technology/ormer-regulator-rallies-261106",
+     "publisher": "Global Association of Risk Professionals (GARP)",
+     "date": "2026-11-06",
+     "primary": false
+    },
+    {
+     "title": "Cari Joins American Bankers Association's Premier Partner Network, Expands Bank-Governed Tokenized Deposit Network",
+     "url": "https://www.businesswire.com/news/home/20260701546712/en/Cari-Joins-American-Bankers-Associations-Premier-Partner-Network-Expands-Bank-Governed-Tokenized-Deposit-Network",
+     "publisher": "Cari Network (Business Wire)",
+     "date": "2026-07-02",
+     "primary": true
+    },
+    {
+     "title": "News from and about Cari",
+     "url": "https://www.cari.com/news",
+     "publisher": "Cari Network",
+     "date": null,
+     "primary": true
+    }
+   ],
+   "first_seen": "2026-11-17",
+   "updated_on": "2026-11-17",
+   "last_change": "2026-11-06",
+   "status": "NEW",
+   "open": true,
+   "status_history": [
+    {
+     "date": "2026-11-17",
+     "status": "NEW",
+     "stage": "Study or pilot"
+    }
+   ]
+  },
+  "claim-oddlots-yang-capital-controls-2026-11-16": {
+   "id": "claim-oddlots-yang-capital-controls-2026-11-16",
+   "section": "claims_checked",
+   "headline": "Bloomberg Odd Lots guest Tian Yang: managing heavy government debt through financial repression could bring capital controls to Western economies",
+   "date": "2026-11-16",
+   "org": "Bloomberg's Odd Lots podcast",
+   "who": "Tian Yang, chief investment officer of the VPX fund at the research firm Variant Perception (podcast guest)",
+   "what_changed": "On the Nov 16, 2026 episode of Bloomberg's Odd Lots podcast, 'The Impossible Trilemma That Hangs Over the Nvidia Crisis,' Tian Yang argued that big powers can't fund military and technology races, social spending and sound money all at once. Independent summaries of the episode say he called financial repression, running inflation of 4% to 5% while holding interest rates down, the most likely way to manage heavy debt, named capital controls as its underappreciated risk, and pointed to stablecoins' demand for Treasury bills, bank leverage-rule changes and heavy Treasury bill issuance as tools already in place. One summary site headlined the episode 'Tian Yang Says Capital Controls Are Coming to Western Markets.'",
+   "summary": "We read Bloomberg's episode description and independent summaries, not a full transcript. Parts of the reasoning match the record: the GENIUS Act bars stablecoin issuers from paying interest to holders and requires them to back coins with safe assets such as cash and short-term Treasury bills, so stablecoins add demand for government debt. But the warning is a forecast about what governments might do, not a report of a plan, and we found no U.S. proposal to cap transfers abroad, limit withdrawals or require people to hold government debt. The outbound-investment rules this monitor tracks limit certain tech investments in countries of concern for national-security reasons. Commentary can't raise this monitor's level.",
+   "claim": "Governments managing heavy debt through financial repression are likely to turn to capital controls, a risk that asset owners underrate.",
+   "claimant": "Tian Yang (Variant Perception), on Bloomberg's Odd Lots podcast",
+   "claim_rating": "Can't verify",
+   "verdict": "Speculative",
+   "plain": "On a popular Bloomberg podcast, investor Tian Yang warned that deep government debt could lead to limits on moving money. Can't tell yet: it's a guess about the future, and we found no U.S. plan like that.",
+   "quote": {
+    "text": "the potential for capital controls",
+    "source_url": "https://www.thepodcastsummary.com/episodes/rss1d0fdc71/financial-repression-capital-controls-debt-management.html"
+   },
+   "control_type": "None",
+   "affected": "All Americans",
+   "stage": "Talk",
+   "tier": null,
+   "signal_numbers": [],
+   "direction": "Neutral",
+   "evidence": "Commentary only",
+   "momentum": "New",
+   "official_acknowledgment": "None found",
+   "linked_bills_or_rules": "GENIUS Act stablecoin rules (tracked): issuers can't pay interest to holders and must hold safe reserve assets such as short-term Treasury bills.",
+   "us_link": "",
+   "why_it_matters": "Odd Lots is one of the most widely followed finance podcasts, and the argument ties real policies, such as stablecoin rules, to capital controls, so listeners may read ordinary rules as first steps toward limits.",
+   "why_it_might_not": "It's an investor's view of what could happen if inflation stays high and rates are held down, not a report of a specific plan, bill or rule.",
+   "next_milestone": {
+    "what": "Recheck if a U.S. official proposes limits on moving money abroad or rules requiring holdings of Treasury debt",
+    "date": null
+   },
+   "sources": [
+    {
+     "title": "Odd Lots: The Impossible Trilemma That Hangs Over the Nvidia Crisis",
+     "url": "https://www.bloomberg.com/news/audio/2026-11-16/odd-lots-the-trilemma-hanging-over-the-nvidia-crisis-podcast",
+     "publisher": "Bloomberg",
+     "date": "2026-11-16",
+     "primary": true
+    },
+    {
+     "title": "Tian Yang Says Capital Controls Are Coming to Western Markets (episode summary)",
+     "url": "https://www.thepodcastsummary.com/episodes/rss1d0fdc71/financial-repression-capital-controls-debt-management.html",
+     "publisher": "The Podcast Summary",
+     "date": "2026-11-16",
+     "primary": false
+    },
+    {
+     "title": "The Impossible Trilemma That Hangs Over the Nvidia Crisis: summary",
+     "url": "https://www.signalcast.app/episode/odd-lots/the-impossible-trilemma-that-hangs-over-the-nvidia-crisis",
+     "publisher": "Signalcast",
+     "date": "2026-11-16",
+     "primary": false
+    }
+   ],
+   "first_seen": "2026-11-17",
+   "updated_on": "2026-11-17",
+   "last_change": "2026-11-16",
+   "status": "NEW",
+   "open": true,
+   "status_history": [
+    {
+     "date": "2026-11-17",
+     "status": "NEW",
+     "stage": "Talk"
+    }
+   ]
+  },
+  "dallas-fed-logan-weekend-discount-window-2026-11-13": {
+   "id": "dallas-fed-logan-weekend-discount-window-2026-11-13",
+   "section": "counter_signal",
+   "headline": "Dallas Fed president says banks must be ready to meet withdrawals as fast as they come and urges the Fed to lend to banks on weekends and holidays",
+   "date": "2026-11-13",
+   "org": "Federal Reserve Bank of Dallas",
+   "who": "Lorie Logan, President and CEO of the Federal Reserve Bank of Dallas",
+   "what_changed": "On Nov 13, 2026, opening a bank-funding conference hosted by the Dallas and Boston Feds, Dallas Fed President Lorie Logan said banks must be prepared to meet outflows as fast as they can arise, and that the Fed should extend discount-window lending (its short-term loans to banks) to weekends and holidays. She said instant payment services such as FedNow can leave banks needing cash overnight on weekends and holidays, when the window is now closed, and that the Fed plans to run its Fedwire Funds service on Sundays and weekday holidays by 2028 or 2029.",
+   "summary": "Logan said the views were her own and that the Fed's Board of Governors, not any one Reserve Bank, sets discount-window policy; she said she looks forward to discussing the idea with colleagues. She also urged the Fed to be able to centrally clear its repo operations and to be ready, in extreme cases, to lend to systemically important market utilities such as clearinghouses. She noted that the Fed has removed the overall size limit on its standing repo operations and that 47 depository institutions now use them. The remarks are about making sure banks can always pay depositors; they don't propose any limit on withdrawals.",
+   "plain": "A leader at the Fed, the nation's central bank, said banks must be ready to pay customers right away. She said the Fed should also lend money to banks on weekends and holidays.",
+   "quote": {
+    "text": "The Fed should extend discount window operations to weekends and holidays.",
+    "source_url": "https://www.dallasfed.org/news/speeches/logan/2026/lkl261113"
+   },
+   "control_type": "None",
+   "affected": "Sector or group",
+   "stage": "Talk",
+   "tier": null,
+   "signal_numbers": [],
+   "direction": "Away from controls",
+   "evidence": "Official document",
+   "momentum": null,
+   "why_it_matters": "Talk of withdrawal limits tends to grow when banks can't get cash fast enough to pay depositors. Letting banks borrow from the Fed on any day of the week would make it easier for them to handle a weekend rush of withdrawals without limiting customers.",
+   "why_it_might_not": "It's one Reserve Bank president's view, not a Fed decision. The Board of Governors would have to approve weekend lending, and no proposal or timeline has been announced.",
+   "next_milestone": {
+    "what": "Any Fed Board proposal to open the discount window on weekends and holidays (none announced)",
+    "date": null
+   },
+   "sources": [
+    {
+     "title": "Operational readiness and bank funding: Considerations for depository institutions and the Federal Reserve",
+     "url": "https://www.dallasfed.org/news/speeches/logan/2026/lkl261113",
+     "publisher": "Federal Reserve Bank of Dallas",
+     "date": "2026-11-13",
+     "primary": true
+    },
+    {
+     "title": "Bank Funding Conference: Bank Funding in the Age of Instant Finance (agenda)",
+     "url": "https://www.dallasfed.org/events/2026/26bankfunding",
+     "publisher": "Federal Reserve Bank of Dallas",
+     "date": "2026-11-13",
+     "primary": true
+    },
+    {
+     "title": "Logan says Treasury market functioning 'very well,' Fed needs to strengthen support tools",
+     "url": "https://www.investing.com/news/economy-news/logan-says-treasury-market-functioning-very-well-fed-needs-to-strengthen-support-tools-5026153",
+     "publisher": "Reuters (via Investing.com)",
+     "date": "2026-11-13",
+     "primary": false
+    }
+   ],
+   "first_seen": "2026-11-15",
+   "updated_on": "2026-11-15",
+   "last_change": "2026-11-13",
+   "status": "NEW",
+   "status_history": [
+    {
+     "date": "2026-11-15",
+     "status": "NEW",
+     "stage": "Talk"
+    }
+   ],
+   "open": true
+  },
+  "hr9331-119": {
+   "id": "hr9331-119",
+   "section": "official_us",
+   "headline": "Committee-approved House bill would let banks hold deposited checks and incoming wires they suspect are fraudulent, for up to 10 days or 45 days if extended",
+   "date": "2026-09-01",
+   "org": "Rep. Young Kim (sponsor); House Financial Services Committee",
+   "what_changed": "Newly added to this tracker; its latest action was on Sept 1, 2026. H.R. 9331, the STOP Payments Fraud Act of 2026, was introduced June 18, marked up by the House Financial Services Committee on June 30, and reported to the House with an amendment on Sept 1 (Union Calendar No. 692, H. Rept. 119-792). No floor vote has been scheduled.",
+   "summary": "The bill would amend the Expedited Funds Availability Act, under which banks generally must make deposited funds available within one to two business days, and incoming wires by the next business day. Under the reported text, a bank could delay a deposited check or an incoming wire it has 'reasonable suspicion' is false, unauthorized or fraudulent, based on indicators that would lead a reasonable person to suspect fraud, with the reasons given in a notice to the customer. Fed and CFPB rules would set an initial hold of no more than 10 days and an extended hold of no more than 45 days, and could vary them by dollar amount. For wires, no decision may be based on any class of wire transfers or persons, and banks couldn't charge overdraft fees caused by a hold if the customer didn't get written notice. The Fed and CFPB could also name higher-fraud-risk situations in which longer standard holds apply to an account for up to 60 days each time, and could temporarily slow availability for certain classes of checks, such as Treasury checks, during periods of material fraud losses.",
+   "plain": "A bill a House committee approved would let banks hold checks and wire transfers (bank-to-bank payments) they suspect are fraud, for up to 10 days, or 45 in some cases. The full House hasn't voted.",
+   "control_type": "Friction",
+   "affected": "All Americans",
+   "stage": "Proposal",
+   "tier": 1,
+   "signal_numbers": [],
+   "direction": "Toward controls",
+   "evidence": "Official document",
+   "why_it_matters": "It would widen banks' power to delay ordinary people's incoming money, including wires that now must be available the next business day, based on a bank's own suspicion. It's the closest thing to a holding period (a Tier 2 signal) we've found in a bill that has cleared a committee.",
+   "why_it_might_not": "It's an anti-fraud bill: holds must rest on specific fraud indicators, can't target whole classes of people or wires, are time-limited and come with notice and overdraft-fee protections. It has had no floor action since Sept 1 and dies when the 119th Congress ends on Jan 3, 2027 unless passed, so we count it as Tier 1 friction, not a Tier 2 holding period.",
+   "next_milestone": {
+    "what": "House floor vote (none scheduled); the bill expires when the 119th Congress ends unless passed",
+    "date": "2027-01-03"
+   },
+   "sources": [
+    {
+     "title": "H.R. 9331 (Reported in House), STOP Payments Fraud Act of 2026",
+     "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr9331rh/xhtml/BILLS-119hr9331rh.html",
+     "publisher": "GovInfo (U.S. Government Publishing Office)",
+     "date": "2026-09-01",
+     "primary": true
+    },
+    {
+     "title": "H.R. 9331 (RH) details: actions, sponsors and report number",
+     "url": "https://www.govinfo.gov/app/details/BILLS-119hr9331rh",
+     "publisher": "GovInfo",
+     "date": "2026-09-01",
+     "primary": true
+    },
+    {
+     "title": "HR9331: STOP Payments Fraud Act of 2026 (status and summary)",
+     "url": "https://www.govwatch.app/bills/119/HR/9331",
+     "publisher": "Govwatch (Congress.gov data)",
+     "date": "2026-09-01",
+     "primary": false
+    },
+    {
+     "title": "Proposed House Bill Aims to Expand Holds for Suspected Fraudulent Checks and Wires",
+     "url": "https://www.hklaw.com/en/insights/publications/2026/07/proposed-house-bill-aims-to-expand",
+     "publisher": "Holland & Knight",
+     "date": "2026-07-24",
+     "primary": false
+    }
+   ],
+   "first_seen": "2026-11-16",
+   "updated_on": "2026-11-16",
+   "last_change": "2026-09-01",
+   "status": "NEW",
+   "status_history": [
+    {
+     "date": "2026-11-16",
+     "status": "NEW",
+     "stage": "Proposal"
+    }
+   ],
+   "open": true
+  },
+  "intl-philippines-bsp-cash-withdrawal-checks-2026-11": {
+   "id": "intl-philippines-bsp-cash-withdrawal-checks-2026-11",
+   "section": "international",
+   "headline": "Philippines pauses its automatic extra checks on cash withdrawals over 1 million pesos a day until Jan 31, major newspapers confirm",
+   "date": "2026-11-13",
+   "org": "Bangko Sentral ng Pilipinas (the Philippines' central bank)",
+   "what_changed": "Major Philippine newspapers reported on Nov 16, 2026 that, in a memorandum, the central bank's policy-making Monetary Board suspended until Jan 31, 2027 the threshold that triggers enhanced due diligence (extra background and transaction checks) on cash transactions above ₱1 million in a banking day. The board approved the step on Nov 12 and it took effect Nov 13. The central bank said the aim is to facilitate legitimate transactions and support the public's cash needs during the holidays. Banks must still apply due diligence and enhanced checks when transactions look unusual or a customer's profile changes, keep monitoring transactions, and file suspicious-transaction reports; cash transactions above ₱500,000 must still be reported to the Anti-Money Laundering Council.",
+   "summary": "The central bank began requiring the extra checks in September 2025 for cash withdrawals above ₱500,000 a day (Circular 1218), amid investigations into alleged kickbacks from government flood-control projects. A Feb 6, 2026 memorandum told banks to run the checks once per customer rather than for every withdrawal, and Circular 1230 of Feb 27, 2026 raised the trigger to ₱1 million after banks and businesses said routine payouts such as payroll and loan releases were being caught. The central bank has said the threshold was never an absolute withdrawal limit, since larger withdrawals were allowed after verification, and banks may still set stricter internal limits based on their own risk reviews. We couldn't open the new memorandum itself, but several major outlets quote it and the central bank's statement.",
+   "plain": "The Philippines paused extra bank checks on very big cash withdrawals, over 1 million pesos a day, until Jan 31. Banks must still check ones that look odd.",
+   "control_type": "Friction",
+   "affected": "Sector or group",
+   "stage": "In effect",
+   "tier": 1,
+   "signal_numbers": [
+    2
+   ],
+   "direction": "Away from controls",
+   "evidence": "Credible reporting",
+   "why_it_matters": "It's a live example of a government adding checks that can slow large cash withdrawals, then easing them when they got in the way of normal business. Rules like this are often what people have in mind when they talk about withdrawal limits.",
+   "why_it_might_not": "It loosens an anti-money-laundering rule rather than adding a limit, it covers only very large cash withdrawals in the Philippines, and the underlying rule calls for checks, not a cap.",
+   "us_link": "No direct link. U.S. banks must report cash transactions over $10,000 to the government, a reporting rule rather than a limit, and we found no U.S. proposal to require checks or caps on large cash withdrawals.",
+   "next_milestone": {
+    "what": "Reported end of the holiday pause, when automatic checks on cash withdrawals over ₱1 million return",
+    "date": "2027-01-31"
+   },
+   "sources": [
+    {
+     "title": "BSP temporarily lifts P1 million cash withdrawal threshold",
+     "url": "https://www.philstar.com/business/2026/11/16/2570331/bsp-temporarily-lifts-p1-million-cash-withdrawal-threshold",
+     "publisher": "The Philippine Star",
+     "date": "2026-11-16",
+     "primary": false
+    },
+    {
+     "title": "BSP suspends deeper checks on P1-M cash transactions until Jan. 31",
+     "url": "https://www.gmanetwork.com/news/money/economy/1009648/bsp-suspends-deeper-checks-on-p1-m-cash-transactions-until-jan-31/story/",
+     "publisher": "GMA News Online",
+     "date": "2026-11-16",
+     "primary": false
+    },
+    {
+     "title": "P1-M bank withdrawal scrutiny suspended",
+     "url": "https://business.inquirer.net/621202/p1-m-bank-withdrawal-scrutiny-suspended",
+     "publisher": "Philippine Daily Inquirer",
+     "date": "2026-11-16",
+     "primary": false
+    },
+    {
+     "title": "Holiday relief: BSP eases rules on cash withdrawals above P1M until January 2027",
+     "url": "https://bilyonaryo.com/holiday-relief-bsp-eases-rules-on-cash-withdrawals-above-p1m-until-january-2027/",
+     "publisher": "Bilyonaryo Business",
+     "date": "2026-11-14",
+     "primary": false
+    },
+    {
+     "title": "BSP raises trigger limit for cash withdrawals to ₱1M",
+     "url": "https://businessmirror.com.ph/2026/03/03/bsp-raises-trigger-limit-for-cash-withdrawals-to-%E2%82%B11m/",
+     "publisher": "BusinessMirror",
+     "date": "2026-03-03",
+     "primary": false
+    },
+    {
+     "title": "BSP Memorandum No. M-2026-005: Clarification on the implementation of Circular 1218 (large-value cash transactions)",
+     "url": "https://asg.ph/law-library/doc/957ba8f1-39de-4692-b66e-0f6321d4d3c3",
+     "publisher": "Bangko Sentral ng Pilipinas (copy in the ASG Law Library)",
+     "date": "2026-02-06",
+     "primary": true
+    }
+   ],
+   "first_seen": "2026-11-15",
+   "updated_on": "2026-11-16",
+   "last_change": "2026-11-13",
+   "status": "NEW",
+   "status_history": [
+    {
+     "date": "2026-11-15",
+     "status": "NEW",
+     "stage": "In effect"
+    }
+   ],
+   "open": true
+  },
+  "irs-1545-BQ82-carf": {
+   "id": "irs-1545-BQ82-carf",
+   "section": "official_us",
+   "headline": "IRS plan to join the global crypto-account information exchange (CARF) has waited a year for White House review; it would help the IRS see Americans' crypto accounts abroad",
+   "date": "2025-11-14",
+   "org": "Treasury, Internal Revenue Service (IRS)",
+   "who": "Treasury and the IRS",
+   "what_changed": "The White House budget office's list of rules under review, dated Nov 16, 2026, still shows the IRS proposed rule 'CARF: U.S. Broker Digital Transaction Reporting' (RIN 1545-BQ82), received Nov 14, 2025. Its text stays confidential until review ends and it is published for public comment.",
+   "summary": "CARF, the Crypto-Asset Reporting Framework, is a standard from the Organisation for Economic Co-operation and Development (OECD) under which countries automatically swap information on people's crypto accounts and transactions, much as they already do for bank accounts. By joining, the U.S. would receive data on Americans' crypto accounts held abroad and would send other countries data on their residents' accounts at U.S. firms. A July 2025 White House report urged Treasury to consider such rules without adding reporting on decentralized finance, and the U.S. has said it intends to implement CARF by 2029. It is a tax-reporting step: it would let the government see accounts, not block or limit transactions.",
+   "plain": "The IRS (the U.S. tax agency) wants to join a system where countries share crypto account details, but the plan has waited a year for White House review. It would let the IRS see Americans' crypto abroad, not limit it.",
+   "quote": {
+    "text": "",
+    "source_url": ""
+   },
+   "control_type": "Visibility",
+   "affected": "Sector or group",
+   "stage": "Study or pilot",
+   "tier": 1,
+   "signal_numbers": [
+    1
+   ],
+   "direction": "Toward controls",
+   "evidence": "Official document",
+   "verdict": "Confirmed",
+   "why_it_matters": "It would give the IRS automatic visibility into crypto Americans hold on foreign platforms, closing one of the last big gaps in cross-border account reporting, and U.S. crypto platforms would report on their foreign customers.",
+   "why_it_might_not": "It's a tax-information exchange like those already in place for foreign bank accounts, and it wouldn't let anyone block, delay or cap a transaction. It has sat at the White House for a year, and its final shape and timing are unknown.",
+   "next_milestone": {
+    "what": "White House review ends and the proposal is published for public comment (no date announced)",
+    "date": null
+   },
+   "sources": [
+    {
+     "title": "Executive Order Submissions Under Review (list dated Nov 16, 2026): CARF: U.S. Broker Digital Transaction Reporting, RIN 1545-BQ82",
+     "url": "https://www.reginfo.gov/public/do/eoReviewSearch",
+     "publisher": "Office of Information and Regulatory Affairs (RegInfo.gov)",
+     "date": "2026-11-16",
+     "primary": true
+    },
+    {
+     "title": "Offshore Crypto: IRS Steps Closer To Automatic Reporting Under OECD CARF",
+     "url": "https://www.forbes.com/sites/virginialatorrejeker/2025/11/23/offshore-crypto-irs-steps-closer-to-automatic-reporting-under-oecd-carf/",
+     "publisher": "Forbes (contributor)",
+     "date": "2025-11-23",
+     "primary": false
+    },
+    {
+     "title": "White House makes recommendations on digital asset transactions",
+     "url": "https://www.thetaxadviser.com/issues/2026/jan/white-house-makes-recommendations-on-digital-asset-transactions/",
+     "publisher": "The Tax Adviser",
+     "date": "2026-01-31",
+     "primary": false
+    }
+   ],
+   "first_seen": "2026-11-17",
+   "updated_on": "2026-11-17",
+   "last_change": "2025-11-14",
+   "status": "NEW",
+   "open": true,
+   "status_history": [
+    {
+     "date": "2026-11-17",
+     "status": "NEW",
+     "stage": "Study or pilot"
+    }
+   ]
   }
  },
  "levels": [
@@ -5525,7 +5968,7 @@
    }
   ],
   "sources_checked_through": "2026-11-17T07:35:45-05:00",
-  "refreshed_at": "2026-11-17T06:38:25-06:00",
+  "refreshed_at": "2026-11-17T06:39:06-06:00",
   "plain": {
    "today": "Nothing stops regular people in the U.S. from taking out, moving or saving money. On Monday, a computer bug at Chase, the biggest U.S. bank, slowed some banking for hours before it was fixed.",
    "worry": "Not right now. We found no new U.S. rules that limit your money. Monday's Chase problem was a computer bug that was fixed the same day, not a rule or a freeze.",
