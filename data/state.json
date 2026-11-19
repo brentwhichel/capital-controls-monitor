@@ -1985,7 +1985,7 @@
    "org": "European Central Bank; European Parliament and Council",
    "who": "Piero Cipollone, ECB Executive Board member (leads digital euro project)",
    "what_changed": "Cipollone presented ECB analysis of holding limits of EUR 500-3,000 and confirmed a 12-month pilot from H2 2027 aiming at first issuance in 2029, if legislation is done by end-2026.",
-   "summary": "The digital euro would carry a per-person cap on holdings, explicitly to stop savers moving too much money out of banks in a crisis. The ECB says limits up to EUR 3,000 would cause no aggregate outflow under normal conditions; Cipollone said figures were illustrative, not a decision. Reporting says the cap will not be written into the law itself; the ECB would recommend it and legislators would decide, and Parliament and Council disagreed on the procedure as of Sept 30. The ECB is also exploring conditional payments as a future feature. Specialized press reported that the Irish Council presidency aimed for a political agreement at a Nov 18 trilogue; neither text names a holding-limit figure, and Parliament wants the Commission to set it on ECB advice while the Council wants to set it itself.",
+   "summary": "The digital euro would carry a per-person cap on holdings, explicitly to stop savers moving too much money out of banks in a crisis. The ECB says limits up to EUR 3,000 would cause no aggregate outflow under normal conditions; Cipollone said figures were illustrative, not a decision. Reporting says the cap will not be written into the law itself; the ECB would recommend it and legislators would decide, and Parliament wants the Commission to set it on ECB advice while the Council wants to set it itself. The ECB is also exploring conditional payments as a future feature. The Irish Council presidency had aimed for a political agreement at a Nov 18 trilogue, but as of the morning of Nov 19 we found no report of a deal; a Nov 19 EU Today article still described merchant fees, data protection and banks' obligations as unresolved. CriptoNoticias reported on Nov 17 that the holding limit hadn't yet been discussed at the political level and that, without a deal this year, the file would pass to the next Council presidency, which could push the launch to 2030.",
    "control_type": "Prohibition",
    "affected": "Sector or group",
    "stage": "Proposal",
@@ -2007,10 +2007,24 @@
    "why_it_might_not": "Applies only in the euro area; the cap limits holdings of one instrument, not payments (wallets link to bank accounts); and the U.S. has moved to bar a Fed CBDC.",
    "us_link": "No identifiable U.S. link. Direct effect on Americans: none (affects euro-area users). A Fed CBDC is barred under recent U.S. legislation per news reports (see counter-signal).",
    "next_milestone": {
-    "what": "Council and Parliament negotiators reportedly aim for a political agreement on Nov 18 (date not officially confirmed); merchant fees and who sets the holding limit are still open",
-    "date": "2026-11-18"
+    "what": "Targeted political agreement on the digital euro law by the end of 2026 (stated target, not fixed); no deal reported after the Nov 18 trilogue",
+    "date": "2026-12-31"
    },
    "sources": [
+    {
+     "title": "Europe's Digital Euro Enters Crucial Negotiations as Brussels Seeks Independence From US Payment Giants",
+     "url": "https://eutoday.net/digital-euro-eu-negotiations-payment-sovereignty/",
+     "publisher": "EU Today",
+     "date": "2026-11-19",
+     "primary": false
+    },
+    {
+     "title": "Euro digital: la UE busca un acuerdo con un eurodiputado español como ponente",
+     "url": "https://www.criptonoticias.com/regulacion/euro-digital-ue-acuerdo-eurodiputado-espanol/",
+     "publisher": "CriptoNoticias",
+     "date": "2026-11-17",
+     "primary": false
+    },
     {
      "title": "El euro digital llega a su cita clave del 18 de noviembre",
      "url": "https://www.moncloa.com/2026/11/17/euro-digital-18-noviembre-bce-3469377/",
@@ -2062,7 +2076,7 @@
      "stage": "Proposal"
     }
    ],
-   "updated_on": "2026-11-18",
+   "updated_on": "2026-11-19",
    "plain": "The European Central Bank says a cap of 3,000 euros or less per person would keep money from rushing out of banks. No cap is set yet. It would not directly affect Americans."
   },
   "intl-fatf-r16-payment-transparency": {
@@ -3513,7 +3527,7 @@
    "date": "2026-11-10",
    "org": "FinCEN (Treasury)",
    "what_changed": "FinCEN's Nov 6 order was published in the Federal Register on Nov 10, 2026 (FR Doc 2026-22962, 91 FR 72420), which starts its 30-day clock: it takes effect Dec 10, 2026. From then, covered U.S. financial institutions may not process transmittals of funds to or from MEXC Global, a Seychelles-incorporated crypto exchange that FinCEN found to be of primary money laundering concern in connection with Russian illicit finance under section 9714(a) of the Combating Russian Money Laundering Act.",
-   "summary": "The published order says MEXC processed more than $1 billion a day as of June 2026 and operates in more than 170 countries through current or former affiliates in the Seychelles, Estonia, Switzerland, the United Kingdom and Singapore. Treasury says MEXC Global, one of the 20 largest crypto exchanges in the world, facilitated at least $16 billion in transactions tied to Iranian, North Korean and Russian sanctions evasion and to cybercrime between May 2021 and May 2026. The order covers MEXC's subsidiaries, branches, offices and successors outside the U.S., and it explains how covered institutions should handle crypto that arrives from MEXC when it can't be rejected. It doesn't change existing reporting or sanctions duties and has no end date. MEXC said its operations were normal and that it had started an independent review of its anti-money-laundering and sanctions controls. The order names one foreign company; it doesn't limit transfers to other platforms or ordinary transfers abroad.",
+   "summary": "The published order says MEXC processed more than $1 billion a day as of June 2026 and operates in more than 170 countries through current or former affiliates in the Seychelles, Estonia, Switzerland, the United Kingdom and Singapore. Treasury says MEXC Global, one of the 20 largest crypto exchanges in the world, facilitated at least $16 billion in transactions tied to Iranian, North Korean and Russian sanctions evasion and to cybercrime between May 2021 and May 2026. The order covers MEXC's subsidiaries, branches, offices and successors outside the U.S., and it explains how covered institutions should handle crypto that arrives from MEXC when it can't be rejected. It doesn't change existing reporting or sanctions duties and has no end date. MEXC said its operations were normal and that it had started an independent review of its anti-money-laundering and sanctions controls. The order names one foreign company; it doesn't limit transfers to other platforms or ordinary transfers abroad. On Nov 18, MEXC shut down its Visa-linked Global Card, which let users outside the U.S. spend the USDT stablecoin; it had paused the card on Nov 14, citing changes at its outside card issuer, and didn't say whether FinCEN's order played a part. U.S. residents were already barred from the card.",
    "control_type": "Prohibition",
    "affected": "Named parties",
    "stage": "Adopted",
@@ -3562,6 +3576,13 @@
      "publisher": "ChainCatcher",
      "date": "2026-11-06",
      "primary": false
+    },
+    {
+     "title": "MEXC Closes Visa Crypto Card After Abrupt Service Change",
+     "url": "https://coinlaw.io/mexc-halts-global-card-service-fincen-order/",
+     "publisher": "CoinLaw",
+     "date": "2026-11-18",
+     "primary": false
     }
    ],
    "quote": {
@@ -3584,7 +3605,7 @@
      "stage": "Adopted"
     }
    ],
-   "updated_on": "2026-11-10",
+   "updated_on": "2026-11-19",
    "plain": "FinCEN, a Treasury office that fights money crimes, made its order official on Nov 10. From Dec 10, U.S. banks and payment firms can't send money to or from MEXC, a crypto (digital coin) site based abroad."
   },
   "intl-imf-stablecoin-flows-capital-controls": {
@@ -5341,7 +5362,7 @@
    "date": "2026-11-13",
    "org": "Federal Reserve Board",
    "what_changed": "On Nov 13, 2026, the Fed posted its November 2026 Financial Stability Report, using data as of Oct 28. It found the banking system sound and resilient with high capital, though losses on fixed-rate assets remain sizable, and called funding risks moderate: banks' reliance on uninsured deposits is well below its 2022 peaks. Redemption requests at perpetual-life nontraded business development companies (private-credit funds sold to individual investors) trended lower through the third quarter but stayed elevated, and these funds kept limiting how much investors can redeem each quarter. Money market fund assets stood at a record of about $7.9 trillion, mostly in government funds, and stablecoins stayed at about $310 billion.",
-   "summary": "The report says the funds' ability to limit redemptions, together with their low borrowing, helped keep the process orderly; these limits are written into the funds' own terms, not imposed by the government. Market contacts surveyed in September and October most often named risks from artificial intelligence, a drop in risky asset prices, higher long-term interest rates, cyberattacks and government debt. The report also notes that hedge-fund borrowing is at its highest since the data began in 2013 and that the GENIUS Act's stablecoin framework takes effect Jan 18, 2027. Separately, New York Fed staff's yearly update (Nov 12) found early signs of modestly weaker bank capital and slightly higher vulnerability to fire sales. Neither publication mentions limits on bank deposits or withdrawals or any emergency measures.",
+   "summary": "The report says the funds' ability to limit redemptions, together with their low borrowing, helped keep the process orderly; these limits are written into the funds' own terms, not imposed by the government. Market contacts surveyed in September and October most often named risks from artificial intelligence, a drop in risky asset prices, higher long-term interest rates, cyberattacks and government debt. The report also notes that hedge-fund borrowing is at its highest since the data began in 2013 and that the GENIUS Act's stablecoin framework takes effect Jan 18, 2027. Separately, New York Fed staff's yearly update (Nov 12) found early signs of modestly weaker bank capital and slightly higher vulnerability to fire sales. Neither publication mentions limits on bank deposits or withdrawals or any emergency measures. Minutes of the Fed's Oct 27-28 policy meeting, released Nov 18, show almost all officials discussed risks if returns on AI investment disappoint, and a few stressed keeping banks' access to the discount window (the Fed's lending window for banks) and other liquidity programs ready; the minutes don't mention limits on deposits or withdrawals.",
    "plain": "The Fed, the nation's central bank, says U.S. banks are strong. Some funds that lend to companies still cap how much investors can take out each quarter. Those caps are the funds' own rules, not government limits.",
    "control_type": "None",
    "affected": "Sector or group",
@@ -5377,6 +5398,13 @@
      "publisher": "Federal Reserve Bank of New York (Liberty Street Economics)",
      "date": "2026-11-12",
      "primary": true
+    },
+    {
+     "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+     "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm",
+     "publisher": "Federal Reserve Board",
+     "date": "2026-11-18",
+     "primary": true
     }
    ],
    "quote": {
@@ -5384,7 +5412,7 @@
     "source_url": "https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf"
    },
    "first_seen": "2026-11-14",
-   "updated_on": "2026-11-14",
+   "updated_on": "2026-11-19",
    "last_change": "2026-11-13",
    "status": "NEW",
    "status_history": [
@@ -6207,6 +6235,159 @@
      "stage": "Adopted"
     }
    ]
+  },
+  "claim-napier-france-capital-controls-2026-11": {
+   "id": "claim-napier-france-capital-controls-2026-11",
+   "section": "claims_checked",
+   "headline": "Financial historian Russell Napier: France will impose capital controls, freezing about $6 trillion of foreign-owned French assets and setting off a global credit crunch",
+   "date": "2026-11-17",
+   "org": "ETF Stream (report of a talk at its ETF Buyer London event)",
+   "who": "Russell Napier, financial historian and investment strategist",
+   "claim": "France will effectively default on its debt by imposing capital controls that lock up about $6 trillion of French assets owned by foreigners, triggering a global credit crunch.",
+   "claimant": "Russell Napier, speaking at ETF Stream's ETF Buyer London event, as reported by ETF Stream on Nov 17, 2026",
+   "claim_rating": "Can't verify",
+   "verdict": "Speculative",
+   "what_changed": "ETF Stream reported on Nov 17, 2026 that Russell Napier told its ETF Buyer London event the week before that France will respond to its debt problems the way Cyprus (2013) and Greece (2015) did, by imposing capital controls that would lock up roughly $6 trillion of liquid French assets held by foreigners (about $2 trillion of stocks and $4 trillion of debt securities). He said foreign investors hold 56% of French government bonds and, citing IMF data, that U.S. investors are the largest foreign owners of French portfolio assets, at $856 billion. He called the resulting global credit crunch and forced financial repression imminent.",
+   "summary": "Parts of the backdrop are real. France's 10-year government bond yield was about 4.85% on Nov 18, roughly 1 percentage point higher than six months earlier, and euro-area countries have used capital controls before: EU law generally bans limits on moving money but allows measures on public-policy or public-security grounds, which Cyprus (2013) and Greece (2015) used. But this is a forecast, not a report of a plan. We found no proposal by France or the EU to limit moving money out of France, Moody's left France's credit rating unchanged on Oct 23, and ETF Stream reported that many in the audience disagreed. The claim is about France, not limits on Americans' own accounts, though U.S. holders of French stocks and bonds would be affected if it happened. Commentary can't raise this monitor's level.",
+   "plain": "Financial historian Russell Napier said France will freeze about $6 trillion of French stocks and bonds owned by foreigners. Can't tell yet: it's a guess about the future, and France hasn't proposed limits like that.",
+   "quote": {
+    "text": "the imposition of capital controls in France",
+    "source_url": "https://www.etfstream.com/articles/russell-napier-french-capital-controls-will-spark-a-global-credit-crunch"
+   },
+   "control_type": "None",
+   "affected": "Sector or group",
+   "stage": "Talk",
+   "tier": null,
+   "signal_numbers": [],
+   "direction": "Neutral",
+   "evidence": "Commentary only",
+   "momentum": "New",
+   "official_acknowledgment": "None found",
+   "linked_bills_or_rules": "None",
+   "us_link": "",
+   "why_it_matters": "Napier is a widely followed market historian, and the warning ties a real rise in French borrowing costs to past euro-area capital controls. If it happened, U.S. investors, the largest foreign holders of French stocks and bonds by his count, would be affected.",
+   "why_it_might_not": "It's one analyst's forecast, not a report of a plan or proposal, and EU law allows such controls only in exceptional circumstances.",
+   "next_milestone": {
+    "what": "Recheck if France or the EU proposes limits on moving money, or French bond markets come under acute stress",
+    "date": null
+   },
+   "sources": [
+    {
+     "title": "Russell Napier: French capital controls will spark a global credit crunch",
+     "url": "https://www.etfstream.com/articles/russell-napier-french-capital-controls-will-spark-a-global-credit-crunch",
+     "publisher": "ETF Stream",
+     "date": "2026-11-17",
+     "primary": true
+    },
+    {
+     "title": "French Bond Yields Retreat",
+     "url": "https://tradingeconomics.com/france/government-bond-yield/news/602290",
+     "publisher": "Trading Economics",
+     "date": "2026-11-18",
+     "primary": false
+    },
+    {
+     "title": "10-Year French OAT Yield",
+     "url": "https://bondscovery.com/yield-curve/french-oat/10y",
+     "publisher": "bondScovery",
+     "date": "2026-11-18",
+     "primary": false
+    },
+    {
+     "title": "L'agence Moody's ne dégrade pas la note de la France malgré l'incertitude budgétaire et politique",
+     "url": "https://www.lemonde.fr/economie/article/2026/10/24/l-agence-moody-s-ne-degrade-pas-la-note-de-la-france-malgre-l-incertitude-budgetaire-et-politique_6799214_3234.html",
+     "publisher": "Le Monde",
+     "date": "2026-10-24",
+     "primary": false
+    },
+    {
+     "title": "Free movement of capital (Fact Sheets on the European Union)",
+     "url": "https://www.europarl.europa.eu/factsheets/en/sheet/39/free-movement-of-capital",
+     "publisher": "European Parliament",
+     "date": null,
+     "primary": true
+    }
+   ],
+   "first_seen": "2026-11-19",
+   "updated_on": "2026-11-19",
+   "last_change": "2026-11-17",
+   "status": "NEW",
+   "open": true,
+   "status_history": [
+    {
+     "date": "2026-11-19",
+     "status": "NEW",
+     "stage": "Talk"
+    }
+   ]
+  },
+  "intl-romania-cash-cap-raise-2026-11": {
+   "id": "intl-romania-cash-cap-raise-2026-11",
+   "section": "international",
+   "headline": "Romania's parliament votes to raise the daily cap on cash payments by businesses to 50,000 lei, from 5,000 or 10,000 lei",
+   "date": "2026-11-18",
+   "org": "Parliament of Romania (Chamber of Deputies, the deciding chamber)",
+   "what_changed": "On Nov 18, 2026, Romania's Chamber of Deputies, the deciding chamber for this bill after the Senate had rejected it, passed an amendment to Law No. 70/2015 on cash discipline that sets a single daily cap of 50,000 lei on cash receipts and payments by companies, authorized self-employed people, sole proprietorships, family businesses, liberal professions and associations. It replaces the current caps of 5,000 or 10,000 lei, depending on the type of transaction. The bill came from lawmakers of the AUR party, which said it passed with 173 votes.",
+   "summary": "Under the bill, a business may take in up to 50,000 lei a day in cash from any one person, cash-and-carry wholesale stores get the same limit, and payments from cash advances are capped at 50,000 lei a day per person. Splitting a bill or invoice worth more than 50,000 lei into smaller cash payments stays banned. The bill still needs the president's signature (promulgation) to become law. Separately, from July 10, 2027, an EU-wide anti-money-laundering rule will bar businesses across the EU from accepting or making cash payments above 10,000 euros; member states may set lower limits.",
+   "plain": "Romania's lawmakers voted to let businesses take in or pay up to 50,000 lei in cash a day, up from 5,000 or 10,000 lei. It still needs the president's signature.",
+   "control_type": "Prohibition",
+   "affected": "Sector or group",
+   "stage": "Adopted",
+   "tier": 1,
+   "signal_numbers": [
+    2
+   ],
+   "direction": "Away from controls",
+   "evidence": "Credible reporting",
+   "us_link": "None. U.S. businesses may accept cash of any amount but must report cash payments over $10,000; we found no U.S. proposal to cap them.",
+   "why_it_matters": "It is a government loosening a limit on cash payments, the opposite of the cash caps this monitor watches, such as Canada's proposed Bill S-8 and the EU's coming 10,000-euro limit.",
+   "why_it_might_not": "It applies only in Romania, still needs the president's signature, and from July 2027 the EU-wide 10,000-euro limit on business cash payments will also apply there.",
+   "next_milestone": {
+    "what": "President's signature (promulgation); no date set",
+    "date": null
+   },
+   "sources": [
+    {
+     "title": "Camera Deputaților: Plafonul unic zilnic instituit pentru încasări și plăți efectuate în numerar va fi de 50.000 lei",
+     "url": "https://agerpres.ro/politic/2026/11/18/camera-deputatilor-plafonul-unic-zilnic-instituit-pentru-incasari-si-plati-efectuate-in-numerar-va-f--1614510",
+     "publisher": "AGERPRES (Romanian national news agency)",
+     "date": "2026-11-18",
+     "primary": false
+    },
+    {
+     "title": "S-a votat legea. Plafonul zilnic pentru încasări şi plăţi în numerar va fi de 50.000 lei",
+     "url": "https://stirileprotv.ro/stiri/politic/s-a-votat-legea-plafonul-zilnic-pentru-incasari-si-pla-i-in-numerar-va-fi-de-50-000-lei.html",
+     "publisher": "Știrile ProTV",
+     "date": "2026-11-18",
+     "primary": false
+    },
+    {
+     "title": "Comunicat de presă - Alianța pentru Unirea Românilor (AUR)",
+     "url": "https://agerpres.ro/comunicate/2026/11/18/comunicat-de-presa---alianta-pentru-unirea-romanilor--1614505",
+     "publisher": "AUR party statement (via AGERPRES)",
+     "date": "2026-11-18",
+     "primary": true
+    },
+    {
+     "title": "Article 80: Limits to large cash payments in exchange for goods or services (Regulation (EU) 2024/1624)",
+     "url": "https://aml-reg.eu/en/regulation/2024-1624/article/80/",
+     "publisher": "AML Regulation reference site (EU regulation text)",
+     "date": null,
+     "primary": false
+    }
+   ],
+   "first_seen": "2026-11-19",
+   "updated_on": "2026-11-19",
+   "last_change": "2026-11-18",
+   "status": "NEW",
+   "open": true,
+   "status_history": [
+    {
+     "date": "2026-11-19",
+     "status": "NEW",
+     "stage": "Adopted"
+    }
+   ]
   }
  },
  "levels": [
@@ -6300,7 +6481,7 @@
    }
   ],
   "sources_checked_through": "2026-11-19T06:33:45-06:00",
-  "refreshed_at": "2026-11-19T06:35:12-06:00",
+  "refreshed_at": "2026-11-19T06:35:52-06:00",
   "plain": {
    "today": "Nothing stops regular people in the U.S. from taking out, moving or saving money. A Treasury plan to check who owns businesses is now open for comments, and it doesn't limit moving money.",
    "worry": "Not right now. We found no new U.S. rules that limit your money. A well-known investor predicted France will freeze money that foreigners hold there, but that's a guess, and France hasn't proposed it.",
