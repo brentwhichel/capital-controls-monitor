@@ -3206,11 +3206,11 @@
   "crypto-exchange-withdrawal-pauses-2026-11": {
    "id": "crypto-exchange-withdrawal-pauses-2026-11",
    "section": "banking_stress",
-   "headline": "Crypto platforms keep pausing withdrawals after hacks, threats and vendor failures: Lighter reopened the same day after a theft, while South Korea's Gopax was still shut on Nov 18",
+   "headline": "Crypto platforms keep pausing withdrawals after hacks, threats and vendor failures: Lighter reopened the same day after a theft, while South Korea's Gopax was still shut on Nov 19",
    "date": "2026-11-16",
    "org": "Binance; Gopax (South Korea); Mercado Bitcoin, Nubank and Mercado Pago (Brazil)",
    "who": "Private cryptocurrency exchanges and fintech apps",
-   "what_changed": "On Nov 16, 2026, Lighter, an Ethereum-based crypto derivatives exchange, paused withdrawals and new liquidity pools after an attacker drained funds from one trader's account, then reopened deposits and withdrawals later that day once its Security Council turned off the 'Guardian' safety mode; Lighter said it returned about $5 million in USDC to the trader. Its postmortem blamed API keys leaked through the trader's own custom signing software, not Lighter's code, and on-chain analysts estimated the amount taken at about $10.4 million to $15.5 million. In South Korea, Gopax, which halted trading, deposits and withdrawals on Nov 6 after hacking threats, was still shut on Nov 18, its 13th day, with no restart date; it postponed planned final trading of five tokens being delisted, and data a lawmaker obtained from the Financial Supervisory Service showed a separate Sept 8 data breach had exposed the personal information of 2,009 people, up from the 9 Gopax first reported. Earlier: Brazil's Nubank and Mercado Pago paused some crypto transfers on Nov 6 after problems at outside providers; Uphold said withdrawal delays that began around Nov 4 came from a disruption at an outside transaction-monitoring partner, and its status page showed them mostly resolved by Nov 10; Binance, hacked for about $6.3 billion on Oct 29, has reopened withdrawals in phases since Nov 1; and Brazil's Mercado Bitcoin halted withdrawals Nov 2 after about $40 million was drained.",
+   "what_changed": "On Nov 16, 2026, Lighter, an Ethereum-based crypto derivatives exchange, paused withdrawals and new liquidity pools after an attacker drained funds from one trader's account, then reopened deposits and withdrawals later that day once its Security Council turned off the 'Guardian' safety mode; Lighter said it returned about $5 million in USDC to the trader. Its postmortem blamed API keys leaked through the trader's own custom signing software, not Lighter's code, and on-chain analysts estimated the amount taken at about $10.4 million to $15.5 million. In South Korea, Gopax, which halted trading, deposits and withdrawals on Nov 6 after hacking threats, was still shut on Nov 19 with no restart date; the Seoul Economic Daily reported that holders of 24 tokens that, among South Korea's major exchanges, trade only on Gopax have no domestic venue to sell them, and some barely trade abroad; it postponed planned final trading of five tokens being delisted, and data a lawmaker obtained from the Financial Supervisory Service showed a separate Sept 8 data breach had exposed the personal information of 2,009 people, up from the 9 Gopax first reported. Earlier: Brazil's Nubank and Mercado Pago paused some crypto transfers on Nov 6 after problems at outside providers; Uphold said withdrawal delays that began around Nov 4 came from a disruption at an outside transaction-monitoring partner, and its status page showed them mostly resolved by Nov 10; Binance, hacked for about $6.3 billion on Oct 29, has reopened withdrawals in phases since Nov 1; and Brazil's Mercado Bitcoin halted withdrawals Nov 2 after about $40 million was drained.",
    "summary": "These were company decisions after thefts, threats or vendor failures, not government limits on customers' money, and Lighter's pause lasted only part of a day. Binance said it would cover losses, and Binance is Gopax's majority shareholder. Stablecoin issuers Tether and Circle froze wallets holding coins stolen from Binance, about $3 billion in total, which shows the freeze ability that U.S. rules will require issuers to have for lawful orders. The Brazil and Uphold delays show that a failure at an outside data or compliance vendor can stop transfers even when the platform itself isn't hacked. Binance.US, a separate U.S. platform, said it was not affected by the Binance hack. Since the Lighter incident, the exchange requires a wallet signature for transfers into public pools.",
    "control_type": "None",
    "affected": "Sector or group",
@@ -3224,10 +3224,17 @@
    "why_it_matters": "Withdrawal pauses at big platforms can spread fear and claims that capital controls are starting. The stablecoin freezes show how quickly issuers can block coins, an ability U.S. rules will soon require, and the Brazil cases show how one outside compliance vendor can halt transfers at several firms.",
    "why_it_might_not": "The pauses were company security or technical steps at platforms outside the U.S., not government orders to limit customers' money; Lighter reopened the same day, Nubank the same night, and Binance has been reopening in phases.",
    "next_milestone": {
-    "what": "Gopax restart (no date set); South Korea's Financial Supervisory Service meets exchange security chiefs; recheck if any regulator orders limits",
-    "date": "2026-11-19"
+    "what": "Gopax restart (no date set); any steps from South Korea's Nov 19 meeting of regulators and crypto firms' security chiefs; recheck if any regulator orders limits",
+    "date": null
    },
    "sources": [
+    {
+     "title": "Gopax Trading Halt Hits Day 12, Stranding 24 Exclusive Coins",
+     "url": "https://en.sedaily.com/finance/2026/11/19/gopax-trading-halt-hits-day-12-stranding-24-exclusive-coins",
+     "publisher": "Seoul Economic Daily",
+     "date": "2026-11-19",
+     "primary": false
+    },
     {
      "title": "Gopax data-leak victims rise from 9 to 2,009; trading restart date still undecided",
      "url": "https://www.mdtoday.co.kr/news/articleView.html?idxno=625993",
@@ -3355,8 +3362,8 @@
      "stage": "In effect"
     }
    ],
-   "updated_on": "2026-11-18",
-   "plain": "Some crypto (digital coin) sites paused withdrawals after hacks, threats or tech problems. One in South Korea was still shut on Nov 18. None of these were government limits."
+   "updated_on": "2026-11-19",
+   "plain": "Some crypto (digital coin) sites paused withdrawals after hacks, threats or tech problems, and one in South Korea was still shut on Nov 19. None of these were government limits."
   },
   "h41-2026-11-05-discount-window": {
    "id": "h41-2026-11-05-discount-window",
@@ -3649,7 +3656,7 @@
    "org": "U.S. stock markets",
    "who": "Markets (no government action)",
    "what_changed": "On Thursday, Nov 5, the Nasdaq fell 5.5%, the S&P 500 4.4% and the Dow 3.4% (more than 1,800 points), the three averages' worst one-day losses since April 2025, as worries grew about a slowdown in data center construction after the Nov 3 election. On Friday, Nov 6, the Nasdaq rose 1.09% and the S&P 500 0.31%, while the Dow slipped 0.46%.",
-   "summary": "Trading continued normally the next day, and we found no reports of U.S. banks limiting withdrawals or of funds limiting redemptions. A falling stock market isn't a capital control: it changes what investments are worth, not whether people can withdraw or move their money. Stocks fell again on Monday, Nov 16, a third straight loss for the S&P 500, which dropped 1.9%; the Nasdaq fell 2.5% and the Dow 739 points (1.4%), led by chip stocks. On Tuesday, Nov 17, the S&P 500 fell another 1.03% to 7,340.53, a fourth straight loss and its lowest close since late July; the Dow lost 848.75 points (1.64%) and the Nasdaq 0.74%. Stock futures rose early Nov 18 after Nvidia's results. Markets stayed open, and we again found no fund or bank limits on withdrawals.",
+   "summary": "Trading continued normally the next day, and we found no reports of U.S. banks limiting withdrawals or of funds limiting redemptions. A falling stock market isn't a capital control: it changes what investments are worth, not whether people can withdraw or move their money. Stocks fell again on Monday, Nov 16, a third straight loss for the S&P 500, which dropped 1.9%; the Nasdaq fell 2.5% and the Dow 739 points (1.4%), led by chip stocks. On Tuesday, Nov 17, the S&P 500 fell another 1.03% to 7,340.53, a fourth straight loss and its lowest close since late July; the Dow lost 848.75 points (1.64%) and the Nasdaq 0.74%. On Wednesday, Nov 18, the S&P 500 fell 0.23% to 7,323.63, a fifth straight loss, and the Dow lost 561.25 points (1.11%) as Nvidia shares lost momentum after the chipmaker's better-than-expected results, while the Nasdaq rose about 0.4%. Markets stayed open, and we again found no fund or bank limits on withdrawals.",
    "control_type": "None",
    "affected": "Sector or group",
    "stage": "In effect",
@@ -3685,6 +3692,13 @@
      "publisher": "CNBC",
      "date": "2026-11-17",
      "primary": false
+    },
+    {
+     "title": "Dow drops more than 500 points; S&P 500 falls for fifth day as Nvidia sells off",
+     "url": "https://www.cnbc.com/2026/11/17/stock-market-today-live-updates.html",
+     "publisher": "CNBC",
+     "date": "2026-11-18",
+     "primary": false
     }
    ],
    "quote": {
@@ -3702,7 +3716,7 @@
      "stage": "In effect"
     }
    ],
-   "updated_on": "2026-11-18",
+   "updated_on": "2026-11-19",
    "plain": "Stock prices fell sharply on Nov 5, the worst day since April 2025. Markets stayed open, and we found no U.S. bank or fund that limited withdrawals."
   },
   "dol-1210-AC38-401k-alternatives": {
@@ -5384,11 +5398,11 @@
   },
   "fincen-1506-AB78-cdd-nprm": {
    "section": "official_us",
-   "headline": "FinCEN formally releases its customer due diligence proposal: banks could ask business owners about immigration status when risk warrants, and an ITIN would no longer count as an owner's ID number",
-   "date": "2026-11-17",
+   "headline": "FinCEN publishes its customer due diligence proposal, with comments due Jan 19, 2027: banks could ask business owners about immigration status when risk warrants, and an ITIN would no longer count as an owner's ID number",
+   "date": "2026-11-19",
    "org": "Treasury, Financial Crimes Enforcement Network (FinCEN)",
-   "what_changed": "On Nov 17, 2026, FinCEN formally released the proposed rule (RIN 1506-AB78, docket FINCEN-2026-0298) on its main website, with the text it sent to the Federal Register on Nov 13, a fact sheet and a Treasury press release. The OCC, the FDIC and the NCUA issued statements supporting it the same day. The proposal would amend the customer due diligence rule for banks and other covered institutions in three ways: (1) state that, where other risk indicators or supervisory concerns warrant, an institution may obtain more information, including whether account holders have lawful immigration status and work authorization, when that is relevant to assessing fraud, identity misrepresentation, sanctions evasion or other illicit finance; (2) codify FinCEN's earlier relief (FIN-2026-R001) so institutions no longer have to identify and verify a business customer's beneficial owners every time it opens a new account; and (3) write into the rule the information institutions must collect about each beneficial owner of a business customer, including an identifying number such as a Social Security number or, for non-U.S. persons, a passport or alien identification number, while specifying that an Individual Taxpayer Identification Number (ITIN) is not an acceptable substitute for a Social Security number. Comments are due 60 days after Federal Register publication, which hadn't happened as of early Nov 18.",
-   "summary": "The rule covers the beneficial owners of legal entity customers, such as companies, which banks have had to identify since a 2016 rule; it implements Executive Order 14406 (May 2026). Treasury Secretary Scott Bessent said it cuts unnecessary burden and gives institutions more flexibility, and the Comptroller of the Currency said it would reduce duplicate ownership checks. FinCEN said it expects ITIN holders who are in the U.S. legally and authorized to work to have other identification, such as a foreign passport or an alien identification card. Nothing in the proposal lets the government or a bank block, delay or cap an otherwise lawful transaction: it changes what banks collect and may ask about business owners. The text is a proposal and can change after comments. FinCEN hasn't said how it relates to the customer due diligence rewrite its regulatory agenda had planned for March 2027 (RIN 1506-AB60).",
+   "what_changed": "On Nov 19, 2026, the Federal Register published FinCEN's proposed rule (FR Doc 2026-23614, 91 FR 74514; RIN 1506-AB78), which starts the comment period: comments are due Jan 19, 2027, on docket FINCEN-2026-0298 at regulations.gov. FinCEN had released the text on Nov 17 with a fact sheet and a Treasury press release, and the OCC, the FDIC and the NCUA issued statements supporting it that day. The proposal would amend the customer due diligence rule for banks and other covered institutions in three ways: (1) state that, where warranted by risk, an institution may obtain more information, including whether the beneficial owners of business customers have lawful immigration status and work authorization in the U.S., when that is relevant to assessing risks such as fraud, identity misrepresentation or sanctions evasion; (2) codify FinCEN's earlier relief (FIN-2026-R001) so institutions no longer have to identify and verify a business customer's beneficial owners every time it opens a new account; and (3) write into the rule the information institutions must collect about each beneficial owner, including an identifying number such as a Social Security number or, for non-U.S. persons, a passport or alien identification number, while specifying that an Individual Taxpayer Identification Number (ITIN) is not an acceptable substitute for a Social Security number.",
+   "summary": "The rule covers the beneficial owners of legal entity customers, such as companies, which banks have had to identify since a 2016 rule; it implements Executive Order 14406 (May 2026). Treasury Secretary Scott Bessent said it cuts unnecessary burden and gives institutions more flexibility, and the Comptroller of the Currency said it would reduce duplicate ownership checks. In the published text, FinCEN says it considered requiring institutions to collect more information from every beneficial owner but rejected that, because the small gain in regulatory certainty would come at significant cost to institutions. FinCEN said it expects ITIN holders who are in the U.S. legally and authorized to work to have other identification, such as a foreign passport or an alien identification card. Nothing in the proposal lets the government or a bank block, delay or cap an otherwise lawful transaction: it changes what banks collect and may ask about business owners. The text can change after comments. FinCEN hasn't said how it relates to the customer due diligence rewrite its regulatory agenda had planned for March 2027 (RIN 1506-AB60).",
    "control_type": "Visibility",
    "affected": "Sector or group",
    "stage": "Proposal",
@@ -5399,12 +5413,19 @@
    "direction": "Toward controls",
    "evidence": "Official document",
    "why_it_matters": "It widens what banks may ask the owners of business accounts, including immigration status when risk warrants, and would stop banks from accepting an ITIN as an owner's ID number, which could make it harder for some business owners to open accounts. It is the first rule change under Executive Order 14406's push for stricter know-your-customer checks.",
-   "why_it_might_not": "Customer due diligence is routine anti-money-laundering work, and the proposal also removes a repeat paperwork step. It doesn't let anyone block, delay or cap transactions, extra questions are allowed only when risk warrants, and it is still open for comment.",
+   "why_it_might_not": "Customer due diligence is routine anti-money-laundering work, and the proposal also removes a repeat paperwork step. It doesn't let anyone block, delay or cap transactions, extra questions are allowed only when risk warrants, and comments are open until Jan 19, 2027.",
    "next_milestone": {
-    "what": "Federal Register publication, which starts the 60-day comment period (date not yet set)",
-    "date": null
+    "what": "Comment period closes; a final rule would follow (no date set)",
+    "date": "2027-01-19"
    },
    "sources": [
+    {
+     "title": "Customer Due Diligence Requirements for Covered Financial Institutions (proposed rule)",
+     "url": "https://www.federalregister.gov/documents/2026/11/19/2026-23614/customer-due-diligence-requirements-for-covered-financial-institutions",
+     "publisher": "Federal Register (FinCEN)",
+     "date": "2026-11-19",
+     "primary": true
+    },
     {
      "title": "FinCEN Issues Proposed Rule to Strengthen Customer Due Diligence Requirements for Covered Financial Institutions",
      "url": "https://www.fincen.gov/news/news-releases/fincen-issues-proposed-rule-strengthen-customer-due-diligence-requirements-covered-financial-institutions/",
@@ -5448,13 +5469,6 @@
      "primary": true
     },
     {
-     "title": "FinCEN proposes revised customer due diligence rule",
-     "url": "https://bankingjournal.aba.com/2026/11/fincen-proposes-revised-customer-due-diligence-rule/",
-     "publisher": "ABA Banking Journal",
-     "date": "2026-11-17",
-     "primary": false
-    },
-    {
      "title": "Executive Order 14406, Restoring Integrity to America's Financial System",
      "url": "https://www.federalregister.gov/documents/full_text/html/2026/05/22/2026-10400.html",
      "publisher": "Federal Register",
@@ -5466,10 +5480,10 @@
     "text": "cuts unnecessary burden, gives institutions more flexibility to effectively combat risk",
     "source_url": "https://home.treasury.gov/news/press-releases/sb0691/"
    },
-   "plain": "FinCEN (the Treasury office that fights money crimes) shared its full plan for how banks check who owns business accounts. Banks could ask some owners about immigration status. It doesn't limit moving money.",
+   "plain": "FinCEN (a Treasury office that fights money crimes) made its plan to check who owns businesses official. People can comment until Jan 19, and it doesn't limit moving money.",
    "first_seen": "2026-11-16",
-   "updated_on": "2026-11-18",
-   "last_change": "2026-11-17",
+   "updated_on": "2026-11-19",
+   "last_change": "2026-11-19",
    "status": "ADVANCED",
    "open": true,
    "status_history": [
@@ -5480,6 +5494,11 @@
     },
     {
      "date": "2026-11-18",
+     "status": "ADVANCED",
+     "stage": "Proposal"
+    },
+    {
+     "date": "2026-11-19",
      "status": "ADVANCED",
      "stage": "Proposal"
     }
@@ -5811,11 +5830,11 @@
   "intl-philippines-bsp-cash-withdrawal-checks-2026-11": {
    "id": "intl-philippines-bsp-cash-withdrawal-checks-2026-11",
    "section": "international",
-   "headline": "Philippines pauses its automatic extra checks on cash withdrawals over 1 million pesos a day until Jan 31, major newspapers confirm",
+   "headline": "Philippines pauses its automatic extra checks on cash withdrawals over 1 million pesos a day until Jan 31, the central bank's memo confirms",
    "date": "2026-11-13",
    "org": "Bangko Sentral ng Pilipinas (the Philippines' central bank)",
    "what_changed": "Major Philippine newspapers reported on Nov 16, 2026 that, in a memorandum, the central bank's policy-making Monetary Board suspended until Jan 31, 2027 the threshold that triggers enhanced due diligence (extra background and transaction checks) on cash transactions above ₱1 million in a banking day. The board approved the step on Nov 12 and it took effect Nov 13. The central bank said the aim is to facilitate legitimate transactions and support the public's cash needs during the holidays. Banks must still apply due diligence and enhanced checks when transactions look unusual or a customer's profile changes, keep monitoring transactions, and file suspicious-transaction reports; cash transactions above ₱500,000 must still be reported to the Anti-Money Laundering Council.",
-   "summary": "The central bank began requiring the extra checks in September 2025 for cash withdrawals above ₱500,000 a day (Circular 1218), amid investigations into alleged kickbacks from government flood-control projects. A Feb 6, 2026 memorandum told banks to run the checks once per customer rather than for every withdrawal, and Circular 1230 of Feb 27, 2026 raised the trigger to ₱1 million after banks and businesses said routine payouts such as payroll and loan releases were being caught. The central bank has said the threshold was never an absolute withdrawal limit, since larger withdrawals were allowed after verification, and banks may still set stricter internal limits based on their own risk reviews. We couldn't open the new memorandum itself, but several major outlets quote it and the central bank's statement.",
+   "summary": "The central bank began requiring the extra checks in September 2025 for cash withdrawals above ₱500,000 a day (Circular 1218), amid investigations into alleged kickbacks from government flood-control projects. A Feb 6, 2026 memorandum told banks to run the checks once per customer rather than for every withdrawal, and Circular 1230 of Feb 27, 2026 raised the trigger to ₱1 million after banks and businesses said routine payouts such as payroll and loan releases were being caught. The central bank has said the threshold was never an absolute withdrawal limit, since larger withdrawals were allowed after verification, and banks may still set stricter internal limits based on their own risk reviews. We couldn't open the new memorandum itself, but several major outlets quote it and the central bank's statement. The central bank's Memorandum No. M-2026-050, posted on its website, confirms that the Monetary Board approved the pause on Nov 12 (Resolution No. 1086), that it took effect when the memo was issued and that it lasts until Jan 31, 2027. Separately, on Nov 18 the central bank called a viral video claiming banks nationwide would close on Nov 20 false; Meta had taken it down.",
    "plain": "The Philippines paused extra bank checks on very big cash withdrawals, over 1 million pesos a day, until Jan 31. Banks must still check ones that look odd.",
    "control_type": "Friction",
    "affected": "Sector or group",
@@ -5830,10 +5849,24 @@
    "why_it_might_not": "It loosens an anti-money-laundering rule rather than adding a limit, it covers only very large cash withdrawals in the Philippines, and the underlying rule calls for checks, not a cap.",
    "us_link": "No direct link. U.S. banks must report cash transactions over $10,000 to the government, a reporting rule rather than a limit, and we found no U.S. proposal to require checks or caps on large cash withdrawals.",
    "next_milestone": {
-    "what": "Reported end of the holiday pause, when automatic checks on cash withdrawals over ₱1 million return",
+    "what": "End of the holiday pause under the central bank's memo, when automatic extra checks on cash transactions over ₱1 million return",
     "date": "2027-01-31"
    },
    "sources": [
+    {
+     "title": "Memorandum No. M-2026-050: Temporary Lifting of the ₱1 Million Enhanced Due Diligence Threshold for Large Value Cash Transactions",
+     "url": "https://www.bsp.gov.ph/Regulations/Issuances/2026/M-2026-050.pdf",
+     "publisher": "Bangko Sentral ng Pilipinas",
+     "date": "2026-11-13",
+     "primary": true
+    },
+    {
+     "title": "Fake news alert: BSP debunks viral video claiming banks will close on Nov. 20",
+     "url": "https://politiko.com.ph/fake-news-alert-bsp-debunks-viral-video-claiming-banks-will-close-on-nov-20/",
+     "publisher": "Politiko",
+     "date": "2026-11-19",
+     "primary": false
+    },
     {
      "title": "BSP temporarily lifts P1 million cash withdrawal threshold",
      "url": "https://www.philstar.com/business/2026/11/16/2570331/bsp-temporarily-lifts-p1-million-cash-withdrawal-threshold",
@@ -5878,7 +5911,7 @@
     }
    ],
    "first_seen": "2026-11-15",
-   "updated_on": "2026-11-16",
+   "updated_on": "2026-11-19",
    "last_change": "2026-11-13",
    "status": "NEW",
    "status_history": [
@@ -6236,49 +6269,51 @@
   {
    "date": "2026-11-18",
    "level": "YELLOW"
+  },
+  {
+   "date": "2026-11-19",
+   "level": "YELLOW"
   }
  ],
  "github_user": "brentwhichel",
  "repo": "capital-controls-monitor",
  "monitor": "Capital Controls Early-Warning Monitor",
  "report": {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "level": "YELLOW",
-  "bottom_line": "No limits on ordinary Americans' withdrawals or transfers are in effect or proposed; the main U.S. step was FinCEN's formal release of its customer due diligence proposal, which would change what banks collect and may ask about the owners of business accounts but wouldn't let anyone block or delay transactions.",
-  "level_reason": "The level stays YELLOW because official Tier 1 steps remain in play: FinCEN's customer due diligence proposal, formally released Nov 17 with comments due 60 days after it is published; Treasury's wider outbound-investment proposal (comments due Dec 7); stablecoin rules requiring issuers to be able to freeze coins on lawful orders (the GENIUS Act takes effect Jan 18); and FinCEN's Oct 30 cross-border payments alert and Minnesota transfer-reporting order (ends Feb 6 unless renewed), while the MEXC transfer ban, effective Dec 10, names one foreign company, and the FDIC provisional-hold proposal applies only after a bank fails. Nothing new raises it: the customer due diligence proposal changes what banks collect, not whether money can move; the stablecoin limits we added in Thailand (proposed), Nigeria and Brazil apply only in those countries; and the viral Nov 17 'digital apocalypse' rumor proved unfounded, and rumors can't raise the level.",
-  "change_text": "Yesterday: YELLOW. Today: YELLOW, unchanged. Moved forward: on Nov 17, FinCEN formally released its customer due diligence proposal, with the text it sent to the Federal Register on Nov 13, a fact sheet and statements of support from the OCC, the FDIC and the NCUA. It would let banks ask the owners of business accounts for more information, including immigration status and work authorization, when risk warrants; end the need to re-verify owners each time a business opens a new account; and stop banks from accepting an ITIN as an owner's ID number. Comments are due 60 days after Federal Register publication, which hadn't happened as of early Nov 18. Checked: a viral claim that a Nov 17 'digital apocalypse' would wipe out bank balances and shut down the internet; we rate it No proof, because the date passed with banks working and the only planned event was FEMA's one-minute TV and radio alert test. Newly added to the tracker (earlier steps we hadn't listed): stablecoin limits in Thailand (a proposed 5 million baht daily cap per platform, comments due Nov 26), Nigeria (approval needed to swap naira for dollar coins, in force since Nov 5) and Brazil (no stablecoins in cross-border payment services since Oct 1); and Moldova's easing of approval rules for moving money abroad, effective Nov 20. No change: South Korea's Gopax was still shut on Nov 18, its 13th day; U.S. stocks fell for a fourth day on Nov 17 (S&P 500 down 1.03% to its lowest close since late July) with markets open and no fund or bank limits reported, and futures rose early Nov 18 after Nvidia's results; Taiwan's and South Korea's markets fell again, with no new limits; Fed Governor Waller's Nov 17 payments speech discussed tokenized deposits and stablecoins and proposed no rule; and EU negotiators reportedly aimed for a digital euro deal on Nov 18, with the holding limit still open. Correction: Governor Barr's FinRegLab discussion is Nov 19, not Nov 20. Also checked, as of about 7:35 AM ET: Treasury, OFAC, the Fed Board, the FDIC, the OCC, the SEC, the CFPB and the CFTC posted nothing on limits on deposits, withdrawals or transfers; the Federal Register's Nov 18 issue has only routine Treasury and Fed items, including the Fed's yearly reserve-requirement indexing (ratios stay at zero) and final IRS rules on automatic 401(k) enrollment, which keep workers' right to opt out; today's public-inspection list opens at 8:45 a.m. ET; and Glenn Beck's Nov 17 episodes covered the bank and NSA outages and how to prepare, with no new claims about limits on money.",
-  "flags_lede": "What's new or changed since the previous report on Nov 17, 2026.",
+  "bottom_line": "No limits on ordinary Americans' withdrawals or transfers are in effect or proposed; the main U.S. step was the Federal Register's publication of FinCEN's customer due diligence proposal, which opens comments until Jan 19, 2027 and would change what banks collect about business owners without letting anyone block or delay transactions.",
+  "level_reason": "The level stays YELLOW because official Tier 1 steps remain in play: FinCEN's customer due diligence proposal, published Nov 19 with comments due Jan 19; Treasury's wider outbound-investment proposal (comments due Dec 7); stablecoin rules requiring issuers to be able to freeze coins on lawful orders (the GENIUS Act takes effect Jan 18); and FinCEN's Oct 30 cross-border payments alert and Minnesota transfer-reporting order (ends Feb 6 unless renewed), while the MEXC transfer ban, effective Dec 10, names one foreign company, and the FDIC provisional-hold proposal applies only after a bank fails. Nothing new raises it: the due diligence proposal changes what banks collect, not whether money can move; Romania's vote eases a cash limit abroad; and Russell Napier's forecast of French capital controls is commentary, which can't raise the level.",
+  "change_text": "Yesterday: YELLOW. Today: YELLOW, unchanged. Moved forward: on Nov 19, the Federal Register published FinCEN's customer due diligence proposal (FR Doc 2026-23614), opening comments until Jan 19, 2027; it would let banks ask the owners of business accounts for more information, including immigration status and work authorization, when risk warrants, end repeat owner checks for each new account and stop banks from accepting an ITIN as an owner's ID number. New: on Nov 18, Romania's Chamber of Deputies, the deciding chamber, voted to raise the daily cap on cash payments by businesses and self-employed people to 50,000 lei from 5,000 or 10,000 lei; it still needs the president's signature. Checked: financial historian Russell Napier's forecast, reported by ETF Stream on Nov 17, that France will impose capital controls freezing about $6 trillion of foreign-owned assets; we rate it Can't tell yet, because it's a forecast and neither France nor the EU has proposed such limits. No change: we found no report of a digital euro deal after the Nov 18 trilogue, and the holding limit is still open; Fed minutes released Nov 18 show a few officials stressed ready bank access to the discount window, with no talk of deposit or withdrawal limits; South Korea's Gopax was still shut on Nov 19; MEXC shut its Visa-linked card on Nov 18 ahead of FinCEN's Dec 10 order; the S&P 500 fell a fifth straight day on Nov 18 with markets open and no fund or bank limits; and the Philippine central bank posted its memo pausing extra checks on large cash withdrawals until Jan 31 and called a viral video claiming banks would close on Nov 20 false. Also checked, as of about 7:35 AM ET: Treasury, OFAC, the Fed Board, the FDIC, the OCC, the SEC, the CFPB and the CFTC posted nothing on limits on deposits, withdrawals or transfers; today's public-inspection list opens at 8:45 a.m. ET; and Glenn Beck's Nov 18 episode made no new claims about limits on money.",
+  "flags_lede": "What's new or changed since the previous report on Nov 18, 2026.",
   "flags": [
    {
     "id": "fincen-1506-AB78-cdd-nprm",
     "movement": "ADVANCED"
    },
    {
-    "id": "claim-nov17-digital-apocalypse-rumor-2026-11",
+    "id": "intl-romania-cash-cap-raise-2026-11",
+    "movement": "NEW"
+   },
+   {
+    "id": "claim-napier-france-capital-controls-2026-11",
     "movement": "NEW"
    }
   ],
-  "sources_checked_through": "2026-11-18T07:35:08-05:00",
-  "refreshed_at": "2026-11-18T06:38:18-06:00",
+  "sources_checked_through": "2026-11-19T06:33:45-06:00",
+  "refreshed_at": "2026-11-19T06:35:12-06:00",
   "plain": {
-   "today": "Nothing stops regular people in the U.S. from taking out, moving or saving money. A Treasury office shared its full plan for how banks check who owns business accounts. It doesn't limit moving money.",
-   "worry": "Not right now. We found no new U.S. rules that limit your money. Viral posts said bank accounts would be wiped out on Nov 17, but that day came and went with banks working.",
+   "today": "Nothing stops regular people in the U.S. from taking out, moving or saving money. A Treasury plan to check who owns businesses is now open for comments, and it doesn't limit moving money.",
+   "worry": "Not right now. We found no new U.S. rules that limit your money. A well-known investor predicted France will freeze money that foreigners hold there, but that's a guess, and France hasn't proposed it.",
    "watch": [
     "A cap on how much money people can send to other countries.",
     "Limits on how much cash people can take out of the bank.",
     "A rule that lets banks or the government hold everyone's payments, not just ones that look like fraud."
    ],
-   "changes_lede": "A Treasury office showed its plan to check who owns business accounts, and a bank rumor was false."
+   "changes_lede": "A Treasury plan opened for comments, Romania eased a cash limit, and we checked a guess about France."
   },
   "layout": "v2-plain-first"
  },
  "upcoming_dates": [
-  {
-   "date": "2026-11-18",
-   "what": "EU Council and Parliament negotiators reportedly aim for a political agreement on the digital euro law, including who sets the holding limit (reported, not officially confirmed)",
-   "item_id": "intl-ecb-digital-euro-holding-limits",
-   "url": "https://www.moncloa.com/2026/11/17/euro-digital-18-noviembre-bce-3469377/"
-  },
   {
    "date": "2026-11-19",
    "what": "Fed Governor Michael Barr discusses AI at the FinRegLab AI Symposium, Washington (2:15 p.m. ET, per the Fed's calendar)",
@@ -6290,12 +6325,6 @@
    "what": "Next weekly Fed balance sheet (H.4.1), 4:30 p.m. ET: discount-window and emergency lending",
    "item_id": "h41-2026-11-12-discount-window",
    "url": "https://www.federalreserve.gov/releases/h41/"
-  },
-  {
-   "date": "2026-11-19",
-   "what": "South Korea's Financial Supervisory Service meets crypto exchange and custody firms' security chiefs on hacking responses",
-   "item_id": "crypto-exchange-withdrawal-pauses-2026-11",
-   "url": "https://en.sedaily.com/finance/2026/11/08/binance-backed-gopax-halts-withdrawals-after-hacking-threat"
   },
   {
    "date": "2026-11-20",
@@ -6344,6 +6373,11 @@
    "what": "Moscow Exchange plans to start crypto trading (reported plan)",
    "item_id": "intl-russia-retail-crypto-caps-2026-11",
    "url": "https://bravenewcoin.com/insights/russia-crypto-rules-retail-bitcoin"
+  },
+  {
+   "date": "2026-12-01",
+   "what": "House Financial Services Committee full-committee hearing, 'Oversight of Prudential Regulators'",
+   "url": "https://financialservices.house.gov/calendar/eventsingle.aspx?EventID=411254"
   },
   {
    "date": "2026-12-02",
@@ -6430,10 +6464,15 @@
    "url": "https://www.skadden.com/insights/publications/2026/10/occ-finalizes-genius-act-rule"
   },
   {
+   "date": "2027-01-19",
+   "what": "Comments due on FinCEN's customer due diligence proposal (docket FINCEN-2026-0298)",
+   "url": "https://www.federalregister.gov/documents/2026/11/19/2026-23614/customer-due-diligence-requirements-for-covered-financial-institutions"
+  },
+  {
    "date": "2027-01-31",
-   "what": "Reported end of the Philippines' holiday pause on automatic checks of cash withdrawals over 1 million pesos a day",
+   "what": "End of the Philippines' holiday pause on automatic extra checks of cash transactions over 1 million pesos a day (central bank memo)",
    "item_id": "intl-philippines-bsp-cash-withdrawal-checks-2026-11",
-   "url": "https://bilyonaryo.com/holiday-relief-bsp-eases-rules-on-cash-withdrawals-above-p1m-until-january-2027/"
+   "url": "https://www.bsp.gov.ph/Regulations/Issuances/2026/M-2026-050.pdf"
   },
   {
    "date": "2027-01-31",
@@ -6519,372 +6558,372 @@
    "source": "Federal Register public inspection (current)",
    "url": "https://www.federalregister.gov/public-inspection/current",
    "status": "Partial",
-   "note": "Read at about 7:20 AM ET, before today's 8:45 a.m. ET filing. The Nov 17 lists (regular and 4:15 p.m. special filing) have no FinCEN documents, so the customer due diligence proposal wasn't on file yet; Treasury and banking-agency items are routine (an OFAC listing notice, the Fed's yearly reserve-requirement indexing, an interagency comment-period extension on third-party risk guidance, and final IRS automatic-enrollment rules for 401(k) plans).",
-   "last_success": "2026-11-18"
+   "note": "Read at about 7:20 AM ET, before today's 8:45 a.m. ET filing. The Nov 18 regular filing, published today, includes FinCEN's customer due diligence proposal (item updated); other Treasury and banking-agency items are routine (IRS and terrorism-insurance information collections, Fed bank holding company notices). Special filings for Nov 19-20 include a Commerce export-control rule on remote access to advanced chips; nothing on deposits, withdrawals or transfers.",
+   "last_success": "2026-11-19"
   },
   {
    "source": "Federal Register documents (via web search)",
    "url": "https://www.federalregister.gov/",
    "status": "Checked",
-   "note": "Wednesday's Nov 18 issue (documents filed Nov 16-17) has no FinCEN, presidential or banking-agency documents on deposits, withdrawals or transfers; FinCEN's customer due diligence proposal hasn't been published yet.",
-   "last_success": "2026-11-18"
+   "note": "Thursday's Nov 19 issue publishes FinCEN's customer due diligence proposal (FR Doc 2026-23614, 91 FR 74514; comments due Jan 19, 2027). No presidential or banking-agency documents on deposits, withdrawals or transfers.",
+   "last_success": "2026-11-19"
   },
   {
    "source": "OIRA rules under review",
    "url": "https://www.reginfo.gov/public/do/eoReviewSearch",
    "status": "Checked",
-   "note": "The Nov 18 list loaded (174 entries). No FinCEN rule is under review. Treasury entries are OCC capital and commercial real estate items and the IRS proposal to join the global crypto-reporting standard (CARF), pending since Nov 14, 2025 (tracked). Also pending: a CFTC proposal titled 'Regulation Customer Protection and Identification' (contents not public), an SEC proposal on broker-dealer rules for crypto assets, and a Labor Department exemption for automatic 401(k) portability.",
-   "last_success": "2026-11-18"
+   "note": "The Nov 18 list loaded (174 entries, unchanged). No FinCEN rule is under review. Treasury entries are still OCC capital and commercial real estate items and the IRS crypto-reporting (CARF) proposal (tracked). Also pending: the CFTC's 'Regulation Customer Protection and Identification' proposal (contents not public), an SEC broker-dealer crypto proposal and the Labor Department's final 401(k) investment-choice rule (tracked).",
+   "last_success": "2026-11-19"
   },
   {
    "source": "Unified Agenda",
    "url": "https://www.reginfo.gov/public/do/eAgendaMain",
    "status": "Partial",
    "note": "The 2026 agenda is still current; nothing new beyond the FinCEN entries already tracked.",
-   "last_success": "2026-11-18"
+   "last_success": "2026-11-19"
   },
   {
    "source": "Regulations.gov",
    "url": "https://www.regulations.gov/",
    "status": "Partial",
-   "note": "Home page only; trending dockets are unrelated. FinCEN's customer due diligence docket (FINCEN-2026-0298) opens for comments once the proposal is published.",
-   "last_success": "2026-11-18"
+   "note": "Home page only. Per the Federal Register, FinCEN's customer due diligence docket (FINCEN-2026-0298) is open for comments until Jan 19, 2027.",
+   "last_success": "2026-11-19"
   },
   {
    "source": "Treasury press releases",
    "url": "https://home.treasury.gov/news/press-releases",
    "status": "Checked",
-   "note": "Nov 17: FinCEN's customer due diligence proposal (item updated) and final IRS rules on automatic 401(k) enrollment, which keep workers' right to opt out (not a limit on money).",
-   "last_success": "2026-11-18"
+   "note": "Nov 18: a yearly holiday-scam advisory, September international capital flow data (routine; net inflows) and Iran-related sanctions on named parties. Nothing on limits on deposits, withdrawals or transfers.",
+   "last_success": "2026-11-19"
   },
   {
    "source": "Treasury Outbound Investment Security Program",
    "url": "https://home.treasury.gov/policy-issues/international/outbound-investment-program",
    "status": "Checked",
    "note": "Page unchanged: COINS Act proposal (Oct 22); comments due Dec 7.",
-   "last_success": "2026-11-18"
+   "last_success": "2026-11-19"
   },
   {
    "source": "OFAC recent actions",
    "url": "https://ofac.treasury.gov/recent-actions",
    "status": "Checked",
-   "note": "Nothing after the Nov 13 counter-narcotics and counterterrorism designations of named parties; a Nov 18 Federal Register notice publishes those listings.",
-   "last_success": "2026-11-18"
+   "note": "Nov 18: counterterrorism designations of named parties; nothing broader.",
+   "last_success": "2026-11-19"
   },
   {
    "source": "FinCEN news",
    "url": "https://www.fincen.gov/news",
    "status": "Checked",
-   "note": "FinCEN's main news page now lists the Nov 17 customer due diligence proposal, with its text and a fact sheet (item updated); nothing else after the Nov 9 readout.",
-   "last_success": "2026-11-18"
+   "note": "Nothing new after the Nov 17 customer due diligence proposal, which the Federal Register published today (item updated).",
+   "last_success": "2026-11-19"
   },
   {
    "source": "FSOC",
    "url": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/fsoc",
    "status": "Partial",
    "note": "Landing page only; no new meeting readout or annual report found.",
-   "last_success": "2026-11-18"
+   "last_success": "2026-11-19"
   },
   {
    "source": "Treasury officials' speeches",
    "url": "https://home.treasury.gov/news/press-releases",
    "status": "Checked",
-   "note": "No new remarks on stablecoins, tokenization, payments or capital flows found; the Secretary's Nov 17 statement on the customer due diligence proposal is tracked.",
-   "last_success": "2026-11-18"
+   "note": "No new remarks on stablecoins, tokenization, payments or capital flows found.",
+   "last_success": "2026-11-19"
   },
   {
    "source": "Fed press releases",
    "url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
    "status": "Checked",
-   "note": "Nothing after Nov 13 (comment period extended on third-party risk guidance).",
-   "last_success": "2026-11-18"
+   "note": "The page served an older copy; a search found the Nov 18 release of the Oct 27-28 policy meeting minutes, in which a few officials stressed ready bank access to the discount window and none discussed deposit or withdrawal limits (noted under the Financial Stability Report item).",
+   "last_success": "2026-11-19"
   },
   {
    "source": "Fed speeches and testimony",
    "url": "https://www.federalreserve.gov/newsevents/speech/2026-speeches.htm",
    "status": "Checked",
-   "note": "Nov 17: Governor Waller on tokenization and payments at The Clearing House conference; he proposed no rule (noted under Fed payments talk). The Fed's calendar puts Governor Barr's FinRegLab AI discussion on Nov 19 at 2:15 p.m. ET (corrected from Nov 20). FOMC minutes are due today at 2 p.m. ET.",
-   "last_success": "2026-11-18"
+   "note": "Nothing new after Governor Waller's Nov 17 payments speech (noted under Fed payments talk). Governor Barr's FinRegLab AI discussion is today at 2:15 p.m. ET.",
+   "last_success": "2026-11-19"
   },
   {
    "source": "Fed Financial Stability Report",
    "url": "https://www.federalreserve.gov/publications/financial-stability-report.htm",
    "status": "Checked",
    "note": "The November 2026 report (posted Nov 13) is tracked; nothing newer.",
-   "last_success": "2026-11-18"
+   "last_success": "2026-11-19"
   },
   {
    "source": "Fed H.4.1",
    "url": "https://www.federalreserve.gov/releases/h41/",
    "status": "Partial",
-   "note": "The release page again served an older copy; the Nov 12 release (primary credit about $8.9 billion, no emergency lending) is still the latest. Next release Nov 19.",
-   "last_success": "2026-11-18"
+   "note": "The release page again served an older copy; the Nov 12 release (primary credit about $8.9 billion, no emergency lending) is still the latest. Next release today at 4:30 p.m. ET.",
+   "last_success": "2026-11-19"
   },
   {
    "source": "FDIC press releases",
    "url": "https://www.fdic.gov/news/press-releases",
    "status": "Checked",
-   "note": "Nov 17: a statement encouraging comment on FinCEN's customer due diligence proposal; a proposed rule letting some banks under $10 billion treat certain custodial deposits as not brokered (a bank-funding rule, not a limit on customers); and a deposit insurance approval. No bank failure announced.",
-   "last_success": "2026-11-18"
+   "note": "Nothing after Nov 17 (the custodial deposits proposal and the statement on FinCEN's customer due diligence proposal).",
+   "last_success": "2026-11-19"
   },
   {
    "source": "FDIC failed bank list",
    "url": "https://www.fdic.gov/bank-failures/failed-bank-list",
    "status": "Checked",
    "note": "No failures since Nano Banc (Sept 25).",
-   "last_success": "2026-11-18"
+   "last_success": "2026-11-19"
   },
   {
    "source": "FDIC Financial Institution Letters",
    "url": "https://www.fdic.gov/news/financial-institution-letters",
    "status": "Checked",
-   "note": "Nov 17: FIL-69-2026 on the custodial deposits proposal (bank funding, not limits on customers); nothing else after FIL-68-2026.",
-   "last_success": "2026-11-18"
+   "note": "Nothing after FIL-69-2026 (Nov 17).",
+   "last_success": "2026-11-19"
   },
   {
    "source": "OCC",
    "url": "https://www.occ.gov/",
    "status": "Checked",
-   "note": "Nov 17: the Comptroller's statement supporting FinCEN's customer due diligence proposal; nothing on deposit or withdrawal limits.",
-   "last_success": "2026-11-18"
+   "note": "Nov 18: the Comptroller's Exchequer Club remarks on lighter regulation, new bank charters and planned anti-money-laundering reforms; nothing on deposit or withdrawal limits.",
+   "last_success": "2026-11-19"
   },
   {
    "source": "SEC press releases",
    "url": "https://www.sec.gov/newsroom/press-releases",
    "status": "Checked",
-   "note": "Nothing after the Nov 13 proposal on executive pay disclosure.",
-   "last_success": "2026-11-18"
+   "note": "Nothing after the Nov 13 executive pay proposal; Senate Banking holds a hearing today on an SEC commissioner nominee.",
+   "last_success": "2026-11-19"
   },
   {
    "source": "CFPB newsroom",
    "url": "https://www.consumerfinance.gov/about-us/newsroom/",
    "status": "Checked",
    "note": "Nothing new since Oct 14 (debanking initiative).",
-   "last_success": "2026-11-18"
+   "last_success": "2026-11-19"
   },
   {
    "source": "CFTC press releases",
    "url": "https://www.cftc.gov/PressRoom/PressReleases",
    "status": "Checked",
-   "note": "Nov 17: agenda for a December roundtable on 24/7 trading; nothing on limits.",
-   "last_success": "2026-11-18"
+   "note": "Nothing after the Nov 17 agenda for a December roundtable on 24/7 trading.",
+   "last_success": "2026-11-19"
   },
   {
    "source": "White House presidential actions",
    "url": "https://www.whitehouse.gov/presidential-actions/",
    "status": "Checked",
    "note": "Nothing after the Nov 16 nominations; no executive orders on finance or payments.",
-   "last_success": "2026-11-18"
+   "last_success": "2026-11-19"
   },
   {
    "source": "Congress.gov",
    "url": "https://www.congress.gov/",
    "status": "Partial",
-   "note": "The home page shows only the search form. Searches found no new action on tracked bills (H.R. 8995, H.R. 1799, H.R. 9331, CLARITY Act).",
-   "last_success": "2026-11-18"
+   "note": "Home page only. Searches found no new action on tracked bills (H.R. 8995, H.R. 1799, H.R. 9331, H.R. 10017, CLARITY Act).",
+   "last_success": "2026-11-19"
   },
   {
    "source": "House Financial Services calendar",
    "url": "https://financialservices.house.gov/calendar/",
    "status": "Checked",
-   "note": "A full-committee hearing, 'The Future of Financial Services: Opportunities, Challenges, and the Path Forward,' is set for Dec 2 (added to dates); no markups posted.",
-   "last_success": "2026-11-18"
+   "note": "Added a Dec 1 full-committee hearing, 'Oversight of Prudential Regulators,' to dates; the Dec 2 hearing is still set. No markups posted.",
+   "last_success": "2026-11-19"
   },
   {
    "source": "Senate Banking Committee",
    "url": "https://www.banking.senate.gov/",
    "status": "Checked",
-   "note": "Nov 19: an executive session and a nominations hearing. No hearings or markups on deposits, payments or stablecoins.",
-   "last_success": "2026-11-18"
+   "note": "Today: an executive session to vote on nominations, including a Treasury assistant secretary, and a nominations hearing, including an SEC commissioner. No hearings or markups on deposits, payments or stablecoins.",
+   "last_success": "2026-11-19"
   },
   {
    "source": "GAO",
    "url": "https://www.gao.gov/",
    "status": "Checked",
-   "note": "Latest reports (Nov 10) cover multilateral banks, veterans' lending and IRS services; nothing on capital controls.",
-   "last_success": "2026-11-18"
+   "note": "Latest reports are still from Nov 10; nothing on capital controls.",
+   "last_success": "2026-11-19"
   },
   {
    "source": "CRS reports",
    "url": "https://crsreports.congress.gov/",
    "status": "Partial",
-   "note": "The site returned nothing; searches found no new reports on payments, deposits or capital flows.",
-   "last_success": "2026-11-18"
+   "note": "The site returned nothing again; searches found no new reports on payments, deposits or capital flows.",
+   "last_success": "2026-11-19"
   },
   {
    "source": "State bills (LegiScan)",
    "url": "https://legiscan.com/",
    "status": "Partial",
-   "note": "The home page doesn't list bills; searches found no new state bills beyond those tracked, as Texas prefiling continues for its January 2027 session.",
-   "last_success": "2026-11-18"
+   "note": "The home page doesn't list bills; searches found no new state bills beyond those tracked. Utah and five other states announced a consortium on Nov 18 for an optional state-endorsed digital ID with privacy limits; it isn't a payment system, so it wasn't added.",
+   "last_success": "2026-11-19"
   },
   {
    "source": "IMF publications and eLibrary",
    "url": "https://www.elibrary.imf.org/",
    "status": "Checked",
-   "note": "Latest items are Nov 16-18 mission statements (Korea, Ukraine, Kazakhstan, the UAE, Qatar, Colombia, Sierra Leone, Lithuania); nothing new on capital flow measures.",
-   "last_success": "2026-11-18"
+   "note": "No new papers or statements on capital flow measures found; the publications page still leads with the October flagship reports.",
+   "last_success": "2026-11-19"
   },
   {
    "source": "BIS",
    "url": "https://www.bis.org/",
    "status": "Checked",
-   "note": "A Nov 17 working paper on immigrants' skills and capital, and a Nov 16 speech on research; nothing on capital controls or payment limits.",
-   "last_success": "2026-11-18"
+   "note": "Nov 18: the Basel Committee said it is still reviewing its standard for banks' crypto exposures and will consult next month on updated liquidity-risk principles; nothing on limits on deposits or transfers.",
+   "last_success": "2026-11-19"
   },
   {
    "source": "FSB",
    "url": "https://www.fsb.org/",
    "status": "Checked",
-   "note": "Nov 17: the FSB plenary (Nov 16-17) set 2027 priorities, including global stablecoins, cross-border cooperation and the G20 cross-border payments roadmap; nothing on limits.",
-   "last_success": "2026-11-18"
+   "note": "Nothing new after the Nov 17 statement on 2027 priorities.",
+   "last_success": "2026-11-19"
   },
   {
    "source": "FATF",
    "url": "https://www.fatf-gafi.org/",
    "status": "Checked",
    "note": "Nothing new since the October plenary outcomes.",
-   "last_success": "2026-11-18"
+   "last_success": "2026-11-19"
   },
   {
    "source": "ECB digital euro",
    "url": "https://www.ecb.europa.eu/euro/digital_euro/html/index.en.html",
    "status": "Checked",
-   "note": "No new ECB digital euro news after the Nov 10 Cipollone statement; specialized press reported that negotiators aimed for a political deal on Nov 18 (date not officially confirmed; item updated).",
-   "last_success": "2026-11-18"
+   "note": "No new ECB digital euro news after the Nov 10 Cipollone statement; as of the morning of Nov 19 we found no report of a deal at the Nov 18 trilogue (item updated).",
+   "last_success": "2026-11-19"
   },
   {
    "source": "Bank of England digital pound",
    "url": "https://www.bankofengland.co.uk/the-digital-pound",
    "status": "Checked",
-   "note": "No decision yet; the latest progress update is from March 2026.",
-   "last_success": "2026-11-18"
+   "note": "No decision yet; the page still points to a decision on next steps in 2026.",
+   "last_success": "2026-11-19"
   },
   {
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/",
    "status": "Checked",
    "note": "Nothing on payment limits; no new stage found for Bill S-8.",
-   "last_success": "2026-11-18"
+   "last_success": "2026-11-19"
   },
   {
    "source": "OSFI (Canada's bank regulator)",
    "url": "https://www.osfi-bsif.gc.ca/",
    "status": "Checked",
-   "note": "Nothing on deposit or withdrawal limits; next quarterly release Nov 19.",
-   "last_success": "2026-11-18"
+   "note": "Quarterly release due today; nothing on deposit or withdrawal limits.",
+   "last_success": "2026-11-19"
   },
   {
    "source": "Atlantic Council CBDC Tracker",
    "url": "https://www.atlanticcouncil.org/cbdctracker/",
    "status": "Checked",
    "note": "Still last updated May 2026.",
-   "last_success": "2026-11-18"
+   "last_success": "2026-11-19"
   },
   {
    "source": "NBER",
    "url": "https://www.nber.org/papers",
    "status": "Checked",
    "note": "This week's new papers include none on capital controls or payment limits.",
-   "last_success": "2026-11-18"
+   "last_success": "2026-11-19"
   },
   {
    "source": "Cato",
    "url": "https://www.cato.org/blog",
    "status": "Checked",
-   "note": "Nov 16: a post on a dismissed records lawsuit over past digital-dollar (CBDC) research and a trade-policy post; nothing new on capital controls.",
-   "last_success": "2026-11-18"
+   "note": "Nov 17: a post arguing that recent outages show the value of payment alternatives, including cash; Nov 18: posts on tariffs and foreign censorship. Nothing new on capital controls.",
+   "last_success": "2026-11-19"
   },
   {
    "source": "Brookings Hutchins Center",
    "url": "https://www.brookings.edu/centers/the-hutchins-center-on-fiscal-and-monetary-policy/",
    "status": "Checked",
-   "note": "Held a Treasury market resilience event Nov 17; no new papers on capital controls.",
-   "last_success": "2026-11-18"
+   "note": "Nov 18: a post on electric vehicles; nothing on capital controls.",
+   "last_success": "2026-11-19"
   },
   {
    "source": "PIIE",
    "url": "https://www.piie.com/",
    "status": "Checked",
-   "note": "Nov 15 and 17: posts on how far stocks could fall and whether consumers can handle a crash; nothing on capital controls.",
-   "last_success": "2026-11-18"
+   "note": "Nov 16: a post on tariffs; nothing on capital controls.",
+   "last_success": "2026-11-19"
   },
   {
    "source": "AEI",
    "url": "https://www.aei.org/",
    "status": "Checked",
    "note": "Nothing relevant since Oct 27.",
-   "last_success": "2026-11-18"
+   "last_success": "2026-11-19"
   },
   {
    "source": "Heritage",
    "url": "https://www.heritage.org/",
    "status": "Checked",
    "note": "Nothing on capital controls.",
-   "last_success": "2026-11-18"
+   "last_success": "2026-11-19"
   },
   {
    "source": "Bank Policy Institute",
    "url": "https://bpi.com/",
    "status": "Checked",
-   "note": "Nov 16: a statement welcoming the Supreme Court leaving in place a ruling that access to a Fed master account is a privilege, not a right (a bank-access issue, not a limit on customers); nothing on deposit or withdrawal limits.",
-   "last_success": "2026-11-18"
+   "note": "Nothing new after the Nov 16 statement on Fed master accounts.",
+   "last_success": "2026-11-19"
   },
   {
    "source": "Coin Center",
    "url": "https://www.coincenter.org/",
    "status": "Checked",
    "note": "No posts after Nov 6.",
-   "last_success": "2026-11-18"
+   "last_success": "2026-11-19"
   },
   {
    "source": "JD Supra",
    "url": "https://www.jdsupra.com/",
    "status": "Partial",
-   "note": "Home page only; law-firm alerts found by search covered the customer due diligence proposal and other tracked items.",
-   "last_success": "2026-11-18"
+   "note": "Home page only; a law-firm explainer on bank account freezes and anti-money-laundering holds describes existing practice, not a new rule. Alerts found by search covered tracked items.",
+   "last_success": "2026-11-19"
   },
   {
    "source": "Glenn Beck YouTube",
    "url": "https://www.youtube.com/@glennbeck",
    "status": "Checked",
-   "note": "Through search, the channel page shows Nov 17 segments on the bank and NSA outages and how to prepare (cash, water, printed records), with no new claims about limits on money; the 'Capital Controls' special shows about 169,200 views. A direct fetch served an older copy.",
-   "last_success": "2026-11-18"
+   "note": "A direct fetch served an older copy of the videos page. Through search, the Nov 18 radio episode covered a video-game release, Thanksgiving and politics, plus 'three things' from recent days that its description doesn't name; we found no new claims about limits on money.",
+   "last_success": "2026-11-19"
   },
   {
    "source": "glennbeck.com",
    "url": null,
    "status": "Partial",
-   "note": "The show's 'Best of' episode page loaded through search: the Nov 17 episode covered the outages, urged calm and preparedness, and made no new claims about limits on money.",
-   "last_success": "2026-11-18"
+   "note": "The Nov 18 episode page loaded through search; its description makes no claims about limits on money.",
+   "last_success": "2026-11-19"
   },
   {
    "source": "IRS remittance tax guidance",
    "url": "https://www.irs.gov/newsroom/treasury-irs-issue-proposed-regulations-on-the-new-remittance-transfer-tax-established-under-the-one-big-beautiful-bill",
    "status": "Checked",
    "note": "No final regulations; the April proposal is still the latest. The 1% tax on cash-funded transfers still applies.",
-   "last_success": "2026-11-18"
+   "last_success": "2026-11-19"
   },
   {
    "source": "Other financial commentators (search)",
    "url": null,
    "status": "Checked",
-   "note": "A viral 'Nov 17 digital apocalypse' rumor said bank balances would be wiped out (claim added: No proof). Investor Rick Rule (Liberty and Finance, Nov 15) told investors to watch for capital controls but cited no plan. Other recent warnings made no specific claims about U.S. capital controls.",
-   "last_success": "2026-11-18"
+   "note": "ETF Stream (Nov 17) reported Russell Napier's forecast that France will impose capital controls (claim added: Can't tell yet). YouTube channels using James Rickards's name posted 'last warning' videos with no sourced claims. Other recent warnings about financial repression named no U.S. plan.",
+   "last_success": "2026-11-19"
   },
   {
    "source": "News search: bank and platform withdrawal limits",
    "url": null,
    "status": "Checked",
-   "note": "No U.S. bank withdrawal limits found. South Korea's Gopax was still shut on Nov 18 (item updated). A status tracker showed Circle pausing USDC deposits and withdrawals on one network (Aptos) from the evening of Nov 17 for a technical fix, with other networks unaffected; we couldn't confirm it on Circle's own status page.",
-   "last_success": "2026-11-18"
+   "note": "No U.S. bank withdrawal limits found. JPMorgan said Nov 18 that a software problem, not a hack, caused the Nov 16 outage (tracked). Gopax was still shut on Nov 19 (item updated), and MEXC shut its Visa-linked Global Card on Nov 18 (MEXC item updated). A status tracker still listed Circle's pause of USDC deposits and withdrawals on one network (Aptos) as ongoing early Nov 18; other networks were unaffected.",
+   "last_success": "2026-11-19"
   },
   {
    "source": "News search: currency and market measures abroad",
    "url": null,
    "status": "Checked",
-   "note": "Added: stablecoin limits in Thailand (proposed), Nigeria and Brazil, and Moldova's easing of approval rules from Nov 20. Taiwan's and South Korea's stock markets fell again Nov 16-17, with no new limits. Nothing new on Lebanon, Bolivia, Paraguay or the Philippines beyond tracked items.",
-   "last_success": "2026-11-18"
+   "note": "Added Romania's Nov 18 vote to raise its daily cap on business cash payments to 50,000 lei. The Philippine central bank posted its memo confirming the cash-check pause until Jan 31 (item updated) and called a viral 'banks will close Nov 20' video false. The S&P 500 fell a fifth straight day on Nov 18 with markets open (item updated). Nothing new on Lebanon, Bolivia, Paraguay, Thailand or Russia beyond tracked items.",
+   "last_success": "2026-11-19"
   }
  ],
  "raise_level_triggers": [
