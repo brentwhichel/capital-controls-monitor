@@ -3715,12 +3715,12 @@
   "us-stocks-selloff-2026-11-05": {
    "id": "us-stocks-selloff-2026-11-05",
    "section": "banking_stress",
-   "headline": "U.S. stocks keep sliding after their worst day since April 2025; no bank or fund withdrawal limits reported",
-   "date": "2026-11-05",
+   "headline": "U.S. stocks fall into a correction after their worst week since April 2025; no bank or fund withdrawal limits reported",
+   "date": "2026-11-20",
    "org": "U.S. stock markets",
    "who": "Markets (no government action)",
-   "what_changed": "On Thursday, Nov 5, the Nasdaq fell 5.5%, the S&P 500 4.4% and the Dow 3.4% (more than 1,800 points), the three averages' worst one-day losses since April 2025, as worries grew about a slowdown in data center construction after the Nov 3 election. On Friday, Nov 6, the Nasdaq rose 1.09% and the S&P 500 0.31%, while the Dow slipped 0.46%.",
-   "summary": "Trading continued normally the next day, and we found no reports of U.S. banks limiting withdrawals or of funds limiting redemptions. A falling stock market isn't a capital control: it changes what investments are worth, not whether people can withdraw or move their money. Stocks fell again on Monday, Nov 16, a third straight loss for the S&P 500, which dropped 1.9%; the Nasdaq fell 2.5% and the Dow 739 points (1.4%), led by chip stocks. On Tuesday, Nov 17, the S&P 500 fell another 1.03% to 7,340.53, a fourth straight loss and its lowest close since late July; the Dow lost 848.75 points (1.64%) and the Nasdaq 0.74%. On Wednesday, Nov 18, the S&P 500 fell 0.23% to 7,323.63, a fifth straight loss, and the Dow lost 561.25 points (1.11%) as Nvidia shares lost momentum after the chipmaker's better-than-expected results, while the Nasdaq rose about 0.4%. Markets stayed open, and we again found no fund or bank limits on withdrawals. On Thursday, Nov 19, the S&P 500 fell 2.02% to 7,175.83, a sixth straight loss; the Dow lost 1,101.11 points (2.19%) to 49,097.06, its first close below 50,000 since June; and the Nasdaq fell 2.25%, as stocks slid after Anthropic's first day of trading. The VIX volatility index reached close to 29, its highest since March. Money market fund assets were about flat, down $3.58 billion to $7.98 trillion in the week to Nov 18. Markets stayed open, and we again found no fund or bank limits on withdrawals.",
+   "what_changed": "On Friday, Nov 20, the S&P 500 fell 3.7% to 6,910.39, more than 10% below its Oct 6 record high, a drop investors call a correction; the Dow fell 949.73 points (1.93%) to 48,147.33, and the Nasdaq fell 5.28% to 22,617.73, erasing its gain for 2026. For the week, the S&P 500 lost 8.6%, its worst week since April 2025; the Dow lost 8%, its worst week since March 2020; and the Nasdaq lost about 10%. Selling centered on AI and chip stocks: Nvidia fell about 14% after Reuters reported that the SEC is exploring possible accounting issues at the company. Bitcoin fell below $57,000 late on Nov 20, its lowest level since September 2024.",
+   "summary": "Markets stayed open with no market-wide trading halt, and we found no U.S. bank, money market fund or mutual fund limiting withdrawals or redemptions, and no major U.S. crypto platform halting withdrawals. A falling stock market isn't a capital control: it changes what investments are worth, not whether people can withdraw or move their money. The slide began with a 4.4% S&P 500 drop on Nov 5, its worst day since April 2025, and Nov 20 was the index's seventh straight daily loss. Bitcoin's drop followed a record $541.1 million daily outflow from BlackRock's spot bitcoin fund on Nov 19. Treasury Secretary Bessent urged the Fed on Nov 20 not to raise interest rates by half a percentage point. Money market fund assets were about flat, down $3.58 billion to $7.98 trillion in the week to Nov 18; the next weekly figures come Nov 25.",
    "control_type": "None",
    "affected": "Sector or group",
    "stage": "In effect",
@@ -3730,17 +3730,31 @@
    "evidence": "Credible reporting",
    "verdict": "Confirmed",
    "why_it_matters": "Sharp market drops can strain funds and lenders and often fuel claims that limits on withdrawals are coming, so this monitor watches for redemption gates, liquidity fees or bank limits during selloffs.",
-   "why_it_might_not": "Prices rise and fall, and a one-day drop doesn't limit anyone's access to their money. Markets stayed open, and the Nasdaq and S&P 500 partly recovered the next day.",
+   "why_it_might_not": "Falling prices don't limit anyone's access to their money. Markets stayed open, and money market fund assets held steady through Nov 18.",
    "next_milestone": {
     "what": "Next weekly money market fund data (Nov 25, a day early for Thanksgiving) and Fed balance sheet (Nov 27)",
     "date": "2026-11-25"
    },
    "sources": [
     {
-     "title": "Dow closes below 50,000; Nasdaq falls 2% as Anthropic IPO fails to resuscitate AI trade",
-     "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html",
+     "title": "How major US stock indexes fared Friday 11/20/2026",
+     "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-c10b797a17c2acf37924d834efebe135",
+     "publisher": "Associated Press",
+     "date": "2026-11-20",
+     "primary": false
+    },
+    {
+     "title": "S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html",
      "publisher": "CNBC",
-     "date": "2026-11-19",
+     "date": "2026-11-20",
+     "primary": false
+    },
+    {
+     "title": "Bitcoin tanks below $57,000 for the first time in two years",
+     "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-tanks-below-usd57-000-for-the-first-time-in-two-years-and-its-not-alone",
+     "publisher": "CoinDesk",
+     "date": "2026-11-20",
      "primary": false
     },
     {
@@ -3749,6 +3763,27 @@
      "publisher": "Investment Company Institute",
      "date": "2026-11-19",
      "primary": true
+    },
+    {
+     "title": "Bitcoin drops for third straight day as Asian tech shares slide",
+     "url": "https://www.coindesk.com/markets/2026/11/20/bitcoin-drops-for-third-straight-day-as-asian-tech-shares-slide",
+     "publisher": "CoinDesk",
+     "date": "2026-11-20",
+     "primary": false
+    },
+    {
+     "title": "Bessent advocates lower Fed rate hike, cites energy shock",
+     "url": "https://finance.yahoo.com/economy/policy/articles/bessent-advocates-lower-fed-rate-154619230.html",
+     "publisher": "Reuters (via Yahoo Finance)",
+     "date": "2026-11-20",
+     "primary": false
+    },
+    {
+     "title": "Dow closes below 50,000; Nasdaq falls 2% as Anthropic IPO fails to resuscitate AI trade",
+     "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html",
+     "publisher": "CNBC",
+     "date": "2026-11-19",
+     "primary": false
     },
     {
      "title": "Nasdaq rebounds 1% following worst session in 18 months as traders snap up tech shares: Live updates",
@@ -3784,18 +3819,23 @@
     "source_url": ""
    },
    "first_seen": "2026-11-07",
-   "last_change": "2026-11-05",
-   "status": "NEW",
+   "last_change": "2026-11-20",
+   "status": "EXPANDED",
    "open": true,
    "status_history": [
     {
      "date": "2026-11-07",
      "status": "NEW",
      "stage": "In effect"
+    },
+    {
+     "date": "2026-11-21",
+     "status": "EXPANDED",
+     "stage": "In effect"
     }
    ],
-   "updated_on": "2026-11-20",
-   "plain": "Stock prices fell sharply on Nov 5 and kept falling, with a sixth straight drop on Nov 19. Markets stayed open, and we found no U.S. bank or fund that limited withdrawals."
+   "updated_on": "2026-11-21",
+   "plain": "Stock prices fell hard again on Nov 20, ending the worst week since April 2025. Markets stayed open, and we found no U.S. bank or fund that limited withdrawals."
   },
   "dol-1210-AC38-401k-alternatives": {
    "id": "dol-1210-AC38-401k-alternatives",
@@ -5224,7 +5264,7 @@
    "org": "Federal Reserve Board",
    "who": "Michael S. Barr, a member of the Federal Reserve Board of Governors (speaking for himself)",
    "what_changed": "In a Nov 16, 2026 speech in Milan on AI and financial stability, Fed Governor Michael Barr said AI agents may speed up deposit outflows during stress: they could instantly spot yield differences or stability signals and move funds on their own at high speed, which could make runs unfold in minutes and overwhelm banks' usual liquidity management and regulators' usual response times. He also said major banks report finding AI agents trying to take actions in retail customer accounts without the bank being able to verify authenticity, consent and alignment with the customer's instructions, and he called for guardrails: strict authentication, explicit consent checks for specific actions, technical controls limiting what agents can do, and rules- and values-based constraints.",
-   "summary": "Barr said the views were his own. Most of the speech covered the Fed's November Financial Stability Report on AI-related debt, AI in securities trading, cyber risk and consumer protection. He didn't propose any limit on deposits or withdrawals and named no specific policy response to faster runs; his guardrails target AI agents, not customers. The remarks came three days after Dallas Fed President Lorie Logan urged the Fed to lend to banks on weekends and holidays so they can meet outflows as fast as they arise (tracked). Bloomberg reported Barr's warning the same day. At the FinRegLab AI Symposium on Nov 19, Barr said changes underway in Fed supervision and regulation could gradually weaken oversight over time and that inflation is too high; Reuters' report of his remarks didn't mention any deposit or withdrawal limits.",
+   "summary": "Barr said the views were his own. Most of the speech covered the Fed's November Financial Stability Report on AI-related debt, AI in securities trading, cyber risk and consumer protection. He didn't propose any limit on deposits or withdrawals and named no specific policy response to faster runs; his guardrails target AI agents, not customers. The remarks came three days after Dallas Fed President Lorie Logan urged the Fed to lend to banks on weekends and holidays so they can meet outflows as fast as they arise (tracked). Bloomberg reported Barr's warning the same day. At the FinRegLab AI Symposium on Nov 19, Barr said changes underway in Fed supervision and regulation could gradually weaken oversight over time and that inflation is too high; Reuters' report of his remarks didn't mention any deposit or withdrawal limits. On Nov 20, the Bank Policy Institute, which represents large banks, published a paper arguing that AI agents shouldn't be given access to customers' financial accounts yet because ways to manage their risks aren't developed enough. It is an industry view, not a rule, and it doesn't propose any limit on customers' own access to their money.",
    "plain": "A Fed leader said AI tools that move money on their own could make a bank run, when many people pull money out at once, happen in minutes. He asked for safety checks on the tools, not withdrawal limits.",
    "quote": {
     "text": "potentially accelerating runs that unfold in minutes",
@@ -5240,7 +5280,7 @@
    "momentum": "Mentioned by officials",
    "verdict": "Confirmed",
    "official_acknowledgment": "Official speech by a Fed governor; he said the views were his own.",
-   "linked_bills_or_rules": "None. Related: the Dallas Fed president's Nov 13 call for weekend and holiday discount-window lending (tracked).",
+   "linked_bills_or_rules": "None. Related: the Dallas Fed president's Nov 13 call for weekend and holiday discount-window lending (tracked) and the Bank Policy Institute's Nov 20 paper on AI agents' access to financial accounts.",
    "why_it_matters": "Faster runs are the usual argument for new tools to slow or stop withdrawals in a crisis. A Fed governor saying AI could compress runs into minutes puts the question of how to respond on the official agenda, and guardrails on AI agents would add checks to automated payments.",
    "why_it_might_not": "It's one governor's view in a speech mostly about other AI risks. He proposed safeguards on AI agents, not limits on customers, and the main idea now circulating among Fed officials, weekend lending to banks, aims to help banks pay depositors faster.",
    "next_milestone": {
@@ -5268,10 +5308,17 @@
      "publisher": "Reuters (via U.S. News & World Report)",
      "date": "2026-11-19",
      "primary": false
+    },
+    {
+     "title": "AI Agents Should Not Access Financial Accounts Just Yet",
+     "url": "https://bpi.com/wp-content/uploads/2026/11/AI-Agents-Should-Not-Access-Financial-Accounts-Just-Yet.pdf",
+     "publisher": "Bank Policy Institute",
+     "date": "2026-11-20",
+     "primary": true
     }
    ],
    "first_seen": "2026-11-16",
-   "updated_on": "2026-11-20",
+   "updated_on": "2026-11-21",
    "last_change": "2026-11-16",
    "status": "NEW",
    "status_history": [
@@ -6581,6 +6628,164 @@
      "stage": "Study or pilot"
     }
    ]
+  },
+  "intl-india-lrs-sublimit-2026-11": {
+   "id": "intl-india-lrs-sublimit-2026-11",
+   "section": "international",
+   "headline": "India's central bank reportedly proposes a 5 million rupee yearly sub-limit on some money residents send abroad, such as for business travel and pilgrimages, to slow dollar outflows",
+   "date": "2026-11-12",
+   "org": "Reserve Bank of India (reported proposal to India's Ministry of Finance)",
+   "what_changed": "Zee Business reported on Oct 27, 2026, citing sources, that the Reserve Bank of India (RBI) had proposed a Rs 50 lakh (5 million rupee) yearly sub-limit on certain transfers under the Liberalised Remittance Scheme, which lets resident individuals send up to $250,000 a year abroad, to curb dollar outflows and support foreign-exchange reserves. Business travel and pilgrimages may fall under the sub-limit, while education and medical costs are likely to be excluded. In mid-November, The Hindu reported that the RBI had pitched the idea to the Ministry of Finance, according to summaries of its report. Neither has announced it, and neither responded to Zee Business's request for comment.",
+   "summary": "The rupee has traded near record lows in 2026 amid high oil prices and foreign investors pulling money out, and the RBI tightened some currency-hedging rules in October. The reported sub-limit would sit inside the overall $250,000 yearly limit, which would stay in place; the same Zee Business report said the RBI also suggested tax breaks to draw in foreign investment. India has used this tool before: in 2013 it cut the yearly limit to $75,000 from $200,000 and raised it again later. Reports describe the plan as a proposal, not a notified rule, and we found no RBI statement confirming or denying it. Earlier checks by this monitor missed the reports; it is tracked from today.",
+   "plain": "News reports say India's central bank wants a smaller yearly cap on some money people there send to other countries, like for business trips. It is not final and does not affect Americans.",
+   "control_type": "Prohibition",
+   "affected": "Sector or group",
+   "stage": "Proposal",
+   "tier": 2,
+   "signal_numbers": [
+    7
+   ],
+   "direction": "Toward controls",
+   "evidence": "Credible reporting",
+   "us_link": "None directly. It shows a large economy turning to limits on residents' transfers abroad when its currency is under pressure. The U.S. has no cap on individuals' transfers abroad; its 1% remittance tax applies only to cash-funded transfers (tracked).",
+   "why_it_matters": "A G20 central bank is reportedly seeking a new cap on how much its residents can send abroad for some purposes, a classic capital control used when a currency is weak, and India used the same tool in 2013.",
+   "why_it_might_not": "It is a reported proposal, not an announced rule. It would cover only some discretionary uses, keep the overall $250,000 limit and likely exempt education and medical costs, and it applies to Indian residents, not Americans.",
+   "next_milestone": {
+    "what": "Any RBI or Finance Ministry announcement on the remittance scheme (none scheduled)",
+    "date": null
+   },
+   "sources": [
+    {
+     "title": "Explained: RBI proposes Rs 50 lakh sub-limit under LRS to curb dollar outflows; business travel, pilgrimages included",
+     "url": "https://www.zeebiz.com/economy-infra/news-rbi-proposes-rs-50-lakh-sub-limit-under-lrs-to-curb-dollar-outflows-business-travel-pilgrimages-included-404636",
+     "publisher": "Zee Business",
+     "date": "2026-10-27",
+     "primary": false
+    },
+    {
+     "title": "RBI proposes Rs 50 lakh LRS sub-limit explained: What does remittance scheme mean for your overseas investments, travel",
+     "url": "https://www.livemint.com/money/personal-finance/rbi-proposes-50-lakh-lrs-sub-limit-explained-what-does-remittance-scheme-mean-for-your-overseas-investments-travel/amp-11793174934652.html",
+     "publisher": "Mint",
+     "date": "2026-10-28",
+     "primary": false
+    },
+    {
+     "title": "RBI's Rs 50 Lakh Remittance Sub-Limit Proposal: What It Means for Big Transfers (summarizing The Hindu)",
+     "url": "https://mfanalyser.com/news/rbi-s-50-lakh-remittance-sub-limit-proposal-what-it-means-for-big-transfers-fcab18",
+     "publisher": "MF Analyser",
+     "date": "2026-11-13",
+     "primary": false
+    },
+    {
+     "title": "RBI Proposes Cap on Liberalised Remittance Scheme (summarizing The Hindu)",
+     "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/rbi-proposes-cap-on-liberalised-remittance-scheme",
+     "publisher": "Drishti IAS",
+     "date": "2026-11-17",
+     "primary": false
+    },
+    {
+     "title": "Rupee near record low: Why RBI's multiple defences are losing effectiveness",
+     "url": "https://www.businesstoday.in/latest/economy/story/rupee-near-record-low-why-rbis-multiple-defences-are-losing-effectiveness-560381-2026-10-08",
+     "publisher": "Business Today",
+     "date": "2026-10-08",
+     "primary": false
+    },
+    {
+     "title": "India's tough FX measures rattle banks, trigger unintended consequences",
+     "url": "https://www.reuters.com/world/india/indias-new-fx-curbs-sow-confusion-bankers-await-clarity-dealing-rupee-2026-10-13/",
+     "publisher": "Reuters",
+     "date": "2026-10-13",
+     "primary": false
+    }
+   ],
+   "first_seen": "2026-11-21",
+   "updated_on": "2026-11-21",
+   "last_change": "2026-11-12",
+   "status": "NEW",
+   "open": true,
+   "status_history": [
+    {
+     "date": "2026-11-21",
+     "status": "NEW",
+     "stage": "Proposal"
+    }
+   ]
+  },
+  "sec-s7-2026-40-cat": {
+   "id": "sec-s7-2026-40-cat",
+   "section": "counter_signal",
+   "headline": "SEC proposes running its stock-trading database, the Consolidated Audit Trail, directly and writing the end of investors' personal-information reporting into the rule",
+   "date": "2026-11-20",
+   "org": "Securities and Exchange Commission (SEC)",
+   "what_changed": "On Nov 20, 2026, the SEC proposed rescinding Rule 613 of Regulation NMS, which requires the stock exchanges and FINRA to jointly build and run the Consolidated Audit Trail (CAT), and adopting new Rule 17a-26, which would require exchanges and broker-dealers to report substantially the same order and trade information directly to the SEC or its designee (Release 34-106950; File S7-2026-40; RIN 3235-AN54). Comments will be due 60 days after the proposal is published in the Federal Register.",
+   "summary": "The CAT records the full life of orders in U.S. stocks and options so regulators can oversee markets. The SEC said earlier exemptive relief and plan changes already cut the CAT's projected yearly operating costs by over $100 million and permanently ended the reporting of personally identifiable information to it; the proposed rule would carry those changes forward and add a preamble on limits on how the reported information can be used. Chairman Paul Atkins said the CAT's costs had grown to nearly $250 million a year; the SEC plans to pay for it with money appropriated by Congress. The proposal doesn't limit anyone's trading, withdrawals or transfers.",
+   "plain": "The SEC, which watches over the stock market, wants to run its big trading database itself and keep out investors' names and addresses. It does not limit trading or moving money.",
+   "quote": {
+    "text": "its data collection created unnecessary risks to investors' privacy",
+    "source_url": "https://www.sec.gov/newsroom/speeches-statements/atkins-statement-proposal-restructure-consolidated-audit-trail-112026"
+   },
+   "control_type": "Visibility",
+   "affected": "Sector or group",
+   "stage": "Proposal",
+   "tier": null,
+   "signal_numbers": [],
+   "direction": "Away from controls",
+   "evidence": "Official document",
+   "why_it_matters": "The CAT is the government's most detailed record of Americans' stock and options orders. Writing the end of personal-information reporting and limits on use into the rule itself would make it harder to turn the system into a tool for tracking individual investors.",
+   "why_it_might_not": "It mainly changes who runs and pays for the CAT: the same order and trade data would still be reported, now directly to the SEC, and the personal-information change had already been made through earlier relief. The proposal could change before it is final.",
+   "next_milestone": {
+    "what": "Federal Register publication starts a 60-day comment period (date not yet set)",
+    "date": null
+   },
+   "sources": [
+    {
+     "title": "SEC Issues Proposal to Restructure the Consolidated Audit Trail (press release 2026-117)",
+     "url": "https://www.sec.gov/newsroom/press-releases/2026-117-sec-issues-proposal-restructure-consolidated-audit-trail",
+     "publisher": "SEC",
+     "date": "2026-11-20",
+     "primary": true
+    },
+    {
+     "title": "Restructuring the Governance and Funding Model of the Consolidated Audit Trail (File S7-2026-40)",
+     "url": "https://www.sec.gov/rules-regulations/2026/11/s7-2026-40",
+     "publisher": "SEC",
+     "date": "2026-11-20",
+     "primary": true
+    },
+    {
+     "title": "Proposed Rule: Restructuring the Governance and Funding Model of the Consolidated Audit Trail (Release 34-106950)",
+     "url": "https://www.sec.gov/files/rules/proposed/2026/34-106950.pdf",
+     "publisher": "SEC",
+     "date": "2026-11-20",
+     "primary": true
+    },
+    {
+     "title": "Fact Sheet: Restructuring the Consolidated Audit Trail",
+     "url": "https://www.sec.gov/files/34-106950-fact-sheet.pdf",
+     "publisher": "SEC",
+     "date": "2026-11-20",
+     "primary": true
+    },
+    {
+     "title": "Statement on Proposal to Restructure the Consolidated Audit Trail (Chairman Atkins)",
+     "url": "https://www.sec.gov/newsroom/speeches-statements/atkins-statement-proposal-restructure-consolidated-audit-trail-112026",
+     "publisher": "SEC",
+     "date": "2026-11-20",
+     "primary": true
+    }
+   ],
+   "first_seen": "2026-11-21",
+   "updated_on": "2026-11-21",
+   "last_change": "2026-11-20",
+   "status": "NEW",
+   "open": true,
+   "status_history": [
+    {
+     "date": "2026-11-21",
+     "status": "NEW",
+     "stage": "Proposal"
+    }
+   ]
   }
  },
  "levels": [
@@ -6651,51 +6856,47 @@
   {
    "date": "2026-11-20",
    "level": "YELLOW"
+  },
+  {
+   "date": "2026-11-21",
+   "level": "YELLOW"
   }
  ],
  "github_user": "brentwhichel",
  "repo": "capital-controls-monitor",
  "monitor": "Capital Controls Early-Warning Monitor",
  "report": {
-  "date": "2026-11-20",
+  "date": "2026-11-21",
   "level": "YELLOW",
-  "bottom_line": "No limits on ordinary Americans' withdrawals or transfers are in effect or proposed; the main U.S. step was FinCEN and OFAC sending their final stablecoin anti-money-laundering and sanctions rule, which would require issuers to be able to freeze or block coins on lawful orders, to the White House for review on Nov 18.",
-  "level_reason": "The level stays YELLOW because official Tier 1 steps remain in play: the FinCEN/OFAC stablecoin rule requiring issuers to be able to freeze coins on lawful orders reached White House review on Nov 18 (the GENIUS Act takes effect Jan 18); FinCEN's customer due diligence proposal is open for comment until Jan 19; Treasury's wider outbound-investment proposal closes for comment Dec 7; and FinCEN's Minnesota transfer-reporting order runs until Feb 6 unless renewed, while the MEXC transfer ban, effective Dec 10, names one foreign company, and the FDIC provisional-hold proposal applies only after a bank fails. Nothing new raises it: the freeze rule covers coins named in lawful orders or tied to sanctioned parties, not ordinary transfers; FinCEN's AML program rule would ease pressure on banks; Moldova's change eases limits abroad; and the IMF paper sets no rules.",
-  "change_text": "Yesterday: YELLOW. Today: YELLOW, unchanged. Moved forward: on Nov 18, the White House regulatory office (OIRA) received three final rules, according to its Nov 20 list: FinCEN and OFAC's rule on anti-money-laundering and sanctions programs for stablecoin issuers (RIN 1506-AB73), which as proposed would require issuers to be able to block, freeze and reject transactions on lawful orders; the FDIC's GENIUS Act rule for the stablecoin issuers it supervises (RIN 3064-AG19); and FinCEN's AML/CFT program rule (RIN 1506-AB72), which as proposed would focus enforcement on significant or systemic failures. None of the final texts is public yet. Eased: Moldova's new foreign-exchange rules took effect Nov 20, letting residents send or invest up to 100,000 euros abroad without central bank approval, up from 10,000. New: an IMF policy paper published Nov 17 says CBDC discussions are shifting toward central bank money as infrastructure for tokenized finance, including technology to strengthen compliance; it sets no rules. No change: EU digital euro talks ended at 4:30 a.m. on Nov 19 without a deal, with access for people under sanctions the EU doesn't recognize and merchant fees still open, and another round is planned; South Korea's Financial Supervisory Service told all 28 registered crypto firms on Nov 20 to apply its emergency guideline, which lets them block deposits and withdrawals when a hack is suspected; the Fed's Nov 19 balance sheet showed discount-window loans averaging $9.4 billion with no emergency lending; the S&P 500 fell 2.02% on Nov 19, a sixth straight loss, with markets open and no fund or bank limits; and Fed Governor Barr's Nov 19 remarks at the FinRegLab AI Symposium were reported without any mention of withdrawal limits. Also checked, as of about 6:33 AM CST: Treasury, OFAC, the Fed Board, the FDIC, the OCC, the SEC, the CFPB and the CFTC posted nothing on limits on deposits, withdrawals or transfers; today's Federal Register public-inspection list opens at 7:45 AM CST; and Glenn Beck's Nov 19 episode made no claims about limits on money.",
-  "flags_lede": "What's new or changed since the previous report on Nov 19, 2026.",
+  "bottom_line": "No limits on ordinary Americans' withdrawals or transfers are in effect or proposed; U.S. stocks fell into a correction on Nov 20 with markets open and no bank or fund withdrawal limits found, while the rule requiring stablecoin issuers to be able to freeze coins on lawful orders stays under White House review.",
+  "level_reason": "The level stays YELLOW because official Tier 1 steps remain in play: the FinCEN/OFAC stablecoin rule requiring issuers to be able to freeze coins on lawful orders has been under White House review since Nov 18 (the GENIUS Act takes effect Jan 18); FinCEN's customer due diligence proposal is open for comment until Jan 19; Treasury's wider outbound-investment proposal closes for comment Dec 7; and FinCEN's Minnesota transfer-reporting order runs until Feb 6 unless renewed, while the MEXC transfer ban, effective Dec 10, names one foreign company, and the FDIC provisional-hold proposal applies only after a bank fails. Nothing new raises it: the stock slide lowers prices but doesn't limit access, with markets open and no bank or fund limits found; the SEC's audit-trail proposal moves away from tracking investors' identities; and India's reported remittance sub-limit isn't final and applies only to Indian residents.",
+  "change_text": "Yesterday: YELLOW. Today: YELLOW, unchanged. Got bigger: the U.S. stock slide deepened on Nov 20, when the S&P 500 fell 3.7% into a correction (more than 10% below its Oct 6 record) and had its worst week since April 2025, the Dow had its worst week since March 2020, and bitcoin fell below $57,000 late that night; markets stayed open, and we found no U.S. bank, money market fund or mutual fund limiting withdrawals. New: on Nov 20, the SEC proposed taking direct control of the Consolidated Audit Trail, its database of stock and options orders, keeping the same trade reporting while carrying forward the end of personal-information reporting and adding limits on use of the data. Newly tracked: India's central bank has reportedly proposed a 5 million rupee yearly sub-limit on some transfers abroad, such as for business travel and pilgrimages, within its $250,000 remittance scheme; first reported Oct 27, with The Hindu reporting in mid-November that the RBI pitched it to the finance ministry, and not announced. No change: the White House regulatory office's list, still dated Nov 20, shows the stablecoin AML and sanctions rule, FinCEN's AML program rule and the FDIC's GENIUS Act rule under review; the Bank Policy Institute argued on Nov 20 that AI agents shouldn't get access to financial accounts yet (added to the Barr item); ECB President Lagarde said on Nov 20 that if the digital euro law passes by year-end, a first issuance could come in 2029, without mentioning holding limits; and Russia's exchange crypto trading, with purchase caps for ordinary investors, can start Nov 22. Also checked, as of about 6:32 AM CST: Treasury and OFAC (Nov 20 Iran-related sanctions and two Cuba FAQs), FinCEN, the Fed Board, the FDIC, the OCC, the CFPB, the CFTC and the White House posted nothing on limits on deposits, withdrawals or transfers; the next Federal Register public-inspection filing is Monday, Nov 23; and Glenn Beck's Nov 20 episode made no claims about limits on money.",
+  "flags_lede": "What's new or changed since the previous report on Nov 20, 2026.",
   "flags": [
    {
-    "id": "2026-06963",
-    "movement": "ADVANCED"
+    "id": "us-stocks-selloff-2026-11-05",
+    "movement": "EXPANDED"
    },
    {
-    "id": "genius-implementation-2026",
-    "movement": "ADVANCED"
+    "id": "sec-s7-2026-40-cat",
+    "movement": "NEW"
    },
    {
-    "id": "fincen-1506-AB72-amlcft-program-nprm",
-    "movement": "ADVANCED"
-   },
-   {
-    "id": "intl-moldova-fx-liberalization-2026-11",
-    "movement": "EASED"
-   },
-   {
-    "id": "intl-imf-cbdc-policy-paper-2026-11",
+    "id": "intl-india-lrs-sublimit-2026-11",
     "movement": "NEW"
    }
   ],
-  "sources_checked_through": "2026-11-20T06:33:47-06:00",
-  "refreshed_at": "2026-11-20T06:36:20-06:00",
+  "sources_checked_through": "2026-11-21T06:32:56-06:00",
+  "refreshed_at": "2026-11-21T06:35:31-06:00",
   "plain": {
-   "today": "Nothing stops regular people in the U.S. from taking out, moving or saving money. A rule that would let stablecoin companies freeze coins with a legal order moved a step closer to being final.",
-   "worry": "Not right now. We found no new U.S. rules that limit your money. The stablecoin rule is about freezing coins named in legal orders or tied to sanctioned people, and it isn't final yet.",
+   "today": "Nothing stops regular people in the U.S. from taking out, moving or saving money. Stock prices fell hard this week, but banks, funds and markets kept working as usual.",
+   "worry": "Not right now. Falling stock prices are stressful, but they do not limit your money. We found no new U.S. rule that limits withdrawals or transfers.",
    "watch": [
     "A cap on how much money people can send to other countries.",
     "Limits on how much cash people can take out of the bank.",
-    "A rule that lets banks or the government hold everyone's payments, not just ones that look like fraud."
+    "Banks or funds stopping people from taking money out while stock prices fall."
    ],
-   "changes_lede": "Three U.S. rules moved closer to final, Moldova eased its money rules, and the IMF wrote about digital money."
+   "changes_lede": "Stock prices fell again, the SEC took a step to guard people's privacy, and India may cap some money sent abroad."
   },
   "layout": "v2-plain-first"
  },
@@ -6943,373 +7144,373 @@
   {
    "source": "Federal Register public inspection (current)",
    "url": "https://www.federalregister.gov/public-inspection/current",
-   "status": "Partial",
-   "note": "Read at about 6:20 AM CST, before today's 7:45 AM CST filing. The Nov 19 regular filing, published today, includes the FDIC's custodial deposits proposal (how small banks count certain deposits; not a limit on customers) and its 2027 reserve-ratio notice; no Treasury, Fed or presidential documents on deposits, withdrawals or transfers.",
-   "last_success": "2026-11-20"
+   "status": "Checked",
+   "note": "The Nov 20 regular filing (89 documents, for Nov 23 publication) and special filing include two OFAC sanctions notices, IRS paperwork notices, CFPB advisory board meetings and CFTC paperwork; no Treasury, Fed, FDIC or presidential documents on deposits, withdrawals or transfers. The next filing is Monday, Nov 23, at 7:45 AM CST.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "Federal Register documents (via web search)",
    "url": "https://www.federalregister.gov/",
    "status": "Checked",
-   "note": "Today's Nov 20 issue publishes the FDIC's custodial deposits proposal (FR Doc 2026-23669; comments due Jan 19, 2027), which changes brokered-deposit treatment for banks under $10 billion, not customers' access. No presidential or banking-agency documents limiting deposits, withdrawals or transfers.",
-   "last_success": "2026-11-20"
+   "note": "Searches found nothing new limiting deposits, withdrawals or transfers; the Nov 23 issue publishes routine OFAC sanctions notices. The SEC's audit-trail proposal (item added) isn't published yet.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "OIRA rules under review",
    "url": "https://www.reginfo.gov/public/do/eoReviewSearch",
    "status": "Checked",
-   "note": "The Nov 20 list shows three final rules received Nov 18: FinCEN and OFAC's stablecoin-issuer AML and sanctions rule (RIN 1506-AB73), FinCEN's AML/CFT program rule (RIN 1506-AB72) and the FDIC's GENIUS Act rule (RIN 3064-AG19); all three items updated. The IRS crypto-reporting (CARF) proposal and the Labor Department's 401(k) rule are still under review.",
-   "last_success": "2026-11-20"
+   "note": "The list is still dated Nov 20: the three rules received Nov 18 (stablecoin AML and sanctions, FinCEN's AML/CFT program and the FDIC's GENIUS Act rule) remain under review, with the IRS crypto-reporting (CARF) proposal and the Labor Department's 401(k) rule. Other new entries, the SEC's short-sale reporting proposals (Nov 19) and FSOC's final rule on supervising certain nonbank companies (Nov 18), don't limit customers.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "Unified Agenda",
    "url": "https://www.reginfo.gov/public/do/eAgendaMain",
    "status": "Partial",
    "note": "The 2026 agenda is still current; nothing new beyond the entries already tracked.",
-   "last_success": "2026-11-20"
+   "last_success": "2026-11-21"
   },
   {
    "source": "Regulations.gov",
    "url": "https://www.regulations.gov/",
    "status": "Partial",
-   "note": "Home page only. Per the Federal Register, FinCEN's customer due diligence docket (FINCEN-2026-0298) and the FDIC's custodial deposits proposal are open for comments until Jan 19, 2027.",
-   "last_success": "2026-11-20"
+   "note": "Home page only. FinCEN's customer due diligence docket (FINCEN-2026-0298) stays open until Jan 19, 2027; the SEC's audit-trail proposal opens for 60 days of comment once published.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "Treasury press releases",
    "url": "https://home.treasury.gov/news/press-releases",
    "status": "Checked",
-   "note": "The press-release page served an older copy; Treasury's home page and OFAC show Nov 18 (holiday-scam advisory, routine capital-flow data) and Nov 19 sanctions on named drug-trafficking and cyber-scam networks. Nothing on limits on deposits, withdrawals or transfers.",
-   "last_success": "2026-11-20"
+   "note": "Nov 20: Iran-related sanctions on named regime insiders; Nov 19: drug-cartel and cyber-scam sanctions. Nothing on limits on deposits, withdrawals or transfers.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "Treasury Outbound Investment Security Program",
    "url": "https://home.treasury.gov/policy-issues/international/outbound-investment-program",
    "status": "Checked",
    "note": "Page unchanged: COINS Act proposal (Oct 22); comments due Dec 7.",
-   "last_success": "2026-11-20"
+   "last_success": "2026-11-21"
   },
   {
    "source": "OFAC recent actions",
    "url": "https://ofac.treasury.gov/recent-actions",
    "status": "Checked",
-   "note": "Nov 19: counter-narcotics and cyber-related designations of named parties, a new illicit-drugs general license and an amended Russia-related license (GL 131L, on a Lukoil asset sale); nothing broader.",
-   "last_success": "2026-11-20"
+   "note": "Nov 20: Iran-related designations of named people and two Cuba FAQs (1277 and 1278) explaining that the Nov 5 Cuba sector determination doesn't automatically sanction everyone in those sectors and that already-authorized payments can continue; nothing broader.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "FinCEN news",
    "url": "https://www.fincen.gov/news",
    "status": "Checked",
-   "note": "No news release after the Nov 17 customer due diligence proposal. OIRA's list shows two FinCEN final rules sent for review on Nov 18 (items updated).",
-   "last_success": "2026-11-20"
+   "note": "No news release after the Nov 17 customer due diligence proposal; law-firm alerts on Nov 20 discussed that proposal.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "FSOC",
    "url": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/fsoc",
    "status": "Partial",
-   "note": "Landing page only; no new meeting readout or annual report found.",
-   "last_success": "2026-11-20"
+   "note": "Landing page only; OIRA's list shows FSOC's final rule on supervising certain nonbank financial companies under review since Nov 18. It doesn't limit customers.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "Treasury officials' speeches",
    "url": "https://home.treasury.gov/news/press-releases",
    "status": "Checked",
-   "note": "No new remarks on stablecoins, tokenization, payments or capital flows found.",
-   "last_success": "2026-11-20"
+   "note": "Secretary Bessent's Nov 20 remarks urged the Fed not to raise rates by half a point; nothing on stablecoins, tokenization, payments or capital flows.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "Fed press releases",
    "url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
    "status": "Partial",
-   "note": "The page again served an older copy (latest Nov 13); searches found no new Board actions on deposits, withdrawals or payments. The Nov 19 balance sheet is tracked.",
-   "last_success": "2026-11-20"
+   "note": "The page again served an older copy (latest Nov 13). The Fed's recent-postings page shows Nov 20 items: College Fed Challenge winners, a survey of how banks manage reserves, the 2025 annual report, and a routine Nov 19 closed meeting on discount rates. Nothing on deposit or withdrawal limits.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "Fed speeches and testimony",
    "url": "https://www.federalreserve.gov/newsevents/speech/2026-speeches.htm",
    "status": "Checked",
-   "note": "Nov 19: Vice Chair Jefferson on monetary policy; Governor Barr at the FinRegLab AI Symposium warned that supervision changes could weaken oversight over time (item updated). Nothing on deposit or withdrawal limits. Today: Governors Waller and Cook speak.",
-   "last_success": "2026-11-20"
+   "note": "Nov 20: Governor Waller's welcoming remarks at the College Fed Challenge and Governor Cook on the U.S. economy in a global context (inflation and tariffs). Nothing on deposit or withdrawal limits.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "Fed Financial Stability Report",
    "url": "https://www.federalreserve.gov/publications/financial-stability-report.htm",
    "status": "Checked",
    "note": "The November 2026 report (posted Nov 13) is tracked; nothing newer.",
-   "last_success": "2026-11-20"
+   "last_success": "2026-11-21"
   },
   {
    "source": "Fed H.4.1",
    "url": "https://www.federalreserve.gov/releases/h41/",
-   "status": "Checked",
-   "note": "The Nov 19 release (week ended Nov 18): primary credit averaged $9.4 billion, up $468 million; no emergency lending (item added). Next release Nov 27.",
-   "last_success": "2026-11-20"
+   "status": "Partial",
+   "note": "The release page served an older copy; the Nov 19 release is tracked, and the next is Nov 27 at 3:30 PM CST.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "FDIC press releases",
    "url": "https://www.fdic.gov/news/press-releases",
    "status": "Checked",
-   "note": "Nothing after Nov 17. The custodial deposits proposal approved that day was published in the Federal Register today; it doesn't limit customers' access to money.",
-   "last_success": "2026-11-20"
+   "note": "Nothing after Nov 17.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "FDIC failed bank list",
    "url": "https://www.fdic.gov/bank-failures/failed-bank-list",
    "status": "Checked",
    "note": "No failures since Nano Banc (Sept 25).",
-   "last_success": "2026-11-20"
+   "last_success": "2026-11-21"
   },
   {
    "source": "FDIC Financial Institution Letters",
    "url": "https://www.fdic.gov/news/financial-institution-letters",
    "status": "Checked",
    "note": "Nothing after FIL-69-2026 (Nov 17).",
-   "last_success": "2026-11-20"
+   "last_success": "2026-11-21"
   },
   {
    "source": "OCC",
    "url": "https://www.occ.gov/",
    "status": "Checked",
-   "note": "Nothing after the Comptroller's Nov 18 remarks; nothing on deposit or withdrawal limits.",
-   "last_success": "2026-11-20"
+   "note": "Nov 19: the routine yearly inflation adjustment of civil penalties (Bulletin 2026-58); nothing on deposit or withdrawal limits.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "SEC press releases",
    "url": "https://www.sec.gov/newsroom/press-releases",
    "status": "Checked",
-   "note": "Nov 19: charges against eight entities that ran fake crypto trading platforms (enforcement). Nothing on fund redemption limits.",
-   "last_success": "2026-11-20"
+   "note": "Nov 20: a proposal to restructure the Consolidated Audit Trail (item added) and fraud charges with emergency relief against an Indianapolis firm; Nov 19: fake crypto platform charges. Nothing on fund redemption limits.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "CFPB newsroom",
    "url": "https://www.consumerfinance.gov/about-us/newsroom/",
    "status": "Checked",
-   "note": "Nothing new since Oct 14 (debanking initiative).",
-   "last_success": "2026-11-20"
+   "note": "Nothing new since Oct 14 (debanking initiative); Federal Register notices set Consumer Advisory Board meetings.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "CFTC press releases",
    "url": "https://www.cftc.gov/PressRoom/PressReleases",
    "status": "Checked",
-   "note": "Nothing after the Nov 17 agenda for a December roundtable on 24/7 trading.",
-   "last_success": "2026-11-20"
+   "note": "Nov 20: fraud charges against 11 companies and two executives; nothing on limits.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "White House presidential actions",
    "url": "https://www.whitehouse.gov/presidential-actions/",
    "status": "Checked",
    "note": "Nothing after the Nov 16 nominations; no executive orders on finance or payments.",
-   "last_success": "2026-11-20"
+   "last_success": "2026-11-21"
   },
   {
    "source": "Congress.gov",
    "url": "https://www.congress.gov/",
    "status": "Partial",
-   "note": "Home page only. Searches found no new action on tracked bills (H.R. 8995, H.R. 1799, H.R. 9331, H.R. 10017, CLARITY Act). Federal funding runs out Dec 11.",
-   "last_success": "2026-11-20"
+   "note": "Home page only. Searches found no new action on tracked bills (H.R. 8995, H.R. 1799, H.R. 9331, CLARITY Act). Reuters reported Nov 20 that Congress is struggling to agree on funding before the Dec 11 deadline.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "House Financial Services calendar",
    "url": "https://financialservices.house.gov/calendar/",
    "status": "Checked",
    "note": "The Dec 1 and Dec 2 full-committee hearings are still set; no markups posted.",
-   "last_success": "2026-11-20"
+   "last_success": "2026-11-21"
   },
   {
    "source": "Senate Banking Committee",
    "url": "https://www.banking.senate.gov/",
    "status": "Checked",
-   "note": "Nov 19: votes on nominations and a hearing for SEC and Treasury nominees. No hearings or markups on deposits, payments or transfers.",
-   "last_success": "2026-11-20"
+   "note": "Nothing after the Nov 19 nominations hearing and vote; no hearings or markups on deposits, payments or transfers.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "GAO",
    "url": "https://www.gao.gov/",
    "status": "Checked",
-   "note": "Nov 18: a routine report to Congress on the OCC's GENIUS Act rule (B-338881); nothing on capital controls.",
-   "last_success": "2026-11-20"
+   "note": "Nov 20 reports on AI chatbots, AI and cybersecurity, and military tuition aid; nothing on capital controls.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "CRS reports",
    "url": "https://crsreports.congress.gov/",
    "status": "Partial",
-   "note": "The site returned nothing again; searches found only earlier GENIUS Act reports.",
-   "last_success": "2026-11-20"
+   "note": "The site returned nothing again; searches found no new reports on payments or capital flows.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "State bills (LegiScan)",
    "url": "https://legiscan.com/",
    "status": "Partial",
-   "note": "The home page doesn't list bills; searches found Texas prefiled bills already tracked, plus one (HB 815) letting cities and counties invest up to $10 million in crypto, which limits no one.",
-   "last_success": "2026-11-20"
+   "note": "The home page doesn't list bills; searches found no new state bills on cash, gold, CBDCs or payment limits beyond those tracked.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "IMF publications and eLibrary",
    "url": "https://www.elibrary.imf.org/",
    "status": "Checked",
-   "note": "Nov 17 policy paper on central bank digital currency (item added); no new papers or statements on capital flow measures.",
-   "last_success": "2026-11-20"
+   "note": "Nov 20 statements on Togo, Albania and Malta; no new papers or statements on capital flow measures.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "BIS",
    "url": "https://www.bis.org/",
    "status": "Checked",
-   "note": "Nothing after the Basel Committee's Nov 18 statement.",
-   "last_success": "2026-11-20"
+   "note": "Nothing after the Basel Committee's Nov 18 statement; central bankers' speeches posted Nov 19 didn't concern limits on money.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "FSB",
    "url": "https://www.fsb.org/",
    "status": "Checked",
-   "note": "Nov 16 progress report on cheaper, faster cross-border payments; nothing on limits.",
-   "last_success": "2026-11-20"
+   "note": "The Nov 16-17 plenary set 2027 priorities (AI, stablecoins, nonbank finance); nothing on limits.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "FATF",
    "url": "https://www.fatf-gafi.org/",
    "status": "Checked",
-   "note": "Nothing new since the October plenary outcomes.",
-   "last_success": "2026-11-20"
+   "note": "No new statements on payment rules since the October plenary; recent reports cover scam compounds and gambling.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "ECB digital euro",
    "url": "https://www.ecb.europa.eu/euro/digital_euro/html/index.en.html",
    "status": "Checked",
-   "note": "The Nov 18 trilogue ended at 4:30 a.m. Nov 19 without a deal (item updated). The ECB's Nov 18 Financial Stability Review highlighted AI valuations, fiscal imbalances and geoeconomic tensions.",
-   "last_success": "2026-11-20"
+   "note": "No trilogue deal yet. In a Nov 20 speech, President Lagarde said that if the law is adopted by year-end, the ECB aims for a first issuance in 2029; she didn't mention holding limits. The Eurosystem also invited firms into its Appia wholesale tokenization work, which doesn't involve consumers.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "Bank of England digital pound",
    "url": "https://www.bankofengland.co.uk/the-digital-pound",
    "status": "Checked",
    "note": "No decision yet; the page still points to a decision on next steps in 2026.",
-   "last_success": "2026-11-20"
+   "last_success": "2026-11-21"
   },
   {
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/",
    "status": "Checked",
    "note": "Nothing on payment limits; no new stage found for Bill S-8.",
-   "last_success": "2026-11-20"
+   "last_success": "2026-11-21"
   },
   {
    "source": "OSFI (Canada's bank regulator)",
    "url": "https://www.osfi-bsif.gc.ca/",
    "status": "Checked",
-   "note": "Nov 19 quarterly release; nothing on deposit or withdrawal limits.",
-   "last_success": "2026-11-20"
+   "note": "Nothing after the Nov 19 quarterly release; nothing on deposit or withdrawal limits.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "Atlantic Council CBDC Tracker",
    "url": "https://www.atlanticcouncil.org/cbdctracker/",
    "status": "Checked",
    "note": "Still last updated May 2026.",
-   "last_success": "2026-11-20"
+   "last_success": "2026-11-21"
   },
   {
    "source": "NBER",
    "url": "https://www.nber.org/papers",
    "status": "Checked",
-   "note": "This week's new papers include none on capital controls or payment limits.",
-   "last_success": "2026-11-20"
+   "note": "No new papers on capital controls or payment limits.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "Cato",
    "url": "https://www.cato.org/blog",
    "status": "Checked",
-   "note": "Nov 18-19 posts covered tariffs, elections, the Supreme Court and defense; nothing new on capital controls or cash.",
-   "last_success": "2026-11-20"
+   "note": "The latest posts (Nov 19) covered elections, the Supreme Court and defense spending; nothing new on capital controls or cash.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "Brookings Hutchins Center",
    "url": "https://www.brookings.edu/centers/the-hutchins-center-on-fiscal-and-monetary-policy/",
    "status": "Checked",
-   "note": "Nov 18: an explainer on the federal debt ceiling; Nov 19: hurricane damage. Nothing on capital controls.",
-   "last_success": "2026-11-20"
+   "note": "Nothing after the Nov 18-19 posts on the debt ceiling and hurricanes.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "PIIE",
    "url": "https://www.piie.com/",
    "status": "Checked",
-   "note": "Trade and tariff posts; nothing on capital controls.",
-   "last_success": "2026-11-20"
+   "note": "Trade and election posts; nothing on capital controls.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "AEI",
    "url": "https://www.aei.org/",
    "status": "Checked",
    "note": "Nothing relevant since Oct 27.",
-   "last_success": "2026-11-20"
+   "last_success": "2026-11-21"
   },
   {
    "source": "Heritage",
    "url": "https://www.heritage.org/",
    "status": "Checked",
    "note": "Nothing on capital controls.",
-   "last_success": "2026-11-20"
+   "last_success": "2026-11-21"
   },
   {
    "source": "Bank Policy Institute",
    "url": "https://bpi.com/",
    "status": "Checked",
-   "note": "Nothing new after the Nov 16 statement on Fed master accounts.",
-   "last_success": "2026-11-20"
+   "note": "Nov 20 paper argues AI agents shouldn't get access to financial accounts yet (added to the Barr item).",
+   "last_success": "2026-11-21"
   },
   {
    "source": "Coin Center",
    "url": "https://www.coincenter.org/",
    "status": "Checked",
    "note": "No posts after Nov 6.",
-   "last_success": "2026-11-20"
+   "last_success": "2026-11-21"
   },
   {
    "source": "JD Supra",
    "url": "https://www.jdsupra.com/",
    "status": "Partial",
-   "note": "Home page only; law-firm alerts found by search covered the OCC's GENIUS Act rule and other tracked items.",
-   "last_success": "2026-11-20"
+   "note": "Home page only; law-firm alerts found by search covered FinCEN's customer due diligence proposal.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "Glenn Beck YouTube",
    "url": "https://www.youtube.com/@glennbeck",
    "status": "Checked",
-   "note": "A direct fetch served an older copy of the videos page. Through search, the Nov 19 radio episode covered the Electoral College, a Thanksgiving monologue and religion; no claims about limits on money.",
-   "last_success": "2026-11-20"
+   "note": "Recent uploads cover the midterms and politics; the 'Capital Controls' special (tracked) now runs under the title 'Glenn Warned This Would Happen A Year Ago, Now We're Here'. No new claims about limits on money.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "glennbeck.com",
    "url": null,
    "status": "Partial",
-   "note": "Blocked as usual; the Nov 19 episode description loaded through iHeart and makes no claims about limits on money.",
-   "last_success": "2026-11-20"
+   "note": "Blocked as usual; the Nov 20 episode description loaded through iHeart: Thanksgiving memories, the Trump-Xi-Putin summit and other topics, with no claims about limits on money.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "IRS remittance tax guidance",
    "url": "https://www.irs.gov/newsroom/treasury-irs-issue-proposed-regulations-on-the-new-remittance-transfer-tax-established-under-the-one-big-beautiful-bill",
    "status": "Checked",
    "note": "No final regulations; the April proposal is still the latest. The 1% tax on cash-funded transfers still applies.",
-   "last_success": "2026-11-20"
+   "last_success": "2026-11-21"
   },
   {
    "source": "Other financial commentators (search)",
    "url": null,
    "status": "Checked",
-   "note": "No new widely shared claims about U.S. capital controls found. Russell Napier's France forecast (tracked) drew no official response; YouTube channels using James Rickards's name kept posting warning videos; fact-checkers confirmed the Nov 17 'digital apocalypse' rumor was false (tracked).",
-   "last_success": "2026-11-20"
+   "note": "Searches found no new widely shared claims about U.S. capital controls, bank holidays or withdrawal limits during the market slide. Russell Napier's France forecast (tracked) drew no official response.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "News search: bank and platform withdrawal limits",
    "url": null,
    "status": "Checked",
-   "note": "No U.S. bank withdrawal limits found. South Korea's regulator told all 28 registered crypto firms on Nov 20 to apply its emergency guideline (item updated); Upbit paused Polygon-network transfers for a scheduled network upgrade (routine); no report of a Gopax restart.",
-   "last_success": "2026-11-20"
+   "note": "No U.S. bank, money market fund or major crypto platform withdrawal limits found during the Nov 19-20 selloff (item updated). South Korea's Gopax was still suspended as of Nov 19.",
+   "last_success": "2026-11-21"
   },
   {
    "source": "News search: currency and market measures abroad",
    "url": null,
    "status": "Checked",
-   "note": "Moldova's eased foreign-exchange rules took effect Nov 20 (item updated); EU digital euro talks ended without a deal (item updated); Singapore settled tokenized central bank bills in wholesale digital currency (banks only); Thailand's stablecoin consultation is open until Nov 26.",
-   "last_success": "2026-11-20"
+   "note": "India's reported remittance sub-limit proposal (item added); a Commerzbank analyst expects China to tighten yuan controls after an unusual jump in the dollar-yuan rate on Nov 19 (an analyst view, not an official step); the Nov 19 Trump-Xi-Putin summit pledged to reduce energy sanctions; Russia's exchange crypto trading can start Nov 22.",
+   "last_success": "2026-11-21"
   }
  ],
  "raise_level_triggers": [
