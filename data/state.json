@@ -2624,7 +2624,7 @@
    "org": "Bank of Russia",
    "who": "Bank of Russia; largest banks and large retailers (legally required)",
    "what_changed": "From Sept 1, 2026 the largest banks must offer digital ruble accounts and large retailers (revenue over ₽120m) must accept them. Board decision of Aug 28, 2026 caps individuals' top-ups from bank accounts at ₽300,000 per calendar month; use is voluntary for individuals; obligations extend to all banks by Sept 2028.",
-   "summary": "First G20 country to put a retail CBDC into mass circulation via legal mandate on banks and merchants. Holdings sit on a central-bank platform, one account per person, with a central-bank-set top-up limit.",
+   "summary": "First G20 country to put a retail CBDC into mass circulation via legal mandate on banks and merchants. Holdings sit on a central-bank platform, one account per person, with a central-bank-set top-up limit. A Bank of Russia presentation on its 2027 plans, reported Nov 18, says people outside Russia will be able to open digital ruble accounts through Russian banks' apps from November 2027 and that an offline digital ruble wallet will be piloted with several banks in autumn 2027; the digital ruble pays no interest.",
    "control_type": "Visibility",
    "affected": "Sector or group",
    "stage": "In effect",
@@ -2643,6 +2643,13 @@
     "date": "2027-09-01"
    },
    "sources": [
+    {
+     "title": "Russia permits exchange crypto trading from November 22 as digital ruble expands in 2027",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/russia-permits-exchange-crypto-trading-193624058.html",
+     "publisher": "bne IntelliNews (via Yahoo Finance)",
+     "date": "2026-11-22",
+     "primary": false
+    },
     {
      "title": "Digital ruble launched",
      "url": "https://cbr.ru/eng/press/event/?id=32808",
@@ -2680,8 +2687,9 @@
      "stage": "In effect"
     }
    ],
-   "updated_on": "2026-11-04",
-   "plain": "Russia's central bank began a wide launch of its digital ruble. People may add up to 300,000 rubles a month from bank accounts; it is optional and does not affect Americans."
+   "updated_on": "2026-11-23",
+   "plain": "Russia's central bank began a wide launch of its digital ruble. People may add up to 300,000 rubles a month from bank accounts; it is optional and does not affect Americans.",
+   "us_link": "No direct link. A U.S. law enacted July 11, 2026 bars the Fed from issuing a retail digital dollar through Dec 31, 2030 (tracked)."
   },
   "sec-rule-2a-7-mmf": {
    "id": "sec-rule-2a-7-mmf",
@@ -3263,11 +3271,11 @@
   "crypto-exchange-withdrawal-pauses-2026-11": {
    "id": "crypto-exchange-withdrawal-pauses-2026-11",
    "section": "banking_stress",
-   "headline": "Crypto platforms keep pausing withdrawals after hacks, threats and vendor failures: Lighter reopened the same day after a theft, while South Korea's Gopax was still shut on Nov 19",
-   "date": "2026-11-16",
+   "headline": "Crypto platforms keep pausing withdrawals after hacks, threats and vendor failures: Chainflip shut transfers after a theft of about $12 million, and South Korea's Gopax was still shut on Nov 19",
+   "date": "2026-11-21",
    "org": "Binance; Gopax (South Korea); Mercado Bitcoin, Nubank and Mercado Pago (Brazil)",
    "who": "Private cryptocurrency exchanges and fintech apps",
-   "what_changed": "On Nov 21, South Korean exchanges Upbit and Bithumb suspended deposits and withdrawals of one token, CYBER, after the Cyber network reported unexpected minting and about 5.21 million tokens left its bridge, most of them sold for about $968,000 in ether. On Nov 16, 2026, Lighter, an Ethereum-based crypto derivatives exchange, paused withdrawals and new liquidity pools after an attacker drained funds from one trader's account, then reopened deposits and withdrawals later that day once its Security Council turned off the 'Guardian' safety mode; Lighter said it returned about $5 million in USDC to the trader. Its postmortem blamed API keys leaked through the trader's own custom signing software, not Lighter's code, and on-chain analysts estimated the amount taken at about $10.4 million to $15.5 million. In South Korea, Gopax, which halted trading, deposits and withdrawals on Nov 6 after hacking threats, was still shut on Nov 19 with no restart date; the Seoul Economic Daily reported that holders of 24 tokens that, among South Korea's major exchanges, trade only on Gopax have no domestic venue to sell them, and some barely trade abroad; it postponed planned final trading of five tokens being delisted, and data a lawmaker obtained from the Financial Supervisory Service showed a separate Sept 8 data breach had exposed the personal information of 2,009 people, up from the 9 Gopax first reported. Earlier: Brazil's Nubank and Mercado Pago paused some crypto transfers on Nov 6 after problems at outside providers; Uphold said withdrawal delays that began around Nov 4 came from a disruption at an outside transaction-monitoring partner, and its status page showed them mostly resolved by Nov 10; Binance, hacked for about $6.3 billion on Oct 29, has reopened withdrawals in phases since Nov 1; and Brazil's Mercado Bitcoin halted withdrawals Nov 2 after about $40 million was drained.",
+   "what_changed": "On Nov 21, Chainflip, a crypto exchange that swaps coins between blockchains, switched on its full safety mode, turning off deposits, withdrawals and swaps, after an attacker drained about 122.9 bitcoin, 520 ether and about 4 million dollars in stablecoins from its vaults, worth about $12 million in all; it offered the attacker a 10% reward to return the rest by Nov 23 and had not announced a restart. On Nov 21, South Korean exchanges Upbit and Bithumb suspended deposits and withdrawals of one token, CYBER, after the Cyber network reported unexpected minting and about 5.21 million tokens left its bridge, most of them sold for about $968,000 in ether. On Nov 16, 2026, Lighter, an Ethereum-based crypto derivatives exchange, paused withdrawals and new liquidity pools after an attacker drained funds from one trader's account, then reopened deposits and withdrawals later that day once its Security Council turned off the 'Guardian' safety mode; Lighter said it returned about $5 million in USDC to the trader. Its postmortem blamed API keys leaked through the trader's own custom signing software, not Lighter's code, and on-chain analysts estimated the amount taken at about $10.4 million to $15.5 million. In South Korea, Gopax, which halted trading, deposits and withdrawals on Nov 6 after hacking threats, was still shut on Nov 19 with no restart date; the Seoul Economic Daily reported that holders of 24 tokens that, among South Korea's major exchanges, trade only on Gopax have no domestic venue to sell them, and some barely trade abroad; it postponed planned final trading of five tokens being delisted, and data a lawmaker obtained from the Financial Supervisory Service showed a separate Sept 8 data breach had exposed the personal information of 2,009 people, up from the 9 Gopax first reported. Earlier: Brazil's Nubank and Mercado Pago paused some crypto transfers on Nov 6 after problems at outside providers; Uphold said withdrawal delays that began around Nov 4 came from a disruption at an outside transaction-monitoring partner, and its status page showed them mostly resolved by Nov 10; Binance, hacked for about $6.3 billion on Oct 29, has reopened withdrawals in phases since Nov 1; and Brazil's Mercado Bitcoin halted withdrawals Nov 2 after about $40 million was drained.",
    "summary": "These were company decisions after thefts, threats or vendor failures, not government limits on customers' money, and Lighter's pause lasted only part of a day. Binance said it would cover losses, and Binance is Gopax's majority shareholder. Stablecoin issuers Tether and Circle froze wallets holding coins stolen from Binance, about $3 billion in total, which shows the freeze ability that U.S. rules will require issuers to have for lawful orders. The Brazil and Uphold delays show that a failure at an outside data or compliance vendor can stop transfers even when the platform itself isn't hacked. Binance.US, a separate U.S. platform, said it was not affected by the Binance hack. Since the Lighter incident, the exchange requires a wallet signature for transfers into public pools. On Nov 20, South Korea's Financial Supervisory Service told all 28 registered crypto firms to apply its emergency security guideline (tracked under Around the world); we found no report of a Gopax restart.",
    "control_type": "None",
    "affected": "Sector or group",
@@ -3285,6 +3293,13 @@
     "date": null
    },
    "sources": [
+    {
+     "title": "Chainflip Hack Grows to $12M, 10% Bounty Offered to Attacker",
+     "url": "https://financefeeds.com/chainflip-confirms-12-million-hack-offers-attacker-10-bounty/",
+     "publisher": "FinanceFeeds",
+     "date": "2026-11-22",
+     "primary": false
+    },
     {
      "title": "Cyber investigating suspected $1 million bridge exploit as Upbit, Bithumb freeze transfers",
      "url": "https://www.theblock.co/news/defi/2026-11-21-cyber-investigating-suspected-1-million-bridge-exploit-as-upbit-bithumb-freeze-transfers-444810",
@@ -3426,8 +3441,8 @@
      "stage": "In effect"
     }
    ],
-   "updated_on": "2026-11-22",
-   "plain": "Some crypto (digital coin) sites paused withdrawals after hacks, threats or tech problems, and one in South Korea was still shut on Nov 19. None of these were government limits."
+   "updated_on": "2026-11-23",
+   "plain": "Some crypto (digital coin) sites paused withdrawals after hacks or tech problems. One shut all transfers after a theft on Nov 21. None of these were government limits."
   },
   "h41-2026-11-05-discount-window": {
    "id": "h41-2026-11-05-discount-window",
@@ -3741,7 +3756,7 @@
    "org": "U.S. stock markets",
    "who": "Markets (no government action)",
    "what_changed": "On Friday, Nov 20, the S&P 500 fell 3.7% to 6,910.39, more than 10% below its Oct 6 record high, a drop investors call a correction; the Dow fell 949.73 points (1.93%) to 48,147.33, and the Nasdaq fell 5.28% to 22,617.73, erasing its gain for 2026. For the week, the S&P 500 lost 8.6%, its worst week since April 2025; the Dow lost 8%, its worst week since March 2020; and the Nasdaq lost about 10%. Selling centered on AI and chip stocks: Nvidia fell about 14% after Reuters reported that the SEC is exploring possible accounting issues at the company. Bitcoin fell below $57,000 late on Nov 20 and to $55,130 early on Nov 21, its lowest since September 2024, then rebounded more than 9% to above $60,000 that afternoon after about $1.8 billion in leveraged crypto bets were forcibly closed; Binance market data showed it near $59,000 to $61,000 on Nov 22.",
-   "summary": "Markets stayed open with no market-wide trading halt, and we found no U.S. bank, money market fund or mutual fund limiting withdrawals or redemptions, and no major U.S. crypto platform halting withdrawals. U.S. stock markets were closed for the weekend and will close Thursday, Nov 26, for Thanksgiving. A falling stock market isn't a capital control: it changes what investments are worth, not whether people can withdraw or move their money. The slide began with a 4.4% S&P 500 drop on Nov 5, its worst day since April 2025, and Nov 20 was the index's seventh straight daily loss. Bitcoin's drop followed a record $541.1 million daily outflow from BlackRock's spot bitcoin fund on Nov 19. Treasury Secretary Bessent urged the Fed on Nov 20 not to raise interest rates by half a percentage point. Money market fund assets were about flat, down $3.58 billion to $7.98 trillion in the week to Nov 18; the next weekly figures come Nov 25.",
+   "summary": "Markets stayed open with no market-wide trading halt, and we found no U.S. bank, money market fund or mutual fund limiting withdrawals or redemptions, and no major U.S. crypto platform halting withdrawals. U.S. stock markets were closed for the weekend and will close Thursday, Nov 26, for Thanksgiving. A falling stock market isn't a capital control: it changes what investments are worth, not whether people can withdraw or move their money. The slide began with a 4.4% S&P 500 drop on Nov 5, its worst day since April 2025, and Nov 20 was the index's seventh straight daily loss. Bitcoin's drop followed a record $541.1 million daily outflow from BlackRock's spot bitcoin fund on Nov 19. Treasury Secretary Bessent urged the Fed on Nov 20 not to raise interest rates by half a percentage point. Money market fund assets were about flat, down $3.58 billion to $7.98 trillion in the week to Nov 18; the next weekly figures come Nov 25. Reuters said the Nasdaq's 10% drop last week was its biggest weekly fall since March 2020 and that Wall Street's fear gauge rose above 40 for the first time since April 2025. Early on Monday, Nov 23, U.S. stock futures rose about 2% to 3.5% and bitcoin traded near $61,500, while Asian authorities stepped up support for their markets (tracked under Around the world).",
    "control_type": "None",
    "affected": "Sector or group",
    "stage": "In effect",
@@ -3757,6 +3772,20 @@
     "date": "2026-11-25"
    },
    "sources": [
+    {
+     "title": "US futures rally as AI rout pauses, Asian authorities prop up stocks",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/us-futures-bounce-while-asia-234419517.html",
+     "publisher": "Reuters (via Yahoo Finance)",
+     "date": "2026-11-23",
+     "primary": false
+    },
+    {
+     "title": "Bitcoin rebounds from 2-year low as Wall Street futures recover",
+     "url": "https://www.coindesk.com/markets/2026/11/23/bitcoin-rebounds-from-2-year-low-as-wall-street-futures-recover",
+     "publisher": "CoinDesk",
+     "date": "2026-11-23",
+     "primary": false
+    },
     {
      "title": "Bitcoin rises 9% from two-year low, reclaiming $60,000 as forced selling eases",
      "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open",
@@ -3869,8 +3898,8 @@
      "stage": "In effect"
     }
    ],
-   "updated_on": "2026-11-22",
-   "plain": "Stock prices fell hard again on Nov 20, ending the worst week since April 2025. Markets stayed open, and we found no U.S. bank or fund that limited withdrawals."
+   "updated_on": "2026-11-23",
+   "plain": "Stock prices fell hard last week, the worst week since April 2025. Early signs on Nov 23 pointed up. Markets stayed open, and we found no U.S. bank or fund that limited withdrawals."
   },
   "dol-1210-AC38-401k-alternatives": {
    "id": "dol-1210-AC38-401k-alternatives",
@@ -4004,12 +4033,12 @@
   "intl-asia-market-support-2026-11-06": {
    "id": "intl-asia-market-support-2026-11-06",
    "section": "international",
-   "headline": "Taiwan's short-selling limits and South Korea's margin-loan relief take effect after Asian stock markets fell up to 6% following the U.S. drop",
-   "date": "2026-11-09",
+   "headline": "Taiwan bans short selling below the previous close, and China and South Korea add stock-market support after the global AI-stock slide",
+   "date": "2026-11-23",
    "org": "Taiwan's Financial Supervisory Commission and National Financial Stabilization Fund; South Korea's Financial Supervisory Service",
-   "what_changed": "On Nov 9, the steps announced Nov 6 took effect: Taiwan's Financial Supervisory Commission cut intraday short sales of borrowed shares to 3% of a stock's average daily volume over the prior 30 trading days (from 30%) and raised the minimum short-sale margin from 90% to 130%, and South Korea exempted brokerages from the 140% minimum collateral ratio on margin loans through Jan 31. Asian markets were mixed that day: MSCI's broadest index of Asia-Pacific shares outside Japan was up 0.8% by midday after falling 4.6% the week before, while South Korea's KOSPI closed 0.8% lower. On Nov 6, Japan's Nikkei had fallen 5.96%, South Korea's KOSPI 6.02% and Taiwan's index 4.5%, Korea's exchange paused trading for 20 minutes under its automatic circuit breaker, and Taiwan's National Financial Stabilization Fund authorized buying stocks, its 10th activation.",
-   "summary": "The selloff followed the Nov 3 U.S. midterm elections and worries that the results would slow AI and data center spending. The steps aim to support prices: buying stocks, curbing bets on falling prices, and easing margin calls so fewer investors are forced to sell. Several people told Reuters that Taiwan's Finance Ministry asked state-owned banks to support the market. Taiwan's fund cited record foreign selling of NT$994 billion in October and NT$524 billion more in November through Nov 6. None of these steps limits bank withdrawals, currency exchange or moving money abroad. On Nov 12, Taiwan's Financial Supervisory Commission said it has set no end date for the short-selling limits and reviews them daily; short sales of borrowed shares fell to 1.7% to 2% of main-board turnover on Nov 9-11, from 2.97% on Nov 6. Taiwan's main index fell 2.63% on Nov 12. Markets fell again this week: Taiwan's main index dropped about 6% on Nov 16 and 2.31% on Nov 17, when dealers said the stabilization fund appeared to be buying, and South Korea's KOSPI fell 2.59% on Nov 17 to 4,968.48, below 5,000 for the first time in nine months. Some Korean retail investors called for a temporary short-selling ban, but we found no new government limit.",
-   "control_type": "Friction",
+   "what_changed": "On Nov 21, after Taiwan's main index fell 6.23% on Nov 20 to its lowest close in about seven months, Taiwan's Financial Supervisory Commission barred short selling (selling borrowed shares to bet on a fall) at prices below the previous day's close for all listed and over-the-counter stocks from Nov 23, its first blanket restriction of this kind since 2015, with an exemption for securities firms' hedging. This widened a Nov 19 rule that applied the same ban only to stocks that had fallen 3.5% or more the day before. The commission also raised the minimum margin for short sales to 150% from 130%, stopped accepting applications to list new put warrants and asked lenders to suspend stock lending. On Nov 22, with the securities regulator's approval, China's Shanghai, Shenzhen and Beijing stock exchanges said they will cut the minimum margin for buying stocks with borrowed money to 80% from 100% from Nov 30. On Nov 23, South Korea's financial regulator said it will lift the daily limit on listed companies' share buybacks from Nov 24 through Feb 23 and will step up checks for illegal short selling and manipulation for three months, and the finance minister said the government is preparing its market stabilization fund for possible use; the KOSPI fell as much as 5% that day before closing 3.3% lower. Earlier: On Nov 9, the steps announced Nov 6 took effect: Taiwan's Financial Supervisory Commission cut intraday short sales of borrowed shares to 3% of a stock's average daily volume over the prior 30 trading days (from 30%) and raised the minimum short-sale margin from 90% to 130%, and South Korea exempted brokerages from the 140% minimum collateral ratio on margin loans through Jan 31. Asian markets were mixed that day: MSCI's broadest index of Asia-Pacific shares outside Japan was up 0.8% by midday after falling 4.6% the week before, while South Korea's KOSPI closed 0.8% lower. On Nov 6, Japan's Nikkei had fallen 5.96%, South Korea's KOSPI 6.02% and Taiwan's index 4.5%, Korea's exchange paused trading for 20 minutes under its automatic circuit breaker, and Taiwan's National Financial Stabilization Fund authorized buying stocks, its 10th activation.",
+   "summary": "The selloff followed the Nov 3 U.S. midterm elections and worries that the results would slow AI and data center spending. The steps aim to support prices: buying stocks, curbing bets on falling prices, and easing margin calls so fewer investors are forced to sell. Several people told Reuters that Taiwan's Finance Ministry asked state-owned banks to support the market. Taiwan's fund cited record foreign selling of NT$994 billion in October and NT$524 billion more in November through Nov 6. None of these steps limits bank withdrawals, currency exchange or moving money abroad. On Nov 12, Taiwan's Financial Supervisory Commission said it has set no end date for the short-selling limits and reviews them daily; short sales of borrowed shares fell to 1.7% to 2% of main-board turnover on Nov 9-11, from 2.97% on Nov 6. Taiwan's main index fell 2.63% on Nov 12. Markets fell again this week: Taiwan's main index dropped about 6% on Nov 16 and 2.31% on Nov 17, when dealers said the stabilization fund appeared to be buying, and South Korea's KOSPI fell 2.59% on Nov 17 to 4,968.48, below 5,000 for the first time in nine months. Some Korean retail investors called for a temporary short-selling ban, but we found no new government limit. On Nov 22-23, South Korea again chose not to restrict short selling. Taiwan's stabilization fund says it has been buying shares since Nov 6. Investors in Taiwan can still sell shares they own; the new ban covers selling borrowed shares below the previous close. None of the new steps limits bank withdrawals, currency exchange or moving money abroad.",
+   "control_type": "Prohibition",
    "affected": "Sector or group",
    "stage": "In effect",
    "tier": null,
@@ -4020,10 +4049,45 @@
    "why_it_might_not": "State stock-buying funds and short-sale curbs are familiar, temporary tools in Asian markets. They don't stop investors from selling shares they own or from moving their money, and the U.S. has no similar state stock fund.",
    "us_link": "No direct link. U.S. exchanges use automatic, marketwide circuit breakers, and the SEC last temporarily banned short selling, of financial stocks, in September 2008. We found no U.S. market-support steps after the Nov 5 drop.",
    "next_milestone": {
-    "what": "South Korea's margin-loan relief ends Jan 31 unless changed; Taiwan's short-selling limits have no end date and are reviewed daily; watch for any step that limits selling shares or moving money",
-    "date": "2027-01-31"
+    "what": "China's lower margin requirement takes effect; South Korea's buyback easing runs to Feb 23 and its margin-loan relief to Jan 31 unless changed; Taiwan's short-selling ban has no end date",
+    "date": "2026-11-30"
    },
    "sources": [
+    {
+     "title": "Taiwan further tightens short-selling amid stock market volatility",
+     "url": "https://focustaiwan.tw/business/202611210013",
+     "publisher": "Focus Taiwan (CNA)",
+     "date": "2026-11-21",
+     "primary": false
+    },
+    {
+     "title": "China announces measures to stabilize stock market",
+     "url": "https://english.news.cn/20261122/6268ad3df42b4ae2971a379c472e4fbf/c.html",
+     "publisher": "Xinhua",
+     "date": "2026-11-22",
+     "primary": false
+    },
+    {
+     "title": "Daily share buyback limit to be lifted for 3 months amid market rout",
+     "url": "https://en.yna.co.kr/view/AEN20261123005700320",
+     "publisher": "Yonhap",
+     "date": "2026-11-23",
+     "primary": false
+    },
+    {
+     "title": "Asian Regulators Step Efforts to Calm AI-Driven Market Turmoil",
+     "url": "https://www.morningstar.com/news/dow-jones/2026112329/asian-regulators-step-efforts-to-calm-ai-driven-market-turmoil",
+     "publisher": "Dow Jones (via Morningstar)",
+     "date": "2026-11-23",
+     "primary": false
+    },
+    {
+     "title": "South Korea vows to stabilise stock market after KOSPI drops 5%",
+     "url": "https://www.channelnewsasia.com/business/south-korea-vows-stabilise-stock-market-kospi-drops-6573771",
+     "publisher": "CNA (Reuters)",
+     "date": "2026-11-23",
+     "primary": false
+    },
     {
      "title": "Taiex plunges amid AI concerns, suspected gov't intervention",
      "url": "https://focustaiwan.tw/business/202611170018",
@@ -4107,8 +4171,8 @@
     "source_url": ""
    },
    "first_seen": "2026-11-08",
-   "last_change": "2026-11-09",
-   "status": "ADVANCED",
+   "last_change": "2026-11-23",
+   "status": "EXPANDED",
    "open": true,
    "status_history": [
     {
@@ -4120,10 +4184,15 @@
      "date": "2026-11-09",
      "status": "ADVANCED",
      "stage": "In effect"
+    },
+    {
+     "date": "2026-11-23",
+     "status": "EXPANDED",
+     "stage": "In effect"
     }
    ],
-   "updated_on": "2026-11-18",
-   "plain": "Taiwan's limits on short selling (bets that prices will fall) began Nov 9 and have no end date. South Korea eased rules on loans to buy stocks. Neither limits taking out or moving money."
+   "updated_on": "2026-11-23",
+   "plain": "Taiwan now bans short selling (bets that prices will fall) below the last day's closing price. China and South Korea added steps to prop up stock prices. None of this limits taking out or moving money."
   },
   "japan-shinkin-outage-2026-11-06": {
    "id": "japan-shinkin-outage-2026-11-06",
@@ -4999,7 +5068,7 @@
    "date": "2026-11-17",
    "org": "Bank of Russia",
    "what_changed": "A Bank of Russia ordinance published Nov 6, 2026 took effect Nov 17. It lists bitcoin, ether and the dollar stablecoin USDT as the crypto assets non-qualified (ordinary) investors may buy through brokers, trust managers or crypto exchange offices, on exchanges or over the counter, and caps their purchases through any one intermediary at 300,000 rubles (about $3,700) a year. Qualified investors face no cap, and every investor must first pass a test and acknowledge the risks. A separate ordinance letting exchanges run organized crypto trading took effect Nov 22, but each exchange must first get the central bank's approval of its trading rules, and we found no announcement that any has; Moscow Exchange plans a pilot from Dec 1.",
-   "summary": "The rules build on a law signed Aug 4, 2026 that set up a regulated crypto market under central bank oversight. As of Nov 18, the central bank's register listed 30 licensed crypto exchange operators, up from 4 on Oct 6, including Sberbank and VTB, Russia's largest lenders. Moscow Exchange's Dec 1 pilot is to clear through its National Clearing Centre; both have been under U.S. sanctions since 2024. Cointelegraph, citing the Bank of Russia, reported that transfers from regulated accounts to personal (self-custody) wallets are already banned, that peer-to-peer crypto trading will be banned from July 1, 2027, and that paying for goods with crypto remains banned. Russia also runs a digital ruble with a monthly top-up cap (tracked).",
+   "summary": "The rules build on a law signed Aug 4, 2026 that set up a regulated crypto market under central bank oversight. As of Nov 18, the central bank's register listed 30 licensed crypto exchange operators, up from 4 on Oct 6, including Sberbank and VTB, Russia's largest lenders. Moscow Exchange's Dec 1 pilot is to clear through its National Clearing Centre; both have been under U.S. sanctions since 2024. Cointelegraph, citing the Bank of Russia, reported that transfers from regulated accounts to personal (self-custody) wallets are already banned, that peer-to-peer crypto trading will be banned from July 1, 2027, and that paying for goods with crypto remains banned. Russia also runs a digital ruble with a monthly top-up cap (tracked). SPB Exchange has sent its trading and clearing rules to the Bank of Russia for approval and is running test trades, and the central bank expects actual trading to begin after Dec 1, bne IntelliNews reported on Nov 22, citing Russian media.",
    "plain": "Starting Nov 17, people in Russia can buy bitcoin and two other digital coins from licensed firms. Buyers who are not pros can spend up to 300,000 rubles (about $3,700) a year at each firm.",
    "control_type": "Prohibition",
    "affected": "Sector or group",
@@ -5018,6 +5087,13 @@
     "date": "2026-12-01"
    },
    "sources": [
+    {
+     "title": "Russia permits exchange crypto trading from November 22 as digital ruble expands in 2027",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/russia-permits-exchange-crypto-trading-193624058.html",
+     "publisher": "bne IntelliNews (via Yahoo Finance)",
+     "date": "2026-11-22",
+     "primary": false
+    },
     {
      "title": "Cryptocurrencies for non-qualified investors: Bank of Russia ordinance",
      "url": "https://cbr.ru/eng/press/event/?id=32966",
@@ -5081,7 +5157,7 @@
     "source_url": ""
    },
    "first_seen": "2026-11-13",
-   "updated_on": "2026-11-22",
+   "updated_on": "2026-11-23",
    "last_change": "2026-11-17",
    "status": "ADVANCED",
    "status_history": [
@@ -5394,8 +5470,8 @@
    "org": "JPMorgan Chase",
    "who": "JPMorgan Chase, the largest U.S. bank by total assets, plus customers of other banks and Zelle users who were sending money to or receiving it from Chase customers",
    "what_changed": "On Monday, Nov 16, 2026, a software bug in JPMorgan Chase's on-premise hardware systems slowed its transaction processing. Reports on the outage tracker Downdetector began around 9:53 a.m. ET and peaked near 2 p.m. ET at about 4,800 for Chase. Customers reported trouble seeing balances and making transfers, some app users saw a message that some services weren't available, and some branch transactions failed, including a check deposit in Dallas; an AP photo showed a Chase ATM in Irving, Texas, with a 'not working' screen. Customers of Wells Fargo, Bank of America, U.S. Bank, Capital One, Truist and Zelle also reported problems, but Chase said other banks were affected only when they were party to a transaction with Chase, and Bank of America, U.S. Bank, Capital One, Truist and Zelle said their own systems were working. Chase said transactions were processing normally by Monday evening, and Downdetector showed service back to normal early Tuesday.",
-   "summary": "Chase said the problem was a software bug, not cyber-related, and that customers still had access to their accounts and funds, though some transactions took longer than usual; NBC News reported that some customers had trouble getting into their accounts and withdrawing money while it lasted. NBC, citing a person familiar with the matter, also reported that regulators contacted the affected banks right away and found the problem contained. Homeland Security Secretary Markwayne Mullin said investigators didn't believe recent outages were cyberattacks. The outage followed other U.S. tech failures last week, including an air-traffic system problem, which officials said were unrelated. No bank or government set a limit on withdrawals or transfers: it was a technical failure, fixed the same day.",
-   "plain": "On Nov 16, a computer bug at Chase, the biggest U.S. bank, slowed or blocked some banking for several hours. It was fixed that evening and was a tech problem, not a limit on people's money.",
+   "summary": "Chase said the problem was a software bug, not cyber-related, and that customers still had access to their accounts and funds, though some transactions took longer than usual; NBC News reported that some customers had trouble getting into their accounts and withdrawing money while it lasted. NBC, citing a person familiar with the matter, also reported that regulators contacted the affected banks right away and found the problem contained. Homeland Security Secretary Markwayne Mullin said investigators didn't believe recent outages were cyberattacks. The outage followed other U.S. tech failures last week, including an air-traffic system problem, which officials said were unrelated. No bank or government set a limit on withdrawals or transfers: it was a technical failure, fixed the same day. On Nov 20, the President called the week's outages separate events that were under control. On Nov 22, Treasury Secretary Bessent told CBS that Americans shouldn't worry about their banks, saying security patches can cause glitches like the one at JPMorgan.",
+   "plain": "On Nov 16, a computer bug at Chase, the biggest U.S. bank, slowed or blocked some banking for several hours. It was fixed that evening. The head of the Treasury later said people should not worry about their banks.",
    "quote": {
     "text": "customers still have access to their accounts and funds",
     "source_url": "https://www.cbsnews.com/news/banks-online-service-outages-jpmorgan-chase-bank-of-america-wells-fargo/"
@@ -5451,6 +5527,20 @@
      "primary": false
     },
     {
+     "title": "Transcript: Treasury Secretary Scott Bessent on Face the Nation with Margaret Brennan, Nov. 22, 2026",
+     "url": "https://www.cbsnews.com/news/transcript-treasury-secretary-scott-bessent-face-the-nation-with-margaret-brennan-nov-22-2026/",
+     "publisher": "CBS News",
+     "date": "2026-11-22",
+     "primary": false
+    },
+    {
+     "title": "Cascade of tech outages 'separate events' and 'under control,' Trump says",
+     "url": "https://www.pbs.org/newshour/politics/watch-cascade-of-tech-outages-separate-events-and-under-control-trump-sa",
+     "publisher": "PBS News",
+     "date": "2026-11-20",
+     "primary": false
+    },
+    {
      "title": "Major banking outage linked to Chase, impacted Wells Fargo and BofA",
      "url": "https://www.usatoday.com/story/money/2026/11/16/bank-outage-nationwide-chase-bofa--live/92814152007/",
      "publisher": "USA Today",
@@ -5459,7 +5549,7 @@
     }
    ],
    "first_seen": "2026-11-17",
-   "updated_on": "2026-11-17",
+   "updated_on": "2026-11-23",
    "last_change": "2026-11-16",
    "status": "NEW",
    "open": true,
@@ -6928,6 +7018,169 @@
      "stage": "Adopted"
     }
    ]
+  },
+  "intl-myanmar-fx-controls-2026-11": {
+   "id": "intl-myanmar-fx-controls-2026-11",
+   "section": "international",
+   "headline": "Myanmar's military government tightens control of foreign currency, pressing migrant pay and phone-wallet transfers into official channels while easing some trade payments",
+   "date": "2026-11-09",
+   "org": "Myanmar's military government and the Central Bank of Myanmar",
+   "what_changed": "A Nov 23, 2026 analysis by researchers writing for FULCRUM, the blog of Singapore's ISEAS-Yusof Ishak Institute, says that since August the government has restricted the overseas use of Myanmar mobile payment services such as KBZPay and Wave Money (as reported), promoted a system with the central bank, banks and licensed agencies to check that migrant workers send 25% of their pay home through official channels, and delayed passport services at some embassies. On Nov 5, the Central Bank of Myanmar reminded money changers and banks that they must use its published daily exchange rates and warned that unlicensed currency trading, or trading at other rates, would face legal action. It also eased some business rules: on Nov 4 it began allowing advance payments for imports it considers necessary, selling foreign currency in three stages (30%, 40% and 30% of the licensed value), and on Nov 9 it let exporters keep usable foreign earnings for 45 days instead of 30.",
+   "summary": "The analysts estimate that the official exchange rate overvalues the kyat by about 120%, and the rate used for migrant remittances by about 20%, which pushes money toward informal channels and leaves businesses and ordinary people short of dollars. They argue the controls can save scarce dollars but can't bring in new ones, and that they deter investment because investors can't count on taking money out at fair rates. Exporters must still bring earnings home under separate rules. The steps apply only in Myanmar. Earlier checks by this monitor didn't track Myanmar; it is tracked from today.",
+   "control_type": "Prohibition",
+   "affected": "Sector or group",
+   "stage": "In effect",
+   "tier": 3,
+   "signal_numbers": [
+    8,
+    15
+   ],
+   "direction": "Toward controls",
+   "evidence": "Credible reporting",
+   "us_link": "None. No U.S. rule requires anyone to send part of their pay through official channels or to exchange money at a government-set rate. U.S. transfer rules add reporting and a 1% tax on cash-funded transfers abroad, not forced conversion.",
+   "why_it_matters": "It shows the usual toolkit when a government runs short of dollars: forcing money through state-controlled banks at a fixed rate, limiting payment apps that bypass them, and punishing trades at market rates.",
+   "why_it_might_not": "Myanmar faces armed conflict and a long foreign currency shortage, and these steps reflect that situation, not a model for the U.S. The central bank also eased some import and export rules in November.",
+   "next_milestone": {
+    "what": "Watch for further limits on payment apps or remittances, or a change in the official exchange rate (none announced)",
+    "date": null
+   },
+   "quote": {
+    "text": "",
+    "source_url": ""
+   },
+   "sources": [
+    {
+     "title": "Myanmar's Foreign Exchange Controls Compound Challenges",
+     "url": "https://fulcrum.sg/article/commentaries/myanmars-foreign-exchange-controls-compound-challenges/",
+     "publisher": "FULCRUM (ISEAS-Yusof Ishak Institute)",
+     "date": "2026-11-23",
+     "primary": false
+    },
+    {
+     "title": "CBM Allows Advance Payments for Imports in Three Stages",
+     "url": "https://www.vdb-loi.com/mm_publications/cbm-allows-advance-payments-for-imports-in-three-stages/",
+     "publisher": "VDB Loi",
+     "date": "2026-11-10",
+     "primary": false
+    },
+    {
+     "title": "Myanmar extends exporters' foreign-currency holding period to 45 days",
+     "url": "https://myanmarbusinessjournal.com/articles/myanmar-export-foreign-currency-retention-45-days",
+     "publisher": "Myanmar Business Journal",
+     "date": "2026-11-10",
+     "primary": false
+    },
+    {
+     "title": "Myanmar: Central Bank of Myanmar Introduces Advance Foreign Currency Payments for Imports",
+     "url": "https://www.dfdl.com/insights/legal-and-tax-updates/cbm-advance-foreign-currency-import-payments/",
+     "publisher": "DFDL",
+     "date": "2026-11-05",
+     "primary": false
+    }
+   ],
+   "plain": "Myanmar's military government is pushing migrant workers to send a quarter of their pay home through official banks. It also limits phone payment apps and warns against trading money at unofficial rates. This is not in the U.S.",
+   "first_seen": "2026-11-23",
+   "updated_on": "2026-11-23",
+   "last_change": "2026-11-09",
+   "status": "NEW",
+   "open": true,
+   "status_history": [
+    {
+     "date": "2026-11-23",
+     "status": "NEW",
+     "stage": "In effect"
+    }
+   ]
+  },
+  "trump-data-centers-abroad-2026-11-20": {
+   "id": "trump-data-centers-abroad-2026-11-20",
+   "section": "pre_legislative",
+   "headline": "President says U.S. companies won't be allowed to build data centers abroad and would face heavy penalties; no order, rule or details yet",
+   "date": "2026-11-20",
+   "org": "The White House",
+   "who": "President Donald Trump, speaking at a White House press conference; he said he hadn't yet told his own officials",
+   "what_changed": "At a White House press conference on Nov 20, 2026, President Trump said the U.S. won't let American companies build data centers in other countries and that companies that do will face heavy penalties or a large tax. He gave no tax rate, start date or legal basis and said he hadn't yet told his officials about the plan. The White House's summary of the briefing quotes him.",
+   "summary": "News reports said the President also suggested companies could still build abroad but would be taxed heavily, and that he offered no details on how a ban or tax would work; we found no executive order, Treasury or Commerce rule, or bill. On Nov 22, Treasury Secretary Bessent told CBS's Face the Nation that he hadn't spoken to the President about it and that the plan is about American companies. The idea concerns where companies build computing facilities; it says nothing about individuals' bank accounts, transfers or investments. Treasury's separate outbound-investment proposal under the COINS Act (comments due Dec 7) covers certain deals in AI and computing firms tied to six countries of concern, not data centers in general (tracked). Our Nov 21 and Nov 22 reports missed this statement; it is tracked from today.",
+   "control_type": "Prohibition",
+   "affected": "Sector or group",
+   "stage": "Talk",
+   "tier": 1,
+   "signal_numbers": [
+    3
+   ],
+   "direction": "Toward controls",
+   "evidence": "Official document",
+   "why_it_matters": "It would be a new kind of U.S. limit on where American companies may invest abroad, going well beyond today's national-security screening of deals tied to a few countries. New limits on outbound investment are an early warning sign this monitor tracks.",
+   "why_it_might_not": "It is an idea announced without details, legal basis or a written order, and the President said his officials hadn't been told; he also suggested a tax rather than a ban. It targets companies' computing facilities, not people's money, and a new tax generally requires an act of Congress, which Democrats will control from January.",
+   "next_milestone": {
+    "what": "Any executive order, Treasury or Commerce rule, or bill to carry out the plan (none announced)",
+    "date": null
+   },
+   "momentum": "Mentioned by officials",
+   "verdict": "Confirmed",
+   "official_acknowledgment": "The White House's Nov 20 summary of the press briefing quotes the President; on Nov 22, Treasury Secretary Bessent said he hadn't discussed it with the President.",
+   "linked_bills_or_rules": "None yet. Related: Treasury's proposed outbound-investment rule under the COINS Act (comments due Dec 7), which covers certain investments tied to countries of concern, not data centers in general (tracked).",
+   "quote": {
+    "text": "not going to allow our companies to build data centers outside of our country",
+    "source_url": "https://www.whitehouse.gov/releases/2026/11/at-press-briefing-president-trump-touts-historic-wins-for-americans-signals-deal-making-on-healthcare/"
+   },
+   "sources": [
+    {
+     "title": "At Press Briefing, President Trump Touts Historic Wins for Americans, Signals Deal-Making on Healthcare",
+     "url": "https://www.whitehouse.gov/releases/2026/11/at-press-briefing-president-trump-touts-historic-wins-for-americans-signals-deal-making-on-healthcare/",
+     "publisher": "The White House",
+     "date": "2026-11-20",
+     "primary": true
+    },
+    {
+     "title": "Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'",
+     "url": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html",
+     "publisher": "CNBC",
+     "date": "2026-11-20",
+     "primary": false
+    },
+    {
+     "title": "Trump plans to penalize US tech firms that build AI data centers elsewhere",
+     "url": "https://apnews.com/article/trump-artificial-intelligence-data-centers-f1ac03b73d13445400eeed8631d9d879",
+     "publisher": "Associated Press",
+     "date": "2026-11-20",
+     "primary": false
+    },
+    {
+     "title": "Trump says US to penalize firms building data centers abroad",
+     "url": "https://www.reuters.com/technology/trump-says-us-penalize-firms-building-data-centers-abroad-2026-11-20/",
+     "publisher": "Reuters",
+     "date": "2026-11-20",
+     "primary": false
+    },
+    {
+     "title": "Trump says he'll block US companies from building data centres abroad",
+     "url": "https://www.afr.com/world/north-america/trump-threatens-penalties-for-us-companies-that-build-data-centres-abroad-20261121-p61g3g",
+     "publisher": "Australian Financial Review (Bloomberg)",
+     "date": "2026-11-21",
+     "primary": false
+    },
+    {
+     "title": "Transcript: Treasury Secretary Scott Bessent on Face the Nation with Margaret Brennan, Nov. 22, 2026",
+     "url": "https://www.cbsnews.com/news/transcript-treasury-secretary-scott-bessent-face-the-nation-with-margaret-brennan-nov-22-2026/",
+     "publisher": "CBS News",
+     "date": "2026-11-22",
+     "primary": false
+    }
+   ],
+   "plain": "On Nov 20, the President said U.S. companies won't be allowed to build data centers (buildings full of computers) in other countries, and would face a big tax if they do. No rule exists yet.",
+   "first_seen": "2026-11-23",
+   "updated_on": "2026-11-23",
+   "last_change": "2026-11-20",
+   "status": "NEW",
+   "open": true,
+   "status_history": [
+    {
+     "date": "2026-11-23",
+     "status": "NEW",
+     "stage": "Talk"
+    }
+   ]
   }
  },
  "levels": [
@@ -7006,35 +7259,47 @@
   {
    "date": "2026-11-22",
    "level": "YELLOW"
+  },
+  {
+   "date": "2026-11-23",
+   "level": "YELLOW"
   }
  ],
  "github_user": "brentwhichel",
  "repo": "capital-controls-monitor",
  "monitor": "Capital Controls Early-Warning Monitor",
  "report": {
-  "date": "2026-11-22",
+  "date": "2026-11-23",
   "level": "YELLOW",
-  "bottom_line": "No limits on ordinary Americans' withdrawals or transfers are in effect or proposed; no U.S. agency took a new step over the weekend, bitcoin bounced back above $60,000 after a two-year low, and the rule requiring stablecoin issuers to be able to freeze coins on lawful orders remains under White House review.",
-  "level_reason": "The level stays YELLOW because official Tier 1 steps remain in play: the FinCEN/OFAC stablecoin rule requiring issuers to be able to freeze coins on lawful orders has been under White House review since Nov 18 (the GENIUS Act takes effect Jan 18); FinCEN's customer due diligence proposal is open for comment until Jan 19; Treasury's wider outbound-investment proposal closes for comment Dec 7; and FinCEN's Minnesota transfer-reporting order runs until Feb 6 unless renewed, while the MEXC transfer ban, effective Dec 10, names one foreign company, and the FDIC provisional-hold proposal applies only after a bank fails. Nothing new raises it: no U.S. agency acted over the weekend, the stock and bitcoin swings changed prices without limiting access, and the newly tracked Congo ban on paying with foreign-currency cash applies only there.",
-  "change_text": "Yesterday: YELLOW. Today: YELLOW, unchanged. Newly tracked: the Democratic Republic of the Congo's central bank confirmed on Nov 10 that from Apr 9, 2027, paying for goods and services with foreign-currency cash will be banned there, while people may still hold, deposit and withdraw dollars and pay in dollars electronically; the measure was first announced in April 2026, and the November clarification narrowed it. No change: Russia's rules for exchange crypto trading took effect Nov 22, but we found no announcement that any exchange has the required central bank approval, and Moscow Exchange still plans a Dec 1 pilot (Russia item updated); Japan's bitbank said on Nov 20 that, citing FinCEN's order, it will stop customers' transfers to MEXC from Nov 24 and from MEXC from Dec 10 (MEXC item updated); bitcoin fell to $55,130 early on Nov 21, its lowest since September 2024, then rebounded above $60,000, while U.S. stock markets were closed for the weekend (market item updated); and South Korea's Upbit and Bithumb suspended transfers of one token after a suspected hack on Nov 21 (crypto item updated). Also checked, as of about 6:31 AM CST: the White House regulatory office's list is still dated Nov 20, with the stablecoin AML and sanctions rule, FinCEN's AML program rule and the FDIC's GENIUS Act rule under review; Monday's Federal Register (Nov 23) carries only routine OFAC and State Department sanctions notices and no FinCEN, Fed, FDIC or presidential documents; Treasury, OFAC, FinCEN, the Fed Board, the FDIC, the SEC, the CFPB, the CFTC and the White House posted nothing new on limits on deposits, withdrawals or transfers; the Philippine central bank called a viral video claiming banks there would close on Nov 20 fake; and Glenn Beck's latest episodes made no claims about limits on money.",
-  "flags_lede": "What's new or changed since the previous report on Nov 21, 2026.",
+  "bottom_line": "No limits on ordinary Americans' withdrawals or transfers are in effect or proposed; the newest U.S. signal is the President's Nov 20 statement that U.S. companies won't be allowed to build data centers abroad, an idea with no order, rule or details yet, while Taiwan, China and South Korea added stock-market support steps that don't limit moving money.",
+  "level_reason": "The level stays YELLOW because official Tier 1 steps remain in play: the FinCEN/OFAC stablecoin rule requiring issuers to be able to freeze coins on lawful orders has been under White House review since Nov 18 (the GENIUS Act takes effect Jan 18); FinCEN's customer due diligence proposal is open for comment until Jan 19; Treasury's wider outbound-investment proposal closes for comment Dec 7; and FinCEN's Minnesota transfer-reporting order runs until Feb 6 unless renewed, while the MEXC transfer ban, effective Dec 10, names one foreign company, and the FDIC provisional-hold proposal applies only after a bank fails. Nothing new raises it: the President's data-center plan is talk with no order or proposal and would reach companies' investments abroad, not people's accounts; Asia's short-selling curbs and Myanmar's currency rules apply only in those countries; and commentary can't raise the level.",
+  "change_text": "Yesterday: YELLOW. Today: YELLOW, unchanged. New: at a Nov 20 White House press conference, the President said U.S. companies won't be allowed to build data centers abroad and would face heavy penalties if they do; he gave no details, no order or rule has followed, and on Nov 22 Treasury Secretary Bessent said he hadn't discussed it with him (our Nov 21 and Nov 22 reports missed this; it is tracked from today). Expanded: Taiwan barred short selling below the previous day's close for all stocks from Nov 23 and raised short-sale margins to 150%, China's stock exchanges will cut the margin for buying stocks with borrowed money to 80% from Nov 30, and South Korea will lift daily limits on share buybacks for three months and is preparing its stabilization fund; none of these limits withdrawals or moving money. Newly tracked: Myanmar's military government has tightened currency controls since August, pressing migrant workers to send 25% of their pay through official channels, restricting phone payment apps abroad and warning on Nov 5 that unofficial currency trading would face legal action, while easing some import and export rules. No change: Chainflip, a crypto exchange, shut deposits and withdrawals after a Nov 21 theft of about $12 million (crypto item updated); the President called last week's tech outages separate events and Bessent said Nov 22 that Americans shouldn't worry about their banks (Chase item updated); U.S. stock futures rose about 2% to 3.5% early Nov 23 after last week's slide (market item updated); and Russia's exchanges still await central bank approval to start crypto trading (Russia items updated). Also checked, as of about 6:34 AM CST: the White House regulatory office's list is still dated Nov 20, with FinCEN's AML program rule and the stablecoin AML and sanctions rule under review; Treasury, OFAC, FinCEN, the Fed Board, the FDIC, the SEC, the CFPB and the CFTC posted nothing new on limits on deposits, withdrawals or transfers; no bank failed; Tuesday's Federal Register list wasn't posted yet; and Glenn Beck's latest episodes made no claims about limits on money.",
+  "flags_lede": "What's new or changed since the previous report on Nov 22, 2026.",
   "flags": [
    {
-    "id": "intl-drc-foreign-cash-payment-ban-2027",
+    "id": "trump-data-centers-abroad-2026-11-20",
+    "movement": "NEW"
+   },
+   {
+    "id": "intl-asia-market-support-2026-11-06",
+    "movement": "EXPANDED"
+   },
+   {
+    "id": "intl-myanmar-fx-controls-2026-11",
     "movement": "NEW"
    }
   ],
-  "sources_checked_through": "2026-11-22T06:31:06-06:00",
-  "refreshed_at": "2026-11-22T06:33:06-06:00",
+  "sources_checked_through": "2026-11-23T06:34:21-06:00",
+  "refreshed_at": "2026-11-23T06:36:05-06:00",
   "plain": {
-   "today": "Nothing stops regular people in the U.S. from taking out, moving or saving money. It was a quiet weekend, with no new U.S. rules about money.",
-   "worry": "Not right now. We found no U.S. rule that limits taking out or moving money. Stock and bitcoin prices have jumped around, but that does not limit your money.",
+   "today": "Nothing stops regular people in the U.S. from taking out, moving or saving money. The President said he wants to stop U.S. companies from building data centers in other countries, but there is no rule yet.",
+   "worry": "Not right now. We found no U.S. rule that limits taking out or moving money. The data center plan is only an idea so far, and it is about companies, not your bank account.",
    "watch": [
     "A cap on how much money people can send to other countries.",
     "Limits on how much cash people can take out of the bank.",
-    "Banks or funds stopping people from taking money out while stock prices fall."
+    "A written rule that stops people or firms from putting money into other countries."
    ],
-   "changes_lede": "One new item this time: a country in Africa will stop people from paying with dollar bills next year."
+   "changes_lede": "Three things changed this time. The President shared a new idea, Asia took more steps to steady stock prices, and Myanmar tightened its money rules."
   },
   "layout": "v2-plain-first"
  },
@@ -7074,6 +7339,12 @@
    "what": "Paraguay's central bank aims to finish its full diagnosis of failed Ueno Bank and move its sound assets and deposits to other banks through bidding (stated aim, not fixed)",
    "item_id": "paraguay-ueno-bank-resolution-2026-11",
    "url": "https://www.abc.com.py/economia/2026/11/16/ueno-bank-tras-el-pago-de-los-anticipos-del-fondo-de-garantia-que-pasos-vienen-ahora/"
+  },
+  {
+   "date": "2026-11-30",
+   "what": "China's stock exchanges cut the minimum margin for buying stocks with borrowed money to 80% from 100%",
+   "item_id": "intl-asia-market-support-2026-11-06",
+   "url": "https://english.news.cn/20261122/6268ad3df42b4ae2971a379c472e4fbf/c.html"
   },
   {
    "date": "2026-12-01",
@@ -7206,6 +7477,12 @@
    "url": "https://www.federalregister.gov/documents/2026/08/11/2026-16365/geographic-targeting-order-imposing-recordkeeping-and-reporting-requirements-on-certain-financial"
   },
   {
+   "date": "2027-02-23",
+   "what": "South Korea's three-month easing of daily share buyback limits ends unless extended",
+   "item_id": "intl-asia-market-support-2026-11-06",
+   "url": "https://en.yna.co.kr/view/AEN20261123005700320"
+  },
+  {
    "date": "2027-03-01",
    "what": "Planned FinCEN NPRM on revised customer due diligence rules (agenda target 03/2027)",
    "item_id": "fincen-1506-AB60-cdd-revisions",
@@ -7289,372 +7566,372 @@
    "source": "Federal Register public inspection (current)",
    "url": "https://www.federalregister.gov/public-inspection/current",
    "status": "Partial",
-   "note": "The public inspection list was offline for the weekend and returns Monday, Nov 23 at 7:45 AM CST; Monday's published issue was checked instead (next line).",
+   "note": "The public inspection list returns today, Nov 23, at 7:45 AM CST, after this run; Monday's Nov 23 issue was checked yesterday.",
    "last_success": "2026-11-21"
   },
   {
    "source": "Federal Register documents (via web search)",
    "url": "https://www.federalregister.gov/",
    "status": "Checked",
-   "note": "Monday's Nov 23 issue (91 documents) carries two OFAC sanctions notices, a State Department sanctions notice, IRS paperwork and an expatriation-list correction, CFTC paperwork and CFPB advisory board meetings; no FinCEN, Fed, FDIC, OCC or presidential documents and nothing limiting deposits, withdrawals or transfers. Searches found no FinCEN documents after the Nov 19 customer due diligence proposal.",
-   "last_success": "2026-11-22"
+   "note": "Searches of the Federal Register's 2026 FinCEN and Treasury indexes (current through Nov 20 and Nov 23) found nothing beyond tracked items; Monday's Nov 23 issue has no FinCEN, Fed, FDIC or presidential documents.",
+   "last_success": "2026-11-23"
   },
   {
    "source": "OIRA rules under review",
    "url": "https://www.reginfo.gov/public/do/eoReviewSearch",
    "status": "Checked",
-   "note": "The list is still dated Nov 20: the stablecoin AML and sanctions rule, FinCEN's AML/CFT program rule, the FDIC's GENIUS Act rule and FSOC's nonbank rule (all received Nov 18) remain under review, with the IRS crypto-reporting (CARF) proposal, the Labor Department's 401(k) rule and two SEC short-sale and securities-lending reporting proposals received Nov 19. No reviews concluded over the weekend.",
-   "last_success": "2026-11-22"
+   "note": "The list is still dated Nov 20; FinCEN's AML/CFT program final rule and the stablecoin issuer AML and sanctions final rule (both received Nov 18) remain under review, as do the FDIC's GENIUS Act rule and FSOC's nonbank rule.",
+   "last_success": "2026-11-23"
   },
   {
    "source": "Unified Agenda",
    "url": "https://www.reginfo.gov/public/do/eAgendaMain",
    "status": "Partial",
    "note": "The 2026 agenda is still current; nothing new beyond the entries already tracked.",
-   "last_success": "2026-11-22"
+   "last_success": "2026-11-23"
   },
   {
    "source": "Regulations.gov",
    "url": "https://www.regulations.gov/",
    "status": "Partial",
-   "note": "Home page only. FinCEN's customer due diligence docket (FINCEN-2026-0298) stays open until Jan 19, 2027; Treasury's outbound-investment comments close Dec 7.",
-   "last_success": "2026-11-22"
+   "note": "Home page only. Treasury's outbound-investment comments close Dec 7; FinCEN's customer due diligence docket (FINCEN-2026-0298) stays open until Jan 19, 2027.",
+   "last_success": "2026-11-23"
   },
   {
    "source": "Treasury press releases",
    "url": "https://home.treasury.gov/news/press-releases",
    "status": "Checked",
    "note": "Nothing after the Nov 20 Iran-related sanctions release; nothing on limits on deposits, withdrawals or transfers.",
-   "last_success": "2026-11-22"
+   "last_success": "2026-11-23"
   },
   {
    "source": "Treasury Outbound Investment Security Program",
    "url": "https://home.treasury.gov/policy-issues/international/outbound-investment-program",
    "status": "Checked",
-   "note": "Page unchanged: the COINS Act proposal (Oct 22) takes comments until Dec 7; we found no extension.",
-   "last_success": "2026-11-22"
+   "note": "Page unchanged: the COINS Act proposal takes comments until Dec 7; we found no extension. The President's Nov 20 data-center plan is separate and has no rule (item added).",
+   "last_success": "2026-11-23"
   },
   {
    "source": "OFAC recent actions",
    "url": "https://ofac.treasury.gov/recent-actions",
    "status": "Checked",
-   "note": "Nothing after the Nov 20 Iran designations and Cuba FAQs; Monday's Federal Register carries two routine OFAC sanctions notices.",
-   "last_success": "2026-11-22"
+   "note": "Nothing after the Nov 20 Iran designations and Cuba FAQs.",
+   "last_success": "2026-11-23"
   },
   {
    "source": "FinCEN news",
    "url": "https://www.fincen.gov/news",
    "status": "Checked",
    "note": "No news release after the Nov 17 customer due diligence proposal.",
-   "last_success": "2026-11-22"
+   "last_success": "2026-11-23"
   },
   {
    "source": "FSOC",
    "url": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/fsoc",
    "status": "Partial",
    "note": "Landing page only; FSOC's final rule on supervising certain nonbank financial companies remains under White House review. It doesn't limit customers.",
-   "last_success": "2026-11-22"
+   "last_success": "2026-11-23"
   },
   {
    "source": "Treasury officials' speeches",
    "url": "https://home.treasury.gov/news/press-releases",
    "status": "Checked",
-   "note": "Nothing new on stablecoins, tokenization, payments or capital flows since Secretary Bessent's Nov 20 remarks on interest rates.",
-   "last_success": "2026-11-22"
+   "note": "On CBS's Face the Nation on Nov 22, Secretary Bessent said Americans shouldn't worry about their banks after last week's outages and that he hadn't discussed the data-center plan with the President; nothing on stablecoins, tokenization or capital flows.",
+   "last_success": "2026-11-23"
   },
   {
    "source": "Fed press releases",
    "url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
    "status": "Partial",
-   "note": "The press release page again served an older copy (latest Nov 13); the Fed's recent-postings page shows nothing after Nov 20 (College Fed Challenge winners, a survey on managing reserves, the 2025 annual report and a routine discount-rate meeting notice).",
-   "last_success": "2026-11-22"
+   "note": "The press release page again served an older copy (latest Nov 13); the speeches page and calendar show nothing after Nov 20, and the Beige Book comes Nov 25.",
+   "last_success": "2026-11-23"
   },
   {
    "source": "Fed speeches and testimony",
    "url": "https://www.federalreserve.gov/newsevents/speech/2026-speeches.htm",
    "status": "Checked",
-   "note": "No speeches after Nov 20 (Governor Cook on the U.S. economy; Governor Waller's College Fed Challenge remarks); the testimony page is unchanged since July.",
-   "last_success": "2026-11-22"
+   "note": "No speeches after Nov 20, and none are scheduled this Thanksgiving week; the testimony page is unchanged since July.",
+   "last_success": "2026-11-23"
   },
   {
    "source": "Fed Financial Stability Report",
    "url": "https://www.federalreserve.gov/publications/financial-stability-report.htm",
    "status": "Checked",
    "note": "The November 2026 report (posted Nov 13) is tracked; nothing newer.",
-   "last_success": "2026-11-22"
+   "last_success": "2026-11-23"
   },
   {
    "source": "Fed H.4.1",
    "url": "https://www.federalreserve.gov/releases/h41/",
    "status": "Checked",
-   "note": "The current release (Nov 19, week ended Nov 18) shows primary credit averaging about $9.4 billion and no emergency facility use (tracked); the next comes Nov 27 at 3:30 PM CST.",
-   "last_success": "2026-11-22"
+   "note": "The current release (Nov 19, week ended Nov 18) is tracked; the next comes Friday, Nov 27, at 3:30 PM CST because of Thanksgiving.",
+   "last_success": "2026-11-23"
   },
   {
    "source": "FDIC press releases",
    "url": "https://www.fdic.gov/news/press-releases",
    "status": "Checked",
-   "note": "Nothing after Nov 17 (a bank charter approval, a proposal on how small banks may treat certain custodial deposits under brokered-deposit rules, which doesn't limit customers, and a statement on FinCEN's due diligence proposal).",
-   "last_success": "2026-11-22"
+   "note": "Nothing after Nov 17.",
+   "last_success": "2026-11-23"
   },
   {
    "source": "FDIC failed bank list",
    "url": "https://www.fdic.gov/bank-failures/failed-bank-list",
    "status": "Checked",
    "note": "No failures since Nano Banc (Sept 25).",
-   "last_success": "2026-11-22"
+   "last_success": "2026-11-23"
   },
   {
    "source": "FDIC Financial Institution Letters",
    "url": "https://www.fdic.gov/news/financial-institution-letters",
    "status": "Checked",
    "note": "Nothing after FIL-69-2026 (Nov 17).",
-   "last_success": "2026-11-22"
+   "last_success": "2026-11-23"
   },
   {
    "source": "OCC",
    "url": "https://www.occ.gov/",
    "status": "Partial",
-   "note": "The news page didn't load and site searches returned only index pages; nothing new found after the Nov 19 bulletin noted yesterday.",
-   "last_success": "2026-11-21"
+   "note": "The news page didn't load; the OCC's bulletin feed shows only a Nov 19 adjustment of civil penalty amounts for inflation, which doesn't affect customers.",
+   "last_success": "2026-11-23"
   },
   {
    "source": "SEC press releases",
    "url": "https://www.sec.gov/newsroom/press-releases",
    "status": "Checked",
    "note": "Nothing after Nov 20 (the audit-trail proposal, tracked, and a fraud case); nothing on fund redemption limits.",
-   "last_success": "2026-11-22"
+   "last_success": "2026-11-23"
   },
   {
    "source": "CFPB newsroom",
    "url": "https://www.consumerfinance.gov/about-us/newsroom/",
    "status": "Checked",
-   "note": "Nothing new since Oct 14; Monday's Federal Register sets Consumer Advisory Board meetings.",
-   "last_success": "2026-11-22"
+   "note": "Nothing new since Oct 14.",
+   "last_success": "2026-11-23"
   },
   {
    "source": "CFTC press releases",
    "url": "https://www.cftc.gov/PressRoom/PressReleases",
    "status": "Checked",
    "note": "Nothing after the Nov 20 fraud charges; nothing on limits.",
-   "last_success": "2026-11-22"
+   "last_success": "2026-11-23"
   },
   {
    "source": "White House presidential actions",
    "url": "https://www.whitehouse.gov/presidential-actions/",
-   "status": "Checked",
-   "note": "A Nov 20 executive order telling federal contractors to coordinate with the White House on congressional inquiries and a National Adoption Month proclamation; nothing on finance or payments.",
-   "last_success": "2026-11-22"
+   "status": "Partial",
+   "note": "The page was withheld by a web safety filter; searches found the Nov 20 order on federal contractors and Congress and the President's Nov 20 press conference remarks on data centers abroad (item added); no action on limits on money.",
+   "last_success": "2026-11-23"
   },
   {
    "source": "Congress.gov",
    "url": "https://www.congress.gov/",
    "status": "Partial",
-   "note": "Home page only. Searches found no new action on tracked bills (H.R. 8995, H.R. 1799, H.R. 9331, CLARITY Act); H.R. 9331 is still on the House calendar without a floor vote, and the Dec 11 funding deadline is unchanged.",
-   "last_success": "2026-11-22"
+   "note": "Home page only. Searches found no new action on tracked bills (H.R. 8995, H.R. 1799, H.R. 9331, CLARITY Act); no Senate vote on the CLARITY Act is scheduled.",
+   "last_success": "2026-11-23"
   },
   {
    "source": "House Financial Services calendar",
    "url": "https://financialservices.house.gov/calendar/",
    "status": "Checked",
    "note": "The Dec 1 and Dec 2 full-committee hearings are still set; no markups posted.",
-   "last_success": "2026-11-22"
+   "last_success": "2026-11-23"
   },
   {
    "source": "Senate Banking Committee",
    "url": "https://www.banking.senate.gov/",
    "status": "Checked",
-   "note": "Nothing after the Nov 19 nominations hearing and vote; no hearings or markups on deposits, payments or transfers.",
-   "last_success": "2026-11-22"
+   "note": "Nothing after the Nov 19 nominations hearing and vote; no hearings or markups on deposits, payments or transfers posted.",
+   "last_success": "2026-11-23"
   },
   {
    "source": "GAO",
    "url": "https://www.gao.gov/",
-   "status": "Partial",
-   "note": "The site blocks direct reading; searches found fiscal 2026 audits of the federal debt schedules and IRS financial statements, nothing on capital controls.",
-   "last_success": "2026-11-22"
+   "status": "Checked",
+   "note": "Releases through Nov 20 include GAO's required report on the OCC's GENIUS Act stablecoin rule and work on AI and cybersecurity; nothing on capital controls.",
+   "last_success": "2026-11-23"
   },
   {
    "source": "CRS reports",
    "url": "https://crsreports.congress.gov/",
    "status": "Partial",
    "note": "The site returned nothing again; searches found no new reports on payments or capital flows.",
-   "last_success": "2026-11-22"
+   "last_success": "2026-11-23"
   },
   {
    "source": "State bills (LegiScan)",
    "url": "https://legiscan.com/",
    "status": "Partial",
-   "note": "The home page doesn't list bills; searches found no new state bills on cash, gold, CBDCs or payment limits beyond those tracked.",
-   "last_success": "2026-11-22"
+   "note": "The home page doesn't list bills; searches found a Virginia bill prefiled Nov 18 on recovering stolen crypto in fraud cases, which doesn't limit payments, and nothing new on cash, gold, CBDCs or payment limits.",
+   "last_success": "2026-11-23"
   },
   {
    "source": "IMF publications and eLibrary",
    "url": "https://www.elibrary.imf.org/",
    "status": "Checked",
    "note": "Nothing after the Nov 20 statements on Togo, Albania and Malta; no new papers or statements on capital flow measures.",
-   "last_success": "2026-11-22"
+   "last_success": "2026-11-23"
   },
   {
    "source": "BIS",
    "url": "https://www.bis.org/",
    "status": "Checked",
    "note": "Nothing after the Basel Committee's Nov 18 statement and central bankers' speeches posted Nov 19.",
-   "last_success": "2026-11-22"
+   "last_success": "2026-11-23"
   },
   {
    "source": "FSB",
    "url": "https://www.fsb.org/",
    "status": "Checked",
    "note": "Nothing new since the Nov 16 cross-border payments report and 2027 priorities.",
-   "last_success": "2026-11-22"
+   "last_success": "2026-11-23"
   },
   {
    "source": "FATF",
    "url": "https://www.fatf-gafi.org/",
    "status": "Checked",
    "note": "No new statements on payment rules since the October plenary.",
-   "last_success": "2026-11-22"
+   "last_success": "2026-11-23"
   },
   {
    "source": "ECB digital euro",
    "url": "https://www.ecb.europa.eu/euro/digital_euro/html/index.en.html",
    "status": "Checked",
-   "note": "No trilogue deal; nothing after President Lagarde's Nov 20 speech (a first issuance in 2029 if the law passes this year) and the Appia invitation.",
-   "last_success": "2026-11-22"
+   "note": "No trilogue deal; nothing after the Nov 20 Lagarde speech and Appia invitation. The site still aims for a possible first issuance in 2029 if the law is adopted in 2026.",
+   "last_success": "2026-11-23"
   },
   {
    "source": "Bank of England digital pound",
    "url": "https://www.bankofengland.co.uk/the-digital-pound",
    "status": "Checked",
    "note": "No decision yet; the page still points to a decision on next steps in 2026.",
-   "last_success": "2026-11-22"
+   "last_success": "2026-11-23"
   },
   {
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/",
    "status": "Checked",
-   "note": "Nothing on payment limits; Bill S-8 is still at second reading in the Senate.",
-   "last_success": "2026-11-22"
+   "note": "Nothing on payment limits; no new stage found for Bill S-8.",
+   "last_success": "2026-11-23"
   },
   {
    "source": "OSFI (Canada's bank regulator)",
    "url": "https://www.osfi-bsif.gc.ca/",
    "status": "Checked",
-   "note": "Nothing after the Nov 19 releases; nothing on deposit or withdrawal limits.",
-   "last_success": "2026-11-22"
+   "note": "Nothing new; the next scheduled items are a Dec 3 industry day and a Dec 17 announcement on its stability buffer.",
+   "last_success": "2026-11-23"
   },
   {
    "source": "Atlantic Council CBDC Tracker",
    "url": "https://www.atlanticcouncil.org/cbdctracker/",
    "status": "Checked",
    "note": "Still last updated May 2026.",
-   "last_success": "2026-11-22"
+   "last_success": "2026-11-23"
   },
   {
    "source": "NBER",
    "url": "https://www.nber.org/papers",
    "status": "Checked",
-   "note": "This week's papers include none on capital controls or payment limits.",
-   "last_success": "2026-11-22"
+   "note": "New papers on capital flows to developing countries and on bank deposits; none on capital controls or payment limits.",
+   "last_success": "2026-11-23"
   },
   {
    "source": "Cato",
    "url": "https://www.cato.org/blog",
    "status": "Checked",
-   "note": "A Nov 20 post argued that the Nov 11-17 outages, including at banks, mostly had ordinary causes such as rushed security patches; nothing on capital controls or cash.",
-   "last_success": "2026-11-22"
+   "note": "Nothing after the Nov 20 posts; nothing on capital controls or cash.",
+   "last_success": "2026-11-23"
   },
   {
    "source": "Brookings Hutchins Center",
    "url": "https://www.brookings.edu/centers/the-hutchins-center-on-fiscal-and-monetary-policy/",
    "status": "Checked",
-   "note": "A Nov 20 explainer on the convenience yield on Treasuries; nothing on capital controls.",
-   "last_success": "2026-11-22"
+   "note": "Nothing after the Nov 20 explainer on the convenience yield on Treasuries.",
+   "last_success": "2026-11-23"
   },
   {
    "source": "PIIE",
    "url": "https://www.piie.com/",
    "status": "Checked",
-   "note": "Trade and election posts; nothing on capital controls.",
-   "last_success": "2026-11-22"
+   "note": "Trade and tariff posts; nothing on capital controls.",
+   "last_success": "2026-11-23"
   },
   {
    "source": "AEI",
    "url": "https://www.aei.org/",
    "status": "Checked",
    "note": "Nothing relevant since Oct 27.",
-   "last_success": "2026-11-22"
+   "last_success": "2026-11-23"
   },
   {
    "source": "Heritage",
    "url": "https://www.heritage.org/",
    "status": "Checked",
    "note": "Nothing on capital controls.",
-   "last_success": "2026-11-22"
+   "last_success": "2026-11-23"
   },
   {
    "source": "Bank Policy Institute",
    "url": "https://bpi.com/",
    "status": "Checked",
-   "note": "The Nov 21 newsletter recapped its Nov 20 paper arguing AI agents shouldn't get access to bank accounts yet (already added to the Barr item).",
-   "last_success": "2026-11-22"
+   "note": "Nothing after the Nov 21 newsletter on AI agents and bank accounts (tracked in the Barr item).",
+   "last_success": "2026-11-23"
   },
   {
    "source": "Coin Center",
    "url": "https://www.coincenter.org/",
    "status": "Checked",
    "note": "No posts after Nov 6.",
-   "last_success": "2026-11-22"
+   "last_success": "2026-11-23"
   },
   {
    "source": "JD Supra",
    "url": "https://www.jdsupra.com/",
    "status": "Partial",
-   "note": "Home page only; law-firm alerts found by search covered FinCEN's customer due diligence proposal and the MEXC order.",
-   "last_success": "2026-11-22"
+   "note": "Home page only; law-firm alerts found by search covered FinCEN's customer due diligence proposal and the OCC's GENIUS Act rule.",
+   "last_success": "2026-11-23"
   },
   {
    "source": "Glenn Beck YouTube",
    "url": "https://www.youtube.com/@glennbeck",
    "status": "Checked",
    "note": "The latest uploads cover the midterms and politics; no new claims about limits on money. The tracked 'Capital Controls' special is unchanged.",
-   "last_success": "2026-11-22"
+   "last_success": "2026-11-23"
   },
   {
    "source": "glennbeck.com",
    "url": null,
    "status": "Partial",
-   "note": "Blocked as usual; the Nov 21 Glenn Beck Podcast episode (via iHeart) discussed a film with Ben Shapiro, with no claims about limits on money.",
-   "last_success": "2026-11-22"
+   "note": "Blocked as usual; the Nov 20 'Best of the Program' and the Nov 21 podcast (via iHeart) made no claims about limits on money.",
+   "last_success": "2026-11-23"
   },
   {
    "source": "IRS remittance tax guidance",
    "url": "https://www.irs.gov/newsroom/treasury-irs-issue-proposed-regulations-on-the-new-remittance-transfer-tax-established-under-the-one-big-beautiful-bill",
    "status": "Checked",
    "note": "No final regulations; the April proposal is still the latest. The 1% tax on cash-funded transfers still applies.",
-   "last_success": "2026-11-22"
+   "last_success": "2026-11-23"
   },
   {
    "source": "Other financial commentators (search)",
    "url": null,
    "status": "Checked",
-   "note": "Peter Schiff warned this week of a crisis worse than 2008 but made no claim about capital controls; Russell Napier's France forecast (tracked) drew no official response. In the Philippines, the central bank called a viral Facebook video claiming some banks would close on Nov 20 fake (Nov 18 advisory); it didn't concern U.S. banks.",
-   "last_success": "2026-11-22"
+   "note": "Bill Ackman warned on Nov 23 that the Fed may tighten too much, and a McAlvany commentary dated Nov 20 predicted a debt crisis; neither claimed U.S. capital controls are coming. Russell Napier's France forecast (tracked) drew no official response.",
+   "last_success": "2026-11-23"
   },
   {
    "source": "News search: bank and platform withdrawal limits",
    "url": null,
    "status": "Checked",
-   "note": "No U.S. bank, money market fund or major U.S. crypto platform limited withdrawals. Japan's bitbank will stop transfers to MEXC from Nov 24 (MEXC item updated), and South Korea's Upbit and Bithumb suspended transfers of one token after a suspected hack on Nov 21 (crypto item updated).",
-   "last_success": "2026-11-22"
+   "note": "No U.S. bank, money market fund or major U.S. crypto platform limited withdrawals. Chainflip, a crypto exchange, shut deposits and withdrawals after a Nov 21 theft (crypto item updated).",
+   "last_success": "2026-11-23"
   },
   {
    "source": "News search: currency and market measures abroad",
    "url": null,
    "status": "Checked",
-   "note": "The Congo's ban on paying with foreign-currency cash from Apr 9, 2027 (item added); Russia's exchange crypto trading rules took effect Nov 22 (item updated); China raised the share of foreign-currency deposits banks must hold in reserve to 6% from Nov 15 to slow the yuan's rise, which applies to banks' reserves rather than people's transfers, so it isn't tracked separately; no new step on India's reported remittance sub-limit.",
-   "last_success": "2026-11-22"
+   "note": "Taiwan's blanket short-selling ban and new steps in China and South Korea (item updated); Myanmar's currency controls (item added); Russia's exchange crypto trading still awaits central bank approval of trading rules (item updated); Argentina's gap between official and parallel dollar rates was about 4% with no new controls.",
+   "last_success": "2026-11-23"
   }
  ],
  "raise_level_triggers": [
@@ -7676,7 +7953,8 @@
   "H.R. 9331 or a similar bill passing the House or riding on a must-pass bill, or any rule making bank holds mandatory or letting banks or agencies hold whole classes of payments rather than specific suspected-fraud cases.",
   "Officials proposing withdrawal delays, 'speed bumps' or caps on fast or automated (AI-driven) deposit outflows, rather than faster Fed lending to banks, in response to quicker bank runs.",
   "Any U.S. proposal to cap stablecoin transfers or to require approval to convert dollars into stablecoins or send them abroad, as Thailand and Nigeria have done.",
-  "A final customer due diligence rule or guidance that requires banks to close or refuse accounts based on immigration status, rather than only allowing risk-based questions."
+  "A final customer due diligence rule or guidance that requires banks to close or refuse accounts based on immigration status, rather than only allowing risk-based questions.",
+  "An executive order, rule or bill that carries out the President's Nov 20 plan to bar or tax U.S. companies' data centers abroad, or any similar limit that reaches individuals' investments or transfers abroad."
  ],
  "live_page": "https://brentwhichel.github.io/capital-controls-monitor/"
 }
