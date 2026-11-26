@@ -3283,11 +3283,11 @@
   "crypto-exchange-withdrawal-pauses-2026-11": {
    "id": "crypto-exchange-withdrawal-pauses-2026-11",
    "section": "banking_stress",
-   "headline": "Crypto platforms keep pausing withdrawals after hacks, threats and vendor failures: Chainflip stayed shut after a theft of about $12.6 million, and South Korea's Gopax was still shut on Nov 19",
-   "date": "2026-11-23",
+   "headline": "Crypto platforms keep pausing withdrawals after hacks, threats and vendor failures: Chainflip, shut since a theft of about $12.6 million, began returning some users' funds, and South Korea's Gopax was still shut on Nov 19",
+   "date": "2026-11-25",
    "org": "Binance; Gopax (South Korea); Mercado Bitcoin, Nubank and Mercado Pago (Brazil)",
    "who": "Private cryptocurrency exchanges and fintech apps",
-   "what_changed": "On Nov 21, Chainflip, a crypto exchange that swaps coins between blockchains, switched on its full safety mode, turning off deposits, withdrawals and swaps, after an attacker drained its vaults. Its Nov 23 incident report put the loss at about 133.3 bitcoin, 520 ether and about 4 million dollars in stablecoins, about $12.6 million and effectively the vaults' entire balance, and said the attacker appears to have exploited a memory-safety flaw in an outside networking library to take key shares from its validators; the investigation continues. Its offer to let the attacker keep 10% if the rest came back expired on Nov 23 with no return announced, and it had not announced a restart. On Nov 21, South Korean exchanges Upbit and Bithumb suspended deposits and withdrawals of one token, CYBER, after the Cyber network reported unexpected minting and about 5.21 million tokens left its bridge, most of them sold for about $968,000 in ether. On Nov 16, 2026, Lighter, an Ethereum-based crypto derivatives exchange, paused withdrawals and new liquidity pools after an attacker drained funds from one trader's account, then reopened deposits and withdrawals later that day once its Security Council turned off the 'Guardian' safety mode; Lighter said it returned about $5 million in USDC to the trader. Its postmortem blamed API keys leaked through the trader's own custom signing software, not Lighter's code, and on-chain analysts estimated the amount taken at about $10.4 million to $15.5 million. In South Korea, Gopax, which halted trading, deposits and withdrawals on Nov 6 after hacking threats, was still shut on Nov 19 with no restart date; the Seoul Economic Daily reported that holders of 24 tokens that, among South Korea's major exchanges, trade only on Gopax have no domestic venue to sell them, and some barely trade abroad; it postponed planned final trading of five tokens being delisted, and data a lawmaker obtained from the Financial Supervisory Service showed a separate Sept 8 data breach had exposed the personal information of 2,009 people, up from the 9 Gopax first reported. Earlier: Brazil's Nubank and Mercado Pago paused some crypto transfers on Nov 6 after problems at outside providers; Uphold said withdrawal delays that began around Nov 4 came from a disruption at an outside transaction-monitoring partner, and its status page showed them mostly resolved by Nov 10; Binance, hacked for about $6.3 billion on Oct 29, has reopened withdrawals in phases since Nov 1; and Brazil's Mercado Bitcoin halted withdrawals Nov 2 after about $40 million was drained.",
+   "what_changed": "Chainflip Labs said in its Nov 23 incident report that it had begun returning liquidity providers' available balances to designated refund wallets on five networks (Solana, Arbitrum, Tron, BNB Chain and Polkadot Asset Hub), while assets in open positions may stay in their accounts; it gave no timetable for compensating losses, and we found no announcement that swaps had restarted. Chainflip's Nov 23 incident report said the Nov 21 thefts were authorized with valid vault signatures that its network never requested; it has replaced its signing keys, but swaps were still suspended with no restart date as of Nov 24, and it hasn't said how it will compensate those who lost funds. Binance, the largest crypto exchange, scheduled a pause of all crypto withdrawals for wallet maintenance starting 06:00 UTC on Nov 25 (12:00 AM CST), expected to last about an hour, with trading unaffected. Earlier: On Nov 21, Chainflip, a crypto exchange that swaps coins between blockchains, switched on its full safety mode, turning off deposits, withdrawals and swaps, after an attacker drained its vaults. Its Nov 23 incident report put the loss at about 133.3 bitcoin, 520 ether and about 4 million dollars in stablecoins, about $12.6 million and effectively the vaults' entire balance, and said the attacker appears to have exploited a memory-safety flaw in an outside networking library to take key shares from its validators; the investigation continues. Its offer to let the attacker keep 10% if the rest came back expired on Nov 23 with no return announced, and it had not announced a restart. On Nov 21, South Korean exchanges Upbit and Bithumb suspended deposits and withdrawals of one token, CYBER, after the Cyber network reported unexpected minting and about 5.21 million tokens left its bridge, most of them sold for about $968,000 in ether. On Nov 16, 2026, Lighter, an Ethereum-based crypto derivatives exchange, paused withdrawals and new liquidity pools after an attacker drained funds from one trader's account, then reopened deposits and withdrawals later that day once its Security Council turned off the 'Guardian' safety mode; Lighter said it returned about $5 million in USDC to the trader. Its postmortem blamed API keys leaked through the trader's own custom signing software, not Lighter's code, and on-chain analysts estimated the amount taken at about $10.4 million to $15.5 million. In South Korea, Gopax, which halted trading, deposits and withdrawals on Nov 6 after hacking threats, was still shut on Nov 19 with no restart date; the Seoul Economic Daily reported that holders of 24 tokens that, among South Korea's major exchanges, trade only on Gopax have no domestic venue to sell them, and some barely trade abroad; it postponed planned final trading of five tokens being delisted, and data a lawmaker obtained from the Financial Supervisory Service showed a separate Sept 8 data breach had exposed the personal information of 2,009 people, up from the 9 Gopax first reported. Earlier: Brazil's Nubank and Mercado Pago paused some crypto transfers on Nov 6 after problems at outside providers; Uphold said withdrawal delays that began around Nov 4 came from a disruption at an outside transaction-monitoring partner, and its status page showed them mostly resolved by Nov 10; Binance, hacked for about $6.3 billion on Oct 29, has reopened withdrawals in phases since Nov 1; and Brazil's Mercado Bitcoin halted withdrawals Nov 2 after about $40 million was drained.",
    "summary": "These were company decisions after thefts, threats or vendor failures, not government limits on customers' money, and Lighter's pause lasted only part of a day. Binance said it would cover losses, and Binance is Gopax's majority shareholder. Stablecoin issuers Tether and Circle froze wallets holding coins stolen from Binance, about $3 billion in total, which shows the freeze ability that U.S. rules will require issuers to have for lawful orders. The Brazil and Uphold delays show that a failure at an outside data or compliance vendor can stop transfers even when the platform itself isn't hacked. Binance.US, a separate U.S. platform, said it was not affected by the Binance hack. Since the Lighter incident, the exchange requires a wallet signature for transfers into public pools. On Nov 20, South Korea's Financial Supervisory Service told all 28 registered crypto firms to apply its emergency security guideline, and on Nov 23 it issued a letter letting exchanges block deposits and withdrawals for up to 12 hours on a suspected hack (both tracked under Around the world); we found no report of a Gopax restart.",
    "control_type": "None",
    "affected": "Sector or group",
@@ -3305,6 +3305,27 @@
     "date": null
    },
    "sources": [
+    {
+     "title": "Chainflip's post-hack refunds leave liquidity providers facing a second financial problem",
+     "url": "https://cryptoslate.com/chainflips-post-hack-refunds-leave-liquidity-providers-facing-a-second-financial-problem/",
+     "publisher": "CryptoSlate",
+     "date": "2026-11-24",
+     "primary": false
+    },
+    {
+     "title": "Incident Report: Bitcoin and Ethereum Vault Exploit (Part 1)",
+     "url": "https://chainflip.io/blog/incident-report-vault-exploit-21-november-2026-part-1",
+     "publisher": "Chainflip Labs",
+     "date": "2026-11-23",
+     "primary": true
+    },
+    {
+     "title": "Binance to Perform Wallet Maintenance and Suspend Withdrawals",
+     "url": "https://www.binance.com/en/square/post/11-24-2026-binance-will-be-performing-wallet-maintenance-and-suspending-withdrawals-391628849336528",
+     "publisher": "Binance",
+     "date": "2026-11-24",
+     "primary": true
+    },
     {
      "title": "Incident Report: Bitcoin and Ethereum Vault Exploit (Part 1)",
      "url": "https://chainflip.io/blog/incident-report-vault-exploit-21-november-2026-part-1",
@@ -3467,8 +3488,8 @@
      "stage": "In effect"
     }
    ],
-   "updated_on": "2026-11-24",
-   "plain": "Some crypto (digital coin) sites paused withdrawals after hacks or tech problems. One shut all transfers after a theft on Nov 21 and had not reopened by Nov 23. None of these were government limits."
+   "updated_on": "2026-11-26",
+   "plain": "Some crypto (digital coin) sites paused withdrawals after hacks or tech problems, and none of these were government limits. One that shut after a Nov 21 theft has begun returning some users' coins."
   },
   "h41-2026-11-05-discount-window": {
    "id": "h41-2026-11-05-discount-window",
@@ -3777,12 +3798,12 @@
   "us-stocks-selloff-2026-11-05": {
    "id": "us-stocks-selloff-2026-11-05",
    "section": "banking_stress",
-   "headline": "U.S. stocks rebound after their worst week since April 2025; no bank or fund withdrawal limits reported",
-   "date": "2026-11-23",
+   "headline": "U.S. stocks swing after their worst week since April 2025; no bank or fund withdrawal limits reported",
+   "date": "2026-11-25",
    "org": "U.S. stock markets",
    "who": "Markets (no government action)",
-   "what_changed": "On Monday, Nov 23, U.S. stocks rebounded: the S&P 500 rose 4.73% to 7,237.17 and the Nasdaq rose 6.51% to 24,089.56, both their best days since April 2025, and the Dow gained 1,447.98 points (3.01%) to 49,595.31. The rally followed Nvidia's reinstatement of Jensen Huang as chief executive; Nvidia's shares rose 31%, and the S&P 500 recovered just over half of the previous week's loss. Earlier: On Friday, Nov 20, the S&P 500 fell 3.7% to 6,910.39, more than 10% below its Oct 6 record high, a drop investors call a correction; the Dow fell 949.73 points (1.93%) to 48,147.33, and the Nasdaq fell 5.28% to 22,617.73, erasing its gain for 2026. For the week, the S&P 500 lost 8.6%, its worst week since April 2025; the Dow lost 8%, its worst week since March 2020; and the Nasdaq lost about 10%. Selling centered on AI and chip stocks: Nvidia fell about 14% after Reuters reported that the SEC is exploring possible accounting issues at the company. Bitcoin fell below $57,000 late on Nov 20 and to $55,130 early on Nov 21, its lowest since September 2024, then rebounded more than 9% to above $60,000 that afternoon after about $1.8 billion in leveraged crypto bets were forcibly closed; Binance market data showed it near $59,000 to $61,000 on Nov 22.",
-   "summary": "Markets stayed open with no market-wide trading halt, and we found no U.S. bank, money market fund or mutual fund limiting withdrawals or redemptions, and no major U.S. crypto platform halting withdrawals. U.S. stock markets were closed for the weekend and will close Thursday, Nov 26, for Thanksgiving. A falling stock market isn't a capital control: it changes what investments are worth, not whether people can withdraw or move their money. The slide began with a 4.4% S&P 500 drop on Nov 5, its worst day since April 2025, and Nov 20 was the index's seventh straight daily loss. Bitcoin's drop followed a record $541.1 million daily outflow from BlackRock's spot bitcoin fund on Nov 19. Treasury Secretary Bessent urged the Fed on Nov 20 not to raise interest rates by half a percentage point. Money market fund assets were about flat, down $3.58 billion to $7.98 trillion in the week to Nov 18; the next weekly figures come Nov 25. Reuters said the Nasdaq's 10% drop last week was its biggest weekly fall since March 2020 and that Wall Street's fear gauge rose above 40 for the first time since April 2025. Asian authorities stepped up support for their markets (tracked under Around the world).",
+   "what_changed": "On Wednesday, Nov 25, U.S. stocks recovered most of a steep early drop: the S&P 500 closed down 0.25% at 7,182.78 after falling as much as 3.2%, the Dow rose 0.33% to 50,182.95 after being down more than 1,100 points, and the Nasdaq fell 0.62% to 23,585.80 after falling as much as 4.6%, as AI-linked stocks fell again and October inflation data came in high. Earlier: On Tuesday, Nov 24, U.S. stocks were mixed: the S&P 500 fell 0.5% to 7,201.09 and the Nasdaq fell 1.5% to 23,733.54 as AI and chip stocks gave back part of Monday's gains, while the Dow rose 0.9% to 50,018.70. Earlier: On Monday, Nov 23, U.S. stocks rebounded: the S&P 500 rose 4.73% to 7,237.17 and the Nasdaq rose 6.51% to 24,089.56, both their best days since April 2025, and the Dow gained 1,447.98 points (3.01%) to 49,595.31. The rally followed Nvidia's reinstatement of Jensen Huang as chief executive; Nvidia's shares rose 31%, and the S&P 500 recovered just over half of the previous week's loss. Earlier: On Friday, Nov 20, the S&P 500 fell 3.7% to 6,910.39, more than 10% below its Oct 6 record high, a drop investors call a correction; the Dow fell 949.73 points (1.93%) to 48,147.33, and the Nasdaq fell 5.28% to 22,617.73, erasing its gain for 2026. For the week, the S&P 500 lost 8.6%, its worst week since April 2025; the Dow lost 8%, its worst week since March 2020; and the Nasdaq lost about 10%. Selling centered on AI and chip stocks: Nvidia fell about 14% after Reuters reported that the SEC is exploring possible accounting issues at the company. Bitcoin fell below $57,000 late on Nov 20 and to $55,130 early on Nov 21, its lowest since September 2024, then rebounded more than 9% to above $60,000 that afternoon after about $1.8 billion in leveraged crypto bets were forcibly closed; Binance market data showed it near $59,000 to $61,000 on Nov 22.",
+   "summary": "Markets stayed open with no market-wide trading halt, and we found no U.S. bank, money market fund or mutual fund limiting withdrawals or redemptions, and no major U.S. crypto platform halting withdrawals. U.S. stock markets are closed Thursday, Nov 26, for Thanksgiving. A falling stock market isn't a capital control: it changes what investments are worth, not whether people can withdraw or move their money. The slide began with a 4.4% S&P 500 drop on Nov 5, its worst day since April 2025, and Nov 20 was the index's seventh straight daily loss. Bitcoin's drop followed a record $541.1 million daily outflow from BlackRock's spot bitcoin fund on Nov 19. Treasury Secretary Bessent urged the Fed on Nov 20 not to raise interest rates by half a percentage point. Money market fund assets rose $2.49 billion to $7.98 trillion in the six days to Nov 24, after a $3.58 billion dip the week before. Bitcoin fell to about $57,500 on Nov 25 and was near $60,500 early Nov 26, as U.S. spot bitcoin funds had a seventh straight day of outflows. Reuters said the Nasdaq's 10% drop last week was its biggest weekly fall since March 2020 and that Wall Street's fear gauge rose above 40 for the first time since April 2025. Asian authorities stepped up support for their markets (tracked under Around the world).",
    "control_type": "None",
    "affected": "Sector or group",
    "stage": "In effect",
@@ -3792,12 +3813,47 @@
    "evidence": "Credible reporting",
    "verdict": "Confirmed",
    "why_it_matters": "Sharp market drops can strain funds and lenders and often fuel claims that limits on withdrawals are coming, so this monitor watches for redemption gates, liquidity fees or bank limits during selloffs.",
-   "why_it_might_not": "Falling prices don't limit anyone's access to their money. Markets stayed open, and money market fund assets held steady through Nov 18.",
+   "why_it_might_not": "Falling prices don't limit anyone's access to their money. Markets stayed open, and money market fund assets held steady through Nov 24.",
    "next_milestone": {
-    "what": "Next weekly money market fund data (Nov 25, a day early for Thanksgiving) and Fed balance sheet (Nov 27)",
-    "date": "2026-11-25"
+    "what": "Next weekly Fed balance sheet (Nov 27) and money market fund data (regular Thursday release, Dec 3)",
+    "date": "2026-11-27"
    },
    "sources": [
+    {
+     "title": "How major US stock indexes fared Wednesday 11/25/2026",
+     "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-11252026-138453529",
+     "publisher": "Associated Press (via ABC News)",
+     "date": "2026-11-25",
+     "primary": false
+    },
+    {
+     "title": "Dow closes higher Wednesday, wiping out 1,100-point loss in stunning rebound",
+     "url": "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html",
+     "publisher": "CNBC",
+     "date": "2026-11-25",
+     "primary": false
+    },
+    {
+     "title": "Release: Money Market Fund Assets (six days ended Nov 24, 2026)",
+     "url": "https://www.iciglobal.org/research/stats/mmf",
+     "publisher": "Investment Company Institute",
+     "date": "2026-11-25",
+     "primary": true
+    },
+    {
+     "title": "Bitcoin little changed, DeFi tokens lead the bounce as U.S. marks Thanksgiving",
+     "url": "https://www.coindesk.com/markets/2026/11/26/bitcoin-little-changed-defi-tokens-lead-the-bounce-as-u-s-marks-thanksgiving",
+     "publisher": "CoinDesk",
+     "date": "2026-11-26",
+     "primary": false
+    },
+    {
+     "title": "How major US stock indexes fared Tuesday 11/24/2026",
+     "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-6cc4e580290aadf304ee316d6d46dd81",
+     "publisher": "Associated Press",
+     "date": "2026-11-24",
+     "primary": false
+    },
     {
      "title": "How major US stock indexes fared Monday 11/23/2026",
      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-fcdf1bad36b4f81c90cbb0f33a2c5704",
@@ -3860,13 +3916,6 @@
      "publisher": "CoinDesk",
      "date": "2026-11-20",
      "primary": false
-    },
-    {
-     "title": "Release: Money Market Fund Assets (week ended Nov 18, 2026)",
-     "url": "https://www.ici.org/research/stats/mmf",
-     "publisher": "Investment Company Institute",
-     "date": "2026-11-19",
-     "primary": true
     },
     {
      "title": "Bitcoin drops for third straight day as Asian tech shares slide",
@@ -3938,8 +3987,8 @@
      "stage": "In effect"
     }
    ],
-   "updated_on": "2026-11-24",
-   "plain": "Stock prices fell hard last week, then rose sharply on Nov 23. Markets stayed open, and we found no U.S. bank or fund that limited withdrawals."
+   "updated_on": "2026-11-26",
+   "plain": "Stock prices have swung up and down this month. Markets stayed open, and we found no U.S. bank or fund that limited withdrawals."
   },
   "dol-1210-AC38-401k-alternatives": {
    "id": "dol-1210-AC38-401k-alternatives",
@@ -4798,7 +4847,7 @@
    "date": "2026-11-13",
    "org": "Banco Central de Bolivia (Bolivia's central bank)",
    "what_changed": "On Nov 13, 2026, under board Resolution 162/2026, Bolivia's central bank created 'auxiliary liquidity accounts' for all banks and other lenders so that all new U.S. dollar operations through them, covering transfers abroad, cash movements and transfers between lenders, can run without restriction, something it said had been restricted in recent years. It will also return the $438 million in dollar cash that lenders held in their current and reserve accounts at the central bank on Nov 10: $11 million credited Nov 13 to 35 small lenders that mainly serve rural and outlying areas, $43 million on Dec 18 to 18 more, and $384 million on Apr 30 and Sept 30, 2027 to the remaining 8. It now publishes the new accounts' combined balances on its website.",
-   "summary": "A shortage of U.S. dollars has made it hard for Bolivians to withdraw their dollar deposits since February 2023, a freeze on access to savings that the central bank itself calls a 'corralito.' In May 2026 the authorities set a schedule to return dollar deposits in stages by balance size; on Oct 30 the central bank moved up to Nov 5 the repayment of $333 million to households with $10,001 to $50,000, and from Nov 9 lenders manage the reserves on new dollar deposits themselves so those dollars stay available for withdrawals. The remaining stages for individuals, covering balances above $50,000, run from April to July 2027, and companies follow a separate schedule through December 2028. The central bank calls the Nov 13 step a move toward fully normal foreign-currency operations; about 88% of the $438 million goes back to lenders only in 2027. Earlier this month a Bolivian newspaper reported that some customers still had trouble depositing cash dollars, and a former economy minister said dollar transfers and payments remained restricted, with fees of 7% to 10% on some operations.",
+   "summary": "A shortage of U.S. dollars has made it hard for Bolivians to withdraw their dollar deposits since February 2023, a freeze on access to savings that the central bank itself calls a 'corralito.' In May 2026 the authorities set a schedule to return dollar deposits in stages by balance size; on Oct 30 the central bank moved up to Nov 5 the repayment of $333 million to households with $10,001 to $50,000, and from Nov 9 lenders manage the reserves on new dollar deposits themselves so those dollars stay available for withdrawals. The remaining stages for individuals, covering balances above $50,000, run from April to July 2027, and companies follow a separate schedule through December 2028. The central bank calls the Nov 13 step a move toward fully normal foreign-currency operations; about 88% of the $438 million goes back to lenders only in 2027. Earlier this month a Bolivian newspaper reported that some customers still had trouble depositing cash dollars, and a former economy minister said dollar transfers and payments remained restricted, with fees of 7% to 10% on some operations. On Nov 25, IMF staff reached a staff-level agreement with Bolivia on the first review of its loan program and said the transition to a flexible exchange rate has remained orderly and international reserves are being rebuilt.",
    "control_type": "Prohibition",
    "affected": "Sector or group",
    "stage": "In effect",
@@ -4816,6 +4865,13 @@
     "date": "2026-12-18"
    },
    "sources": [
+    {
+     "title": "IMF Reaches Staff-Level Agreement on the First Review under Bolivia's Extended Fund Facility Arrangement",
+     "url": "https://www.imf.org/en/news/articles/2026/11/25/pr26380-imf-staff-level-agreement-first-review-under-bolivias-extended-fund-facility-arrange",
+     "publisher": "IMF",
+     "date": "2026-11-25",
+     "primary": true
+    },
     {
      "title": "Nota de Prensa NP 27/2026: new dollar operations fully operational in the financial system (in Spanish)",
      "url": "https://www.bcb.gob.bo/webdocs/files_noticias/NP%2027-13%20NOVIEMBRE.pdf",
@@ -4882,7 +4938,7 @@
    ],
    "plain": "Since 2023, it has been hard to get dollars out of banks in Bolivia, a country in South America. Now its central bank says new dollar transfers and cash moves can go ahead with no limits.",
    "first_seen": "2026-11-11",
-   "updated_on": "2026-11-14",
+   "updated_on": "2026-11-26",
    "last_change": "2026-11-13",
    "status": "EASED",
    "status_history": [
@@ -5099,7 +5155,7 @@
    "date": "2026-11-23",
    "org": "Financial Services Commission and Financial Supervisory Service (South Korea)",
    "what_changed": "On Nov 23, 2026 (Korea time), South Korea's Financial Supervisory Service (FSS) issued the promised no-action letter, a written promise not to penalize, and it was reported on Nov 24. Until May 31, 2027, crypto exchanges and other virtual asset firms that see signs of a possible hack, such as large-scale withdrawals or a gap between their records and the coins actually in their wallets, may block both deposits and withdrawals of the affected coins or wallets for up to 12 hours without telling users first. Afterward they must tell users the reason without delay and report to the Financial Services Commission (FSC); if a hack has happened or is clearly expected, they must send the FSS a plan for security fixes within 3 business days and then weekly progress reports. Earlier: on Nov 12, the FSC announced it would issue the letter and set emergency guidelines requiring round-the-clock monitoring; exchanges that can't monitor at all hours must process deposits and withdrawals only during hours when their systems run normally, and tell users in advance.",
-   "summary": "Korea's Virtual Asset User Protection Act bars exchanges from blocking deposits and withdrawals without a justifiable reason, allows a block only when a hack has happened or is clearly expected, and requires telling users in advance; the letter waives penalties for skipping that advance notice at the suspicion stage. Officials said confirming a hack takes time and stolen crypto is hard to recover once it moves. On Nov 22 (Korea time), before the letter, Upbit and Bithumb paused deposits and withdrawals of one token, CYBER, after a suspected bridge exploit; Bithumb's notice cited the existing law's enforcement decree, and trading continued. The FSC pointed to the $6.3 billion Binance hack as showing that fast blocking limits harm to users. It also told exchanges to keep as little of users' crypto online as possible and to carry more insurance and reserves, and said a government Digital Asset Act bill would give crypto firms security standards and liability like financial firms'. FSC Vice Chairman Shin Jin-chang said domestic exchanges hold about 66 trillion won of crypto for more than 10 million users. On Nov 20, the FSS told all 28 registered crypto firms to apply the emergency guideline.",
+   "summary": "Korea's Virtual Asset User Protection Act bars exchanges from blocking deposits and withdrawals without a justifiable reason, allows a block only when a hack has happened or is clearly expected, and requires telling users in advance; the letter waives penalties for skipping that advance notice at the suspicion stage. Officials said confirming a hack takes time and stolen crypto is hard to recover once it moves. On Nov 22 (Korea time), before the letter, Upbit and Bithumb paused deposits and withdrawals of one token, CYBER, after a suspected bridge exploit; Bithumb's notice cited the existing law's enforcement decree, and trading continued. The FSC pointed to the $6.3 billion Binance hack as showing that fast blocking limits harm to users. It also told exchanges to keep as little of users' crypto online as possible and to carry more insurance and reserves, and said a government Digital Asset Act bill would give crypto firms security standards and liability like financial firms'. FSC Vice Chairman Shin Jin-chang said domestic exchanges hold about 66 trillion won of crypto for more than 10 million users. On Nov 20, the FSS told all 28 registered crypto firms to apply the emergency guideline. On Nov 24, the FSC unveiled its proposed Act on the Innovation of the Digital Asset Industry and Protection of Users: according to the FSC and Korean press, crypto firms would be liable for users' losses from hacks or system failures without proof of fault, with fines of up to 10% of revenue for clear negligence; major shareholders' stakes in exchanges would be capped at 20% (34% with approval); and bank-majority consortiums would be first to issue won stablecoins. Coverage we read didn't mention changes to the 12-hour block rule.",
    "plain": "South Korea now lets crypto (digital coin) exchanges stop deposits and withdrawals for up to 12 hours, without warning, if they suspect a hack. They must explain why soon after. This is in South Korea, not the U.S.",
    "control_type": "Friction",
    "affected": "Sector or group",
@@ -5114,10 +5170,24 @@
    "why_it_might_not": "It's aimed at stopping theft, not at keeping money in the country. Each block is capped at 12 hours, must be explained to users and reported to regulators, and the relief expires May 31, 2027. It covers crypto platforms in South Korea, not bank accounts.",
    "us_link": "No direct link. We found no U.S. proposal like this one; the Senate's CLARITY Act text would let crypto platforms hold withdrawals for up to 180 days at law enforcement's written request (tracked).",
    "next_milestone": {
-    "what": "The no-action relief expires unless extended; the government's Digital Asset Act bill is due to be unveiled (no date given)",
+    "what": "The no-action relief expires unless extended; the Digital Asset Act bill unveiled Nov 24 goes to the National Assembly (no date given)",
     "date": "2027-05-31"
    },
    "sources": [
+    {
+     "title": "FSC Holds Virtual Asset Committee Meeting and Introduces New Legislative Proposal on Digital Assets",
+     "url": "https://www.fsc.go.kr/eng/pr010101/88214",
+     "publisher": "Financial Services Commission (Korea)",
+     "date": "2026-11-24",
+     "primary": true
+    },
+    {
+     "title": "General Act on Digital Assets Unveiled: limits on exchange stakes, bank-centered stablecoins",
+     "url": "https://en.fnnews.com/news/202611241456439070",
+     "publisher": "Financial News (Korea)",
+     "date": "2026-11-24",
+     "primary": false
+    },
     {
      "title": "Financial Authorities Allow 12-Hour Suspension of Crypto Deposits and Withdrawals on Hacking Suspicion",
      "url": "https://en.infomaxai.com/news/articleView.html?idxno=149920",
@@ -5195,7 +5265,7 @@
     "source_url": "https://en.infomaxai.com/news/articleView.html?idxno=149920"
    },
    "first_seen": "2026-11-13",
-   "updated_on": "2026-11-24",
+   "updated_on": "2026-11-25",
    "last_change": "2026-11-23",
    "status": "ADVANCED",
    "status_history": [
@@ -7517,6 +7587,173 @@
     }
    ],
    "open": true
+  },
+  "fdic-qbp-2026q3": {
+   "id": "fdic-qbp-2026q3",
+   "section": "banking_stress",
+   "headline": "FDIC: banks earned $84.8 billion in the third quarter and deposits grew again, while unrealized losses on securities jumped to $486 billion as interest rates rose",
+   "date": "2026-11-24",
+   "org": "Federal Deposit Insurance Corporation (FDIC)",
+   "what_changed": "On Nov 24, 2026, the FDIC released its Quarterly Banking Profile for the third quarter (data as of Sept 30), covering 4,205 insured banks and savings institutions. Net income was $84.8 billion, down $5.3 billion (5.9%) from the second quarter but up $5.5 billion (7.0%) from a year earlier, for a return on assets of 1.28%. Domestic deposits rose 0.9%, the ninth straight quarterly increase, and loans grew 1.9% from the prior quarter. Unrealized losses on securities rose $159.4 billion (48.8%) to $486.0 billion, 8.2% of their cost, mainly because interest rates rose.",
+   "summary": "The FDIC said capital and liquidity remain strong and asset quality was stable: past-due and nonaccrual rates rose slightly while the net charge-off rate eased. It said unrealized losses remain well below their peak in the third quarter of 2023. The Deposit Insurance Fund's reserve ratio rose 2 basis points to 1.50%. The figures predate November's stock-market slide. Unrealized losses are losses on paper; they become real only if a bank sells the securities, for example to pay departing depositors. Nothing in the report points to limits on deposits or withdrawals.",
+   "plain": "The FDIC (the agency that insures bank deposits) says banks made $84.8 billion from July to September. Deposits grew again, and paper losses on bonds banks own rose to $486 billion as rates went up.",
+   "control_type": "None",
+   "affected": "Sector or group",
+   "stage": "In effect",
+   "tier": null,
+   "signal_numbers": [],
+   "direction": "Neutral",
+   "evidence": "Official document",
+   "why_it_matters": "This is the FDIC's quarterly checkup on every insured bank. Growing deposits mean people aren't pulling money out of banks, while a jump in paper losses is the kind of strain that matters if depositors rush to withdraw.",
+   "why_it_might_not": "Banks stayed profitable with strong capital and liquidity, paper losses are well below their 2023 peak, and the report describes conditions, not new rules or limits.",
+   "next_milestone": {
+    "what": "Fourth-quarter Quarterly Banking Profile (date not announced)",
+    "date": null
+   },
+   "sources": [
+    {
+     "title": "FDIC-Insured Institutions Reported Return on Assets of 1.28 Percent and Net Income of $84.8 Billion in Third Quarter 2026",
+     "url": "https://www.fdic.gov/news/press-releases/2026/fdic-insured-institutions-reported-return-assets-128-percent-and-net",
+     "publisher": "FDIC",
+     "date": "2026-11-24",
+     "primary": true
+    },
+    {
+     "title": "FDIC Quarterly Banking Profile, Third Quarter 2026 (statement with charts)",
+     "url": "https://www.fdic.gov/news/speeches/2026/fdic-quarterly-banking-profile-third-quarter-2026",
+     "publisher": "FDIC",
+     "date": "2026-11-24",
+     "primary": true
+    },
+    {
+     "title": "Quarterly Banking Profile, Third Quarter 2026 (PDF)",
+     "url": "https://www.fdic.gov/quarterly-banking-profile/quarterly-banking-profile-third-quarter-2026.pdf",
+     "publisher": "FDIC",
+     "date": "2026-11-24",
+     "primary": true
+    }
+   ],
+   "first_seen": "2026-11-25",
+   "updated_on": "2026-11-25",
+   "last_change": "2026-11-24",
+   "status": "NEW",
+   "status_history": [
+    {
+     "date": "2026-11-25",
+     "status": "NEW",
+     "stage": "In effect"
+    }
+   ],
+   "open": true
+  },
+  "fincen-fin-2026-r002": {
+   "id": "fincen-fin-2026-r002",
+   "section": "official_us",
+   "headline": "FinCEN investigates a cyber intrusion and lets affected filers delay certain reports until Dec 30; bank regulators say they won't penalize late filings caused by the outage",
+   "date": "2026-11-25",
+   "org": "Financial Crimes Enforcement Network (FinCEN), U.S. Treasury; Federal Reserve, FDIC, OCC and NCUA",
+   "what_changed": "On Nov 25, 2026, the Federal Reserve, the FDIC, the OCC and the NCUA issued a joint statement (Fed SR 26-10; OCC Bulletin 2026-59) saying they won't take supervisory or enforcement action, including citing a violation of law, against an institution that uses FinCEN's Secure Data Transfer Mode and files Bank Secrecy Act reports, including suspicious activity reports, late because of the service disruption; the statement also covers extension timeframes and the expedited delivery of suspicious activity information to law enforcement. The same day, a FinCEN official told Reuters that Treasury is working with the FBI, CISA (the federal cybersecurity agency) and outside forensic examiners to determine the scope and impact, and a person familiar with the matter said there was so far no evidence of any breach of the Bank Secrecy Act or beneficial ownership databases. Earlier: On Nov 24, FinCEN issued Order FIN-2026-R002, giving financial institutions that used its bulk-filing channel as of Nov 18 until Dec 30 to file Bank Secrecy Act reports due from Nov 18 through Dec 29, with the same extension for beneficial ownership reports and FinCEN ID updates; that evening, a notice on its BSA E-Filing website said it is investigating a cybersecurity incident that gave someone unauthorized access to a limited subset of its systems and that it had taken some systems offline as a precaution.",
+   "summary": "Neither the order nor the joint statement pauses anti-money-laundering duties: institutions must keep monitoring for suspicious transactions and can use FinCEN's hotline for urgent cases. FinCEN hasn't said when the intrusion began, who was behind it or whether any data was taken; forensic work continues, and FinCEN may modify or extend the order. News reports noted other recent intrusions at federal agencies, including an unclassified CIA and ODNI analysis system, but officials haven't linked them to FinCEN's incident.",
+   "plain": "Bank regulators said they won't punish banks for late reports caused by the hacking problem at FinCEN, a Treasury office that gets bank reports. No one's money is limited.",
+   "control_type": "Visibility",
+   "affected": "Sector or group",
+   "stage": "In effect",
+   "tier": null,
+   "signal_numbers": [],
+   "direction": "Neutral",
+   "evidence": "Official document",
+   "why_it_matters": "FinCEN receives the reports banks file about customers' large cash transactions and suspicious activity, the government's main window into how Americans move money. A breach could expose sensitive financial details, and the outage shows this reporting system can be interrupted.",
+   "why_it_might_not": "It doesn't let anyone block or delay transactions: banks keep processing payments, and the relief only delays some filings until Dec 30. FinCEN hasn't said that any data was taken, and a person familiar with the matter said there was no evidence so far that its main report databases were breached.",
+   "next_milestone": {
+    "what": "Delayed filings come due unless FinCEN extends the order; FinCEN restores its systems and says what was accessed (no date given)",
+    "date": "2026-12-30"
+   },
+   "quote": {
+    "text": "resulted in unauthorized access to a limited subset of its systems",
+    "source_url": "https://therecord.media/treasury-fincen-takes-systems-offline-after-cyber-incident"
+   },
+   "sources": [
+    {
+     "title": "SR 26-10: Joint Statement of Supervisory Policy for Bank Secrecy Act Reporting in Response to a Service Disruption",
+     "url": "https://www.federalreserve.gov/supervisionreg/srletters/SR2610.htm",
+     "publisher": "Federal Reserve Board",
+     "date": "2026-11-25",
+     "primary": true
+    },
+    {
+     "title": "OCC Bulletin 2026-59: Joint Statement of Supervisory Policy for Bank Secrecy Act Reporting in Response to a Service Disruption (newsroom listing)",
+     "url": "https://www.occ.gov/news-events/newsroom/index.html",
+     "publisher": "OCC",
+     "date": "2026-11-25",
+     "primary": true
+    },
+    {
+     "title": "US FinCEN takes some systems offline after cyber incident, official says",
+     "url": "https://www.channelnewsasia.com/business/us-fincen-takes-some-systems-offline-after-cyber-incident-official-says-6582211",
+     "publisher": "CNA (Reuters)",
+     "date": "2026-11-25",
+     "primary": false
+    },
+    {
+     "title": "FinCEN investigates cybersecurity incident, takes systems offline",
+     "url": "https://cyberscoop.com/fincen-investigates-cybersecurity-incident-systems-offline/",
+     "publisher": "CyberScoop",
+     "date": "2026-11-25",
+     "primary": false
+    },
+    {
+     "title": "Order FIN-2026-R002: Temporary, limited exceptive relief for certain Bank Secrecy Act and Corporate Transparency Act submissions",
+     "url": "https://www.fincen.gov/sites/default/files/100/ORDER-FIN-2026-R002.pdf",
+     "publisher": "FinCEN",
+     "date": "2026-11-24",
+     "primary": true
+    },
+    {
+     "title": "Temporary, Limited Exceptive Relief for Certain Bank Secrecy Act and Corporate Transparency Act Submissions",
+     "url": "https://www.fincen.gov/news/news-releases/temporary-limited-exceptive-relief-certain-bank-secrecy-act-corporate-transparency-act-submissions/",
+     "publisher": "FinCEN",
+     "date": "2026-11-24",
+     "primary": true
+    },
+    {
+     "title": "Treasury's FinCEN takes systems offline after cybersecurity incident",
+     "url": "https://therecord.media/treasury-fincen-takes-systems-offline-after-cyber-incident",
+     "publisher": "The Record (Recorded Future News)",
+     "date": "2026-11-24",
+     "primary": false
+    },
+    {
+     "title": "US Treasury Investigates Cyber Incident Amid Reported Federal Agency Breaches",
+     "url": "https://www.infosecurity-magazine.com/news/us-treasury-cyber-incident/",
+     "publisher": "Infosecurity Magazine",
+     "date": "2026-11-25",
+     "primary": false
+    },
+    {
+     "title": "US Treasury's FinCEN Suffers Cybersecurity Breach, Takes Systems Offline as Precaution",
+     "url": "https://financefeeds.com/us-treasurys-fincen-suffers-cybersecurity-breach-takes-systems-offline-as-precaution/",
+     "publisher": "FinanceFeeds",
+     "date": "2026-11-25",
+     "primary": false
+    }
+   ],
+   "first_seen": "2026-11-25",
+   "updated_on": "2026-11-26",
+   "last_change": "2026-11-25",
+   "status": "EXPANDED",
+   "status_history": [
+    {
+     "date": "2026-11-25",
+     "status": "NEW",
+     "stage": "In effect"
+    },
+    {
+     "date": "2026-11-26",
+     "status": "EXPANDED",
+     "stage": "In effect"
+    }
+   ],
+   "open": true
   }
  },
  "levels": [
@@ -7634,7 +7871,7 @@
    }
   ],
   "sources_checked_through": "2026-11-26T06:33:00-06:00",
-  "refreshed_at": "2026-11-26T06:34:24-06:00",
+  "refreshed_at": "2026-11-26T06:35:08-06:00",
   "plain": {
    "today": "Nothing stops people in the U.S. from taking out, moving or saving their money. Today's news is about rules for banks, and none of it limits anyone's money.",
    "worry": "Not right now. No U.S. rule limits taking out or moving money for most people. The bills that would limit money sent abroad by some people on public aid still have not had a hearing or vote.",
