@@ -3283,12 +3283,12 @@
   "crypto-exchange-withdrawal-pauses-2026-11": {
    "id": "crypto-exchange-withdrawal-pauses-2026-11",
    "section": "banking_stress",
-   "headline": "Crypto platforms keep pausing withdrawals after hacks, threats and vendor failures: Chainflip, shut since a theft of about $12.6 million, began returning some users' funds, and South Korea's Gopax was still shut on Nov 19",
-   "date": "2026-11-25",
-   "org": "Binance; Gopax (South Korea); Mercado Bitcoin, Nubank and Mercado Pago (Brazil)",
+   "headline": "Binance ends the withdrawal pause it imposed after October's $6.3 billion hack; other crypto platforms' post-hack pauses are easing, with Chainflip returning some users' funds",
+   "date": "2026-11-26",
+   "org": "Binance; Chainflip; Lighter; Gopax (South Korea); Mercado Bitcoin, Nubank and Mercado Pago (Brazil)",
    "who": "Private cryptocurrency exchanges and fintech apps",
-   "what_changed": "Chainflip Labs said in its Nov 23 incident report that it had begun returning liquidity providers' available balances to designated refund wallets on five networks (Solana, Arbitrum, Tron, BNB Chain and Polkadot Asset Hub), while assets in open positions may stay in their accounts; it gave no timetable for compensating losses, and we found no announcement that swaps had restarted. Chainflip's Nov 23 incident report said the Nov 21 thefts were authorized with valid vault signatures that its network never requested; it has replaced its signing keys, but swaps were still suspended with no restart date as of Nov 24, and it hasn't said how it will compensate those who lost funds. Binance, the largest crypto exchange, scheduled a pause of all crypto withdrawals for wallet maintenance starting 06:00 UTC on Nov 25 (12:00 AM CST), expected to last about an hour, with trading unaffected. Earlier: On Nov 21, Chainflip, a crypto exchange that swaps coins between blockchains, switched on its full safety mode, turning off deposits, withdrawals and swaps, after an attacker drained its vaults. Its Nov 23 incident report put the loss at about 133.3 bitcoin, 520 ether and about 4 million dollars in stablecoins, about $12.6 million and effectively the vaults' entire balance, and said the attacker appears to have exploited a memory-safety flaw in an outside networking library to take key shares from its validators; the investigation continues. Its offer to let the attacker keep 10% if the rest came back expired on Nov 23 with no return announced, and it had not announced a restart. On Nov 21, South Korean exchanges Upbit and Bithumb suspended deposits and withdrawals of one token, CYBER, after the Cyber network reported unexpected minting and about 5.21 million tokens left its bridge, most of them sold for about $968,000 in ether. On Nov 16, 2026, Lighter, an Ethereum-based crypto derivatives exchange, paused withdrawals and new liquidity pools after an attacker drained funds from one trader's account, then reopened deposits and withdrawals later that day once its Security Council turned off the 'Guardian' safety mode; Lighter said it returned about $5 million in USDC to the trader. Its postmortem blamed API keys leaked through the trader's own custom signing software, not Lighter's code, and on-chain analysts estimated the amount taken at about $10.4 million to $15.5 million. In South Korea, Gopax, which halted trading, deposits and withdrawals on Nov 6 after hacking threats, was still shut on Nov 19 with no restart date; the Seoul Economic Daily reported that holders of 24 tokens that, among South Korea's major exchanges, trade only on Gopax have no domestic venue to sell them, and some barely trade abroad; it postponed planned final trading of five tokens being delisted, and data a lawmaker obtained from the Financial Supervisory Service showed a separate Sept 8 data breach had exposed the personal information of 2,009 people, up from the 9 Gopax first reported. Earlier: Brazil's Nubank and Mercado Pago paused some crypto transfers on Nov 6 after problems at outside providers; Uphold said withdrawal delays that began around Nov 4 came from a disruption at an outside transaction-monitoring partner, and its status page showed them mostly resolved by Nov 10; Binance, hacked for about $6.3 billion on Oct 29, has reopened withdrawals in phases since Nov 1; and Brazil's Mercado Bitcoin halted withdrawals Nov 2 after about $40 million was drained.",
-   "summary": "These were company decisions after thefts, threats or vendor failures, not government limits on customers' money, and Lighter's pause lasted only part of a day. Binance said it would cover losses, and Binance is Gopax's majority shareholder. Stablecoin issuers Tether and Circle froze wallets holding coins stolen from Binance, about $3 billion in total, which shows the freeze ability that U.S. rules will require issuers to have for lawful orders. The Brazil and Uphold delays show that a failure at an outside data or compliance vendor can stop transfers even when the platform itself isn't hacked. Binance.US, a separate U.S. platform, said it was not affected by the Binance hack. Since the Lighter incident, the exchange requires a wallet signature for transfers into public pools. On Nov 20, South Korea's Financial Supervisory Service told all 28 registered crypto firms to apply its emergency security guideline, and on Nov 23 it issued a letter letting exchanges block deposits and withdrawals for up to 12 hours on a suspected hack (both tracked under Around the world); we found no report of a Gopax restart.",
+   "what_changed": "On Nov 26, 2026, Binance, the largest crypto exchange, said its 'withdrawal recovery work' was complete and that the withdrawal suspension from its Oct 29 security incident had been fully lifted; withdrawals are open on nearly all networks, and a small number of networks are paused for maintenance or planned upgrades that it says are unrelated. Reuters reported that Binance stopped all withdrawals for two days after the Oct 29 theft of about $6.3 billion, the largest crypto hack on record; it reopened them in stages from Nov 1, starting with bitcoin, and Binance said customers pulled a net $4.7 billion when withdrawals first reopened. Binance says it covered the stolen assets with about $6.34 billion of its own money, and Reuters reported that about $2.85 billion of the stolen funds have been frozen by the companies that issue them. Earlier: Chainflip Labs said in its Nov 23 incident report that it had begun returning liquidity providers' available balances to designated refund wallets on five networks (Solana, Arbitrum, Tron, BNB Chain and Polkadot Asset Hub), while assets in open positions may stay in their accounts; it gave no timetable for compensating losses, and we found no announcement that swaps had restarted. Chainflip's Nov 23 incident report said the Nov 21 thefts were authorized with valid vault signatures that its network never requested; it has replaced its signing keys, but swaps were still suspended with no restart date as of Nov 24, and it hasn't said how it will compensate those who lost funds. Binance, the largest crypto exchange, scheduled a pause of all crypto withdrawals for wallet maintenance starting 06:00 UTC on Nov 25 (12:00 AM CST), expected to last about an hour, with trading unaffected. Earlier: On Nov 21, Chainflip, a crypto exchange that swaps coins between blockchains, switched on its full safety mode, turning off deposits, withdrawals and swaps, after an attacker drained its vaults. Its Nov 23 incident report put the loss at about 133.3 bitcoin, 520 ether and about 4 million dollars in stablecoins, about $12.6 million and effectively the vaults' entire balance, and said the attacker appears to have exploited a memory-safety flaw in an outside networking library to take key shares from its validators; the investigation continues. Its offer to let the attacker keep 10% if the rest came back expired on Nov 23 with no return announced, and it had not announced a restart. On Nov 21, South Korean exchanges Upbit and Bithumb suspended deposits and withdrawals of one token, CYBER, after the Cyber network reported unexpected minting and about 5.21 million tokens left its bridge, most of them sold for about $968,000 in ether. On Nov 16, 2026, Lighter, an Ethereum-based crypto derivatives exchange, paused withdrawals and new liquidity pools after an attacker drained funds from one trader's account, then reopened deposits and withdrawals later that day once its Security Council turned off the 'Guardian' safety mode; Lighter said it returned about $5 million in USDC to the trader. Its postmortem blamed API keys leaked through the trader's own custom signing software, not Lighter's code, and on-chain analysts estimated the amount taken at about $10.4 million to $15.5 million. In South Korea, Gopax, which halted trading, deposits and withdrawals on Nov 6 after hacking threats, was still shut on Nov 19 with no restart date; the Seoul Economic Daily reported that holders of 24 tokens that, among South Korea's major exchanges, trade only on Gopax have no domestic venue to sell them, and some barely trade abroad; it postponed planned final trading of five tokens being delisted, and data a lawmaker obtained from the Financial Supervisory Service showed a separate Sept 8 data breach had exposed the personal information of 2,009 people, up from the 9 Gopax first reported. Earlier: Brazil's Nubank and Mercado Pago paused some crypto transfers on Nov 6 after problems at outside providers; Uphold said withdrawal delays that began around Nov 4 came from a disruption at an outside transaction-monitoring partner, and its status page showed them mostly resolved by Nov 10; Binance, hacked for about $6.3 billion on Oct 29, has reopened withdrawals in phases since Nov 1; and Brazil's Mercado Bitcoin halted withdrawals Nov 2 after about $40 million was drained.",
+   "summary": "These were company decisions after thefts, threats or vendor failures, not government limits on customers' money. Binance's pause after the October hack lasted about four weeks for some networks, while Lighter's lasted only part of a day; Binance said it would cover losses, and Binance is Gopax's majority shareholder. Stablecoin issuers Tether and Circle froze coins stolen from Binance (more than $1.56 billion and more than $800 million, CoinDesk reported), which shows the freeze ability that U.S. rules will require issuers to have for lawful orders. A BitOK study reported by CoinDesk on Nov 27 found such freezes are seldom reversed: of the USDT targeted for freezing on Ethereum in the study's second year (to May 2026), 1.2% was later released, and victims can wait years and pay fees to get funds back; Tether says it has frozen more than $7 billion linked to illicit activity and reissued $1.28 billion to victims and law enforcement. The Brazil and Uphold delays show that a failure at an outside data or compliance vendor can stop transfers even when the platform itself isn't hacked. Binance.US, a separate U.S. platform, said it was not affected by the Binance hack. Since the Lighter incident, the exchange requires a wallet signature for transfers into public pools. On Nov 20, South Korea's Financial Supervisory Service told all 28 registered crypto firms to apply its emergency security guideline, and on Nov 23 it issued a letter letting exchanges block deposits and withdrawals for up to 12 hours on a suspected hack (both tracked under Around the world); we found no report of a Gopax restart.",
    "control_type": "None",
    "affected": "Sector or group",
    "stage": "In effect",
@@ -3299,12 +3299,40 @@
    "momentum": "",
    "verdict": "Confirmed",
    "why_it_matters": "Withdrawal pauses at big platforms can spread fear and claims that capital controls are starting. The stablecoin freezes show how quickly issuers can block coins, an ability U.S. rules will soon require, and the Brazil cases show how one outside compliance vendor can halt transfers at several firms.",
-   "why_it_might_not": "The pauses were company security or technical steps at platforms outside the U.S., not government orders to limit customers' money; Lighter reopened the same day, Nubank the same night, and Binance has been reopening in phases.",
+   "why_it_might_not": "The pauses were company security or technical steps at platforms outside the U.S., not government orders to limit customers' money; Lighter reopened the same day, Nubank the same night, and Binance ended its post-hack pause on Nov 26.",
    "next_milestone": {
-    "what": "Gopax restart (no date set); recheck if any regulator orders limits",
+    "what": "Gopax restart and Chainflip swaps restart (no dates set); recheck if any regulator orders limits",
     "date": null
    },
    "sources": [
+    {
+     "title": "Binance says 'withdrawal recovery work' complete after $6.3 billion crypto heist",
+     "url": "https://www.channelnewsasia.com/business/binance-says-withdrawal-recovery-work-complete-after-63-billion-crypto-heist-6585911",
+     "publisher": "CNA (Reuters)",
+     "date": "2026-11-26",
+     "primary": false
+    },
+    {
+     "title": "Binance says customer withdrawals are fully restored, four weeks after the $6.3 billion hack",
+     "url": "https://www.coindesk.com/markets/2026/11/27/binance-says-its-withdrawal-suspension-is-over-four-weeks-after-a-usd6-3-billion-hack",
+     "publisher": "CoinDesk",
+     "date": "2026-11-26",
+     "primary": false
+    },
+    {
+     "title": "Binance fully reopens withdrawals nearly a month after its $6.3B hack",
+     "url": "https://thenextweb.com/news/binance-withdrawals-reopen-6-3bn-hack-recovery-complete",
+     "publisher": "The Next Web",
+     "date": "2026-11-26",
+     "primary": false
+    },
+    {
+     "title": "Tether can freeze stolen crypto in minutes. Getting it back can take years.",
+     "url": "https://www.coindesk.com/business/2026/11/27/tether-can-freeze-stolen-crypto-in-minutes-getting-it-back-can-take-years",
+     "publisher": "CoinDesk",
+     "date": "2026-11-27",
+     "primary": false
+    },
     {
      "title": "Chainflip's post-hack refunds leave liquidity providers facing a second financial problem",
      "url": "https://cryptoslate.com/chainflips-post-hack-refunds-leave-liquidity-providers-facing-a-second-financial-problem/",
@@ -3324,13 +3352,6 @@
      "url": "https://www.binance.com/en/square/post/11-24-2026-binance-will-be-performing-wallet-maintenance-and-suspending-withdrawals-391628849336528",
      "publisher": "Binance",
      "date": "2026-11-24",
-     "primary": true
-    },
-    {
-     "title": "Incident Report: Bitcoin and Ethereum Vault Exploit (Part 1)",
-     "url": "https://chainflip.io/blog/incident-report-vault-exploit-21-november-2026-part-1",
-     "publisher": "Chainflip Labs",
-     "date": "2026-11-23",
      "primary": true
     },
     {
@@ -3454,11 +3475,11 @@
     }
    ],
    "quote": {
-    "text": "a precautionary measure to protect customer funds",
-    "source_url": "https://www.reuters.com/legal/litigation/south-korean-cryptoexchange-gopax-suspends-withdrawals-amid-hacking-concerns-2026-11-06/"
+    "text": "Our withdrawal recovery work is completed",
+    "source_url": "https://www.channelnewsasia.com/business/binance-says-withdrawal-recovery-work-complete-after-63-billion-crypto-heist-6585911"
    },
    "first_seen": "2026-11-06",
-   "last_change": "2026-11-16",
+   "last_change": "2026-11-26",
    "status": "EASED",
    "open": true,
    "status_history": [
@@ -3486,10 +3507,15 @@
      "date": "2026-11-17",
      "status": "EASED",
      "stage": "In effect"
+    },
+    {
+     "date": "2026-11-27",
+     "status": "EASED",
+     "stage": "In effect"
     }
    ],
-   "updated_on": "2026-11-26",
-   "plain": "Some crypto (digital coin) sites paused withdrawals after hacks or tech problems, and none of these were government limits. One that shut after a Nov 21 theft has begun returning some users' coins."
+   "updated_on": "2026-11-27",
+   "plain": "Binance, the biggest crypto (digital coin) site, ended its withdrawal pause on Nov 26, four weeks after a hack. The pause was its own choice, not a government rule."
   },
   "h41-2026-11-05-discount-window": {
    "id": "h41-2026-11-05-discount-window",
@@ -4130,9 +4156,9 @@
    "id": "intl-asia-market-support-2026-11-06",
    "section": "international",
    "headline": "Taiwan bans short selling below the previous close, and China and South Korea add stock-market support after the global AI-stock slide",
-   "date": "2026-11-26",
+   "date": "2026-11-27",
    "org": "Taiwan's Financial Supervisory Commission and National Financial Stabilization Fund; South Korea's Financial Supervisory Service",
-   "what_changed": "On Nov 26, South Korea's KOSPI rose 0.29% to 4,711.21, giving up most of an early gain of more than 2% on a day the Bank of Korea raised its policy interest rate, and Taiwan's main index rose 2.50% to 39,151.81; neither government announced new limits. Earlier: On Nov 25, South Korea's KOSPI fell 6.16% to 4,697.51, its lowest close since Jan 13, after the exchange's automatic 'sidecar' paused program selling for five minutes in the morning, and Taiwan's main index fell 4.80% to 38,195.43. Taiwan's Financial Supervisory Commission released data showing that short sales of borrowed shares stayed at 0.27% to 2% of main-board turnover from Nov 9 through Nov 24, that it had cut the intraday cap on such sales to 1% from 3% on Nov 20, and that 57 company share buybacks were under way; it announced no new limits. Earlier: On Nov 24, South Korea's KOSPI was up 6.96% at 5,036.26 in mid-afternoon trading as the Financial Supervisory Service and the Korea Exchange launched a joint task force to find illegal short selling, part of three months of tighter checks; on Nov 23, Deputy Prime Minister and Finance Minister Lee Hyoung-il said Korea's short-selling rules were already strict, signaled caution about new curbs and said any use of the stabilization fund would depend on market conditions. The Taiwan Stock Exchange lowered the minimum collateral-maintenance ratio for margin loans to 120% from 130% from Nov 24, which reduces forced selling. On Nov 22, alongside the margin change, China's Shanghai and Shenzhen exchanges announced fee cuts worth 2.76 billion yuan, and the Shenzhen exchange proposed market-making rules for its ChiNext board. Earlier: On Nov 21, after Taiwan's main index fell 6.23% on Nov 20 to its lowest close in about seven months, Taiwan's Financial Supervisory Commission barred short selling (selling borrowed shares to bet on a fall) at prices below the previous day's close for all listed and over-the-counter stocks from Nov 23, its first blanket restriction of this kind since 2015, with an exemption for securities firms' hedging. This widened a Nov 19 rule that applied the same ban only to stocks that had fallen 3.5% or more the day before. The commission also raised the minimum margin for short sales to 150% from 130%, stopped accepting applications to list new put warrants and asked lenders to suspend stock lending. On Nov 22, with the securities regulator's approval, China's Shanghai, Shenzhen and Beijing stock exchanges said they will cut the minimum margin for buying stocks with borrowed money to 80% from 100% from Nov 30. On Nov 23, South Korea's financial regulator said it will lift the daily limit on listed companies' share buybacks from Nov 24 through Feb 23 and will step up checks for illegal short selling and manipulation for three months, and the finance minister said the government is preparing its market stabilization fund for possible use; the KOSPI fell as much as 5% that day before closing 3.3% lower. Earlier: On Nov 9, the steps announced Nov 6 took effect: Taiwan's Financial Supervisory Commission cut intraday short sales of borrowed shares to 3% of a stock's average daily volume over the prior 30 trading days (from 30%) and raised the minimum short-sale margin from 90% to 130%, and South Korea exempted brokerages from the 140% minimum collateral ratio on margin loans through Jan 31. Asian markets were mixed that day: MSCI's broadest index of Asia-Pacific shares outside Japan was up 0.8% by midday after falling 4.6% the week before, while South Korea's KOSPI closed 0.8% lower. On Nov 6, Japan's Nikkei had fallen 5.96%, South Korea's KOSPI 6.02% and Taiwan's index 4.5%, Korea's exchange paused trading for 20 minutes under its automatic circuit breaker, and Taiwan's National Financial Stabilization Fund authorized buying stocks, its 10th activation.",
+   "what_changed": "On Nov 27, South Korea's KOSPI rose 4.34% to 4,915.68 and the Kosdaq 8.13% to 708.99 on hopes for government support, as foreign investors bought a net 1.13 trillion won of shares on the main board; regulators planned to meet the chairs of the five largest financial groups on Monday, Nov 30, to discuss their contributions to the 10 trillion won (about $7.5 billion) market stabilization fund, and the finance ministry said a review with the central bank and regulators found no unusual developments in trading. Taiwan's main index rose 0.40% to 39,308.08. Neither government announced new limits. Earlier: On Nov 26, South Korea's KOSPI rose 0.29% to 4,711.21, giving up most of an early gain of more than 2% on a day the Bank of Korea raised its policy interest rate, and Taiwan's main index rose 2.50% to 39,151.81; neither government announced new limits. Earlier: On Nov 25, South Korea's KOSPI fell 6.16% to 4,697.51, its lowest close since Jan 13, after the exchange's automatic 'sidecar' paused program selling for five minutes in the morning, and Taiwan's main index fell 4.80% to 38,195.43. Taiwan's Financial Supervisory Commission released data showing that short sales of borrowed shares stayed at 0.27% to 2% of main-board turnover from Nov 9 through Nov 24, that it had cut the intraday cap on such sales to 1% from 3% on Nov 20, and that 57 company share buybacks were under way; it announced no new limits. Earlier: On Nov 24, South Korea's KOSPI was up 6.96% at 5,036.26 in mid-afternoon trading as the Financial Supervisory Service and the Korea Exchange launched a joint task force to find illegal short selling, part of three months of tighter checks; on Nov 23, Deputy Prime Minister and Finance Minister Lee Hyoung-il said Korea's short-selling rules were already strict, signaled caution about new curbs and said any use of the stabilization fund would depend on market conditions. The Taiwan Stock Exchange lowered the minimum collateral-maintenance ratio for margin loans to 120% from 130% from Nov 24, which reduces forced selling. On Nov 22, alongside the margin change, China's Shanghai and Shenzhen exchanges announced fee cuts worth 2.76 billion yuan, and the Shenzhen exchange proposed market-making rules for its ChiNext board. Earlier: On Nov 21, after Taiwan's main index fell 6.23% on Nov 20 to its lowest close in about seven months, Taiwan's Financial Supervisory Commission barred short selling (selling borrowed shares to bet on a fall) at prices below the previous day's close for all listed and over-the-counter stocks from Nov 23, its first blanket restriction of this kind since 2015, with an exemption for securities firms' hedging. This widened a Nov 19 rule that applied the same ban only to stocks that had fallen 3.5% or more the day before. The commission also raised the minimum margin for short sales to 150% from 130%, stopped accepting applications to list new put warrants and asked lenders to suspend stock lending. On Nov 22, with the securities regulator's approval, China's Shanghai, Shenzhen and Beijing stock exchanges said they will cut the minimum margin for buying stocks with borrowed money to 80% from 100% from Nov 30. On Nov 23, South Korea's financial regulator said it will lift the daily limit on listed companies' share buybacks from Nov 24 through Feb 23 and will step up checks for illegal short selling and manipulation for three months, and the finance minister said the government is preparing its market stabilization fund for possible use; the KOSPI fell as much as 5% that day before closing 3.3% lower. Earlier: On Nov 9, the steps announced Nov 6 took effect: Taiwan's Financial Supervisory Commission cut intraday short sales of borrowed shares to 3% of a stock's average daily volume over the prior 30 trading days (from 30%) and raised the minimum short-sale margin from 90% to 130%, and South Korea exempted brokerages from the 140% minimum collateral ratio on margin loans through Jan 31. Asian markets were mixed that day: MSCI's broadest index of Asia-Pacific shares outside Japan was up 0.8% by midday after falling 4.6% the week before, while South Korea's KOSPI closed 0.8% lower. On Nov 6, Japan's Nikkei had fallen 5.96%, South Korea's KOSPI 6.02% and Taiwan's index 4.5%, Korea's exchange paused trading for 20 minutes under its automatic circuit breaker, and Taiwan's National Financial Stabilization Fund authorized buying stocks, its 10th activation.",
    "summary": "The selloff followed the Nov 3 U.S. midterm elections and worries that the results would slow AI and data center spending. The steps aim to support prices: buying stocks, curbing bets on falling prices, and easing margin calls so fewer investors are forced to sell. Several people told Reuters that Taiwan's Finance Ministry asked state-owned banks to support the market. Taiwan's fund cited record foreign selling of NT$994 billion in October and NT$524 billion more in November through Nov 6. None of these steps limits bank withdrawals, currency exchange or moving money abroad. On Nov 12, Taiwan's Financial Supervisory Commission said it has set no end date for the short-selling limits and reviews them daily; short sales of borrowed shares fell to 1.7% to 2% of main-board turnover on Nov 9-11, from 2.97% on Nov 6. Taiwan's main index fell 2.63% on Nov 12. Markets fell again this week: Taiwan's main index dropped about 6% on Nov 16 and 2.31% on Nov 17, when dealers said the stabilization fund appeared to be buying, and South Korea's KOSPI fell 2.59% on Nov 17 to 4,968.48, below 5,000 for the first time in nine months. Some Korean retail investors called for a temporary short-selling ban, but we found no new government limit. On Nov 22-23, South Korea again chose not to restrict short selling. Taiwan's stabilization fund says it has been buying shares since Nov 6. Investors in Taiwan can still sell shares they own; the new ban covers selling borrowed shares below the previous close. None of the new steps limits bank withdrawals, currency exchange or moving money abroad.",
    "control_type": "Prohibition",
    "affected": "Sector or group",
@@ -4145,10 +4171,31 @@
    "why_it_might_not": "State stock-buying funds and short-sale curbs are familiar, temporary tools in Asian markets. They don't stop investors from selling shares they own or from moving their money, and the U.S. has no similar state stock fund.",
    "us_link": "No direct link. U.S. exchanges use automatic, marketwide circuit breakers, and the SEC last temporarily banned short selling, of financial stocks, in September 2008. We found no U.S. market-support steps after the Nov 5 drop.",
    "next_milestone": {
-    "what": "China's lower margin requirement takes effect; South Korea's buyback easing runs to Feb 23 and its margin-loan relief to Jan 31 unless changed; Taiwan's short-selling ban has no end date",
+    "what": "South Korea's regulators meet the five largest financial groups on the stabilization fund and China's lower margin requirement takes effect (both Nov 30); South Korea's buyback easing runs to Feb 23 and its margin-loan relief to Jan 31 unless changed; Taiwan's short-selling ban has no end date",
     "date": "2026-11-30"
    },
    "sources": [
+    {
+     "title": "(2nd LD) Seoul shares rally over 4 pct on hopes of policy support",
+     "url": "https://en.yna.co.kr/view/AEN20261127004852320",
+     "publisher": "Yonhap",
+     "date": "2026-11-27",
+     "primary": false
+    },
+    {
+     "title": "KOSPI surges over 4%, Kosdaq gains top 8% on hopes for market stabilization fund",
+     "url": "https://www.koreatimes.co.kr/economy/20261127/kospi-surges-over-4-kosdaq-gains-top-8-on-hopes-for-market-stabilization-fund",
+     "publisher": "The Korea Times",
+     "date": "2026-11-27",
+     "primary": false
+    },
+    {
+     "title": "Taiwan shares close up 0.40%",
+     "url": "https://focustaiwan.tw/business/202611270008",
+     "publisher": "Focus Taiwan (CNA)",
+     "date": "2026-11-27",
+     "primary": false
+    },
     {
      "title": "(LEAD) Seoul shares slightly rebound amid AI uncertainties",
      "url": "https://en.yna.co.kr/view/AEN20261126008351320",
@@ -4357,7 +4404,7 @@
      "stage": "In effect"
     }
    ],
-   "updated_on": "2026-11-26",
+   "updated_on": "2026-11-27",
    "plain": "Taiwan now bans short selling (bets that prices will fall) below the last day's closing price. China and South Korea added steps to prop up stock prices. None of this limits taking out or moving money."
   },
   "japan-shinkin-outage-2026-11-06": {
@@ -4427,11 +4474,11 @@
   "paraguay-ueno-bank-resolution-2026-11": {
    "id": "paraguay-ueno-bank-resolution-2026-11",
    "section": "banking_stress",
-   "headline": "Paraguay's central bank plans to move failed Ueno Bank's accounts to several banks in lots after finding about $600 million in sound assets; covered savers have received advances of up to about $19,000",
-   "date": "2026-11-12",
+   "headline": "Paraguay's central bank plans to start moving failed Ueno Bank's frozen deposits to other banks the week of Nov 30, which it says could cover more than 99% of depositors, and to start paying out Ueno's money funds",
+   "date": "2026-11-26",
    "org": "Banco Central del Paraguay (Paraguay's central bank) and its banking and securities supervisors",
-   "what_changed": "On Nov 12, 2026, central bank president Jorge Schreiner said auditors had preliminarily found about $600 million in sound assets at Ueno, more than the bank owes to pension funds such as the Social Security Institute (IPS), whose deposits and investments there total about $516 million. After a review of 8 to 10 days to draw up an 'exclusion balance' of sound assets against liabilities, the central bank plans to tender Ueno's assets and deposits in lots to several local banks, so no single bank takes on more than it can handle, with the Deposit Guarantee Fund able to cover any gap. If accounts move before pending payouts are made, their holders would become customers of the receiving bank instead of being paid out. Pension funds have legal priority. This follows the Nov 11 completion of advances of up to 40 monthly minimum wages (about $19,000) to all 1,812,348 savers the fund covers. On Nov 16, ABC Color reported that the central bank said all eligible savers had now been credited the advances, about $645 million in total, though some accounts, mainly savings certificates, were still being verified. The legal 15-day deadline to prepare the 'exclusion balance' separating Ueno's sound assets and liabilities fell on Nov 16; the central bank then plans to invite the banks and finance companies that fund the deposit guarantee to bid for parts of Ueno's portfolio, using the proceeds to pay the rest of the guarantee and the pension funds. A central bank director said the aim is a full diagnosis by the end of November.",
-   "summary": "Paraguay's central bank put Ueno, a digital lender that said it had about 3 million customers, into resolution (a state-run wind-down) on Nov 3 after its solvency ratio fell below half the legal minimum, freezing accounts except for guarantee-fund payouts. AFP reported that Ueno held about $2.8 billion when it was taken over, so the advances cover only part of the money at the bank. The fund's limit is 75 monthly minimum wages (about $37,000) per depositor; EFE reported that payments up to that limit are to be extended from the week of Nov 16, and officials haven't said what happens to balances above it. The guarantee excludes the bank's directors and shareholders, and investors in Ueno's money funds, which aren't bank deposits, are still waiting for a decision on their money. Paraguay's Senate removed President Santiago Peña on Nov 6 over his links to the bank, and prosecutors are investigating.",
+   "what_changed": "On Nov 26, 2026, Paraguay's central bank (BCP) said it plans to start moving Ueno's remaining deposits to other banks the week of Nov 30: banks and finance companies that take lots of Ueno's sound assets in a tender will take on matching deposits, and those depositors will become their customers with free use of their money. Coverage would start at up to 2 billion guaraníes (about $311,000) per depositor and could rise to 5 billion (about $777,000), which officials said would cover more than 99% of depositors, leaving about 100 to 160 large depositors for a later stage; the exclusion balance is due Nov 30, and officials hope to make the first transfers between Nov 30 and Dec 2. The transfers need no new money from the Deposit Guarantee Fund, which has paid out about $644 million; account types and maturities stay the same, though receiving banks may renegotiate interest rates toward market averages. Separately, about 30,000 investors in Ueno's money funds can request redemptions of up to 30 million guaraníes (about $4,700) a week from the week of Nov 30 through the broker Investor Casa de Bolsa, and the central bank sent the executive branch a bill creating a faster out-of-court liquidation of what remains, lasting up to 180 days and extendable by six months, that would also pay other creditors, including bondholders; Congress must pass it. Earlier: On Nov 12, 2026, central bank president Jorge Schreiner said auditors had preliminarily found about $600 million in sound assets at Ueno, more than the bank owes to pension funds such as the Social Security Institute (IPS), whose deposits and investments there total about $516 million. After a review of 8 to 10 days to draw up an 'exclusion balance' of sound assets against liabilities, the central bank plans to tender Ueno's assets and deposits in lots to several local banks, so no single bank takes on more than it can handle, with the Deposit Guarantee Fund able to cover any gap. If accounts move before pending payouts are made, their holders would become customers of the receiving bank instead of being paid out. Pension funds have legal priority. This follows the Nov 11 completion of advances of up to 40 monthly minimum wages (about $19,000) to all 1,812,348 savers the fund covers. On Nov 16, ABC Color reported that the central bank said all eligible savers had now been credited the advances, about $645 million in total, though some accounts, mainly savings certificates, were still being verified. The legal 15-day deadline to prepare the 'exclusion balance' separating Ueno's sound assets and liabilities fell on Nov 16; the central bank then plans to invite the banks and finance companies that fund the deposit guarantee to bid for parts of Ueno's portfolio, using the proceeds to pay the rest of the guarantee and the pension funds. A central bank director said the aim is a full diagnosis by the end of November.",
+   "summary": "Paraguay's central bank put Ueno, a digital lender that said it had about 3 million customers, into resolution (a state-run wind-down) on Nov 3 after its solvency ratio fell below half the legal minimum, freezing accounts except for guarantee-fund payouts. AFP reported that Ueno held about $2.8 billion when it was taken over. By Nov 11, all covered savers had received advances of up to 40 monthly minimum wages (about $19,000); the new plan is the first route for larger balances, which until now had no announced payout. The amounts are plans and depend on how many of Ueno's loans the receiving banks agree to take. The guarantee excludes the bank's directors and shareholders. Paraguay's Senate removed President Santiago Peña on Nov 6 over his links to the bank, and prosecutors are investigating; officials said seized assets can't be used to repay savers until a final court ruling.",
    "control_type": "Prohibition",
    "affected": "Sector or group",
    "stage": "In effect",
@@ -4441,13 +4488,41 @@
    ],
    "direction": "Neutral",
    "evidence": "Official document",
-   "why_it_matters": "It shows in real time what a large bank failure can mean for savers: accounts frozen, covered money returned in stages over about a week, and larger balances and investment funds tied to the bank left waiting. That is the kind of situation U.S. failed-bank rules, such as the FDIC's pending 'provisional hold' proposal for the largest banks, are designed to handle.",
-   "why_it_might_not": "It is one failed bank in another country, handled under Paraguay's own deposit-guarantee law, and every covered saver has received an advance. In the U.S., deposits are insured up to at least $250,000 per depositor at each FDIC-insured bank, and the FDIC's list shows no U.S. bank failures since Sept 25.",
+   "why_it_matters": "It shows in real time what a large bank failure can mean for savers: accounts frozen for weeks, covered money returned first, and larger balances and money-fund shares returned only when other banks take over the failed bank's assets, with weekly caps on fund payouts. That is the kind of situation U.S. failed-bank rules, such as the FDIC's pending 'provisional hold' proposal for the largest banks, are designed to handle.",
+   "why_it_might_not": "It is one failed bank in another country, handled under Paraguay's own deposit-guarantee law, and the new plan moves toward returning nearly all savers' money. In the U.S., deposits are insured up to at least $250,000 per depositor at each FDIC-insured bank, and the FDIC's list shows no U.S. bank failures since Sept 25.",
    "next_milestone": {
-    "what": "Bidding for Ueno's sound assets and deposits among the banks and finance companies that fund the deposit guarantee; the central bank aims for a full diagnosis by the end of November (stated aim)",
+    "what": "Exclusion balance due Nov 30; first deposit transfers to other banks planned Nov 30 to Dec 2 and money-fund redemptions from the week of Nov 30 (stated aims); Congress must pass the liquidation bill",
     "date": "2026-11-30"
    },
    "sources": [
+    {
+     "title": "BCP prepara transferencia de depósitos de hasta G. 5.000 millones por cliente de Ueno Bank (Central bank prepares transfers of deposits up to 5 billion guaraníes per Ueno client; in Spanish)",
+     "url": "https://www.lanacion.com.py/negocios/2026/11/26/bcp-prepara-transferencia-de-depositos-de-hasta-g-5000-millones-por-cliente-de-ueno-bank/",
+     "publisher": "La Nación (Paraguay)",
+     "date": "2026-11-26",
+     "primary": false
+    },
+    {
+     "title": "Ueno: ahorristas con hasta G. 5 mil millones recuperarán sus depósitos (Savers with up to 5 billion guaraníes will recover their deposits; in Spanish)",
+     "url": "https://www.lanacion.com.py/negocios_edicion_impresa/2026/11/27/ueno-ahorristas-con-hasta-g-5-mil-millones-recuperaran-sus-depositos/",
+     "publisher": "La Nación (Paraguay)",
+     "date": "2026-11-27",
+     "primary": false
+    },
+    {
+     "title": "BCP apunta a devolver depósitos de hasta G. 5.000 millones de Ueno Bank desde la próxima semana (in Spanish)",
+     "url": "https://infonegocios.com.py/plus/bcp-apunta-a-devolver-depositos-de-hasta-g-5-000-millones-de-ueno-bank-desde-la-proxima-semana",
+     "publisher": "InfoNegocios",
+     "date": "2026-11-27",
+     "primary": false
+    },
+    {
+     "title": "Ueno bank: tender for deposit lots in the week of 30 November",
+     "url": "https://partners.com/en/paraguay/news/ueno-bank-deposit-lots-tender-week-of-30-november",
+     "publisher": "Partners.com",
+     "date": "2026-11-27",
+     "primary": false
+    },
     {
      "title": "Ueno Bank: Tras el pago de los anticipos del Fondo de Garantía ¿qué pasos vienen ahora?",
      "url": "https://www.abc.com.py/economia/2026/11/16/ueno-bank-tras-el-pago-de-los-anticipos-del-fondo-de-garantia-que-pasos-vienen-ahora/",
@@ -4559,8 +4634,8 @@
     "source_url": ""
    },
    "first_seen": "2026-11-09",
-   "last_change": "2026-11-12",
-   "status": "ADVANCED",
+   "last_change": "2026-11-26",
+   "status": "EASED",
    "open": true,
    "status_history": [
     {
@@ -4582,10 +4657,15 @@
      "date": "2026-11-13",
      "status": "ADVANCED",
      "stage": "In effect"
+    },
+    {
+     "date": "2026-11-27",
+     "status": "EASED",
+     "stage": "In effect"
     }
    ],
-   "updated_on": "2026-11-18",
-   "plain": "All covered savers at Ueno, a failed bank in Paraguay, got advance payments. The central bank plans to move the bank's good loans and accounts to other banks and hopes to finish its review by the end of November."
+   "updated_on": "2026-11-27",
+   "plain": "Paraguay plans to start moving savers' money from Ueno, a failed bank, to other banks the week of Nov 30. Officials say this could cover more than 99% of its savers."
   },
   "intl-china-market-support-2026-11": {
    "id": "intl-china-market-support-2026-11",
@@ -7652,8 +7732,8 @@
    "headline": "FinCEN investigates a cyber intrusion and lets affected filers delay certain reports until Dec 30; bank regulators say they won't penalize late filings caused by the outage",
    "date": "2026-11-25",
    "org": "Financial Crimes Enforcement Network (FinCEN), U.S. Treasury; Federal Reserve, FDIC, OCC and NCUA",
-   "what_changed": "On Nov 25, 2026, the Federal Reserve, the FDIC, the OCC and the NCUA issued a joint statement (Fed SR 26-10; OCC Bulletin 2026-59) saying they won't take supervisory or enforcement action, including citing a violation of law, against an institution that uses FinCEN's Secure Data Transfer Mode and files Bank Secrecy Act reports, including suspicious activity reports, late because of the service disruption; the statement also covers extension timeframes and the expedited delivery of suspicious activity information to law enforcement. The same day, a FinCEN official told Reuters that Treasury is working with the FBI, CISA (the federal cybersecurity agency) and outside forensic examiners to determine the scope and impact, and a person familiar with the matter said there was so far no evidence of any breach of the Bank Secrecy Act or beneficial ownership databases. Earlier: On Nov 24, FinCEN issued Order FIN-2026-R002, giving financial institutions that used its bulk-filing channel as of Nov 18 until Dec 30 to file Bank Secrecy Act reports due from Nov 18 through Dec 29, with the same extension for beneficial ownership reports and FinCEN ID updates; that evening, a notice on its BSA E-Filing website said it is investigating a cybersecurity incident that gave someone unauthorized access to a limited subset of its systems and that it had taken some systems offline as a precaution.",
-   "summary": "Neither the order nor the joint statement pauses anti-money-laundering duties: institutions must keep monitoring for suspicious transactions and can use FinCEN's hotline for urgent cases. FinCEN hasn't said when the intrusion began, who was behind it or whether any data was taken; forensic work continues, and FinCEN may modify or extend the order. News reports noted other recent intrusions at federal agencies, including an unclassified CIA and ODNI analysis system, but officials haven't linked them to FinCEN's incident.",
+   "what_changed": "On Nov 25, 2026, the Federal Reserve, the FDIC, the OCC and the NCUA issued a joint statement (Fed SR 26-10; OCC Bulletin 2026-59; FDIC FIL-72-2026) saying they won't take supervisory or enforcement action, including citing a violation of law, against an institution that uses FinCEN's Secure Data Transfer Mode and files Bank Secrecy Act reports, including suspicious activity reports, late because of the service disruption; the statement also covers extension timeframes and the expedited delivery of suspicious activity information to law enforcement. The same day, a FinCEN official told Reuters that Treasury is working with the FBI, CISA (the federal cybersecurity agency) and outside forensic examiners to determine the scope and impact, and a person familiar with the matter said there was so far no evidence of any breach of the Bank Secrecy Act or beneficial ownership databases. Earlier: On Nov 24, FinCEN issued Order FIN-2026-R002, giving financial institutions that used its bulk-filing channel as of Nov 18 until Dec 30 to file Bank Secrecy Act reports due from Nov 18 through Dec 29, with the same extension for beneficial ownership reports and FinCEN ID updates; that evening, a notice on its BSA E-Filing website said it is investigating a cybersecurity incident that gave someone unauthorized access to a limited subset of its systems and that it had taken some systems offline as a precaution.",
+   "summary": "Neither the order nor the joint statement pauses anti-money-laundering duties: institutions must keep monitoring for suspicious transactions and can use FinCEN's hotline for urgent cases. FinCEN hasn't said when the intrusion began, who was behind it or whether any data was taken; forensic work continues, and FinCEN may modify or extend the order. News reports noted other recent intrusions at federal agencies, including an unclassified CIA and ODNI analysis system, but officials haven't linked them to FinCEN's incident. As of Nov 26, news reports said FinCEN's e-filing site still warned that some services may be unavailable, and FinCEN still hadn't said what was accessed.",
    "plain": "Bank regulators said they won't punish banks for late reports caused by the hacking problem at FinCEN, a Treasury office that gets bank reports. No one's money is limited.",
    "control_type": "Visibility",
    "affected": "Sector or group",
@@ -7686,6 +7766,20 @@
      "publisher": "OCC",
      "date": "2026-11-25",
      "primary": true
+    },
+    {
+     "title": "FIL-72-2026: Joint Statement of Supervisory Policy for Bank Secrecy Act Reporting in Response to a Service Disruption",
+     "url": "https://www.fdic.gov/news/financial-institution-letters/2026/joint-statement-supervisory-policy-bank-secrecy-act",
+     "publisher": "FDIC",
+     "date": "2026-11-25",
+     "primary": true
+    },
+    {
+     "title": "Treasury FinCEN systems latest to be hit by cyber incident",
+     "url": "https://federalnewsnetwork.com/cybersecurity/2026/11/treasury-fincen-systems-latest-to-be-hit-by-cyber-incident/",
+     "publisher": "Federal News Network",
+     "date": "2026-11-26",
+     "primary": false
     },
     {
      "title": "US FinCEN takes some systems offline after cyber incident, official says",
@@ -7738,7 +7832,7 @@
     }
    ],
    "first_seen": "2026-11-25",
-   "updated_on": "2026-11-26",
+   "updated_on": "2026-11-27",
    "last_change": "2026-11-25",
    "status": "EXPANDED",
    "status_history": [
@@ -7848,39 +7942,43 @@
   {
    "date": "2026-11-26",
    "level": "YELLOW"
+  },
+  {
+   "date": "2026-11-27",
+   "level": "YELLOW"
   }
  ],
  "github_user": "brentwhichel",
  "repo": "capital-controls-monitor",
  "monitor": "Capital Controls Early-Warning Monitor",
  "report": {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "level": "YELLOW",
-  "bottom_line": "No limits on withdrawals or transfers for Americans in general are in effect or moving forward; today's official steps ease or clarify bank rules, as three bank and credit union regulators sent final anti-money-laundering program rules for White House review and bank regulators said they won't penalize reports filed late because of FinCEN's cyber incident.",
-  "level_reason": "The level stays YELLOW because official Tier 1 steps remain in play: the FinCEN/OFAC stablecoin rule requiring issuers to be able to freeze coins on lawful orders is still under White House review (the GENIUS Act takes effect Jan 18); FinCEN's customer due diligence proposal is open for comment until Jan 19; Treasury's wider outbound-investment proposal closes for comment Dec 7; and FinCEN's Minnesota transfer-reporting order runs until Feb 6 unless renewed, while the MEXC transfer ban, effective Dec 10, names one foreign company, and the FDIC provisional-hold proposal applies only after a bank fails. Nothing new raises it: today's official steps move away from controls or only delay paperwork; the bills that would bar or cap money sent abroad by people on public assistance still have had no hearing, markup or vote; the market swings in the U.S., South Korea and Taiwan brought no new limits; and commentary can't raise the level.",
-  "change_text": "Yesterday: YELLOW. Today: YELLOW, unchanged. Advanced: on Nov 25, the OCC, the FDIC and the NCUA (the credit union regulator) sent their final anti-money-laundering program rules to the White House regulatory office, joining FinCEN's version sent Nov 18; the rules would focus enforcement on significant or systemic failures and don't change reporting thresholds. Expanded: also on Nov 25, the Fed, the FDIC, the OCC and the NCUA said in a joint statement that they won't take supervisory or enforcement action against institutions that file Bank Secrecy Act reports late because of FinCEN's systems disruption; a FinCEN official told Reuters that the FBI, CISA and outside forensic examiners are investigating the intrusion, and a person familiar with the matter said there was so far no evidence that the Bank Secrecy Act or beneficial ownership databases were breached. No change: U.S. stocks ended mixed on Nov 25 after a steep early drop (S&P 500 down 0.25%, Dow up 0.33%), and money market fund assets rose $2.49 billion to $7.98 trillion in the six days to Nov 24 (market item updated); Chainflip began returning some users' balances after its Nov 21 theft (crypto item updated); Thailand's consultation on its stablecoin transfer cap closed Nov 26 with no final rule yet (stablecoin item updated); IMF staff reached a staff-level agreement with Bolivia on Nov 25 and said its move to a flexible exchange rate has stayed orderly (Bolivia item updated); and South Korea's KOSPI rose 0.29% and Taiwan's main index 2.50% on Nov 26 with no new limits (Asia item updated). Also checked, as of about 6:33 AM CST: the Federal Register's list for Friday's Nov 27 issue has nothing on limits on deposits, withdrawals or transfers; the Bank of England's Nov 26 Financial Stability Report found the UK system resilient and flagged rising cyber risks, with nothing on stablecoin holding limits; no bank failed; Treasury, OFAC, the SEC, the CFTC, the CFPB and the White House posted nothing on limits on money; and the guest-hosted Glenn Beck shows on Nov 24 and 25 made no claims about limits on money.",
-  "flags_lede": "What's new or changed since the previous report on Nov 25, 2026.",
+  "bottom_line": "No limits on withdrawals or transfers for Americans in general are in effect or moving forward; today's changes ease limits elsewhere, as Binance ended the withdrawal pause it imposed after its $6.3 billion hack and Paraguay's central bank said it will start moving most of failed Ueno Bank's frozen deposits to other banks next week.",
+  "level_reason": "The level stays YELLOW because official Tier 1 steps remain in play: the FinCEN/OFAC stablecoin rule requiring issuers to be able to freeze coins on lawful orders is still under White House review (the GENIUS Act takes effect Jan 18); FinCEN's customer due diligence proposal is open for comment until Jan 19; Treasury's wider outbound-investment proposal closes for comment Dec 7; and FinCEN's Minnesota transfer-reporting order runs until Feb 6 unless renewed, while the MEXC transfer ban, effective Dec 10, names one foreign company, and the FDIC provisional-hold proposal applies only after a bank fails. Nothing new raises it: today's changes ease limits rather than add them; the bills that would bar or cap money sent abroad by people on public assistance still have had no hearing, markup or vote; South Korea's and Taiwan's markets rose with no new limits; and commentary can't raise the level.",
+  "change_text": "Yesterday: YELLOW. Today: YELLOW, unchanged. Eased: on Nov 26, Binance, the largest crypto exchange, said it had fully lifted the withdrawal suspension it imposed after the Oct 29 theft of about $6.3 billion; withdrawals are open on nearly all networks, with a few paused for maintenance it says is unrelated (crypto item updated). Eased: also on Nov 26, Paraguay's central bank said it plans to start moving failed Ueno Bank's remaining deposits to other banks the week of Nov 30, at up to 2 billion to 5 billion guaraníes (about $311,000 to $777,000) per depositor, which it said could cover more than 99% of depositors; investors in Ueno's money funds can request redemptions of up to 30 million guaraníes (about $4,700) a week from the same week, and it sent the executive branch a bill for a faster liquidation of what remains. No change: South Korea's KOSPI rose 4.34% on Nov 27 as regulators prepared to meet the five largest financial groups on Nov 30 about the 10 trillion won market stabilization fund, and Taiwan's main index rose 0.40%, with no new limits (Asia item updated); U.S. markets were closed Nov 26 for Thanksgiving and reopen for a shortened session Nov 27. Also checked, as of about 6:31 AM CST: Friday's Nov 27 Federal Register has nothing on limits on deposits, withdrawals or transfers, and the list for Monday's issue isn't posted until 7:45 AM CST; the White House regulatory office's list of rules under review is unchanged since Nov 26; the FDIC posted the Nov 25 joint statement on FinCEN's outage (FIL-72-2026), and FinCEN still hasn't said what the intruders accessed (FinCEN item updated); no bank failed; Treasury, OFAC, the Fed, the SEC, the CFTC, the CFPB and the White House posted nothing on limits on money; Türkiye's central bank suspended its one-week lending auctions on Nov 26 to support the lira, which doesn't limit moving money; and Glenn Beck's Nov 25 and 26 shows (a guest host and Thanksgiving messages) made no claims about limits on money.",
+  "flags_lede": "What's new or changed since the previous report on Nov 26, 2026.",
   "flags": [
    {
-    "id": "fincen-1506-AB72-amlcft-program-nprm",
-    "movement": "ADVANCED"
+    "id": "crypto-exchange-withdrawal-pauses-2026-11",
+    "movement": "EASED"
    },
    {
-    "id": "fincen-fin-2026-r002",
-    "movement": "EXPANDED"
+    "id": "paraguay-ueno-bank-resolution-2026-11",
+    "movement": "EASED"
    }
   ],
-  "sources_checked_through": "2026-11-26T06:33:00-06:00",
-  "refreshed_at": "2026-11-26T06:35:08-06:00",
+  "sources_checked_through": "2026-11-27T06:31:00-06:00",
+  "refreshed_at": "2026-11-27T06:33:59-06:00",
   "plain": {
-   "today": "Nothing stops people in the U.S. from taking out, moving or saving their money. Today's news is about rules for banks, and none of it limits anyone's money.",
+   "today": "Nothing stops people in the U.S. from taking out, moving or saving their money. Today, limits eased in two places: a big crypto site and a failed bank in Paraguay.",
    "worry": "Not right now. No U.S. rule limits taking out or moving money for most people. The bills that would limit money sent abroad by some people on public aid still have not had a hearing or vote.",
    "watch": [
     "A cap on how much money people can send to other countries, or a vote on bills that would set one.",
     "Limits on how much cash people can take out of the bank.",
     "A written rule that stops people or firms from putting money into other countries."
    ],
-   "changes_lede": "Two things changed: new rules for banks moved ahead, and banks got more time for reports after a hacking problem."
+   "changes_lede": "Two things eased. A big crypto site reopened withdrawals, and a failed bank in Paraguay will move most savers' money to other banks."
   },
   "layout": "v2-plain-first"
  },
@@ -7905,9 +8003,15 @@
   },
   {
    "date": "2026-11-30",
-   "what": "Paraguay's central bank aims to finish its full diagnosis of failed Ueno Bank and move its sound assets and deposits to other banks through bidding (stated aim, not fixed)",
+   "what": "Paraguay's central bank expects Ueno Bank's exclusion balance and plans to start moving deposits of up to 2 billion to 5 billion guaraníes per saver to other banks (Nov 30 to Dec 2, stated aim)",
    "item_id": "paraguay-ueno-bank-resolution-2026-11",
-   "url": "https://www.abc.com.py/economia/2026/11/16/ueno-bank-tras-el-pago-de-los-anticipos-del-fondo-de-garantia-que-pasos-vienen-ahora/"
+   "url": "https://www.lanacion.com.py/negocios/2026/11/26/bcp-prepara-transferencia-de-depositos-de-hasta-g-5000-millones-por-cliente-de-ueno-bank/"
+  },
+  {
+   "date": "2026-11-30",
+   "what": "South Korea's financial regulators meet the chairs of the five largest financial groups on contributions to the 10 trillion won market stabilization fund",
+   "item_id": "intl-asia-market-support-2026-11-06",
+   "url": "https://www.koreatimes.co.kr/economy/20261127/kospi-surges-over-4-kosdaq-gains-top-8-on-hopes-for-market-stabilization-fund"
   },
   {
    "date": "2026-12-01",
@@ -8150,373 +8254,373 @@
   {
    "source": "Federal Register public inspection (current)",
    "url": "https://www.federalregister.gov/public-inspection/current",
-   "status": "Checked",
-   "note": "The current list (filed Nov 25) covers Friday's Nov 27 issue; there's no issue on Thanksgiving. Nothing from FinCEN, OFAC or the Fed and no FDIC rule on deposits, withdrawals or transfers. Financial items are IRS paperwork notices and a tax-payment correction, an FDIC civil-penalty inflation adjustment, a Fed bank-control notice, SEC exchange rule filings and an SEC order easing the short-sale 'locate' rule outside regular trading hours, and a USDA proposal under the farmland foreign-investment disclosure law. The only presidential document is the Nov 23 memorandum on capital sentences.",
+   "status": "Partial",
+   "note": "The page was closed overnight; the list for Monday's Nov 30 issue goes up at 8:45 AM ET (7:45 AM CST) today, after this run. Friday's Nov 27 issue, filed on public inspection Nov 25, was read in full (next row).",
    "last_success": "2026-11-26"
   },
   {
    "source": "Federal Register documents (via web search)",
    "url": "https://www.federalregister.gov/",
    "status": "Checked",
-   "note": "No issue on Nov 26 (Thanksgiving). FinCEN's most recent Federal Register document is still the Nov 19 customer due diligence proposal (tracked); the 2026 index lists 24 FinCEN documents as of Nov 24.",
-   "last_success": "2026-11-26"
+   "note": "Friday's Nov 27 issue (137 documents) has nothing from FinCEN or OFAC, nothing from the Fed beyond a bank-control notice, and no rule on deposits, withdrawals or transfers. Financial items are an FDIC civil-penalty inflation adjustment, IRS paperwork notices (one on new technologies in retirement plans) and a tax-payment correction, SEC exchange filings and the SEC order easing the short-sale 'locate' rule outside regular trading hours, and a USDA proposal under the farmland foreign-investment disclosure law. FinCEN's latest Federal Register document is still the Nov 19 customer due diligence proposal (tracked).",
+   "last_success": "2026-11-27"
   },
   {
    "source": "OIRA rules under review",
    "url": "https://www.reginfo.gov/public/do/eoReviewSearch",
    "status": "Checked",
-   "note": "The list dated Nov 26 adds final AML/CFT program rules from the OCC, FDIC and NCUA (received Nov 25; counter-signal item updated), plus an FDIC notice on bank ratings, an SEC adviser record-keeping proposal and an IRS Form 990 reporting proposal (all Nov 25). FinCEN's AML/CFT and stablecoin AML and sanctions final rules (Nov 18), the FDIC's GENIUS Act rule, FSOC's nonbank rule and the Labor Department's 401(k) investment rule remain under review. The OCC and FDIC bank capital final rules received Nov 13 are no longer listed.",
-   "last_success": "2026-11-26"
+   "note": "The list is still dated Nov 26, with no new Treasury, FinCEN or banking-agency entries. FinCEN's AML/CFT and stablecoin AML and sanctions final rules (received Nov 18), the OCC, FDIC and NCUA AML/CFT final rules (Nov 25), the FDIC's GENIUS Act rule, FSOC's nonbank rule, the IRS crypto broker reporting (CARF) proposal and the Labor Department's 401(k) investment rule remain under review.",
+   "last_success": "2026-11-27"
   },
   {
    "source": "Unified Agenda",
    "url": "https://www.reginfo.gov/public/do/eAgendaMain",
    "status": "Partial",
    "note": "The 2026 agenda is still current; nothing new beyond the entries already tracked.",
-   "last_success": "2026-11-26"
+   "last_success": "2026-11-27"
   },
   {
    "source": "Regulations.gov",
    "url": "https://www.regulations.gov/",
    "status": "Partial",
-   "note": "Home page only. Treasury's outbound-investment comments close Dec 7; FinCEN's customer due diligence docket (FINCEN-2026-0298) stays open until Jan 19, 2027; the Fed's GENIUS Act proposals take comments until Nov 30.",
-   "last_success": "2026-11-26"
+   "note": "Home page only. The Fed's GENIUS Act proposals take comments until Nov 30; Treasury's outbound-investment comments close Dec 7; FinCEN's customer due diligence docket (FINCEN-2026-0298) stays open until Jan 19, 2027.",
+   "last_success": "2026-11-27"
   },
   {
    "source": "Treasury press releases",
    "url": "https://home.treasury.gov/news/press-releases",
    "status": "Checked",
    "note": "The press page loaded: nothing after the Nov 23 Iran shadow-banking actions (named parties).",
-   "last_success": "2026-11-26"
+   "last_success": "2026-11-27"
   },
   {
    "source": "Treasury Outbound Investment Security Program",
    "url": "https://home.treasury.gov/policy-issues/international/outbound-investment-program",
    "status": "Checked",
    "note": "Page unchanged: the COINS Act proposal takes comments until Dec 7; we found no extension. The President's data-center plan still has no rule, rate or details.",
-   "last_success": "2026-11-26"
+   "last_success": "2026-11-27"
   },
   {
    "source": "OFAC recent actions",
    "url": "https://ofac.treasury.gov/recent-actions",
    "status": "Checked",
    "note": "Nothing after the Nov 23 Iran-related designations (named parties).",
-   "last_success": "2026-11-26"
+   "last_success": "2026-11-27"
   },
   {
    "source": "FinCEN news",
    "url": "https://www.fincen.gov/news",
    "status": "Checked",
-   "note": "Nothing after the Nov 24 filing-relief order. On Nov 25, a FinCEN official told Reuters that the FBI, CISA and outside forensic examiners are investigating the intrusion, and bank regulators backed the relief in a joint statement (FinCEN item updated).",
-   "last_success": "2026-11-26"
+   "note": "Nothing after the Nov 24 filing-relief order. News reports on Nov 26 said its e-filing site still warned that some services may be unavailable; FinCEN hasn't said what was accessed or who was behind the intrusion (FinCEN item updated).",
+   "last_success": "2026-11-27"
   },
   {
    "source": "FSOC",
    "url": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/fsoc",
    "status": "Partial",
    "note": "Landing page only; FSOC's final rule on supervising certain nonbank financial companies remains under White House review. It doesn't limit customers.",
-   "last_success": "2026-11-26"
+   "last_success": "2026-11-27"
   },
   {
    "source": "Treasury officials' speeches",
    "url": "https://home.treasury.gov/news/press-releases",
    "status": "Checked",
    "note": "No new remarks from Secretary Bessent on stablecoins, payments or capital flows since his Nov 22 CBS interview.",
-   "last_success": "2026-11-26"
+   "last_success": "2026-11-27"
   },
   {
    "source": "Fed press releases",
    "url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
    "status": "Checked",
-   "note": "The press page loaded (latest: Nov 24 discount-rate minutes). The Board's Nov 25 postings include SR 26-10, the joint statement on Bank Secrecy Act reporting during FinCEN's outage (FinCEN item updated), the Beige Book, a balance sheet report and a note on hedge fund repo haircuts; nothing on limits on deposits or withdrawals.",
-   "last_success": "2026-11-26"
+   "note": "Nothing after the Nov 25 postings (consumer-credit thresholds and the joint statement on FinCEN's outage, tracked); nothing on limits on deposits or withdrawals.",
+   "last_success": "2026-11-27"
   },
   {
    "source": "Fed speeches and testimony",
    "url": "https://www.federalreserve.gov/newsevents/speech/2026-speeches.htm",
    "status": "Checked",
-   "note": "Vice Chair for Supervision Bowman spoke Nov 25 on modernizing bank supervision across the Americas; she noted remittances' importance and proposed no limits. No testimony since mid-October.",
-   "last_success": "2026-11-26"
+   "note": "Nothing after Vice Chair for Supervision Bowman's Nov 25 video remarks on bank supervision in the Americas; no testimony since mid-October.",
+   "last_success": "2026-11-27"
   },
   {
    "source": "Fed Financial Stability Report",
    "url": "https://www.federalreserve.gov/publications/financial-stability-report.htm",
    "status": "Checked",
    "note": "The November 2026 report (posted Nov 13) is tracked; nothing newer.",
-   "last_success": "2026-11-26"
+   "last_success": "2026-11-27"
   },
   {
    "source": "Fed H.4.1",
    "url": "https://www.federalreserve.gov/releases/h41/",
    "status": "Checked",
-   "note": "The current release (Nov 19, week ended Nov 18) is tracked; the next comes Friday, Nov 27, at 3:30 PM CST because of Thanksgiving.",
-   "last_success": "2026-11-26"
+   "note": "The current release is still Nov 19 (week ended Nov 18, tracked); the next comes today, Nov 27, at 3:30 PM CST, after this run.",
+   "last_success": "2026-11-27"
   },
   {
    "source": "FDIC press releases",
    "url": "https://www.fdic.gov/news/press-releases",
    "status": "Checked",
    "note": "Nothing after the Nov 24 third-quarter banking profile (tracked) and the third-party assessments statement.",
-   "last_success": "2026-11-26"
+   "last_success": "2026-11-27"
   },
   {
    "source": "FDIC failed bank list",
    "url": "https://www.fdic.gov/bank-failures/failed-bank-list",
    "status": "Checked",
-   "note": "No failures since Nano Banc (Sept 25).",
-   "last_success": "2026-11-26"
+   "note": "No failures since Nano Banc (Sept 25); six so far in 2026.",
+   "last_success": "2026-11-27"
   },
   {
    "source": "FDIC Financial Institution Letters",
    "url": "https://www.fdic.gov/news/financial-institution-letters",
    "status": "Checked",
-   "note": "The list shows nothing after FIL-69-2026 (Nov 17); the Nov 25 joint statement on FinCEN's outage was posted by the Fed and the OCC.",
-   "last_success": "2026-11-26"
+   "note": "The Nov 25 letters are the joint statement on Bank Secrecy Act reporting during FinCEN's outage (FIL-72-2026; FinCEN item updated), a reminder on exam findings (FIL-71-2026) and guidance updates (FIL-70-2026); nothing that limits customers' access to money.",
+   "last_success": "2026-11-27"
   },
   {
    "source": "OCC",
    "url": "https://www.occ.gov/",
    "status": "Checked",
-   "note": "Nov 24-25 items: November enforcement actions, the 2027 CRA exam schedule, appraisal and lending thresholds, and Bulletin 2026-59 on the joint statement about FinCEN's outage (FinCEN item updated); nothing that limits customers' access to money.",
-   "last_success": "2026-11-26"
+   "note": "Nothing after the Nov 24-25 items (enforcement actions, the 2027 CRA exam schedule, lending thresholds and Bulletin 2026-59 on FinCEN's outage); nothing that limits customers' access to money.",
+   "last_success": "2026-11-27"
   },
   {
    "source": "SEC press releases",
    "url": "https://www.sec.gov/newsroom/press-releases",
    "status": "Checked",
-   "note": "Nothing after Nov 20. An order set for the Nov 27 Federal Register grants temporary relief from the short-sale 'locate' rule outside regular trading hours, which eases trading rules. Nothing on fund redemption limits.",
-   "last_success": "2026-11-26"
+   "note": "Nothing after Nov 20. The order easing the short-sale 'locate' rule outside regular trading hours appeared in the Nov 27 Federal Register. Nothing on fund redemption limits.",
+   "last_success": "2026-11-27"
   },
   {
    "source": "CFPB newsroom",
    "url": "https://www.consumerfinance.gov/about-us/newsroom/",
    "status": "Checked",
-   "note": "Nov 25: dollar thresholds for appraisal and lending rules, a routine yearly update; nothing on limits on money.",
-   "last_success": "2026-11-26"
+   "note": "Nothing after the Nov 25 threshold updates and the Nov 24 anti-scam announcement; nothing on limits on money.",
+   "last_success": "2026-11-27"
   },
   {
    "source": "CFTC press releases",
    "url": "https://www.cftc.gov/PressRoom/PressReleases",
    "status": "Checked",
    "note": "Nothing after Nov 23.",
-   "last_success": "2026-11-26"
+   "last_success": "2026-11-27"
   },
   {
    "source": "White House presidential actions",
    "url": "https://www.whitehouse.gov/presidential-actions/",
    "status": "Checked",
    "note": "The page loaded: the latest items are the Nov 25 Thanksgiving proclamation and the Nov 23 memorandum on capital sentences. No action on limits on money.",
-   "last_success": "2026-11-26"
+   "last_success": "2026-11-27"
   },
   {
    "source": "Congress.gov",
    "url": "https://www.congress.gov/",
    "status": "Partial",
-   "note": "The home page served an old copy. Searches found no new action on tracked bills (H.R. 8995, H.R. 1799, H.R. 9331, the CLARITY Act, or S. 3746, H.R. 7097 and H.R. 8172 on transfers abroad by people on public assistance). The stopgap spending law still runs to Dec 11.",
-   "last_success": "2026-11-26"
+   "note": "The home page doesn't list bill actions. Searches found no new action on tracked bills (H.R. 8995, H.R. 1799, H.R. 9331, the CLARITY Act, or S. 3746, H.R. 7097 and H.R. 8172 on transfers abroad by people on public assistance). Congress returns next week facing the Dec 11 funding deadline; the White House has asked for a stopgap bill running to March 31.",
+   "last_success": "2026-11-27"
   },
   {
    "source": "House Financial Services calendar",
    "url": "https://financialservices.house.gov/calendar/",
    "status": "Checked",
-   "note": "The Dec 1 and Dec 2 full-committee hearings are still set; no markups posted.",
-   "last_success": "2026-11-26"
+   "note": "The Dec 1 ('Oversight of Prudential Regulators') and Dec 2 full-committee hearings are still set; no markups posted.",
+   "last_success": "2026-11-27"
   },
   {
    "source": "Senate Banking Committee",
    "url": "https://www.banking.senate.gov/",
-   "status": "Partial",
-   "note": "The site didn't load; searches show only the Dec 3 hearing on export controls (tracked in upcoming dates) and no hearings or markups on deposits, payments or transfers.",
-   "last_success": "2026-11-26"
+   "status": "Checked",
+   "note": "The home page loaded: the Dec 3 hearing on export controls (tracked in upcoming dates) is the only one listed, and minority members' Nov 24-25 letters asked the SEC to drop its crypto rule proposal and innovation exemption, which doesn't concern limits on money.",
+   "last_success": "2026-11-27"
   },
   {
    "source": "GAO",
    "url": "https://www.gao.gov/",
-   "status": "Partial",
-   "note": "The site blocked our reader; searches found no new reports on capital controls, payments or bank access.",
-   "last_success": "2026-11-26"
+   "status": "Checked",
+   "note": "The home page loaded: recent reports (Nov 19-23) cover Medicare, defined benefit pension plans, AI and military benefits; nothing on capital controls, payments or bank access.",
+   "last_success": "2026-11-27"
   },
   {
    "source": "CRS reports",
    "url": "https://crsreports.congress.gov/",
    "status": "Partial",
-   "note": "The site returned nothing; searches found no new reports on payments, stablecoins or capital flows (the latest stablecoin report is from Sept 17).",
-   "last_success": "2026-11-26"
+   "note": "The site returned nothing; searches found no new reports on payments, stablecoins or capital flows.",
+   "last_success": "2026-11-27"
   },
   {
    "source": "State bills (LegiScan)",
    "url": "https://legiscan.com/",
    "status": "Partial",
    "note": "The home page doesn't list bills; searches found only the tracked Texas prefiled bills (HB 165 and the crypto ATM bills) and nothing new on cash, gold, CBDCs or payment limits.",
-   "last_success": "2026-11-26"
+   "last_success": "2026-11-27"
   },
   {
    "source": "IMF publications and eLibrary",
    "url": "https://www.elibrary.imf.org/",
    "status": "Checked",
-   "note": "Nov 25 items are country reviews (Bolivia, Comoros, Madagascar); Bolivia's staff statement says its move to a flexible exchange rate has stayed orderly (Bolivia item updated). No new papers or statements on capital flow measures.",
-   "last_success": "2026-11-26"
+   "note": "Nov 24-26 items are country reviews (Australia, Bolivia, Comoros, Ecuador, Guinea, Madagascar, Montenegro, South Africa); nothing new on capital flow measures.",
+   "last_success": "2026-11-27"
   },
   {
    "source": "BIS",
    "url": "https://www.bis.org/",
    "status": "Checked",
-   "note": "Nothing new on payment limits; it reposted Governor Waller's Nov 17 speech on payments and tokenized markets (tracked).",
-   "last_success": "2026-11-26"
+   "note": "Nov 26 items: a paper on big tech in open finance, a working paper on climate and inflation expectations, and reposted speeches, including Governor Waller's Nov 17 payments speech (tracked); nothing on payment limits.",
+   "last_success": "2026-11-27"
   },
   {
    "source": "FSB",
    "url": "https://www.fsb.org/",
    "status": "Checked",
-   "note": "The Nov 25 list of global systemically important banks; nothing on payment limits.",
-   "last_success": "2026-11-26"
+   "note": "Nothing after the Nov 25 list of global systemically important banks; nothing on payment limits.",
+   "last_success": "2026-11-27"
   },
   {
    "source": "FATF",
    "url": "https://www.fatf-gafi.org/",
    "status": "Checked",
-   "note": "No new statements on payment rules since the October plenary; the underground banking and hawala report on its home page dates from September.",
-   "last_success": "2026-11-26"
+   "note": "No new statements on payment rules since the October plenary.",
+   "last_success": "2026-11-27"
   },
   {
    "source": "ECB digital euro",
    "url": "https://www.ecb.europa.eu/euro/digital_euro/html/index.en.html",
    "status": "Checked",
-   "note": "No trilogue deal yet; the ECB still plans a pilot in 2027 and possible first issuance in 2029. Its November Financial Stability Review covers AI, sovereign debt and stablecoin reserve rules and doesn't discuss digital euro holding limits.",
-   "last_success": "2026-11-26"
+   "note": "No trilogue deal yet; the page still points to a pilot in 2027 and possible first issuance in 2029. Recent articles on holding limits repeat October remarks (the ECB modeled limits of 500 to 3,000 euros, with no decision).",
+   "last_success": "2026-11-27"
   },
   {
    "source": "Bank of England digital pound",
    "url": "https://www.bankofengland.co.uk/the-digital-pound",
    "status": "Checked",
-   "note": "No decision yet; the page still points to a decision on next steps in 2026. The Bank's Nov 26 Financial Stability Report says the UK system has been resilient and that cyber and operational risks have risen significantly; it doesn't discuss stablecoin holding limits.",
-   "last_success": "2026-11-26"
+   "note": "No decision yet; the page still points to a decision on next steps in 2026.",
+   "last_success": "2026-11-27"
   },
   {
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/",
    "status": "Checked",
-   "note": "Nov 25 items cover the repo market (new collateral baskets); nothing on payment limits, and we found no new action on Bill S-8.",
-   "last_success": "2026-11-26"
+   "note": "Nothing after the Nov 25 repo-market items; nothing on payment limits, and we found no new action on Bill S-8.",
+   "last_success": "2026-11-27"
   },
   {
    "source": "OSFI (Canada's bank regulator)",
    "url": "https://www.osfi-bsif.gc.ca/",
    "status": "Checked",
-   "note": "Nothing after its Nov 19 releases; its Dec 3 industry day is still scheduled.",
-   "last_success": "2026-11-26"
+   "note": "Nothing new; its Dec 3 industry day is still scheduled.",
+   "last_success": "2026-11-27"
   },
   {
    "source": "Atlantic Council CBDC Tracker",
    "url": "https://www.atlanticcouncil.org/cbdctracker/",
    "status": "Checked",
    "note": "Still last updated May 2026.",
-   "last_success": "2026-11-26"
+   "last_success": "2026-11-27"
   },
   {
    "source": "NBER",
    "url": "https://www.nber.org/papers",
    "status": "Checked",
-   "note": "This week's papers include work on capital flows to developing countries and on deposit retention; none on capital controls or payment limits.",
-   "last_success": "2026-11-26"
+   "note": "This week's papers cover health care, aging, impact investing and taxes; none on capital controls or payment limits.",
+   "last_success": "2026-11-27"
   },
   {
    "source": "Cato",
    "url": "https://www.cato.org/blog",
    "status": "Checked",
-   "note": "Nov 25 posts: a monetary policy essay and an argument that the Right to Financial Privacy Act's protections are weakened by its exceptions (commentary, no new proposal).",
-   "last_success": "2026-11-26"
+   "note": "No posts after Nov 25 (a monetary policy essay and a post on the Right to Financial Privacy Act, already noted).",
+   "last_success": "2026-11-27"
   },
   {
    "source": "Brookings Hutchins Center",
    "url": "https://www.brookings.edu/centers/the-hutchins-center-on-fiscal-and-monetary-policy/",
    "status": "Checked",
-   "note": "Nov 25: a paper on strengthening the Treasury market's resilience and liquidity; nothing on capital controls.",
-   "last_success": "2026-11-26"
+   "note": "Nothing after the Nov 25 paper on Treasury market resilience.",
+   "last_success": "2026-11-27"
   },
   {
    "source": "PIIE",
    "url": "https://www.piie.com/",
    "status": "Checked",
-   "note": "Nothing on capital controls; recent items cover trade policy and tariffs.",
-   "last_success": "2026-11-26"
+   "note": "Nothing on capital controls; recent items cover tariffs and China's taxes.",
+   "last_success": "2026-11-27"
   },
   {
    "source": "AEI",
    "url": "https://www.aei.org/",
    "status": "Checked",
    "note": "Nothing relevant in recent commentary.",
-   "last_success": "2026-11-26"
+   "last_success": "2026-11-27"
   },
   {
    "source": "Heritage",
    "url": "https://www.heritage.org/",
    "status": "Checked",
    "note": "Nothing on capital controls.",
-   "last_success": "2026-11-26"
+   "last_success": "2026-11-27"
   },
   {
    "source": "Bank Policy Institute",
    "url": "https://bpi.com/",
    "status": "Checked",
-   "note": "Its latest items (a Nov 23 comment letter on the FDIC's state bank parity proposal and posts on AI agents and stablecoin reserves) don't address limits on money.",
-   "last_success": "2026-11-26"
+   "note": "Nothing after its Nov 23 comment letter on the FDIC's state bank parity proposal and its posts on AI agents and stablecoin reserves.",
+   "last_success": "2026-11-27"
   },
   {
    "source": "Coin Center",
    "url": "https://www.coincenter.org/",
    "status": "Checked",
    "note": "No posts after Nov 6.",
-   "last_success": "2026-11-26"
+   "last_success": "2026-11-27"
   },
   {
    "source": "JD Supra",
    "url": "https://www.jdsupra.com/",
    "status": "Partial",
    "note": "Home page only; no relevant law-firm alerts beyond those tracked.",
-   "last_success": "2026-11-26"
+   "last_success": "2026-11-27"
   },
   {
    "source": "Glenn Beck YouTube",
    "url": "https://www.youtube.com/@glennbeck",
    "status": "Partial",
-   "note": "The channel page served an older copy (from about Nov 10). Show listings found by search show guest host Chris Salcedo on Nov 24 and 25, covering government file releases and politics, with no claims about limits on money. The tracked 'Capital Controls' special is unchanged.",
-   "last_success": "2026-11-26"
+   "note": "The channel page showed recent videos on politics, religion and culture, plus the tracked 'Capital Controls' special; no new claims about limits on money.",
+   "last_success": "2026-11-27"
   },
   {
    "source": "glennbeck.com",
    "url": null,
    "status": "Partial",
-   "note": "Blocked as usual; radio listings found by search cover the Nov 24 and 25 shows (see above).",
-   "last_success": "2026-11-26"
+   "note": "Blocked as usual; show listings found by search show a guest host on Nov 25 and Thanksgiving messages on Nov 25 and 26, with no claims about limits on money.",
+   "last_success": "2026-11-27"
   },
   {
    "source": "IRS remittance tax guidance",
    "url": "https://www.irs.gov/newsroom/treasury-irs-issue-proposed-regulations-on-the-new-remittance-transfer-tax-established-under-the-one-big-beautiful-bill",
    "status": "Checked",
    "note": "No final regulations; the April proposal is still the latest. The 1% tax on cash-funded transfers still applies.",
-   "last_success": "2026-11-26"
+   "last_success": "2026-11-27"
   },
   {
    "source": "Other financial commentators (search)",
    "url": null,
    "status": "Checked",
-   "note": "Searches found no new claims from widely followed commentators that U.S. capital controls are coming. A Nov 25 article in a small political publication reported a Brazilian economist calling for exchange controls in Brazil, not the U.S.",
-   "last_success": "2026-11-26"
+   "note": "Peter Schiff warned on X on Nov 25 of another financial crisis and possible hyperinflation but made no claim about limits on moving money; we found no new claims from widely followed commentators that U.S. capital controls are coming. An AFP fact check on Nov 26 found Malaysian banks had not frozen withdrawals, despite viral messages saying they would.",
+   "last_success": "2026-11-27"
   },
   {
    "source": "News search: bank and platform withdrawal limits",
    "url": null,
    "status": "Checked",
-   "note": "No U.S. bank, money market fund or major U.S. crypto platform limited withdrawals. Binance's scheduled one-hour wallet maintenance pause was set for Nov 25; Chainflip began returning some users' balances (crypto item updated). Some Chinese funds that hold U.S. stocks paused subscriptions and redemptions for Nov 26 only because U.S. markets are closed for Thanksgiving.",
-   "last_success": "2026-11-26"
+   "note": "No U.S. bank, money market fund or major U.S. crypto platform limited withdrawals. Binance ended its post-hack withdrawal pause on Nov 26, and a Nov 27 CoinDesk report on a BitOK study found stablecoin freezes are seldom reversed (crypto item updated).",
+   "last_success": "2026-11-27"
   },
   {
    "source": "News search: currency and market measures abroad",
    "url": null,
    "status": "Checked",
-   "note": "South Korea's KOSPI rose 0.29% and Taiwan's main index 2.50% on Nov 26, with no new limits (Asia item updated); the Bank of Korea raised interest rates. Turkey's central bank reserves fell an estimated $17 billion in the week to Nov 20, mostly from lower gold prices, with no limits on moving money. Nigeria's higher weekly dollar cash cap for exchange bureaus ($1 million from $150,000) eases access; Myanmar's eased trade payment rules are already tracked; and Moscow Exchange confirmed crypto trading from Dec 1 (tracked).",
-   "last_success": "2026-11-26"
+   "note": "South Korea's KOSPI rose 4.34% and Taiwan's main index 0.40% on Nov 27, with no new limits (Asia item updated). Paraguay's central bank set out how Ueno Bank's frozen deposits will move to other banks (Paraguay item updated). Türkiye's central bank suspended its one-week repo auctions and raised pay on banks' lira reserves on Nov 26 as its reserves fell, steps that tighten lira funding but don't limit moving money. Iran's rial hit a record low after the Nov 23 U.S. sanctions, and Venezuela's new economic plan aims to unify its exchange rates within a year, with no date or rules yet.",
+   "last_success": "2026-11-27"
   }
  ],
  "raise_level_triggers": [
