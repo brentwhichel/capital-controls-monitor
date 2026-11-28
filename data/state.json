@@ -905,7 +905,7 @@
    "headline": "FDIC proposal would move the largest banks under the 2008 'provisional hold' rule, for use if they fail",
    "date": "2026-11-04",
    "org": "FDIC",
-   "what_changed": "The FDIC Board approved the proposal Oct 30; it was published Nov 4, with comments due Jan 4, 2027. It would rescind 12 CFR Part 370 and move banks with at least $2 billion in deposits and 2 million or more accounts under an amended 12 CFR 360.9.",
+   "what_changed": "On Nov 27 the FDIC filed a notice, to be published Nov 30, extending the comment period to Feb 3, 2027, from Jan 4, to give commenters more time; the proposal itself is unchanged. Earlier: the FDIC Board approved the proposal Oct 30; it was published Nov 4. It would rescind 12 CFR Part 370 and move banks with at least $2 billion in deposits and 2 million or more accounts under an amended 12 CFR 360.9.",
    "summary": "This is mainly a deregulatory proposal: the largest banks would no longer have to calculate deposit insurance in-house. Instead they would supply standardized depositor data and, within 18 months of the rule taking effect, be able to place and remove automated provisional holds on accounts if they fail, which other large banks have had to support since 2008. Holds apply only after a failure, while the FDIC separates insured from uninsured money. Some pass-through account holders, such as deposit brokers and agents, would have to be told they might not reach those deposits after a failure until they give the FDIC the required data.",
    "control_type": "Friction",
    "affected": "Sector or group",
@@ -919,8 +919,8 @@
    "why_it_matters": "It makes the plumbing for temporarily restricting depositor access standard at the very largest banks, so it's worth tracking even though it's tied to bank failures.",
    "why_it_might_not": "Holds are used only after a bank fails and is in FDIC receivership, to sort insured from uninsured money while paying depositors quickly. The mechanism isn't new, the proposal mainly reduces burden, and it isn't linked to any crisis policy.",
    "next_milestone": {
-    "what": "Comment deadline",
-    "date": "2027-01-04"
+    "what": "Comment deadline (extended)",
+    "date": "2027-02-03"
    },
    "sources": [
     {
@@ -928,6 +928,13 @@
      "url": "https://www.federalregister.gov/documents/2026/11/04/2026-22495/large-bank-deposit-insurance-determination-modernization",
      "publisher": "Federal Register",
      "date": "2026-11-04",
+     "primary": true
+    },
+    {
+     "title": "Large-Bank Deposit Insurance Determination Modernization; Extension of Comment Period (2026-24242, public inspection)",
+     "url": "https://public-inspection.federalregister.gov/2026-24242.pdf",
+     "publisher": "Federal Register",
+     "date": "2026-11-30",
      "primary": true
     },
     {
@@ -957,7 +964,7 @@
     "source_url": "https://www.fdic.gov/board/federal-register-npr-bank-deposit-insurance-determination-modernization.pdf"
    },
    "first_seen": "2026-11-04",
-   "last_change": "2026-11-04",
+   "last_change": "2026-11-27",
    "status": "BASELINE",
    "open": true,
    "status_history": [
@@ -967,17 +974,17 @@
      "stage": "Proposal"
     }
    ],
-   "updated_on": "2026-11-04",
-   "plain": "The FDIC (which insures bank deposits) proposed that the biggest banks be ready to put holds on accounts if they fail, as other big banks have since 2008. Holds would come only after a bank fails."
+   "updated_on": "2026-11-28",
+   "plain": "The FDIC (which insures bank deposits) proposed that the biggest banks be ready to put holds on accounts if they fail. Holds would come only after a bank fails. Comments are now due Feb 3, 2027."
   },
   "fdic-failures-2026-tally": {
    "id": "fdic-failures-2026-tally",
    "section": "banking_stress",
-   "headline": "Six FDIC-insured bank failures so far in 2026, all small; the list was last updated Sept 25",
-   "date": "2026-09-25",
+   "headline": "Seven FDIC-insured bank failures so far in 2026, including United Fidelity Bank ($5.9 billion in assets) on Nov 27",
+   "date": "2026-11-27",
    "org": "FDIC",
-   "what_changed": "In the 90-day window, Tioga-Franklin Savings Bank (Philadelphia, Aug 21) and Nano Banc (Sept 25) failed. Earlier 2026 failures were Metropolitan Capital Bank & Trust (Jan 30), Community Bank and Trust - West Georgia (May 1), Kentland Federal S&L (Jul 10) and Small Business Bank (Jul 17).",
-   "summary": "Each failure was resolved by purchase-and-assumption with another bank. Six failures in 10 months is more than in 2024 (2) or 2025 (2) on the same list, but none was large. Other banking-stress checks found no Fed emergency facility announcements, and the Fed's November 2026 Financial Stability Report (Nov 13) found the banking system sound (tracked separately).",
+   "what_changed": "United Fidelity Bank, fsb (Evansville, Indiana; about $5.9 billion in assets) failed Nov 27, the seventh failure of 2026 and the largest in more than two years (tracked separately). Earlier 2026 failures were Metropolitan Capital Bank & Trust (Jan 30), Community Bank and Trust - West Georgia (May 1), Kentland Federal S&L (Jul 10), Small Business Bank (Jul 17), Tioga-Franklin Savings Bank (Aug 21) and Nano Banc (Sept 25).",
+   "summary": "Each failure was resolved by a purchase-and-assumption, in which another bank took over the deposits. Seven failures in 11 months is more than in 2024 (2) or 2025 (2) on the same list. The first six were small; United Fidelity is the largest in more than two years, Reuters reported. Other banking-stress checks found no Fed emergency facility use, and the Fed's November 2026 Financial Stability Report (Nov 13) found the banking system sound (tracked separately).",
    "control_type": "None",
    "affected": "Named parties",
    "stage": "In effect",
@@ -986,7 +993,7 @@
    "direction": "Neutral",
    "evidence": "Official document",
    "why_it_matters": "This is the baseline count for spotting a pickup in failures. A cluster of failures, or any resolution with delayed access, would matter.",
-   "why_it_might_not": "The failures are small and handled routinely, with no systemic-risk exception invoked.",
+   "why_it_might_not": "Each failure was handled routinely, with deposits moved to another bank and no systemic-risk exception invoked.",
    "next_milestone": {
     "what": "Next FDIC failed-bank posting (if any)",
     "date": null
@@ -996,7 +1003,7 @@
      "title": "Failed Bank List",
      "url": "https://www.fdic.gov/bank-failures/failed-bank-list",
      "publisher": "FDIC",
-     "date": "2026-09-25",
+     "date": "2026-11-27",
      "primary": true
     },
     {
@@ -1012,7 +1019,7 @@
     "source_url": ""
    },
    "first_seen": "2026-11-04",
-   "last_change": "2026-09-25",
+   "last_change": "2026-11-27",
    "status": "BASELINE",
    "open": true,
    "status_history": [
@@ -1022,8 +1029,8 @@
      "stage": "In effect"
     }
    ],
-   "updated_on": "2026-11-14",
-   "plain": "Six small banks have failed so far in 2026, more than in 2024 or 2025. In each case another bank took over, and the failures were handled routinely."
+   "updated_on": "2026-11-28",
+   "plain": "Seven banks have failed so far in 2026, more than in 2024 or 2025. One, on Nov 27, had about $5.9 billion in assets. Each time another bank took over the accounts."
   },
   "fdic-nano-banc-2026-09-25": {
    "id": "fdic-nano-banc-2026-09-25",
@@ -2040,7 +2047,7 @@
    "org": "European Central Bank; European Parliament and Council",
    "who": "Piero Cipollone, ECB Executive Board member (leads digital euro project)",
    "what_changed": "Cipollone presented ECB analysis of holding limits of EUR 500-3,000 and confirmed a 12-month pilot from H2 2027 aiming at first issuance in 2029, if legislation is done by end-2026.",
-   "summary": "The digital euro would carry a per-person cap on holdings, explicitly to stop savers moving too much money out of banks in a crisis. The ECB says limits up to EUR 3,000 would cause no aggregate outflow under normal conditions; Cipollone said figures were illustrative, not a decision. Reporting says the cap will not be written into the law itself; the ECB would recommend it and legislators would decide, and Parliament wants the Commission to set it on ECB advice while the Council wants to set it itself. The ECB is also exploring conditional payments as a future feature. The seventh round of political talks (trilogue) began Nov 18 and ended at 4:30 a.m. on Nov 19 after more than 14 hours without a deal, ANSA reported; sticking points included whether people hit by other countries' sanctions that the EU doesn't recognize can still use the digital euro, and the fee model for merchants. Negotiators plan another meeting, and the Irish presidency still aims for a political agreement by the end of 2026. Reports said the method for setting the holding limit, and who sets it, is still open. CriptoNoticias reported on Nov 17 that without a deal this year the file would pass to the next Council presidency, which could push the launch to 2030.",
+   "summary": "The digital euro would carry a per-person cap on holdings, explicitly to stop savers moving too much money out of banks in a crisis. The ECB says limits up to EUR 3,000 would cause no aggregate outflow under normal conditions; Cipollone said figures were illustrative, not a decision. Reporting says the cap will not be written into the law itself; the ECB would recommend it and legislators would decide, and Parliament wants the Commission to set it on ECB advice while the Council wants to set it itself. The ECB is also exploring conditional payments as a future feature. The seventh round of political talks (trilogue) began Nov 18 and ended at 4:30 a.m. on Nov 19 after more than 14 hours without a deal, ANSA reported; sticking points included whether people hit by other countries' sanctions that the EU doesn't recognize can still use the digital euro, and the fee model for merchants. Negotiators plan another meeting, and the Irish presidency still aims for a political agreement by the end of 2026. Reports said the method for setting the holding limit, and who sets it, is still open. CriptoNoticias reported on Nov 17 that without a deal this year the file would pass to the next Council presidency, which could push the launch to 2030. On Nov 26, EU leaders' European Council nominated Pablo Hernández de Cos, general manager of the Bank for International Settlements and a former Bank of Spain governor, to succeed ECB President Christine Lagarde, whose term ends in February 2027; the European Parliament and the ECB's Governing Council must be consulted first. CoinDesk reported he favors tokenized bank deposits and has questioned whether stablecoins can work as money at scale, and Ledger Insights noted the ECB's leaders could matter for the holding cap if the law leaves the figure to the ECB. He has not announced a view on the cap.",
    "control_type": "Prohibition",
    "affected": "Sector or group",
    "stage": "Proposal",
@@ -2114,6 +2121,20 @@
      "publisher": "Shaping Tomorrow",
      "date": "2026-10-12",
      "primary": false
+    },
+    {
+     "title": "Next ECB chief favors tokenized bank deposits over stablecoins and bitcoin",
+     "url": "https://www.coindesk.com/policy/2026/11/27/next-ecb-chief-favors-tokenized-bank-deposits-over-stablecoins-and-bitcoin",
+     "publisher": "CoinDesk",
+     "date": "2026-11-27",
+     "primary": false
+    },
+    {
+     "title": "New ECB Presidential pick could sway digital euro holding limits, boost tokenized deposits",
+     "url": "https://www.europesays.com/europe/192336/",
+     "publisher": "Ledger Insights (via Europe Says)",
+     "date": "2026-11-27",
+     "primary": false
     }
    ],
    "quote": {
@@ -2131,7 +2152,7 @@
      "stage": "Proposal"
     }
    ],
-   "updated_on": "2026-11-20",
+   "updated_on": "2026-11-28",
    "plain": "EU lawmakers and governments still haven't agreed on rules for a digital euro, such as a cap on how much each person could hold. Talks ended Nov 19 without a deal."
   },
   "intl-fatf-r16-payment-transparency": {
@@ -3824,11 +3845,11 @@
   "us-stocks-selloff-2026-11-05": {
    "id": "us-stocks-selloff-2026-11-05",
    "section": "banking_stress",
-   "headline": "U.S. stocks swing after their worst week since April 2025; no bank or fund withdrawal limits reported",
-   "date": "2026-11-25",
+   "headline": "U.S. stocks post their best week since April 2025 after a steep November slide; no bank or fund withdrawal limits reported",
+   "date": "2026-11-27",
    "org": "U.S. stock markets",
    "who": "Markets (no government action)",
-   "what_changed": "On Wednesday, Nov 25, U.S. stocks recovered most of a steep early drop: the S&P 500 closed down 0.25% at 7,182.78 after falling as much as 3.2%, the Dow rose 0.33% to 50,182.95 after being down more than 1,100 points, and the Nasdaq fell 0.62% to 23,585.80 after falling as much as 4.6%, as AI-linked stocks fell again and October inflation data came in high. Earlier: On Tuesday, Nov 24, U.S. stocks were mixed: the S&P 500 fell 0.5% to 7,201.09 and the Nasdaq fell 1.5% to 23,733.54 as AI and chip stocks gave back part of Monday's gains, while the Dow rose 0.9% to 50,018.70. Earlier: On Monday, Nov 23, U.S. stocks rebounded: the S&P 500 rose 4.73% to 7,237.17 and the Nasdaq rose 6.51% to 24,089.56, both their best days since April 2025, and the Dow gained 1,447.98 points (3.01%) to 49,595.31. The rally followed Nvidia's reinstatement of Jensen Huang as chief executive; Nvidia's shares rose 31%, and the S&P 500 recovered just over half of the previous week's loss. Earlier: On Friday, Nov 20, the S&P 500 fell 3.7% to 6,910.39, more than 10% below its Oct 6 record high, a drop investors call a correction; the Dow fell 949.73 points (1.93%) to 48,147.33, and the Nasdaq fell 5.28% to 22,617.73, erasing its gain for 2026. For the week, the S&P 500 lost 8.6%, its worst week since April 2025; the Dow lost 8%, its worst week since March 2020; and the Nasdaq lost about 10%. Selling centered on AI and chip stocks: Nvidia fell about 14% after Reuters reported that the SEC is exploring possible accounting issues at the company. Bitcoin fell below $57,000 late on Nov 20 and to $55,130 early on Nov 21, its lowest since September 2024, then rebounded more than 9% to above $60,000 that afternoon after about $1.8 billion in leveraged crypto bets were forcibly closed; Binance market data showed it near $59,000 to $61,000 on Nov 22.",
+   "what_changed": "On Friday, Nov 27, in a shortened post-Thanksgiving session, the S&P 500 rose 1.6% to 7,297.49, the Dow rose 1.2% to 50,774.94 and the Nasdaq rose 2.3% to 24,129.50. For the week the S&P 500 gained 5.6%, its biggest weekly gain since April 2025, though Reuters said the S&P 500 and Nasdaq remain on track for their worst November since 2008. Earlier: On Wednesday, Nov 25, U.S. stocks recovered most of a steep early drop: the S&P 500 closed down 0.25% at 7,182.78 after falling as much as 3.2%, the Dow rose 0.33% to 50,182.95 after being down more than 1,100 points, and the Nasdaq fell 0.62% to 23,585.80 after falling as much as 4.6%, as AI-linked stocks fell again and October inflation data came in high. Earlier: On Tuesday, Nov 24, U.S. stocks were mixed: the S&P 500 fell 0.5% to 7,201.09 and the Nasdaq fell 1.5% to 23,733.54 as AI and chip stocks gave back part of Monday's gains, while the Dow rose 0.9% to 50,018.70. Earlier: On Monday, Nov 23, U.S. stocks rebounded: the S&P 500 rose 4.73% to 7,237.17 and the Nasdaq rose 6.51% to 24,089.56, both their best days since April 2025, and the Dow gained 1,447.98 points (3.01%) to 49,595.31. The rally followed Nvidia's reinstatement of Jensen Huang as chief executive; Nvidia's shares rose 31%, and the S&P 500 recovered just over half of the previous week's loss. Earlier: On Friday, Nov 20, the S&P 500 fell 3.7% to 6,910.39, more than 10% below its Oct 6 record high, a drop investors call a correction; the Dow fell 949.73 points (1.93%) to 48,147.33, and the Nasdaq fell 5.28% to 22,617.73, erasing its gain for 2026. For the week, the S&P 500 lost 8.6%, its worst week since April 2025; the Dow lost 8%, its worst week since March 2020; and the Nasdaq lost about 10%. Selling centered on AI and chip stocks: Nvidia fell about 14% after Reuters reported that the SEC is exploring possible accounting issues at the company. Bitcoin fell below $57,000 late on Nov 20 and to $55,130 early on Nov 21, its lowest since September 2024, then rebounded more than 9% to above $60,000 that afternoon after about $1.8 billion in leveraged crypto bets were forcibly closed; Binance market data showed it near $59,000 to $61,000 on Nov 22.",
    "summary": "Markets stayed open with no market-wide trading halt, and we found no U.S. bank, money market fund or mutual fund limiting withdrawals or redemptions, and no major U.S. crypto platform halting withdrawals. U.S. stock markets are closed Thursday, Nov 26, for Thanksgiving. A falling stock market isn't a capital control: it changes what investments are worth, not whether people can withdraw or move their money. The slide began with a 4.4% S&P 500 drop on Nov 5, its worst day since April 2025, and Nov 20 was the index's seventh straight daily loss. Bitcoin's drop followed a record $541.1 million daily outflow from BlackRock's spot bitcoin fund on Nov 19. Treasury Secretary Bessent urged the Fed on Nov 20 not to raise interest rates by half a percentage point. Money market fund assets rose $2.49 billion to $7.98 trillion in the six days to Nov 24, after a $3.58 billion dip the week before. Bitcoin fell to about $57,500 on Nov 25 and was near $60,500 early Nov 26, as U.S. spot bitcoin funds had a seventh straight day of outflows. Reuters said the Nasdaq's 10% drop last week was its biggest weekly fall since March 2020 and that Wall Street's fear gauge rose above 40 for the first time since April 2025. Asian authorities stepped up support for their markets (tracked under Around the world).",
    "control_type": "None",
    "affected": "Sector or group",
@@ -3841,10 +3862,24 @@
    "why_it_matters": "Sharp market drops can strain funds and lenders and often fuel claims that limits on withdrawals are coming, so this monitor watches for redemption gates, liquidity fees or bank limits during selloffs.",
    "why_it_might_not": "Falling prices don't limit anyone's access to their money. Markets stayed open, and money market fund assets held steady through Nov 24.",
    "next_milestone": {
-    "what": "Next weekly Fed balance sheet (Nov 27) and money market fund data (regular Thursday release, Dec 3)",
-    "date": "2026-11-27"
+    "what": "Next money market fund data (regular Thursday release) and weekly Fed balance sheet",
+    "date": "2026-12-03"
    },
    "sources": [
+    {
+     "title": "How major US stock indexes fared Friday 11/27/2026",
+     "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-04dab6079cf7f3dfe7285a3cc1f240a2",
+     "publisher": "Associated Press",
+     "date": "2026-11-27",
+     "primary": false
+    },
+    {
+     "title": "Wall Street ends higher as battered AI stocks gain in volatile week",
+     "url": "https://www.reuters.com/business/wall-st-futures-surge-investors-return-holiday-2026-11-27/",
+     "publisher": "Reuters",
+     "date": "2026-11-27",
+     "primary": false
+    },
     {
      "title": "How major US stock indexes fared Wednesday 11/25/2026",
      "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-11252026-138453529",
@@ -3998,7 +4033,7 @@
     "source_url": ""
    },
    "first_seen": "2026-11-07",
-   "last_change": "2026-11-20",
+   "last_change": "2026-11-27",
    "status": "EXPANDED",
    "open": true,
    "status_history": [
@@ -4013,8 +4048,8 @@
      "stage": "In effect"
     }
    ],
-   "updated_on": "2026-11-26",
-   "plain": "Stock prices have swung up and down this month. Markets stayed open, and we found no U.S. bank or fund that limited withdrawals."
+   "updated_on": "2026-11-28",
+   "plain": "Stock prices fell hard this month, then had their best week since April 2025. Markets stayed open, and we found no U.S. bank or fund that limited withdrawals."
   },
   "dol-1210-AC38-401k-alternatives": {
    "id": "dol-1210-AC38-401k-alternatives",
@@ -4159,7 +4194,7 @@
    "date": "2026-11-27",
    "org": "Taiwan's Financial Supervisory Commission and National Financial Stabilization Fund; South Korea's Financial Supervisory Service",
    "what_changed": "On Nov 27, South Korea's KOSPI rose 4.34% to 4,915.68 and the Kosdaq 8.13% to 708.99 on hopes for government support, as foreign investors bought a net 1.13 trillion won of shares on the main board; regulators planned to meet the chairs of the five largest financial groups on Monday, Nov 30, to discuss their contributions to the 10 trillion won (about $7.5 billion) market stabilization fund, and the finance ministry said a review with the central bank and regulators found no unusual developments in trading. Taiwan's main index rose 0.40% to 39,308.08. Neither government announced new limits. Earlier: On Nov 26, South Korea's KOSPI rose 0.29% to 4,711.21, giving up most of an early gain of more than 2% on a day the Bank of Korea raised its policy interest rate, and Taiwan's main index rose 2.50% to 39,151.81; neither government announced new limits. Earlier: On Nov 25, South Korea's KOSPI fell 6.16% to 4,697.51, its lowest close since Jan 13, after the exchange's automatic 'sidecar' paused program selling for five minutes in the morning, and Taiwan's main index fell 4.80% to 38,195.43. Taiwan's Financial Supervisory Commission released data showing that short sales of borrowed shares stayed at 0.27% to 2% of main-board turnover from Nov 9 through Nov 24, that it had cut the intraday cap on such sales to 1% from 3% on Nov 20, and that 57 company share buybacks were under way; it announced no new limits. Earlier: On Nov 24, South Korea's KOSPI was up 6.96% at 5,036.26 in mid-afternoon trading as the Financial Supervisory Service and the Korea Exchange launched a joint task force to find illegal short selling, part of three months of tighter checks; on Nov 23, Deputy Prime Minister and Finance Minister Lee Hyoung-il said Korea's short-selling rules were already strict, signaled caution about new curbs and said any use of the stabilization fund would depend on market conditions. The Taiwan Stock Exchange lowered the minimum collateral-maintenance ratio for margin loans to 120% from 130% from Nov 24, which reduces forced selling. On Nov 22, alongside the margin change, China's Shanghai and Shenzhen exchanges announced fee cuts worth 2.76 billion yuan, and the Shenzhen exchange proposed market-making rules for its ChiNext board. Earlier: On Nov 21, after Taiwan's main index fell 6.23% on Nov 20 to its lowest close in about seven months, Taiwan's Financial Supervisory Commission barred short selling (selling borrowed shares to bet on a fall) at prices below the previous day's close for all listed and over-the-counter stocks from Nov 23, its first blanket restriction of this kind since 2015, with an exemption for securities firms' hedging. This widened a Nov 19 rule that applied the same ban only to stocks that had fallen 3.5% or more the day before. The commission also raised the minimum margin for short sales to 150% from 130%, stopped accepting applications to list new put warrants and asked lenders to suspend stock lending. On Nov 22, with the securities regulator's approval, China's Shanghai, Shenzhen and Beijing stock exchanges said they will cut the minimum margin for buying stocks with borrowed money to 80% from 100% from Nov 30. On Nov 23, South Korea's financial regulator said it will lift the daily limit on listed companies' share buybacks from Nov 24 through Feb 23 and will step up checks for illegal short selling and manipulation for three months, and the finance minister said the government is preparing its market stabilization fund for possible use; the KOSPI fell as much as 5% that day before closing 3.3% lower. Earlier: On Nov 9, the steps announced Nov 6 took effect: Taiwan's Financial Supervisory Commission cut intraday short sales of borrowed shares to 3% of a stock's average daily volume over the prior 30 trading days (from 30%) and raised the minimum short-sale margin from 90% to 130%, and South Korea exempted brokerages from the 140% minimum collateral ratio on margin loans through Jan 31. Asian markets were mixed that day: MSCI's broadest index of Asia-Pacific shares outside Japan was up 0.8% by midday after falling 4.6% the week before, while South Korea's KOSPI closed 0.8% lower. On Nov 6, Japan's Nikkei had fallen 5.96%, South Korea's KOSPI 6.02% and Taiwan's index 4.5%, Korea's exchange paused trading for 20 minutes under its automatic circuit breaker, and Taiwan's National Financial Stabilization Fund authorized buying stocks, its 10th activation.",
-   "summary": "The selloff followed the Nov 3 U.S. midterm elections and worries that the results would slow AI and data center spending. The steps aim to support prices: buying stocks, curbing bets on falling prices, and easing margin calls so fewer investors are forced to sell. Several people told Reuters that Taiwan's Finance Ministry asked state-owned banks to support the market. Taiwan's fund cited record foreign selling of NT$994 billion in October and NT$524 billion more in November through Nov 6. None of these steps limits bank withdrawals, currency exchange or moving money abroad. On Nov 12, Taiwan's Financial Supervisory Commission said it has set no end date for the short-selling limits and reviews them daily; short sales of borrowed shares fell to 1.7% to 2% of main-board turnover on Nov 9-11, from 2.97% on Nov 6. Taiwan's main index fell 2.63% on Nov 12. Markets fell again this week: Taiwan's main index dropped about 6% on Nov 16 and 2.31% on Nov 17, when dealers said the stabilization fund appeared to be buying, and South Korea's KOSPI fell 2.59% on Nov 17 to 4,968.48, below 5,000 for the first time in nine months. Some Korean retail investors called for a temporary short-selling ban, but we found no new government limit. On Nov 22-23, South Korea again chose not to restrict short selling. Taiwan's stabilization fund says it has been buying shares since Nov 6. Investors in Taiwan can still sell shares they own; the new ban covers selling borrowed shares below the previous close. None of the new steps limits bank withdrawals, currency exchange or moving money abroad.",
+   "summary": "The selloff followed the Nov 3 U.S. midterm elections and worries that the results would slow AI and data center spending. The steps aim to support prices: buying stocks, curbing bets on falling prices, and easing margin calls so fewer investors are forced to sell. Several people told Reuters that Taiwan's Finance Ministry asked state-owned banks to support the market. Taiwan's fund cited record foreign selling of NT$994 billion in October and NT$524 billion more in November through Nov 6. None of these steps limits bank withdrawals, currency exchange or moving money abroad. On Nov 12, Taiwan's Financial Supervisory Commission said it has set no end date for the short-selling limits and reviews them daily; short sales of borrowed shares fell to 1.7% to 2% of main-board turnover on Nov 9-11, from 2.97% on Nov 6. Taiwan's main index fell 2.63% on Nov 12. Markets fell again this week: Taiwan's main index dropped about 6% on Nov 16 and 2.31% on Nov 17, when dealers said the stabilization fund appeared to be buying, and South Korea's KOSPI fell 2.59% on Nov 17 to 4,968.48, below 5,000 for the first time in nine months. Some Korean retail investors called for a temporary short-selling ban, but we found no new government limit. On Nov 22-23, South Korea again chose not to restrict short selling. Taiwan's stabilization fund says it has been buying shares since Nov 6. Investors in Taiwan can still sell shares they own; the new ban covers selling borrowed shares below the previous close. None of the new steps limits bank withdrawals, currency exchange or moving money abroad. Chosun Ilbo reported on Nov 28 that South Korea's stabilization fund may be expanded to 20 trillion to 40 trillion won; officials have not confirmed a size, and the fund buys shares rather than limiting sales.",
    "control_type": "Prohibition",
    "affected": "Sector or group",
    "stage": "In effect",
@@ -4377,6 +4412,13 @@
      "publisher": "MoneyToday",
      "date": "2026-11-09",
      "primary": false
+    },
+    {
+     "title": "KOSPI, KOSDAQ Surge on Government Stabilization Fund Anticipation",
+     "url": "https://www.chosun.com/english/market-money-en/2026/11/28/32HVIMBLRNDAPOLODDB7VHYJWI/",
+     "publisher": "Chosun Ilbo",
+     "date": "2026-11-28",
+     "primary": false
     }
    ],
    "quote": {
@@ -4404,7 +4446,7 @@
      "stage": "In effect"
     }
    ],
-   "updated_on": "2026-11-27",
+   "updated_on": "2026-11-28",
    "plain": "Taiwan now bans short selling (bets that prices will fall) below the last day's closing price. China and South Korea added steps to prop up stock prices. None of this limits taking out or moving money."
   },
   "japan-shinkin-outage-2026-11-06": {
@@ -6845,7 +6887,7 @@
    "claim_rating": "Can't verify",
    "verdict": "Speculative",
    "what_changed": "ETF Stream reported on Nov 17, 2026 that Russell Napier told its ETF Buyer London event the week before that France will respond to its debt problems the way Cyprus (2013) and Greece (2015) did, by imposing capital controls that would lock up roughly $6 trillion of liquid French assets held by foreigners (about $2 trillion of stocks and $4 trillion of debt securities). He said foreign investors hold 56% of French government bonds and, citing IMF data, that U.S. investors are the largest foreign owners of French portfolio assets, at $856 billion. He called the resulting global credit crunch and forced financial repression imminent.",
-   "summary": "Parts of the backdrop are real. France's 10-year government bond yield was about 4.85% on Nov 18, roughly 1 percentage point higher than six months earlier, and euro-area countries have used capital controls before: EU law generally bans limits on moving money but allows measures on public-policy or public-security grounds, which Cyprus (2013) and Greece (2015) used. But this is a forecast, not a report of a plan. We found no proposal by France or the EU to limit moving money out of France, Moody's left France's credit rating unchanged on Oct 23, and ETF Stream reported that many in the audience disagreed. The claim is about France, not limits on Americans' own accounts, though U.S. holders of French stocks and bonds would be affected if it happened. Commentary can't raise this monitor's level.",
+   "summary": "Parts of the backdrop are real. France's 10-year government bond yield was about 4.85% on Nov 18, roughly 1 percentage point higher than six months earlier, and euro-area countries have used capital controls before: EU law generally bans limits on moving money but allows measures on public-policy or public-security grounds, which Cyprus (2013) and Greece (2015) used. But this is a forecast, not a report of a plan. We found no proposal by France or the EU to limit moving money out of France, Moody's left France's credit rating unchanged on Oct 23, and ETF Stream reported that many in the audience disagreed. The claim is about France, not limits on Americans' own accounts, though U.S. holders of French stocks and bonds would be affected if it happened. On Nov 27, S&P Global Ratings revised France's outlook to negative from stable after a larger-than-expected 2026 budget deficit, while affirming its A+ rating; that raises the chance of a downgrade but is not a step toward limits on moving money. Commentary can't raise this monitor's level.",
    "plain": "Financial historian Russell Napier said France will freeze about $6 trillion of French stocks and bonds owned by foreigners. Can't tell yet: it's a guess about the future, and France hasn't proposed limits like that.",
    "quote": {
     "text": "the imposition of capital controls in France",
@@ -6903,10 +6945,17 @@
      "publisher": "European Parliament",
      "date": null,
      "primary": true
+    },
+    {
+     "title": "France Outlook Revised To Negative On Budgetary Consolidation Risks; 'A+/A-1' Ratings Affirmed",
+     "url": "https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3668694",
+     "publisher": "S&P Global Ratings",
+     "date": "2026-11-27",
+     "primary": true
     }
    ],
    "first_seen": "2026-11-19",
-   "updated_on": "2026-11-19",
+   "updated_on": "2026-11-28",
    "last_change": "2026-11-17",
    "status": "NEW",
    "open": true,
@@ -7025,7 +7074,7 @@
    },
    "id": "h41-2026-11-19-discount-window",
    "first_seen": "2026-11-20",
-   "updated_on": "2026-11-20",
+   "updated_on": "2026-11-28",
    "last_change": "2026-11-19",
    "status": "BASELINE",
    "status_history": [
@@ -7035,7 +7084,7 @@
      "stage": "In effect"
     }
    ],
-   "open": true
+   "open": false
   },
   "intl-imf-cbdc-policy-paper-2026-11": {
    "id": "intl-imf-cbdc-policy-paper-2026-11",
@@ -7848,6 +7897,200 @@
     }
    ],
    "open": true
+  },
+  "fdic-united-fidelity-2026-11-27": {
+   "id": "fdic-united-fidelity-2026-11-27",
+   "section": "banking_stress",
+   "headline": "United Fidelity Bank ($5.9 billion in assets) fails, the largest U.S. bank failure in more than two years; all regular deposit accounts move to First Citizens with no break in access",
+   "date": "2026-11-27",
+   "org": "FDIC; Office of the Comptroller of the Currency",
+   "who": "FDIC (receiver), OCC (closed the bank), First-Citizens Bank & Trust Company (buyer)",
+   "what_changed": "On Friday, Nov 27, the Office of the Comptroller of the Currency closed United Fidelity Bank, fsb, of Evansville, Indiana, and named the FDIC receiver. The FDIC sold it to First-Citizens Bank & Trust Company, which assumed substantially all deposits and bought substantially all assets. As of Sept 30 the bank had about $5.9 billion in assets and $5.4 billion in deposits; the FDIC estimates the cost to its Deposit Insurance Fund at $1.83 billion. Its 22 branches in Indiana, Illinois, Florida, Colorado and the U.S. Virgin Islands reopen as First Citizens branches on Saturday (where they normally open Saturdays) or Monday, Nov 30. It is the seventh FDIC-insured bank failure of 2026 and, Reuters reported, the largest in more than two years.",
+   "summary": "The FDIC's answers for customers say no one lost money on deposits: substantially all deposit accounts, regardless of amount, moved to First Citizens, and customers could keep using checks, ATM and debit cards, direct deposit, bill pay and online banking over the weekend. The main exception is brokered deposits held through Cede & Co., which First Citizens did not take; the FDIC tells those holders to contact their broker. First Citizens says it is taking on about $4.5 billion of deposits and $3.1 billion of loans, with a $2.6 billion discount on the assets and no deposit premium. Depositors may withdraw from transferred accounts, including certificates of deposit, without an early-withdrawal penalty until they sign a new agreement. We found no provisional holds, withdrawal limits or systemic-risk exception. The FDIC's November quarterly report said the number of problem banks remains in a normal range.",
+   "plain": "A bank in Indiana with about $5.9 billion in assets failed on Nov 27, the biggest U.S. bank failure in over two years. Another bank took it over, and customers kept access to their money.",
+   "quote": {
+    "text": "No one lost any money on deposits",
+    "source_url": "https://www.fdic.gov/bank-failures/frequently-asked-questions-united-fidelity-bank-fsb-evansville"
+   },
+   "control_type": "None",
+   "affected": "Named parties",
+   "stage": "In effect",
+   "tier": null,
+   "signal_numbers": [],
+   "direction": "Neutral",
+   "evidence": "Official document",
+   "verdict": "Confirmed",
+   "why_it_matters": "Bank failures are when depositors can lose access to money, and this is the largest one since the monitor began. Seven failures this year is more than in 2024 or 2025, and a larger failure, or one handled with holds on uninsured money, would test the FDIC's provisional-hold tools tracked under official rules.",
+   "why_it_might_not": "It was a single bank, resolved the routine way: another bank took all regular deposits, branches reopen by the next business day and no account was limited.",
+   "next_milestone": {
+    "what": "Branches reopen as First Citizens on Monday, Nov 30; watch for any further failures or any use of deposit holds",
+    "date": "2026-11-30"
+   },
+   "sources": [
+    {
+     "title": "First-Citizens Bank & Trust Company, Raleigh, North Carolina Assumes Substantially All Deposits and Purchases Substantially All Assets of United Fidelity Bank, fsb, Evansville, Indiana",
+     "url": "https://www.fdic.gov/news/press-releases/2026/first-citizens-bank-trust-company-raleigh-north-carolina-assumes",
+     "publisher": "FDIC",
+     "date": "2026-11-27",
+     "primary": true
+    },
+    {
+     "title": "Frequently Asked Questions for United Fidelity Bank, fsb, Evansville, IN",
+     "url": "https://www.fdic.gov/bank-failures/frequently-asked-questions-united-fidelity-bank-fsb-evansville",
+     "publisher": "FDIC",
+     "date": "2026-11-27",
+     "primary": true
+    },
+    {
+     "title": "Failed Bank List",
+     "url": "https://www.fdic.gov/bank-failures/failed-bank-list",
+     "publisher": "FDIC",
+     "date": "2026-11-27",
+     "primary": true
+    },
+    {
+     "title": "First Citizens Bank Enters into Whole Bank Purchase of United Fidelity Bank, fsb",
+     "url": "https://newsroom.firstcitizens.com/2026-11-27-First-Citizens-Bank-Enters-into-Whole-Bank-Purchase-of-United-Fidelity-Bank,-fsb",
+     "publisher": "First Citizens Bank",
+     "date": "2026-11-27",
+     "primary": false
+    },
+    {
+     "title": "United Fidelity Bank shut in biggest US bank failure in 2 years, First Citizens buys assets",
+     "url": "https://www.reuters.com/sustainability/boards-policy-regulation/united-fidelity-bank-shut-biggest-us-bank-failure-2-years-first-citizens-buys-2026-11-28/",
+     "publisher": "Reuters",
+     "date": "2026-11-27",
+     "primary": false
+    },
+    {
+     "title": "Regulators shutter Indiana-based United Fidelity bank",
+     "url": "https://finance.yahoo.com/economy/policy/articles/regulators-shutter-indiana-based-united-031616874.html",
+     "publisher": "Yahoo Finance",
+     "date": "2026-11-27",
+     "primary": false
+    }
+   ],
+   "first_seen": "2026-11-28",
+   "updated_on": "2026-11-28",
+   "last_change": "2026-11-27",
+   "status": "NEW",
+   "open": true,
+   "status_history": [
+    {
+     "date": "2026-11-28",
+     "status": "NEW",
+     "stage": "In effect"
+    }
+   ]
+  },
+  "h41-2026-11-25-discount-window": {
+   "id": "h41-2026-11-25-discount-window",
+   "section": "banking_stress",
+   "headline": "Fed H.4.1 (Nov 27, 2026): primary credit averaged about $8.8 billion; no emergency facility usage",
+   "date": "2026-11-27",
+   "org": "Federal Reserve Board",
+   "who": "Federal Reserve",
+   "what_changed": "Week ended Nov 25, 2026 (released Friday, Nov 27, after Thanksgiving): primary credit averaged $8,810 million (-$556 million on the week, +$1,927 million year over year); secondary credit averaged $11 million (up from $0); seasonal credit $8 million; other credit extensions $0.",
+   "summary": "Discount-window borrowing eased slightly in a week when stocks rebounded. Secondary credit, the Fed's lending to banks that don't qualify for its standard loans, rose from zero to a small $11 million average; the release doesn't name borrowers. Total borrowing remains small relative to the banking system, and no emergency lending facility is active.",
+   "plain": "A weekly report from the Fed, the nation's central bank, shows its short-term loans to banks averaged about $8.8 billion. That is a little less than the week before, with no emergency lending.",
+   "control_type": "None",
+   "affected": "Sector or group",
+   "stage": "In effect",
+   "tier": null,
+   "signal_numbers": [],
+   "direction": "Neutral",
+   "evidence": "Official document",
+   "momentum": "",
+   "verdict": "Confirmed",
+   "why_it_matters": "A sudden jump in primary or secondary credit, or a new emergency facility line, is an early sign of deposit-flight stress that historically precedes talk of withdrawal limits.",
+   "why_it_might_not": "Levels are low and fell on the week; the year-over-year rise may reflect Fed efforts to make the window a normal tool rather than stress.",
+   "next_milestone": {
+    "what": "Next weekly H.4.1 release",
+    "date": "2026-12-03"
+   },
+   "sources": [
+    {
+     "title": "H.4.1 Factors Affecting Reserve Balances, Nov 27, 2026",
+     "url": "https://www.federalreserve.gov/releases/h41/20261127/",
+     "publisher": "Federal Reserve Board",
+     "date": "2026-11-27",
+     "primary": true
+    }
+   ],
+   "quote": {
+    "text": "",
+    "source_url": ""
+   },
+   "first_seen": "2026-11-28",
+   "updated_on": "2026-11-28",
+   "last_change": "2026-11-27",
+   "status": "BASELINE",
+   "open": true,
+   "status_history": [
+    {
+     "date": "2026-11-28",
+     "status": "BASELINE",
+     "stage": "In effect"
+    }
+   ]
+  },
+  "intl-israel-retail-digital-shekel-deferred-2026-11": {
+   "id": "intl-israel-retail-digital-shekel-deferred-2026-11",
+   "section": "international",
+   "headline": "Bank of Israel holds off on a retail digital shekel and shifts to a pilot of digital central bank money for banks and markets",
+   "date": "2026-11-24",
+   "org": "Bank of Israel",
+   "what_changed": "On Nov 24 the Bank of Israel said its governor concluded there is no basis at this time to decide to issue a retail digital shekel for the public, because its decision indicators don't give a clear answer. Instead, within two years it aims to run a pilot of wholesale central bank digital money, used between financial institutions, starting with settling tokenized short-term Bank of Israel bills (Makam). Industry consultation starts in the coming weeks.",
+   "summary": "A retail CBDC is digital cash that the public would hold directly at the central bank; a wholesale one is used only between banks and market firms. The bank said its study found a retail digital shekel could bring substantial benefits and that conditions may change quickly, so work continues, including on legal issues. For now, the shift moves Israel's effort away from money held by the public toward settlement plumbing for financial firms. It does not limit anyone's money.",
+   "plain": "Israel's central bank decided not to create a digital shekel for the public for now. It will test digital money only for banks and markets instead.",
+   "quote": {
+    "text": "no basis at this time for deciding to issue a retail digital shekel",
+    "source_url": "https://www.boi.org.il/en/communication-and-publications/press-releases/the-bank-of-israel-will-focus-its-examination-of-the-need-for-a-central-bank-digital-currency-on-wholesale-uses-and-the-tokenization-of-assets/"
+   },
+   "control_type": "None",
+   "affected": "Sector or group",
+   "stage": "Study or pilot",
+   "tier": 1,
+   "signal_numbers": [
+    6
+   ],
+   "direction": "Away from controls",
+   "evidence": "Official document",
+   "us_link": "The U.S. bars the Fed from issuing a retail digital dollar through 2030 (tracked); Israel's pause is another major economy choosing wholesale over retail central bank digital money, as the IMF's November paper described.",
+   "why_it_matters": "Retail central bank digital money is one way governments could gain direct visibility of, or conditions on, people's payments; a major central bank stepping back from it reduces that path.",
+   "why_it_might_not": "It's a pause, not a cancellation, and only for Israel; the bank says conditions may change quickly.",
+   "next_milestone": {
+    "what": "Industry consultation on the wholesale pilot (coming weeks); pilot within two years",
+    "date": null
+   },
+   "sources": [
+    {
+     "title": "The Bank of Israel will focus its examination of the need for a central bank digital currency on wholesale uses and the tokenization of assets",
+     "url": "https://www.boi.org.il/en/communication-and-publications/press-releases/the-bank-of-israel-will-focus-its-examination-of-the-need-for-a-central-bank-digital-currency-on-wholesale-uses-and-the-tokenization-of-assets/",
+     "publisher": "Bank of Israel",
+     "date": "2026-11-24",
+     "primary": true
+    },
+    {
+     "title": "Bank of Israel Pivots to Wholesale Digital Currency Pilot, Holds Off on Retail Shekel",
+     "url": "https://thejewishedition.com/news/israel/2026/11/24/bank-of-israel-pivots-to-wholesale-digital-currency-pilot-holds-off-on-retail-shekel/",
+     "publisher": "TPS (via The Jewish Edition)",
+     "date": "2026-11-24",
+     "primary": false
+    }
+   ],
+   "first_seen": "2026-11-28",
+   "updated_on": "2026-11-28",
+   "last_change": "2026-11-24",
+   "status": "NEW",
+   "open": true,
+   "status_history": [
+    {
+     "date": "2026-11-28",
+     "status": "NEW",
+     "stage": "Study or pilot"
+    }
+   ]
   }
  },
  "levels": [
@@ -7946,49 +8189,47 @@
   {
    "date": "2026-11-27",
    "level": "YELLOW"
+  },
+  {
+   "date": "2026-11-28",
+   "level": "YELLOW"
   }
  ],
  "github_user": "brentwhichel",
  "repo": "capital-controls-monitor",
  "monitor": "Capital Controls Early-Warning Monitor",
  "report": {
-  "date": "2026-11-27",
+  "date": "2026-11-28",
   "level": "YELLOW",
-  "bottom_line": "No limits on withdrawals or transfers for Americans in general are in effect or moving forward; today's changes ease limits elsewhere, as Binance ended the withdrawal pause it imposed after its $6.3 billion hack and Paraguay's central bank said it will start moving most of failed Ueno Bank's frozen deposits to other banks next week.",
-  "level_reason": "The level stays YELLOW because official Tier 1 steps remain in play: the FinCEN/OFAC stablecoin rule requiring issuers to be able to freeze coins on lawful orders is still under White House review (the GENIUS Act takes effect Jan 18); FinCEN's customer due diligence proposal is open for comment until Jan 19; Treasury's wider outbound-investment proposal closes for comment Dec 7; and FinCEN's Minnesota transfer-reporting order runs until Feb 6 unless renewed, while the MEXC transfer ban, effective Dec 10, names one foreign company, and the FDIC provisional-hold proposal applies only after a bank fails. Nothing new raises it: today's changes ease limits rather than add them; the bills that would bar or cap money sent abroad by people on public assistance still have had no hearing, markup or vote; South Korea's and Taiwan's markets rose with no new limits; and commentary can't raise the level.",
-  "change_text": "Yesterday: YELLOW. Today: YELLOW, unchanged. Eased: on Nov 26, Binance, the largest crypto exchange, said it had fully lifted the withdrawal suspension it imposed after the Oct 29 theft of about $6.3 billion; withdrawals are open on nearly all networks, with a few paused for maintenance it says is unrelated (crypto item updated). Eased: also on Nov 26, Paraguay's central bank said it plans to start moving failed Ueno Bank's remaining deposits to other banks the week of Nov 30, at up to 2 billion to 5 billion guaraníes (about $311,000 to $777,000) per depositor, which it said could cover more than 99% of depositors; investors in Ueno's money funds can request redemptions of up to 30 million guaraníes (about $4,700) a week from the same week, and it sent the executive branch a bill for a faster liquidation of what remains. No change: South Korea's KOSPI rose 4.34% on Nov 27 as regulators prepared to meet the five largest financial groups on Nov 30 about the 10 trillion won market stabilization fund, and Taiwan's main index rose 0.40%, with no new limits (Asia item updated); U.S. markets were closed Nov 26 for Thanksgiving and reopen for a shortened session Nov 27. Also checked, as of about 6:31 AM CST: Friday's Nov 27 Federal Register has nothing on limits on deposits, withdrawals or transfers, and the list for Monday's issue isn't posted until 7:45 AM CST; the White House regulatory office's list of rules under review is unchanged since Nov 26; the FDIC posted the Nov 25 joint statement on FinCEN's outage (FIL-72-2026), and FinCEN still hasn't said what the intruders accessed (FinCEN item updated); no bank failed; Treasury, OFAC, the Fed, the SEC, the CFTC, the CFPB and the White House posted nothing on limits on money; Türkiye's central bank suspended its one-week lending auctions on Nov 26 to support the lira, which doesn't limit moving money; and Glenn Beck's Nov 25 and 26 shows (a guest host and Thanksgiving messages) made no claims about limits on money.",
-  "flags_lede": "What's new or changed since the previous report on Nov 26, 2026.",
+  "bottom_line": "No limits on withdrawals or transfers for Americans in general are in effect or moving forward; the main news is the failure of United Fidelity Bank, the largest U.S. bank failure in more than two years, in which another bank took over all regular deposit accounts with no break in customers' access.",
+  "level_reason": "The level stays YELLOW because official Tier 1 steps remain in play: the FinCEN/OFAC stablecoin rule requiring issuers to be able to freeze coins on lawful orders is still under White House review (the GENIUS Act takes effect Jan 18); FinCEN's customer due diligence proposal is open for comment until Jan 19; Treasury's wider outbound-investment proposal closes for comment Dec 7; and FinCEN's Minnesota transfer-reporting order runs until Feb 6 unless renewed, while the MEXC transfer ban, effective Dec 10, names one foreign company, and the FDIC provisional-hold proposal (comments now due Feb 3) applies only after a bank fails. Nothing new raises it: United Fidelity's failure was resolved the routine way with no holds or withdrawal limits; the bills that would bar or cap money sent abroad by people on public assistance still have had no hearing, markup or vote; and commentary can't raise the level.",
+  "change_text": "Yesterday: YELLOW. Today: YELLOW, unchanged. New: on Friday, Nov 27, regulators closed United Fidelity Bank, fsb, of Evansville, Indiana (about $5.9 billion in assets and $5.4 billion in deposits), the seventh U.S. bank failure of 2026 and the largest in more than two years; First Citizens took over substantially all deposits regardless of amount, customers kept using checks, cards and online banking over the weekend, and the FDIC says no one lost money on deposits (brokered deposits held through Cede & Co. were excluded; holders should contact their broker). The FDIC estimates the cost to its insurance fund at $1.83 billion. New: we added the Bank of Israel's Nov 24 decision to hold off on a digital shekel for the public and pilot digital central bank money only for banks and markets. Also changed: the FDIC filed a notice extending comments on its large-bank provisional-hold proposal to Feb 3, 2027, from Jan 4 (publishes Nov 30); the Fed's weekly balance sheet showed discount-window loans averaging about $8.8 billion, down $556 million, with secondary credit at $11 million and no emergency lending; EU leaders nominated Pablo Hernández de Cos, who favors tokenized bank deposits, as the next ECB president, and the digital euro holding cap is still undecided; S&P revised France's outlook to negative on Nov 27 (claim item updated); and U.S. stocks had their best week since April 2025. Also checked, as of about 6:22 AM CST: the Federal Register list for Monday's Nov 30 issue (139 regular and 5 special filings) has nothing from FinCEN or OFAC and no rule on deposits, withdrawals or transfers; Treasury's annual survey of U.S. holdings of foreign securities is a routine yearly data collection; the White House regulatory office's list of rules under review is unchanged; Treasury, OFAC, FinCEN, the Fed, the SEC, the CFTC, the CFPB and the White House posted nothing on limits on money; Binance's withdrawals stayed open; and Glenn Beck's Nov 27 show, with a guest host, made no claims about limits on money.",
+  "flags_lede": "What's new or changed since the previous report on Nov 27, 2026.",
   "flags": [
    {
-    "id": "crypto-exchange-withdrawal-pauses-2026-11",
-    "movement": "EASED"
+    "id": "fdic-united-fidelity-2026-11-27",
+    "movement": "NEW"
    },
    {
-    "id": "paraguay-ueno-bank-resolution-2026-11",
-    "movement": "EASED"
+    "id": "intl-israel-retail-digital-shekel-deferred-2026-11",
+    "movement": "NEW"
    }
   ],
-  "sources_checked_through": "2026-11-27T06:31:00-06:00",
-  "refreshed_at": "2026-11-27T06:33:59-06:00",
+  "sources_checked_through": "2026-11-28T06:22:02-06:00",
+  "refreshed_at": "2026-11-28T06:24:10-06:00",
   "plain": {
-   "today": "Nothing stops people in the U.S. from taking out, moving or saving their money. Today, limits eased in two places: a big crypto site and a failed bank in Paraguay.",
-   "worry": "Not right now. No U.S. rule limits taking out or moving money for most people. The bills that would limit money sent abroad by some people on public aid still have not had a hearing or vote.",
+   "today": "Nothing stops people in the U.S. from taking out, moving or saving their money. A bank in Indiana failed, but another bank took over and customers kept using their accounts.",
+   "worry": "Not right now. No U.S. rule limits taking out or moving money for most people. When the Indiana bank failed, the FDIC said no one lost money on deposits.",
    "watch": [
     "A cap on how much money people can send to other countries, or a vote on bills that would set one.",
-    "Limits on how much cash people can take out of the bank.",
+    "Limits on how much cash people can take out of the bank, or holds on accounts when a bank fails.",
     "A written rule that stops people or firms from putting money into other countries."
    ],
-   "changes_lede": "Two things eased. A big crypto site reopened withdrawals, and a failed bank in Paraguay will move most savers' money to other banks."
+   "changes_lede": "Two new things. A bank in Indiana failed but kept customers' money safe, and Israel paused plans for a digital shekel for the public."
   },
   "layout": "v2-plain-first"
  },
  "upcoming_dates": [
-  {
-   "date": "2026-11-27",
-   "what": "Next weekly Fed balance sheet (H.4.1), 3:30 PM CST: discount-window and emergency lending",
-   "url": "https://www.federalreserve.gov/releases/h41/",
-   "item_id": "h41-2026-11-19-discount-window"
-  },
   {
    "date": "2026-11-30",
    "what": "China's stock exchanges cut the minimum margin for buying stocks with borrowed money to 80% from 100%",
@@ -8012,6 +8253,12 @@
    "what": "South Korea's financial regulators meet the chairs of the five largest financial groups on contributions to the 10 trillion won market stabilization fund",
    "item_id": "intl-asia-market-support-2026-11-06",
    "url": "https://www.koreatimes.co.kr/economy/20261127/kospi-surges-over-4-kosdaq-gains-top-8-on-hopes-for-market-stabilization-fund"
+  },
+  {
+   "date": "2026-11-30",
+   "what": "Former United Fidelity Bank branches open for normal business hours as First Citizens branches",
+   "url": "https://www.fdic.gov/news/press-releases/2026/first-citizens-bank-trust-company-raleigh-north-carolina-assumes",
+   "item_id": "fdic-united-fidelity-2026-11-27"
   },
   {
    "date": "2026-12-01",
@@ -8052,6 +8299,12 @@
    "what": "Next weekly money market fund data from the Investment Company Institute (regular Thursday release)",
    "url": "https://www.iciglobal.org/research/stats/mmf",
    "item_id": "us-stocks-selloff-2026-11-05"
+  },
+  {
+   "date": "2026-12-03",
+   "what": "Next weekly Fed balance sheet (H.4.1), 3:30 PM CST: discount-window and emergency lending",
+   "url": "https://www.federalreserve.gov/releases/h41/",
+   "item_id": "h41-2026-11-25-discount-window"
   },
   {
    "date": "2026-12-07",
@@ -8120,12 +8373,6 @@
    "url": "https://www.congress.gov/119/bills/hr8995/BILLS-119hr8995ih.pdf"
   },
   {
-   "date": "2027-01-04",
-   "what": "Comments due on FDIC large-bank deposit insurance and provisional-hold proposal",
-   "item_id": "fdic-2026-22495",
-   "url": "https://www.federalregister.gov/documents/2026/11/04/2026-22495/large-bank-deposit-insurance-determination-modernization"
-  },
-  {
    "date": "2027-01-12",
    "what": "Texas Legislature's 2027 session begins; prefiled bills to ban crypto ATMs (SB 181, HB 271, HB 1082) and to require a gold- and silver-backed payment system (HB 165) can then go to committees",
    "item_id": "tx-crypto-atm-ban-bills-90r",
@@ -8155,10 +8402,22 @@
    "url": "https://en.sedaily.com/finance/2026/11/08/korea-eases-margin-collateral-rules-to-curb-forced-stock"
   },
   {
+   "date": "2027-02-03",
+   "what": "Comments due on FDIC large-bank deposit insurance and provisional-hold proposal (extended from Jan 4)",
+   "item_id": "fdic-2026-22495",
+   "url": "https://public-inspection.federalregister.gov/2026-24242.pdf"
+  },
+  {
    "date": "2027-02-06",
    "what": "Minnesota international-transfer GTO ends unless renewed",
    "item_id": "2026-16365",
    "url": "https://www.federalregister.gov/documents/2026/08/11/2026-16365/geographic-targeting-order-imposing-recordkeeping-and-reporting-requirements-on-certain-financial"
+  },
+  {
+   "date": "2027-02-07",
+   "what": "Christine Lagarde's ECB term ends; nominee Pablo Hernández de Cos expected to succeed her after consultations (reported date)",
+   "url": "https://www.coindesk.com/policy/2026/11/27/next-ecb-chief-favors-tokenized-bank-deposits-over-stablecoins-and-bitcoin",
+   "item_id": "intl-ecb-digital-euro-holding-limits"
   },
   {
    "date": "2027-02-23",
@@ -8254,373 +8513,373 @@
   {
    "source": "Federal Register public inspection (current)",
    "url": "https://www.federalregister.gov/public-inspection/current",
-   "status": "Partial",
-   "note": "The page was closed overnight; the list for Monday's Nov 30 issue goes up at 8:45 AM ET (7:45 AM CST) today, after this run. Friday's Nov 27 issue, filed on public inspection Nov 25, was read in full (next row).",
-   "last_success": "2026-11-26"
+   "status": "Checked",
+   "note": "Read the list for Monday's Nov 30 issue (139 regular filings, posted Nov 27, plus 5 special filings): nothing from FinCEN or OFAC and no rule on deposits, withdrawals or transfers. Financial items include the FDIC's comment extension on its large-bank provisional-hold proposal (to Feb 3, 2027; item updated), Treasury's routine yearly survey of U.S. ownership of foreign securities, appraisal and lending threshold updates, and a CFTC event-contract reporting rule.",
+   "last_success": "2026-11-28"
   },
   {
    "source": "Federal Register documents (via web search)",
    "url": "https://www.federalregister.gov/",
    "status": "Checked",
-   "note": "Friday's Nov 27 issue (137 documents) has nothing from FinCEN or OFAC, nothing from the Fed beyond a bank-control notice, and no rule on deposits, withdrawals or transfers. Financial items are an FDIC civil-penalty inflation adjustment, IRS paperwork notices (one on new technologies in retirement plans) and a tax-payment correction, SEC exchange filings and the SEC order easing the short-sale 'locate' rule outside regular trading hours, and a USDA proposal under the farmland foreign-investment disclosure law. FinCEN's latest Federal Register document is still the Nov 19 customer due diligence proposal (tracked).",
-   "last_success": "2026-11-27"
+   "note": "No Federal Register issue on Saturday; Monday's documents were read on public inspection (previous row). Searches found no new FinCEN, OFAC or banking-agency rules on transfers or withdrawals.",
+   "last_success": "2026-11-28"
   },
   {
    "source": "OIRA rules under review",
    "url": "https://www.reginfo.gov/public/do/eoReviewSearch",
    "status": "Checked",
-   "note": "The list is still dated Nov 26, with no new Treasury, FinCEN or banking-agency entries. FinCEN's AML/CFT and stablecoin AML and sanctions final rules (received Nov 18), the OCC, FDIC and NCUA AML/CFT final rules (Nov 25), the FDIC's GENIUS Act rule, FSOC's nonbank rule, the IRS crypto broker reporting (CARF) proposal and the Labor Department's 401(k) investment rule remain under review.",
-   "last_success": "2026-11-27"
+   "note": "The list dated Nov 28 shows the same Treasury, FinCEN and banking-agency entries as Nov 26: FinCEN's AML/CFT and stablecoin AML and sanctions final rules, the OCC, FDIC and NCUA AML/CFT final rules, the FDIC's GENIUS Act rule, FSOC's nonbank rule, the IRS crypto-reporting (CARF) proposal and the Labor Department's 401(k) investment rule. Nothing new.",
+   "last_success": "2026-11-28"
   },
   {
    "source": "Unified Agenda",
    "url": "https://www.reginfo.gov/public/do/eAgendaMain",
    "status": "Partial",
    "note": "The 2026 agenda is still current; nothing new beyond the entries already tracked.",
-   "last_success": "2026-11-27"
+   "last_success": "2026-11-28"
   },
   {
    "source": "Regulations.gov",
    "url": "https://www.regulations.gov/",
    "status": "Partial",
-   "note": "Home page only. The Fed's GENIUS Act proposals take comments until Nov 30; Treasury's outbound-investment comments close Dec 7; FinCEN's customer due diligence docket (FINCEN-2026-0298) stays open until Jan 19, 2027.",
-   "last_success": "2026-11-27"
+   "note": "Home page only. The Fed's GENIUS Act proposals take comments until Nov 30; Treasury's outbound-investment comments close Dec 7; FinCEN's customer due diligence docket (FINCEN-2026-0298) stays open until Jan 19, 2027; the FDIC's large-bank deposit insurance proposal now runs to Feb 3, 2027.",
+   "last_success": "2026-11-28"
   },
   {
    "source": "Treasury press releases",
    "url": "https://home.treasury.gov/news/press-releases",
    "status": "Checked",
-   "note": "The press page loaded: nothing after the Nov 23 Iran shadow-banking actions (named parties).",
-   "last_success": "2026-11-27"
+   "note": "Nothing after the Nov 23 Iran shadow-banking actions (named parties).",
+   "last_success": "2026-11-28"
   },
   {
    "source": "Treasury Outbound Investment Security Program",
    "url": "https://home.treasury.gov/policy-issues/international/outbound-investment-program",
    "status": "Checked",
-   "note": "Page unchanged: the COINS Act proposal takes comments until Dec 7; we found no extension. The President's data-center plan still has no rule, rate or details.",
-   "last_success": "2026-11-27"
+   "note": "Page unchanged: the COINS Act proposal takes comments until Dec 7; we found no extension.",
+   "last_success": "2026-11-28"
   },
   {
    "source": "OFAC recent actions",
    "url": "https://ofac.treasury.gov/recent-actions",
    "status": "Checked",
    "note": "Nothing after the Nov 23 Iran-related designations (named parties).",
-   "last_success": "2026-11-27"
+   "last_success": "2026-11-28"
   },
   {
    "source": "FinCEN news",
    "url": "https://www.fincen.gov/news",
    "status": "Checked",
-   "note": "Nothing after the Nov 24 filing-relief order. News reports on Nov 26 said its e-filing site still warned that some services may be unavailable; FinCEN hasn't said what was accessed or who was behind the intrusion (FinCEN item updated).",
-   "last_success": "2026-11-27"
+   "note": "Nothing after the Nov 24 filing-relief order. Nov 26-27 news reports add no official word on what the intruders accessed; filing deadlines stay delayed to Dec 30.",
+   "last_success": "2026-11-28"
   },
   {
    "source": "FSOC",
    "url": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/fsoc",
    "status": "Partial",
    "note": "Landing page only; FSOC's final rule on supervising certain nonbank financial companies remains under White House review. It doesn't limit customers.",
-   "last_success": "2026-11-27"
+   "last_success": "2026-11-28"
   },
   {
    "source": "Treasury officials' speeches",
    "url": "https://home.treasury.gov/news/press-releases",
    "status": "Checked",
-   "note": "No new remarks from Secretary Bessent on stablecoins, payments or capital flows since his Nov 22 CBS interview.",
-   "last_success": "2026-11-27"
+   "note": "No new remarks on stablecoins, payments or capital flows.",
+   "last_success": "2026-11-28"
   },
   {
    "source": "Fed press releases",
    "url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
    "status": "Checked",
-   "note": "Nothing after the Nov 25 postings (consumer-credit thresholds and the joint statement on FinCEN's outage, tracked); nothing on limits on deposits or withdrawals.",
-   "last_success": "2026-11-27"
+   "note": "Nothing after the Nov 24 discount-rate minutes; nothing on limits on deposits or withdrawals.",
+   "last_success": "2026-11-28"
   },
   {
    "source": "Fed speeches and testimony",
    "url": "https://www.federalreserve.gov/newsevents/speech/2026-speeches.htm",
    "status": "Checked",
-   "note": "Nothing after Vice Chair for Supervision Bowman's Nov 25 video remarks on bank supervision in the Americas; no testimony since mid-October.",
-   "last_success": "2026-11-27"
+   "note": "Nothing after Vice Chair for Supervision Bowman's Nov 25 video remarks. The BIS reposted Governor Waller's Nov 17 payments speech on Nov 26 (already noted).",
+   "last_success": "2026-11-28"
   },
   {
    "source": "Fed Financial Stability Report",
    "url": "https://www.federalreserve.gov/publications/financial-stability-report.htm",
    "status": "Checked",
    "note": "The November 2026 report (posted Nov 13) is tracked; nothing newer.",
-   "last_success": "2026-11-27"
+   "last_success": "2026-11-28"
   },
   {
    "source": "Fed H.4.1",
    "url": "https://www.federalreserve.gov/releases/h41/",
    "status": "Checked",
-   "note": "The current release is still Nov 19 (week ended Nov 18, tracked); the next comes today, Nov 27, at 3:30 PM CST, after this run.",
-   "last_success": "2026-11-27"
+   "note": "The Nov 27 release (week ended Nov 25) shows primary credit averaging $8.81 billion, down $556 million, secondary credit $11 million and no emergency facility use (new weekly item).",
+   "last_success": "2026-11-28"
   },
   {
    "source": "FDIC press releases",
    "url": "https://www.fdic.gov/news/press-releases",
    "status": "Checked",
-   "note": "Nothing after the Nov 24 third-quarter banking profile (tracked) and the third-party assessments statement.",
-   "last_success": "2026-11-27"
+   "note": "Nov 27: United Fidelity Bank's failure and sale to First Citizens (new item), a request for input on IT examinations and October enforcement actions.",
+   "last_success": "2026-11-28"
   },
   {
    "source": "FDIC failed bank list",
    "url": "https://www.fdic.gov/bank-failures/failed-bank-list",
    "status": "Checked",
-   "note": "No failures since Nano Banc (Sept 25); six so far in 2026.",
-   "last_success": "2026-11-27"
+   "note": "United Fidelity Bank, fsb (Evansville, Indiana) failed Nov 27, the seventh failure of 2026 (tally updated).",
+   "last_success": "2026-11-28"
   },
   {
    "source": "FDIC Financial Institution Letters",
    "url": "https://www.fdic.gov/news/financial-institution-letters",
    "status": "Checked",
-   "note": "The Nov 25 letters are the joint statement on Bank Secrecy Act reporting during FinCEN's outage (FIL-72-2026; FinCEN item updated), a reminder on exam findings (FIL-71-2026) and guidance updates (FIL-70-2026); nothing that limits customers' access to money.",
-   "last_success": "2026-11-27"
+   "note": "Nothing after the Nov 25 letters (FIL-70 to FIL-72-2026, already noted).",
+   "last_success": "2026-11-28"
   },
   {
    "source": "OCC",
    "url": "https://www.occ.gov/",
-   "status": "Checked",
-   "note": "Nothing after the Nov 24-25 items (enforcement actions, the 2027 CRA exam schedule, lending thresholds and Bulletin 2026-59 on FinCEN's outage); nothing that limits customers' access to money.",
-   "last_success": "2026-11-27"
+   "status": "Partial",
+   "note": "The news page didn't load; search found nothing after Bulletin 2026-59 on FinCEN's outage. The OCC closed United Fidelity Bank on Nov 27 (per the FDIC).",
+   "last_success": "2026-11-28"
   },
   {
    "source": "SEC press releases",
    "url": "https://www.sec.gov/newsroom/press-releases",
    "status": "Checked",
-   "note": "Nothing after Nov 20. The order easing the short-sale 'locate' rule outside regular trading hours appeared in the Nov 27 Federal Register. Nothing on fund redemption limits.",
-   "last_success": "2026-11-27"
+   "note": "Only a Nov 25 notice of a Dec 3 investor advisory committee meeting; nothing on fund redemption limits.",
+   "last_success": "2026-11-28"
   },
   {
    "source": "CFPB newsroom",
    "url": "https://www.consumerfinance.gov/about-us/newsroom/",
    "status": "Checked",
-   "note": "Nothing after the Nov 25 threshold updates and the Nov 24 anti-scam announcement; nothing on limits on money.",
-   "last_success": "2026-11-27"
+   "note": "Nothing new after Nov 25 on limits on money.",
+   "last_success": "2026-11-28"
   },
   {
    "source": "CFTC press releases",
    "url": "https://www.cftc.gov/PressRoom/PressReleases",
    "status": "Checked",
-   "note": "Nothing after Nov 23.",
-   "last_success": "2026-11-27"
+   "note": "Nothing on limits on money; its event-contract data reporting rule publishes Nov 30.",
+   "last_success": "2026-11-28"
   },
   {
    "source": "White House presidential actions",
    "url": "https://www.whitehouse.gov/presidential-actions/",
    "status": "Checked",
-   "note": "The page loaded: the latest items are the Nov 25 Thanksgiving proclamation and the Nov 23 memorandum on capital sentences. No action on limits on money.",
-   "last_success": "2026-11-27"
+   "note": "The latest items are the Nov 25 Thanksgiving proclamation and the Nov 23 memorandum on capital sentences. No action on limits on money.",
+   "last_success": "2026-11-28"
   },
   {
    "source": "Congress.gov",
    "url": "https://www.congress.gov/",
    "status": "Partial",
-   "note": "The home page doesn't list bill actions. Searches found no new action on tracked bills (H.R. 8995, H.R. 1799, H.R. 9331, the CLARITY Act, or S. 3746, H.R. 7097 and H.R. 8172 on transfers abroad by people on public assistance). Congress returns next week facing the Dec 11 funding deadline; the White House has asked for a stopgap bill running to March 31.",
-   "last_success": "2026-11-27"
+   "note": "The home page doesn't list bill actions; Congress was out for Thanksgiving. Searches found no new action on tracked bills. The Dec 11 funding deadline remains.",
+   "last_success": "2026-11-28"
   },
   {
    "source": "House Financial Services calendar",
    "url": "https://financialservices.house.gov/calendar/",
    "status": "Checked",
-   "note": "The Dec 1 ('Oversight of Prudential Regulators') and Dec 2 full-committee hearings are still set; no markups posted.",
-   "last_success": "2026-11-27"
+   "note": "The Dec 1 and Dec 2 full-committee hearings are still set; no markups posted.",
+   "last_success": "2026-11-28"
   },
   {
    "source": "Senate Banking Committee",
    "url": "https://www.banking.senate.gov/",
    "status": "Checked",
-   "note": "The home page loaded: the Dec 3 hearing on export controls (tracked in upcoming dates) is the only one listed, and minority members' Nov 24-25 letters asked the SEC to drop its crypto rule proposal and innovation exemption, which doesn't concern limits on money.",
-   "last_success": "2026-11-27"
+   "note": "The home page shows no new hearings beyond the Dec 3 export-controls hearing; minority members' Nov 25 letter to the SEC isn't about limits on money.",
+   "last_success": "2026-11-28"
   },
   {
    "source": "GAO",
    "url": "https://www.gao.gov/",
    "status": "Checked",
-   "note": "The home page loaded: recent reports (Nov 19-23) cover Medicare, defined benefit pension plans, AI and military benefits; nothing on capital controls, payments or bank access.",
-   "last_success": "2026-11-27"
+   "note": "Recent reports (Nov 19-23) cover pensions, AI and military benefits; nothing on capital controls, payments or bank access.",
+   "last_success": "2026-11-28"
   },
   {
    "source": "CRS reports",
    "url": "https://crsreports.congress.gov/",
    "status": "Partial",
-   "note": "The site returned nothing; searches found no new reports on payments, stablecoins or capital flows.",
-   "last_success": "2026-11-27"
+   "note": "Not loaded; searches found no new reports on payments, stablecoins or capital flows.",
+   "last_success": "2026-11-28"
   },
   {
    "source": "State bills (LegiScan)",
    "url": "https://legiscan.com/",
    "status": "Partial",
-   "note": "The home page doesn't list bills; searches found only the tracked Texas prefiled bills (HB 165 and the crypto ATM bills) and nothing new on cash, gold, CBDCs or payment limits.",
-   "last_success": "2026-11-27"
+   "note": "Searches found only the tracked Texas prefiled bills and nothing new on cash, gold, CBDCs or payment limits.",
+   "last_success": "2026-11-28"
   },
   {
    "source": "IMF publications and eLibrary",
    "url": "https://www.elibrary.imf.org/",
    "status": "Checked",
-   "note": "Nov 24-26 items are country reviews (Australia, Bolivia, Comoros, Ecuador, Guinea, Madagascar, Montenegro, South Africa); nothing new on capital flow measures.",
-   "last_success": "2026-11-27"
+   "note": "The publications page shows no new items on capital flow measures; the January and later working papers on capital controls are older.",
+   "last_success": "2026-11-28"
   },
   {
    "source": "BIS",
    "url": "https://www.bis.org/",
    "status": "Checked",
-   "note": "Nov 26 items: a paper on big tech in open finance, a working paper on climate and inflation expectations, and reposted speeches, including Governor Waller's Nov 17 payments speech (tracked); nothing on payment limits.",
-   "last_success": "2026-11-27"
+   "note": "Nov 26-27 items: a working paper on cross-border bank lending, a paper on big tech in open finance, a house-price update and reposted speeches; nothing on payment limits.",
+   "last_success": "2026-11-28"
   },
   {
    "source": "FSB",
    "url": "https://www.fsb.org/",
    "status": "Checked",
-   "note": "Nothing after the Nov 25 list of global systemically important banks; nothing on payment limits.",
-   "last_success": "2026-11-27"
+   "note": "Nothing after the 2026 G-SIB list and its 2027 priorities; nothing on payment limits.",
+   "last_success": "2026-11-28"
   },
   {
    "source": "FATF",
    "url": "https://www.fatf-gafi.org/",
    "status": "Checked",
    "note": "No new statements on payment rules since the October plenary.",
-   "last_success": "2026-11-27"
+   "last_success": "2026-11-28"
   },
   {
    "source": "ECB digital euro",
    "url": "https://www.ecb.europa.eu/euro/digital_euro/html/index.en.html",
    "status": "Checked",
-   "note": "No trilogue deal yet; the page still points to a pilot in 2027 and possible first issuance in 2029. Recent articles on holding limits repeat October remarks (the ECB modeled limits of 500 to 3,000 euros, with no decision).",
-   "last_success": "2026-11-27"
+   "note": "No trilogue deal yet. EU leaders nominated Pablo Hernández de Cos as the next ECB president on Nov 26 (item updated); the holding cap is still undecided.",
+   "last_success": "2026-11-28"
   },
   {
    "source": "Bank of England digital pound",
    "url": "https://www.bankofengland.co.uk/the-digital-pound",
    "status": "Checked",
    "note": "No decision yet; the page still points to a decision on next steps in 2026.",
-   "last_success": "2026-11-27"
+   "last_success": "2026-11-28"
   },
   {
    "source": "Bank of Canada",
    "url": "https://www.bankofcanada.ca/",
    "status": "Checked",
-   "note": "Nothing after the Nov 25 repo-market items; nothing on payment limits, and we found no new action on Bill S-8.",
-   "last_success": "2026-11-27"
+   "note": "Nothing on payment limits; we found no new action on Bill S-8.",
+   "last_success": "2026-11-28"
   },
   {
    "source": "OSFI (Canada's bank regulator)",
    "url": "https://www.osfi-bsif.gc.ca/",
    "status": "Checked",
    "note": "Nothing new; its Dec 3 industry day is still scheduled.",
-   "last_success": "2026-11-27"
+   "last_success": "2026-11-28"
   },
   {
    "source": "Atlantic Council CBDC Tracker",
    "url": "https://www.atlanticcouncil.org/cbdctracker/",
    "status": "Checked",
    "note": "Still last updated May 2026.",
-   "last_success": "2026-11-27"
+   "last_success": "2026-11-28"
   },
   {
    "source": "NBER",
    "url": "https://www.nber.org/papers",
    "status": "Checked",
-   "note": "This week's papers cover health care, aging, impact investing and taxes; none on capital controls or payment limits.",
-   "last_success": "2026-11-27"
+   "note": "This week's papers include none on capital controls or payment limits.",
+   "last_success": "2026-11-28"
   },
   {
    "source": "Cato",
    "url": "https://www.cato.org/blog",
    "status": "Checked",
-   "note": "No posts after Nov 25 (a monetary policy essay and a post on the Right to Financial Privacy Act, already noted).",
-   "last_success": "2026-11-27"
+   "note": "Posts on Nov 25 (monetary policy essay) and Nov 27 (a legal brief); nothing new on financial privacy or limits on money.",
+   "last_success": "2026-11-28"
   },
   {
    "source": "Brookings Hutchins Center",
    "url": "https://www.brookings.edu/centers/the-hutchins-center-on-fiscal-and-monetary-policy/",
    "status": "Checked",
    "note": "Nothing after the Nov 25 paper on Treasury market resilience.",
-   "last_success": "2026-11-27"
+   "last_success": "2026-11-28"
   },
   {
    "source": "PIIE",
    "url": "https://www.piie.com/",
    "status": "Checked",
-   "note": "Nothing on capital controls; recent items cover tariffs and China's taxes.",
-   "last_success": "2026-11-27"
+   "note": "Nothing on capital controls.",
+   "last_success": "2026-11-28"
   },
   {
    "source": "AEI",
    "url": "https://www.aei.org/",
    "status": "Checked",
    "note": "Nothing relevant in recent commentary.",
-   "last_success": "2026-11-27"
+   "last_success": "2026-11-28"
   },
   {
    "source": "Heritage",
    "url": "https://www.heritage.org/",
    "status": "Checked",
    "note": "Nothing on capital controls.",
-   "last_success": "2026-11-27"
+   "last_success": "2026-11-28"
   },
   {
    "source": "Bank Policy Institute",
    "url": "https://bpi.com/",
    "status": "Checked",
-   "note": "Nothing after its Nov 23 comment letter on the FDIC's state bank parity proposal and its posts on AI agents and stablecoin reserves.",
-   "last_success": "2026-11-27"
+   "note": "Nothing after Nov 23.",
+   "last_success": "2026-11-28"
   },
   {
    "source": "Coin Center",
    "url": "https://www.coincenter.org/",
    "status": "Checked",
    "note": "No posts after Nov 6.",
-   "last_success": "2026-11-27"
+   "last_success": "2026-11-28"
   },
   {
    "source": "JD Supra",
    "url": "https://www.jdsupra.com/",
    "status": "Partial",
    "note": "Home page only; no relevant law-firm alerts beyond those tracked.",
-   "last_success": "2026-11-27"
+   "last_success": "2026-11-28"
   },
   {
    "source": "Glenn Beck YouTube",
    "url": "https://www.youtube.com/@glennbeck",
-   "status": "Partial",
-   "note": "The channel page showed recent videos on politics, religion and culture, plus the tracked 'Capital Controls' special; no new claims about limits on money.",
-   "last_success": "2026-11-27"
+   "status": "Checked",
+   "note": "The latest videos (Nov 20-27) cover politics, religion and culture; none about limits on money.",
+   "last_success": "2026-11-28"
   },
   {
    "source": "glennbeck.com",
    "url": null,
    "status": "Partial",
-   "note": "Blocked as usual; show listings found by search show a guest host on Nov 25 and Thanksgiving messages on Nov 25 and 26, with no claims about limits on money.",
-   "last_success": "2026-11-27"
+   "note": "Blocked as usual; show listings found by search show a guest host on Nov 27 ('Macy's Parade Postponed'), with no claims about limits on money. A members' promo page for the tracked 'Capital Controls' special turned up in search; it makes no new claim.",
+   "last_success": "2026-11-28"
   },
   {
    "source": "IRS remittance tax guidance",
    "url": "https://www.irs.gov/newsroom/treasury-irs-issue-proposed-regulations-on-the-new-remittance-transfer-tax-established-under-the-one-big-beautiful-bill",
    "status": "Checked",
-   "note": "No final regulations; the April proposal is still the latest. The 1% tax on cash-funded transfers still applies.",
-   "last_success": "2026-11-27"
+   "note": "No final regulations; the April proposal is still the latest.",
+   "last_success": "2026-11-28"
   },
   {
    "source": "Other financial commentators (search)",
    "url": null,
    "status": "Checked",
-   "note": "Peter Schiff warned on X on Nov 25 of another financial crisis and possible hyperinflation but made no claim about limits on moving money; we found no new claims from widely followed commentators that U.S. capital controls are coming. An AFP fact check on Nov 26 found Malaysian banks had not frozen withdrawals, despite viral messages saying they would.",
-   "last_success": "2026-11-27"
+   "note": "We found no new claims from widely followed commentators that U.S. capital controls are coming.",
+   "last_success": "2026-11-28"
   },
   {
    "source": "News search: bank and platform withdrawal limits",
    "url": null,
    "status": "Checked",
-   "note": "No U.S. bank, money market fund or major U.S. crypto platform limited withdrawals. Binance ended its post-hack withdrawal pause on Nov 26, and a Nov 27 CoinDesk report on a BitOK study found stablecoin freezes are seldom reversed (crypto item updated).",
-   "last_success": "2026-11-27"
+   "note": "No U.S. bank, money market fund or major U.S. crypto platform limited withdrawals. United Fidelity's customers kept full access after its failure (new item); Binance's withdrawals stayed open.",
+   "last_success": "2026-11-28"
   },
   {
    "source": "News search: currency and market measures abroad",
    "url": null,
    "status": "Checked",
-   "note": "South Korea's KOSPI rose 4.34% and Taiwan's main index 0.40% on Nov 27, with no new limits (Asia item updated). Paraguay's central bank set out how Ueno Bank's frozen deposits will move to other banks (Paraguay item updated). Türkiye's central bank suspended its one-week repo auctions and raised pay on banks' lira reserves on Nov 26 as its reserves fell, steps that tighten lira funding but don't limit moving money. Iran's rial hit a record low after the Nov 23 U.S. sanctions, and Venezuela's new economic plan aims to unify its exchange rates within a year, with no date or rules yet.",
-   "last_success": "2026-11-27"
+   "note": "Bank of Israel paused a public digital shekel (new item). South Korea's stabilization fund may grow, Chosun Ilbo reported (Asia item updated). Paraguay's plan to move Ueno Bank deposits from Nov 30 is unchanged. No new currency controls found.",
+   "last_success": "2026-11-28"
   }
  ],
  "raise_level_triggers": [
@@ -8629,7 +8888,7 @@
   "S. 3746, H.R. 7097, H.R. 8172 or any similar bill that bars or caps transfers abroad by people on public assistance getting a hearing, a markup, a companion bill or a ride on a must-pass bill.",
   "FinCEN extending cross-border reporting orders to more regions, lowering thresholds, renewing them repeatedly or making them permanent; a new proposal to lower the $3,000 record-keeping and travel-rule threshold for transfers abroad; or a rule implementing FATF's payment-transparency standard that adds source-of-funds or approval steps for ordinary transfers abroad.",
   "Any regulator discussing temporary limits on deposit withdrawals or bank holidays, bringing back money-fund redemption gates, or extending liquidity fees to government or retail funds, or officials applying terms like 'temporary liquidity restrictions' or 'capital flow management' to U.S. deposits, stablecoins or money funds.",
-  "FDIC provisional holds being used at a large bank failure, a cluster of failures in a short period, or several large banks adding unexplained withdrawal or wire limits (confirmed by banks or regulators, not social media).",
+  "FDIC provisional holds being used at a large bank failure (resolutions so far, including United Fidelity's on Nov 27, moved all regular deposits with no holds), a cluster of failures in a short period, or several large banks adding unexplained withdrawal or wire limits (confirmed by banks or regulators, not social media).",
   "Final stablecoin rules allowing freezes without a specific lawful order, extending freeze duties to all secondary-market holders, restricting self-hosted wallets, or a mandatory (not voluntary) hold regime for crypto withdrawals.",
   "Rules that let anyone other than the payer and payee, such as a government or bank acting without a court order, set or override conditions on tokenized deposits.",
   "Emergency powers (IEEPA, the new Russia/Iran sanctions law or the Defense Production Act) used against U.S. persons' general transactions, gold or foreign currency, or lifting the EO 14436 waivers with restrictions on U.S. persons.",
